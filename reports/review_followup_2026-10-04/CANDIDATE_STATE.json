@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "status": "CANDIDATE",
+  "baseline_complete": false,
+  "recorded_at": "2026-10-04T21:00:39.315502+00:00",
+  "project": {
+    "head": "afcaacb4dc50cef947fc01bc5538e9033373e03a",
+    "files": {
+      "AGENTS.md": "e3ecc14c7564396cfb6b9c06b90bbb1ebf03268928f5a0ce8954a7066b80355d",
+      "PROJECT_HANDOFF_CURRENT.md": "01f40ea42bfb81232848007ff1c98de82459195f032aee510d50ffea5fab2ebb",
+      "catalog/package_inventory.md": "f1c56ef74b6fdd356c8344e6d489845ffc4f16e25cf6fe2062053d64ddecb213",
+      "catalog/reference_matrix.json": "d2dcb3c01c92432115b812ac560011ba39619771bb85797943ef150416621f67",
+      "catalog/source_registry.json": "958222b8be4b4054f80f012386716765012ed791d836e1cd6deaf635f59bea40",
+      "context/current.json": "bd37699b4c4da7c924931e431265025bf095db810f0fd8030ddff7c1127c6fa0",
+      "context/decisions.md": "39e7a694cf46fa37d79d958e65651ea30cd0b789197633a47e4ce33770168daf",
+      "guide/workflow.md": "60105007682051de23e95e42108cca3e5a21b1491af86ea19b2be076e3416dd5",
+      "standards/behavior_acceptance.json": "afcf73c5bbc26e789988808498a52572a25104db057f38380fa2a23d2e23f54c",
+      "tools/build_review_submission.py": "1bfbd6baa8f1017c9bb9564c5d0ee2a1a04cd3d2c613b4d24a2e3ffafeb029d2",
+      "tools/check_behavior_acceptance.py": "681c229fc77ea53df20c4b4de827e30b7afc33efab73e5baac9c33dad6c41990",
+      "tools/test_review_submission.py": "20e13084b18c3756fd2d59fcf63c6acf9b112abf178fdc425a76e202353e223f"
+    },
+    "snapshot_sha256": "e974acd3a7c25e7b6cb98871556ac0afc1a487f3ed6bedcd225404b7653df2a2"
+  },
+  "technical_verification": {
+    "status": "PASS",
+    "test_methods": 143,
+    "evidence": "verification_after_followup.json",
+    "extracted_zip_verification": "Separate post-extraction receipt is required for the final ZIP."
+  },
+  "behavior_verification": {
+    "status": "NOT_RUN",
+    "fresh_acceptance_complete": false,
+    "evidence": "behavior_followup_NOT_RUN.json",
+    "old_current_round": {
+      "pass": 15,
+      "fail": 2,
+      "applies_to_followup": false,
+      "failing_ids": [
+        "B04_OFFICIAL_ROLES",
+        "B12_INITIALS_ALLOWED"
+      ]
+    }
+  },
+  "blocking_reasons": [
+    "Actual reruns of B04 and B12 not performed.",
+    "Same-input critical sample and cold retrieval in intended environment not performed.",
+    "Independent semantic review of new actual answers therefore not performed."
+  ],
+  "operational_state_unchanged": true,
+  "content_approval_ref": "DEC-014",
+  "execution_status": "not_reported",
+  "rollback": {
+    "file": "rollback_before_followup_local_only.zip",
+    "sha256": "a9face9ffb8c1303c696f66e9906e1ebfa56df5066fd3a7c72af97bfe616df6f",
+    "included_in_share": false
+  },
+  "authorization_reference": "Current user request: المهمة في المرفق; details and limits in AUTHORIZATION_REFERENCE.md",
+  "limits": "Fingerprints prove consistency, not approver identity, semantic truth, field execution or Noor persistence."
+}

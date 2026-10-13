@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "bound_files": 259,
+  "changed_bound_files": [],
+  "new_artifacts_only": "reports/behavior_acceptance_2026-10-05",
+  "project_snapshot_sha256": "fee2c5ba2f2cc7c99848f458fa69039f553fcdb2aa85d46ee2156a1e53bec54e"
+}

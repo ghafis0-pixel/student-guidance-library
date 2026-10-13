@@ -1,0 +1,16 @@
+{
+  "head": "afcaacb4dc50cef947fc01bc5538e9033373e03a",
+  "files": {
+    "AGENTS.md": "e3ecc14c7564396cfb6b9c06b90bbb1ebf03268928f5a0ce8954a7066b80355d",
+    "catalog/reference_matrix.json": "d2dcb3c01c92432115b812ac560011ba39619771bb85797943ef150416621f67",
+    "catalog/source_registry.json": "958222b8be4b4054f80f012386716765012ed791d836e1cd6deaf635f59bea40",
+    "context/current.json": "bd37699b4c4da7c924931e431265025bf095db810f0fd8030ddff7c1127c6fa0",
+    "context/decisions.md": "39e7a694cf46fa37d79d958e65651ea30cd0b789197633a47e4ce33770168daf",
+    "guide/workflow.md": "4022bd13a97d1c3996a3eb7491b906a9f738441bebecaa0683f50bcccf9bed5b",
+    "references/02_regulatory/behavior_and_attendance_regulations/قواعد السلوك والمواظبة الإصدار الخامس 1447.pdf": "2ef1ca2b7618623b555542bbe4f7175f7bfbdfd45f55b043f6d9affc854b04ef",
+    "references/02_regulatory/procedural_guides/الدليل الإجرائي الكامل - رجب 1446.pdf": "9d37a896a6336c7e5f31f74b17bf1c5ccd3c638e7bc3ee8a1f1408a9d0102e8d",
+    "standards/behavior_acceptance.json": "afcf73c5bbc26e789988808498a52572a25104db057f38380fa2a23d2e23f54c",
+    "tools/check_behavior_acceptance.py": "681c229fc77ea53df20c4b4de827e30b7afc33efab73e5baac9c33dad6c41990"
+  },
+  "snapshot_sha256": "df664f78c9175f672987f5f6debb95eb819983ff240ee33049fda74bed692c6c"
+}

@@ -1,0 +1,26 @@
+{
+  "before_original_tests": "48 original tests passed; missing safeguards exposed by additional negative probes.",
+  "regression_events": [
+    {
+      "area": "gate/locator",
+      "before": "3 negative assertions failed before repair",
+      "after": "passed; all 22 binding methods pass"
+    },
+    {
+      "area": "privacy/approval",
+      "before": "4 negative tests failed before repair",
+      "after": "27 privacy methods pass"
+    },
+    {
+      "area": "affecting governing inputs",
+      "before": "3 independent mutations accepted stale result; new regression failed all 3 cases",
+      "after": "identical mutations rejected; independent confirmation"
+    },
+    {
+      "area": "contract version update",
+      "during": "4 failures in first combined 42-method run: schema const mismatch and isolated fixture hash mismatch",
+      "after": "fixed contract and fixture consistency; all 42 methods pass"
+    }
+  ],
+  "limits": "Summary of observed tool outputs; full worker terminal records remain in local evidence. Fixtures are synthetic, not field events."
+}

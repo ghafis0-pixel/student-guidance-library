@@ -1,0 +1,87 @@
+{
+  "gate_status": "APPROVED",
+  "gate_version": "1.1.0",
+  "runner_version": "1.1.0",
+  "schema_version": "2.0",
+  "phase": "DESIGN",
+  "gate_result_date": "2026-10-02",
+  "checked_by": "Codex - current approved plan post-review technical/design check",
+  "plan_sha256": "3cb29234e362218cb547865cdce856211873ae909d084859a48e2e8070f8c0d0",
+  "references_checked": [
+    {
+      "key": "GATE_SPEC",
+      "path": "standards/WEEKLY_PLAN_GATE.md",
+      "sha256": "cf15c94f41914f944984c7d6289ca3e84cf091635659b460af4166cf7a07083a"
+    },
+    {
+      "key": "NOOR_REFERENCE",
+      "path": "references/03_official_operational_guides/noor/مرجع_نظام_نور_للتوجيه_الطلابي.md",
+      "sha256": "870d1b98fb205746dc9a4bad36531a6eb25fa09fccdcb7e35f9e3b763dd0f5fc"
+    },
+    {
+      "key": "ORGANIZATIONAL_GUIDE",
+      "path": "references/02_regulatory/organizational_guides/الدليل التنظيمي - مقتطف التوجيه الطلابي 1446.pdf",
+      "sha256": "fcb09f4b8b3ab720dc68684d077ab2de340ca8cbbd2742fd132003dd112babda"
+    },
+    {
+      "key": "PROCEDURAL_GUIDE",
+      "path": "references/02_regulatory/procedural_guides/الدليل الإجرائي - مقتطف الموجه الطلابي 1446.pdf",
+      "sha256": "0d74c788c94bee61d0608567607f0612caf9b890c8ae6bc932afe2b50df9795b"
+    },
+    {
+      "key": "PROGRAM_REGISTRY",
+      "path": "catalog/source_registry.json",
+      "sha256": "958222b8be4b4054f80f012386716765012ed791d836e1cd6deaf635f59bea40"
+    },
+    {
+      "key": "QASSIM_PLAN",
+      "path": "references/04_regional_plans/خطة برامج وخدمات التوجيه الطلابي تعليم القصيم 1448.pdf",
+      "sha256": "79e2198db34bb4f46985fbb50d27f27d24d98be4e15ecea92b6b38ba5e6f0fb9"
+    },
+    {
+      "key": "SCHOOL_CONTEXT",
+      "path": "context/current.json",
+      "sha256": "bd37699b4c4da7c924931e431265025bf095db810f0fd8030ddff7c1127c6fa0"
+    },
+    {
+      "key": "TERM1_MATRIX",
+      "path": "work/planning/term1/مصفوفة_تنفيذ_الفصل_الأول.xlsx",
+      "sha256": "e7d7609d6f9e669406e24b6d7d43d993c8ede8d354903848cf2ff4467676d826"
+    },
+    {
+      "key": "TERM1_TIMING_LAYER",
+      "path": "work/planning/term1/term1_eligibility_timing_decision_layer_1448.md",
+      "sha256": "0ad17989d4e0a0e40ed792e0b132788541160e159750bd02c241ae9365772c41"
+    }
+  ],
+  "blocking_issues": [],
+  "human_reviews": [],
+  "warnings": [],
+  "information": [],
+  "pending_items": [
+    "N03: PENDING - حقول الأعداد والمؤشرات فارغة إلى وقوع التنفيذ والقياس؛ لا نسبة أو قيمة أثر فعلية أو متوقعة معبأة."
+  ],
+  "passed_rules": [
+    "C01",
+    "D01",
+    "D02",
+    "D04",
+    "E01",
+    "E02",
+    "E03",
+    "E04",
+    "N01",
+    "N03",
+    "P01",
+    "V01",
+    "V02",
+    "W01",
+    "W02",
+    "W03"
+  ],
+  "failed_rules": [],
+  "not_applicable_rules": [],
+  "not_assessable_rules": [],
+  "affected_rules_by_reference": {},
+  "scope": "Phase-specific review; never proof of field execution or Noor save by itself."
+}

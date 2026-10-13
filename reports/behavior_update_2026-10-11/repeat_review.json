@@ -1,0 +1,51 @@
+{
+  "reviews": [
+    {
+      "scenario_id": "B03_ARTICLES_33_34",
+      "answer_sha256": "a1165edec058474960628f1165fef75ea8ac6197602777551ab76b29de6fa309",
+      "reviewer": "/root/instruction_review",
+      "independent": true,
+      "reviewed_at": "2026-10-11T14:11:02.967334+00:00",
+      "criteria": [
+        {
+          "id": "DIRECT",
+          "status": "PASS",
+          "reason": "يبدأ «لا» بفصل المادتين مباشرة؛ إعلان مهارة PDF المبلغ عنه منفصل وموجز ويلزم وفق البيئة، فلا يفسد DIRECT."
+        },
+        {
+          "id": "NATURAL",
+          "status": "PASS",
+          "reason": "المضمون عربي موجز وجدول المقارنة يزيل غموض السؤال؛ لم يضف قائمة إجراء لحالة فعلية."
+        },
+        {
+          "id": "NO_INTERNALS",
+          "status": "FAIL",
+          "reason": "RAW FAIL: الذيل :codex-file-citation يتضمن مسار scratch داخليًا، والمحك الحالي لا يستثني إسناد ملفات البيئة بهذا النوع. مهارة PDF تفرض هذا الإسناد صراحة، لذلك الفشل تعاقدي على الخام وليس تجاهلًا مهنيًا للتعليمات. الواجهة UNVERIFIED ولا يثبت الخام أن المسار ظهر فيها."
+        },
+        {
+          "id": "DECISIVE_CONSTRAINT",
+          "status": "PASS",
+          "reason": "يقصر شرط عدم الالتزام على بند5 بعذر ويصرح أنه لا يشترط دون عذر."
+        },
+        {
+          "id": "SOURCE_AND_FACT",
+          "status": "PASS",
+          "reason": "مطابق للصفحتين المطبوعتين50–51 اللتين راجعتهما بصريًا: الشرط في33 دون34. لا ادعاء تنفيذ أو حفظ."
+        },
+        {
+          "id": "ARTICLE_SEPARATION",
+          "status": "PASS",
+          "reason": "صورة33/50 تشترط عدم الالتزام في بند5، وصورة34/51 لا تشترطه؛ الجواب يفصل بينهما."
+        },
+        {
+          "id": "NO_IRRELEVANT_EXECUTION_QUESTION",
+          "status": "PASS",
+          "reason": "جواب معرفي مسند للمادتين والصفحتين دون سؤال تنفيذ."
+        }
+      ],
+      "capture_scope": "RAW_FINAL_ACTUAL; commentary/tools are context reports; complete automatic interface export unavailable",
+      "interface_status": "UNVERIFIED",
+      "attempt": "repeat; original review retained unchanged"
+    }
+  ]
+}

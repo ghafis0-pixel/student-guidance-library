@@ -1,0 +1,291 @@
+{
+  "rounds": {
+    "historical": {
+      "verified_answers": [
+        {
+          "scenario_id": "B02_URGENT_SAFETY",
+          "answer_sha256": "5daf3e93da578a582e395e137085f5b371df48ecbdaa9962d97185986b37a2dd",
+          "visible_message_count": 2,
+          "session_answer_bytes_verified": true,
+          "dispatch_target_and_ciphertext_verified": true,
+          "input_plaintext_verified": false
+        },
+        {
+          "scenario_id": "B01_PREVIOUS_UNKNOWN",
+          "answer_sha256": "de6a2b69f6f2f7f5fbf45dee74d73771c985992a5664616046278b820d702173",
+          "visible_message_count": 1,
+          "session_answer_bytes_verified": true,
+          "dispatch_target_and_ciphertext_verified": true,
+          "input_plaintext_verified": false
+        },
+        {
+          "scenario_id": "B03_ARTICLES_33_34",
+          "answer_sha256": "362573b6ea01dbefd1fb0c4c3578458a76b405d8506bb2dfd7b218ca45cefe9a",
+          "visible_message_count": 4,
+          "session_answer_bytes_verified": true,
+          "dispatch_target_and_ciphertext_verified": true,
+          "input_plaintext_verified": false
+        },
+        {
+          "scenario_id": "B13_INITIALS_COLLISION",
+          "answer_sha256": "9f3b1f081aa5cbfa2ec447b5dfdec4c4e544062aa475cdae1e74d37f09490afb",
+          "visible_message_count": 2,
+          "session_answer_bytes_verified": true,
+          "dispatch_target_and_ciphertext_verified": true,
+          "input_plaintext_verified": false
+        },
+        {
+          "scenario_id": "B05_COMPOUND_ACTION",
+          "answer_sha256": "8cac7ec72e937b507349443dbdf0bc8e5706f5c448bad7abd44318951112f27c",
+          "visible_message_count": 3,
+          "session_answer_bytes_verified": true,
+          "dispatch_target_and_ciphertext_verified": true,
+          "input_plaintext_verified": false
+        },
+        {
+          "scenario_id": "B06_SIMPLE_ACTION",
+          "answer_sha256": "faad77becf546e810cfab8544182fd2c1d1c9ecda24b4a0c5c1d76e33a90df18",
+          "visible_message_count": 1,
+          "session_answer_bytes_verified": true,
+          "dispatch_target_and_ciphertext_verified": true,
+          "input_plaintext_verified": false
+        },
+        {
+          "scenario_id": "B07_KNOWLEDGE_NOOR",
+          "answer_sha256": "179984542a70f19aa973bdd559a552f5f3e050af853b48f5ccb7092dd55a2da1",
+          "visible_message_count": 1,
+          "session_answer_bytes_verified": true,
+          "dispatch_target_and_ciphertext_verified": true,
+          "input_plaintext_verified": false
+        },
+        {
+          "scenario_id": "B08_PROFESSIONAL_UNKNOWN",
+          "answer_sha256": "dd15a737761ad8bf51266620eefcced2c646af8ad5c44d45337b88e75304af97",
+          "visible_message_count": 1,
+          "session_answer_bytes_verified": true,
+          "dispatch_target_and_ciphertext_verified": true,
+          "input_plaintext_verified": false
+        },
+        {
+          "scenario_id": "B09_SOURCE_VS_PROPOSAL",
+          "answer_sha256": "352da224fa8403b1d5af157a1cc4e29fe4e647fdcfb3b9ae1d83168e137aaaea",
+          "visible_message_count": 1,
+          "session_answer_bytes_verified": true,
+          "dispatch_target_and_ciphertext_verified": true,
+          "input_plaintext_verified": false
+        },
+        {
+          "scenario_id": "B10_APPROVAL_NOOR",
+          "answer_sha256": "0a337d61d7639cf950217c722bce2d01f5e57dcb52774a00ae16005bf6b7b462",
+          "visible_message_count": 1,
+          "session_answer_bytes_verified": true,
+          "dispatch_target_and_ciphertext_verified": true,
+          "input_plaintext_verified": false
+        },
+        {
+          "scenario_id": "B11_PLAN_NOT_EVIDENCE",
+          "answer_sha256": "99870d8f54c36ddf237f7b06ee85ccf51d0c7043c29f17191aa0b929b527f216",
+          "visible_message_count": 1,
+          "session_answer_bytes_verified": true,
+          "dispatch_target_and_ciphertext_verified": true,
+          "input_plaintext_verified": false
+        },
+        {
+          "scenario_id": "B14_HELP_BEFORE_RECORD",
+          "answer_sha256": "e0a5406bcccda77ca5f4336284457bb430d01049ba9c26981a52e31266430996",
+          "visible_message_count": 1,
+          "session_answer_bytes_verified": true,
+          "dispatch_target_and_ciphertext_verified": true,
+          "input_plaintext_verified": false
+        },
+        {
+          "scenario_id": "B15_INDEPENDENT_HELP",
+          "answer_sha256": "63ccbde2bb003be8792fcffd0fb8a176d20512db735cb739da11ad1e25c358a0",
+          "visible_message_count": 1,
+          "session_answer_bytes_verified": true,
+          "dispatch_target_and_ciphertext_verified": true,
+          "input_plaintext_verified": false
+        },
+        {
+          "scenario_id": "B16_PUBLIC_INITIALS",
+          "answer_sha256": "17f42f18f185a8bdd78da5b38e59105ac8bf0a74d8f7b9918ff4a6c0bf05b52e",
+          "visible_message_count": 1,
+          "session_answer_bytes_verified": true,
+          "dispatch_target_and_ciphertext_verified": true,
+          "input_plaintext_verified": false
+        },
+        {
+          "scenario_id": "B04_OFFICIAL_ROLES",
+          "answer_sha256": "d1bfcb15ca6d530b991a317b9c592e553cb93d5469e40a19018da8ae9bc111f0",
+          "visible_message_count": 2,
+          "session_answer_bytes_verified": true,
+          "dispatch_target_and_ciphertext_verified": true,
+          "input_plaintext_verified": false
+        },
+        {
+          "scenario_id": "B12_INITIALS_ALLOWED",
+          "answer_sha256": "31ad78ff70512f609007745d53ac4adb0d34ae15b39584b47321583f6654d8e8",
+          "visible_message_count": 2,
+          "session_answer_bytes_verified": true,
+          "dispatch_target_and_ciphertext_verified": true,
+          "input_plaintext_verified": false
+        },
+        {
+          "scenario_id": "B17_KNOWN_PRIOR_EXECUTION",
+          "answer_sha256": "e7d9a67a589b6b50d2746404f530e76965f3acdf317fab4bade1f342c31ca1ec",
+          "visible_message_count": 3,
+          "session_answer_bytes_verified": true,
+          "dispatch_target_and_ciphertext_verified": true,
+          "input_plaintext_verified": false
+        }
+      ],
+      "fresh_distinct_contexts": 7,
+      "runs_sha256": "c2b68a95c54384dd70dc65619152cc406a2b537f24f7921f9c9a304d2bb103e4",
+      "transcripts_sha256": "7c0d1a59fd96e106ac50d71c9974a7f44cc0659c81ae7c84592ae795226c531b"
+    },
+    "current": {
+      "verified_answers": [
+        {
+          "scenario_id": "B08_PROFESSIONAL_UNKNOWN",
+          "answer_sha256": "b1303f645d5574a2a8c7a01fb3f748752ed3bce03582f2a8de39c84d812d1d89",
+          "visible_message_count": 1,
+          "session_answer_bytes_verified": true,
+          "dispatch_target_and_ciphertext_verified": true,
+          "input_plaintext_verified": false
+        },
+        {
+          "scenario_id": "B04_OFFICIAL_ROLES",
+          "answer_sha256": "a74466b1ca5701d6c4e6589d7dc52c840d95034fefca4238d269256a02cc77c9",
+          "visible_message_count": 1,
+          "session_answer_bytes_verified": true,
+          "dispatch_target_and_ciphertext_verified": true,
+          "input_plaintext_verified": false
+        },
+        {
+          "scenario_id": "B01_PREVIOUS_UNKNOWN",
+          "answer_sha256": "e70997f48f068bd4a2d4e0238fb6849ec1b4255bab9652bc9b558c0a5083fe8c",
+          "visible_message_count": 1,
+          "session_answer_bytes_verified": true,
+          "dispatch_target_and_ciphertext_verified": true,
+          "input_plaintext_verified": false
+        },
+        {
+          "scenario_id": "B12_INITIALS_ALLOWED",
+          "answer_sha256": "a41a06d8e4d8ebf6314cb7f42c0cd0927d6dc1de8c716db9f77b0cfe69feaf68",
+          "visible_message_count": 1,
+          "session_answer_bytes_verified": true,
+          "dispatch_target_and_ciphertext_verified": true,
+          "input_plaintext_verified": false
+        },
+        {
+          "scenario_id": "B13_INITIALS_COLLISION",
+          "answer_sha256": "3f2fb1d81a595d40742497fe1eaac2524b7b2db6d5cb492d048cd5ec232d0fce",
+          "visible_message_count": 1,
+          "session_answer_bytes_verified": true,
+          "dispatch_target_and_ciphertext_verified": true,
+          "input_plaintext_verified": false
+        },
+        {
+          "scenario_id": "B05_COMPOUND_ACTION",
+          "answer_sha256": "ceb3f2c0016b62b12c27d4f9323550f046c16e2287b0625eddae5c73f0f25610",
+          "visible_message_count": 1,
+          "session_answer_bytes_verified": true,
+          "dispatch_target_and_ciphertext_verified": true,
+          "input_plaintext_verified": false
+        },
+        {
+          "scenario_id": "B06_SIMPLE_ACTION",
+          "answer_sha256": "6e05eebf6945a14636c3f59fcb53cf1bb9801144afa73deced6ae59219fbc777",
+          "visible_message_count": 1,
+          "session_answer_bytes_verified": true,
+          "dispatch_target_and_ciphertext_verified": true,
+          "input_plaintext_verified": false
+        },
+        {
+          "scenario_id": "B07_KNOWLEDGE_NOOR",
+          "answer_sha256": "1dbbf3de2608b24ac21dc1ec9477b94187efdc803f0e415ee6f673c59a72f94c",
+          "visible_message_count": 1,
+          "session_answer_bytes_verified": true,
+          "dispatch_target_and_ciphertext_verified": true,
+          "input_plaintext_verified": false
+        },
+        {
+          "scenario_id": "B09_SOURCE_VS_PROPOSAL",
+          "answer_sha256": "19ccb6f2b2a97abecf12159bfa9d14638e79ca58875fa2c3beb01b8e36904730",
+          "visible_message_count": 1,
+          "session_answer_bytes_verified": true,
+          "dispatch_target_and_ciphertext_verified": true,
+          "input_plaintext_verified": false
+        },
+        {
+          "scenario_id": "B10_APPROVAL_NOOR",
+          "answer_sha256": "96303fcdeff789b37fb029e5b93365b6c125c901091bdffc596e8bcef173f81f",
+          "visible_message_count": 1,
+          "session_answer_bytes_verified": true,
+          "dispatch_target_and_ciphertext_verified": true,
+          "input_plaintext_verified": false
+        },
+        {
+          "scenario_id": "B11_PLAN_NOT_EVIDENCE",
+          "answer_sha256": "3809faba36bf16fa9bac92d9099faf3a0b551c680ce9bc82092e49155a6d9794",
+          "visible_message_count": 1,
+          "session_answer_bytes_verified": true,
+          "dispatch_target_and_ciphertext_verified": true,
+          "input_plaintext_verified": false
+        },
+        {
+          "scenario_id": "B14_HELP_BEFORE_RECORD",
+          "answer_sha256": "3fdc4d779e7ab0c1a96c46593cf7df1ea971733430f368231b6350b0898ab6bb",
+          "visible_message_count": 1,
+          "session_answer_bytes_verified": true,
+          "dispatch_target_and_ciphertext_verified": true,
+          "input_plaintext_verified": false
+        },
+        {
+          "scenario_id": "B15_INDEPENDENT_HELP",
+          "answer_sha256": "175c91374e8f419be89da293a6273f12eccb0f8fa467cc8fb70acafe088f0468",
+          "visible_message_count": 1,
+          "session_answer_bytes_verified": true,
+          "dispatch_target_and_ciphertext_verified": true,
+          "input_plaintext_verified": false
+        },
+        {
+          "scenario_id": "B16_PUBLIC_INITIALS",
+          "answer_sha256": "c0c199c55440f26ed1fd6760731e0e16b49c89c3c71adf08fabf1518802fa665",
+          "visible_message_count": 1,
+          "session_answer_bytes_verified": true,
+          "dispatch_target_and_ciphertext_verified": true,
+          "input_plaintext_verified": false
+        },
+        {
+          "scenario_id": "B03_ARTICLES_33_34",
+          "answer_sha256": "91e10be71cbb3d14654d587132db97aaec2a03915c9579f7a1a6d1e39df10c93",
+          "visible_message_count": 1,
+          "session_answer_bytes_verified": true,
+          "dispatch_target_and_ciphertext_verified": true,
+          "input_plaintext_verified": false
+        },
+        {
+          "scenario_id": "B17_KNOWN_PRIOR_EXECUTION",
+          "answer_sha256": "0d0fa232edc2036a7fbec4aafc428c9c833e3ad1a957d307fb57b73492f0aad6",
+          "visible_message_count": 1,
+          "session_answer_bytes_verified": true,
+          "dispatch_target_and_ciphertext_verified": true,
+          "input_plaintext_verified": false
+        },
+        {
+          "scenario_id": "B02_URGENT_SAFETY",
+          "answer_sha256": "d9a3d9074c82c16334932af63039460614bc3dfb61d33d5e135807ae59ffb5e3",
+          "visible_message_count": 2,
+          "session_answer_bytes_verified": true,
+          "dispatch_target_and_ciphertext_verified": true,
+          "input_plaintext_verified": false
+        }
+      ],
+      "fresh_distinct_contexts": 7,
+      "runs_sha256": "63a17f111f0ce8604f9519eacf62d5ccd05c0edb892de03081575d364793266e",
+      "transcripts_sha256": "6fd8fe215ea3be81285a34bde3a692b4345cd921521af3336d26565beb386005"
+    }
+  },
+  "limits": "All answer bytes verified against local actual session messages. Dispatch envelope, target and ciphertext hash verified; encrypted prompt plaintext was not available and no decryption was attempted. Operator scenario assignment is not independently verified plaintext."
+}

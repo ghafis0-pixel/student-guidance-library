@@ -1,0 +1,37 @@
+{
+  "old_zip_sha256": "3426703f1e1ea10aea741d125d4acba28b82ee4b6152639b6397d8ecc06d1462",
+  "F01_code_differs": true,
+  "F02_schema_differs": true,
+  "F03_invalid_jsonl_lines": [
+    48
+  ],
+  "F04_raw_answers_changed": true,
+  "F05_missing_manifest_paths": [
+    "archive/original_sources/ 05دليل برنامج تعزيز برنامج المهارات النفسية والاجتماعية.pdf",
+    "archive/original_sources/ دليل التربويين لرعاية السلوك.pdf",
+    "archive/original_sources/01_دليل الأسبوع التمهيدي.pdf",
+    "archive/original_sources/01‎⁨الإدارة العامة للتوجيه_دليل_برامج_وخدمات_التوجيه_الطلابي_الإصدار_الأول⁩01.pdf",
+    "archive/original_sources/02دليل برنامج التوجيه المهني1445هـ.pdf",
+    "archive/original_sources/03_دليل برنامج رفق لخفض العنف.pdf",
+    "archive/original_sources/04- دليل إطار توثيق علاقة الأسرة مع المدرسة ١٤٤٦",
+    "archive/original_sources/06-دليل برنامج رعاية ودعم الفئات الخاصة من الطلبة .pdf",
+    "archive/original_sources/07-دليل برنامج رعاية متكرري الغياب والتأخر.pdf",
+    "archive/original_sources/07_قواعد السلوك والمواظبة - الإصدار الخامس 1447هـ.pdf",
+    "archive/original_sources/08-دليل برنامج المجلس الطلابي 1445هـ.pdf",
+    "archive/original_sources/08_الدليل الاسترشادي لأبرز الخدمات التقنية للتوجيه الطلابي في نظام نور.pdf",
+    "archive/original_sources/09-دليل برنامج الاستخدام الآمن للإنترنت والألعاب الإلكترونية 1445.pdf",
+    "archive/original_sources/1-الدليل-التنظيمي_-التوجيه-الطلابي.pdf",
+    "archive/original_sources/10-دليل لبرنامج تنمية الدافعية   1445.pdf",
+    "archive/original_sources/11_دليل التوجيه وقت الأزمات.pdf",
+    "archive/original_sources/12-دليل قائمة المشكلات الطلابية 1445.pdf",
+    "archive/original_sources/13-دليل برنامج السلوك الإيجابي.pdf",
+    "archive/original_sources/2-الدليل-الإجرائي-الموجه-الطلابي.pdf",
+    "archive/original_sources/إرسال بالبريد الإلكتروني خطة  الانضباط 1448 التوجيه الطلابي.pdf",
+    "archive/original_sources/إرسال بالبريد الإلكتروني خطة_برامج_وخدمات_التوجيه_الطلابي_قسم_التوجيه_الطلابي_بتعليم_القصيم.pdf",
+    "archive/original_sources/الدليل_الاسترشادي_لأبرز_الخدمات_التقنية_للتوجيه_الطلابي_في_نظام.pdf",
+    "archive/original_sources/سجلات_التوجيه_بالترتيب (2).zip",
+    "archive/original_sources/مؤشرات نظام نور التوجيه الطلابي.pdf",
+    "archive/original_sources/مهام الموجه الطلابي حسب الدليل الإجرائي والتنظيمي .pdf",
+    "archive/original_sources/‎⁨استمارة متابعة خطة الموجه الطلابي⁩.pdf"
+  ]
+}

@@ -1,0 +1,272 @@
+{
+  "schema_version": "2.0",
+  "gate_version": "1.1.0",
+  "phase": "DESIGN",
+  "gate_result_date": "2026-09-29",
+  "checked_by": "Codex - independent design dry run",
+  "plan_sha256": "d08455bd4ac7ca3477e08da4be6d381cb1ca2e5d42c1ab203b332a8de5113cbd",
+  "references_checked": [
+    {
+      "key": "QASSIM_PLAN",
+      "path": "references/04_regional_plans/خطة برامج وخدمات التوجيه الطلابي تعليم القصيم 1448.pdf",
+      "sha256": "79e2198db34bb4f46985fbb50d27f27d24d98be4e15ecea92b6b38ba5e6f0fb9"
+    },
+    {
+      "key": "NOOR_REFERENCE",
+      "path": "references/03_official_operational_guides/noor/مرجع_نظام_نور_للتوجيه_الطلابي.md",
+      "sha256": "5ddbb789e467c48d59e966f9d44b360307f815f5ca987a57c925f1ebb253a637"
+    },
+    {
+      "key": "ORGANIZATIONAL_GUIDE",
+      "path": "references/02_regulatory/organizational_guides/الدليل التنظيمي - مقتطف التوجيه الطلابي 1446.pdf",
+      "sha256": "fcb09f4b8b3ab720dc68684d077ab2de340ca8cbbd2742fd132003dd112babda"
+    },
+    {
+      "key": "PROCEDURAL_GUIDE",
+      "path": "references/02_regulatory/procedural_guides/الدليل الإجرائي - مقتطف الموجه الطلابي 1446.pdf",
+      "sha256": "0d74c788c94bee61d0608567607f0612caf9b890c8ae6bc932afe2b50df9795b"
+    },
+    {
+      "key": "PROGRAM_REGISTRY",
+      "path": "catalog/source_registry.json",
+      "sha256": "e9b525f96e5b4e9fa0bcc99b4bc4d8b2a7cfe63a633ae8074042b1f2bbd62ed4"
+    },
+    {
+      "key": "SCHOOL_CONTEXT",
+      "path": "AGENTS.md",
+      "sha256": "72e66a763500099aee2cea76e7b559ac9a1a58d50bcb87b32c0bec132fc371a0"
+    },
+    {
+      "key": "GATE_SPEC",
+      "path": "standards/WEEKLY_PLAN_GATE.md",
+      "sha256": "7c4b5e33b7c588a89665da327f18cbb04e8bba653c08a3b9df810c03445ae5ab"
+    }
+  ],
+  "results": [
+    {
+      "rule_id": "E01",
+      "phase": "DESIGN",
+      "result": "PASS",
+      "information_status": "VERIFIED",
+      "evidence_type": "Qassim-plan reconciliation review",
+      "claim": "بعد المطابقة المحددة لا توجد نافذة ثابتة لبدء برنامج رسمي جديد، والأولوية تشغيلية مستمرة لا تدعي استحقاق برنامج جديد.",
+      "locator": {
+        "path": "reports/noor_reconciliation_2026-09-29/04_week2_review.md",
+        "page_or_section": "التمهيد وصف: لا نافذة ثابتة جديدة"
+      },
+      "reviewed_by": "Codex - independent design dry run",
+      "reviewed_at": "2026-09-29T19:30:00+03:00"
+    },
+    {
+      "rule_id": "E02",
+      "phase": "DESIGN",
+      "result": "PASS",
+      "information_status": "SUPPORTED",
+      "evidence_type": "plan text snapshot",
+      "claim": "العمل ينطبق على سياق المدرسة والصفوف 2-6، ولا يقرر عدد مستفيدين قبل التنفيذ.",
+      "locator": {
+        "path": "reports/noor_reconciliation_2026-09-29/plan_text_snapshot.json",
+        "page_or_section": "week2.tables[1]"
+      },
+      "reviewed_by": "Codex - independent design dry run",
+      "reviewed_at": "2026-09-29T19:30:00+03:00"
+    },
+    {
+      "rule_id": "E03",
+      "phase": "DESIGN",
+      "result": "PASS",
+      "information_status": "VERIFIED",
+      "evidence_type": "date and normalization review",
+      "claim": "طوبق 4-8 أكتوبر مع 23-27 ربيع الآخر 1448، وبقي تصحيح 1447 إلى 1448 محدد النطاق.",
+      "locator": {
+        "path": "reports/noor_reconciliation_2026-09-29/04_week2_review.md",
+        "page_or_section": "التمهيد وصف: 23-27 ربيع الآخر"
+      },
+      "reviewed_by": "Codex - independent design dry run",
+      "reviewed_at": "2026-09-29T19:30:00+03:00"
+    },
+    {
+      "rule_id": "E04",
+      "phase": "DESIGN",
+      "result": "PASS",
+      "information_status": "VERIFIED",
+      "evidence_type": "plan text snapshot",
+      "claim": "الخطة تفصل بين البرنامج الرسمي والعمل المستمر والخدمة الحدثية، وتفسر طوال العام بوصفها نافذة استمرار لا إعادة أسبوعية.",
+      "locator": {
+        "path": "reports/noor_reconciliation_2026-09-29/plan_text_snapshot.json",
+        "page_or_section": "week2.paragraphs: معنى ينفذ طوال العام; week2.tables[3]"
+      },
+      "reviewed_by": "Codex - independent design dry run",
+      "reviewed_at": "2026-09-29T19:30:00+03:00"
+    },
+    {
+      "rule_id": "N01",
+      "phase": "DESIGN",
+      "result": "REVIEW",
+      "information_status": "SUPPORTED",
+      "evidence_type": "Noor reconciliation review",
+      "claim": "الخطة تختار الخدمة بحسب الواقعة الفعلية، لكن حقول ومسار خدمة نور المتوقع لم يكتمل توثيقهما بما يكفي للاعتماد الآلي.",
+      "locator": {
+        "path": "reports/noor_reconciliation_2026-09-29/04_week2_review.md",
+        "page_or_section": "صف: حقول خدمة نور"
+      },
+      "reviewed_by": "Codex - independent design dry run",
+      "reviewed_at": "2026-09-29T19:30:00+03:00"
+    },
+    {
+      "rule_id": "N03",
+      "phase": "DESIGN",
+      "result": "PASS",
+      "information_status": "PENDING",
+      "evidence_type": "plan text snapshot",
+      "claim": "لا توجد قيمة مؤشر أو نسبة متوقعة؛ الأعداد والقيم تبقى معلقة حتى يوجد تنفيذ وقياس واقعي.",
+      "locator": {
+        "path": "reports/noor_reconciliation_2026-09-29/plan_text_snapshot.json",
+        "page_or_section": "week2.tables[1] and week2.paragraphs"
+      },
+      "reviewed_by": "Codex - independent design dry run",
+      "reviewed_at": "2026-09-29T19:30:00+03:00"
+    },
+    {
+      "rule_id": "V01",
+      "phase": "DESIGN",
+      "result": "PASS",
+      "information_status": "SUPPORTED",
+      "evidence_type": "plan text snapshot",
+      "claim": "الخطة لا تنسب شاهدًا أو أثرًا فعليًا قبل التنفيذ، وتغلق بلا اختلاق عند عدم وجود واقعة.",
+      "locator": {
+        "path": "reports/noor_reconciliation_2026-09-29/plan_text_snapshot.json",
+        "page_or_section": "week2.tables[0] and week2.tables[1]"
+      },
+      "reviewed_by": "Codex - independent design dry run",
+      "reviewed_at": "2026-09-29T19:30:00+03:00"
+    },
+    {
+      "rule_id": "V02",
+      "phase": "DESIGN",
+      "result": "PASS",
+      "information_status": "SUPPORTED",
+      "evidence_type": "plan text snapshot",
+      "claim": "التوثيق المطلوب محصور في موطنه الصحيح وبالحد الأدنى، ولا يجعل وجود تقرير أو صورة أثرًا تلقائيًا.",
+      "locator": {
+        "path": "reports/noor_reconciliation_2026-09-29/plan_text_snapshot.json",
+        "page_or_section": "week2.paragraphs: إغلاق نور مرة واحدة"
+      },
+      "reviewed_by": "Codex - independent design dry run",
+      "reviewed_at": "2026-09-29T19:30:00+03:00"
+    },
+    {
+      "rule_id": "P01",
+      "phase": "DESIGN",
+      "result": "PASS",
+      "information_status": "VERIFIED",
+      "evidence_type": "plan text snapshot",
+      "claim": "تنص الخطة على الحفظ بلا أسماء أو تفاصيل حساسة ولا تطلب وضع حالات فردية في الخطة العامة.",
+      "locator": {
+        "path": "reports/noor_reconciliation_2026-09-29/plan_text_snapshot.json",
+        "page_or_section": "week2.paragraphs: صفحة التنفيذ والإغلاق"
+      },
+      "reviewed_by": "Codex - independent design dry run",
+      "reviewed_at": "2026-09-29T19:30:00+03:00"
+    },
+    {
+      "rule_id": "C01",
+      "phase": "DESIGN",
+      "result": "PASS",
+      "information_status": "VERIFIED",
+      "evidence_type": "plan text snapshot",
+      "claim": "لا تنشئ الخطة اجتماعًا أو حضورًا أو عمل لجنة غير واقع، ولا تنقل دور اللجنة إلى الموجه.",
+      "locator": {
+        "path": "reports/noor_reconciliation_2026-09-29/plan_text_snapshot.json",
+        "page_or_section": "week2.paragraphs and tables"
+      },
+      "reviewed_by": "Codex - independent design dry run",
+      "reviewed_at": "2026-09-29T19:30:00+03:00"
+    },
+    {
+      "rule_id": "D01",
+      "phase": "DESIGN",
+      "result": "PASS",
+      "information_status": "VERIFIED",
+      "evidence_type": "plan text snapshot",
+      "claim": "ورقة الالتقاط مؤقتة وتنتهي بعد تحقق الظهور في نور، ولا تعامل كسجل دائم ثانٍ.",
+      "locator": {
+        "path": "reports/noor_reconciliation_2026-09-29/plan_text_snapshot.json",
+        "page_or_section": "week2.paragraphs: بعد تحقق الظهور في نور"
+      },
+      "reviewed_by": "Codex - independent design dry run",
+      "reviewed_at": "2026-09-29T19:30:00+03:00"
+    },
+    {
+      "rule_id": "D02",
+      "phase": "DESIGN",
+      "result": "PASS",
+      "information_status": "VERIFIED",
+      "evidence_type": "independent plan review",
+      "claim": "الخطة تفصل الإدخال عن تحقق الظهور وتمنع إغلاق التوثيق من مجرد الإدخال.",
+      "locator": {
+        "path": "reports/noor_reconciliation_2026-09-29/04_week2_review.md",
+        "page_or_section": "صف: الفصل بين الإدخال والتحقق"
+      },
+      "reviewed_by": "Codex - independent design dry run",
+      "reviewed_at": "2026-09-29T19:30:00+03:00"
+    },
+    {
+      "rule_id": "W01",
+      "phase": "DESIGN",
+      "result": "PASS",
+      "information_status": "VERIFIED",
+      "evidence_type": "plan text snapshot",
+      "claim": "توجد أولوية تقدم واحدة مع السماح بالأعمال المستمرة والخدمات الحدثية والطوارئ اللازمة.",
+      "locator": {
+        "path": "reports/noor_reconciliation_2026-09-29/plan_text_snapshot.json",
+        "page_or_section": "week2.tables[1] and week2.tables[3]"
+      },
+      "reviewed_by": "Codex - independent design dry run",
+      "reviewed_at": "2026-09-29T19:30:00+03:00"
+    },
+    {
+      "rule_id": "W02",
+      "phase": "DESIGN",
+      "result": "REVIEW",
+      "information_status": "SUPPORTED",
+      "evidence_type": "independent plan review",
+      "claim": "بوابة البرنامج الرسمي الفارغة وإعادة عرض الأولوية وبعض الحقول الاحتياطية تضيف عبئًا لا يخدم قرار هذا الأسبوع عند عدم وجود برنامج مستحق.",
+      "locator": {
+        "path": "reports/noor_reconciliation_2026-09-29/04_week2_review.md",
+        "page_or_section": "صفوف: بوابة برنامج فارغة احتياطية; إعادة كتابة الأولوية كل يوم"
+      },
+      "reviewed_by": "Codex - independent design dry run",
+      "reviewed_at": "2026-09-29T19:30:00+03:00"
+    },
+    {
+      "rule_id": "W03",
+      "phase": "DESIGN",
+      "result": "PASS",
+      "information_status": "VERIFIED",
+      "evidence_type": "plan text snapshot",
+      "claim": "تتضمن الخطة خطوة أولى 5-10 دقائق وعوازل 10-15 دقيقة وثوابت يومية وخطة طوارئ بثلاثة بنود كحد أقصى.",
+      "locator": {
+        "path": "reports/noor_reconciliation_2026-09-29/plan_text_snapshot.json",
+        "page_or_section": "week2.tables[1], week2.tables[2], week2.paragraphs: خطة طوارئ"
+      },
+      "reviewed_by": "Codex - independent design dry run",
+      "reviewed_at": "2026-09-29T19:30:00+03:00"
+    },
+    {
+      "rule_id": "D04",
+      "phase": "DESIGN",
+      "result": "PASS",
+      "information_status": "VERIFIED",
+      "evidence_type": "Gate audit record",
+      "claim": "أنشئ تقييم تصميم خارجي مرتبط ببصمة الخطة وإصدار البوابة والمراجع والمراجع البشري وتاريخ الحكم.",
+      "locator": {
+        "path": "reports/gate_v1_1_dry_run_2026-09-29/week2_design_assessment.json",
+        "page_or_section": "top-level audit metadata and plan_sha256"
+      },
+      "reviewed_by": "Codex - independent design dry run",
+      "reviewed_at": "2026-09-29T19:30:00+03:00"
+    }
+  ],
+  "notes": "Dry Run للتصميم فقط. لا يثبت التنفيذ أو الشاهد الفعلي أو الحفظ في نور، ولم تُعدّل الخطة الأصلية."
+}

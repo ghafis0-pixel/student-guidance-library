@@ -1,0 +1,331 @@
+{
+  "scope": "Full raw captured responses and memory metadata; synthetic tests, no original session journals or restricted student records.",
+  "limits": "Pattern detection is not exhaustive identity detection; metadata UI rendering unverified.",
+  "files": [
+    {
+      "path": "remediation_report.md",
+      "content_sha256": "995c6a63e8fa2bbc846a49522439dbde8656c648faefca4f45ede405787af012",
+      "findings": [],
+      "resolutions": [],
+      "review": null
+    },
+    {
+      "path": "investigation.md",
+      "content_sha256": "0f2395091b50e9cae85cf0b5935acea463f6bf04b21806e497a3c44c256f60a6",
+      "findings": [],
+      "resolutions": [],
+      "review": null
+    },
+    {
+      "path": "before_sha256.json",
+      "content_sha256": "a93f3ae51fcc95ead48bce34bd618709d66941204119d6ba862737c3a45cdb19",
+      "findings": [],
+      "resolutions": [],
+      "review": null
+    },
+    {
+      "path": "behavior_result.json",
+      "content_sha256": "c4235fbe69dc9236f51cd479691b5ed14d978d77cf6e417c699e2da2794f5d80",
+      "findings": [],
+      "resolutions": [],
+      "review": null
+    },
+    {
+      "path": "save_review_checkpoint.py",
+      "content_sha256": "1ddfad8a123760b0664d54bd5da30df85d0b221f701de70a947bfa8fc3908ca1",
+      "findings": [],
+      "resolutions": [],
+      "review": null
+    },
+    {
+      "path": "finalize_remediation.py",
+      "content_sha256": "56183dc239e6a887db7286ece2771061a07a7352047f34bb1c7143ce59564ce9",
+      "findings": [],
+      "resolutions": [],
+      "review": null
+    },
+    {
+      "path": "metadata_diagnostic.json",
+      "content_sha256": "1dddacdf2b06d2e66f5391cba673b4f83cf3b74ea5fbccf790eead2fea200a2a",
+      "findings": [],
+      "resolutions": [],
+      "review": null
+    },
+    {
+      "path": "round2/candidate_snapshot.json",
+      "content_sha256": "8427ea8678bdd5b3a68a0399e88d9147aa86592d0430cd06e8e1de77e2813ecf",
+      "findings": [
+        {
+          "location": "$.files.field#0:line:1",
+          "code": "CONTACT_NUMBER"
+        }
+      ],
+      "resolutions": [
+        {
+          "finding": {
+            "location": "$.files.field#0:line:1",
+            "code": "CONTACT_NUMBER"
+          },
+          "classification": "VERIFIED_SOURCE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes"
+        }
+      ],
+      "review": {
+        "guard_version": "1.0.0",
+        "decision": "cleared",
+        "content_sha256": "8427ea8678bdd5b3a68a0399e88d9147aa86592d0430cd06e8e1de77e2813ecf",
+        "findings_sha256": "4aa14073cab99f757d3b758e4a501c51773fbbfc359ee05059643630da1b985d",
+        "reference": "checkpoint_privacy_review.json",
+        "reason": "Every exact finding is a SHA256 source-file digest independently matched to current file bytes; no contact record is represented."
+      }
+    },
+    {
+      "path": "round2/capture_progress.json",
+      "content_sha256": "04e1d929cecfb23b8da2f226ac285f6f547b281c7d5a26acd257494c2cdf58f4",
+      "findings": [],
+      "resolutions": [],
+      "review": null
+    },
+    {
+      "path": "round2/fresh_runs_unreviewed.json",
+      "content_sha256": "86c4489fd75adc8e6fae634a372bc0477b4362e473c7f815cc3efa80a8cf8afa",
+      "findings": [
+        {
+          "location": "$.runs[0].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER"
+        },
+        {
+          "location": "$.runs[1].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER"
+        },
+        {
+          "location": "$.runs[2].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER"
+        },
+        {
+          "location": "$.runs[3].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER"
+        },
+        {
+          "location": "$.runs[4].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER"
+        },
+        {
+          "location": "$.runs[5].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER"
+        },
+        {
+          "location": "$.runs[6].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER"
+        },
+        {
+          "location": "$.runs[7].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER"
+        },
+        {
+          "location": "$.runs[8].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER"
+        },
+        {
+          "location": "$.runs[9].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER"
+        },
+        {
+          "location": "$.runs[10].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER"
+        },
+        {
+          "location": "$.runs[11].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER"
+        },
+        {
+          "location": "$.runs[12].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER"
+        },
+        {
+          "location": "$.runs[13].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER"
+        },
+        {
+          "location": "$.runs[14].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER"
+        },
+        {
+          "location": "$.runs[15].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER"
+        },
+        {
+          "location": "$.runs[16].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER"
+        }
+      ],
+      "resolutions": [
+        {
+          "finding": {
+            "location": "$.runs[0].project.files.field#0:line:1",
+            "code": "CONTACT_NUMBER"
+          },
+          "classification": "VERIFIED_SOURCE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes"
+        },
+        {
+          "finding": {
+            "location": "$.runs[1].project.files.field#0:line:1",
+            "code": "CONTACT_NUMBER"
+          },
+          "classification": "VERIFIED_SOURCE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes"
+        },
+        {
+          "finding": {
+            "location": "$.runs[2].project.files.field#0:line:1",
+            "code": "CONTACT_NUMBER"
+          },
+          "classification": "VERIFIED_SOURCE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes"
+        },
+        {
+          "finding": {
+            "location": "$.runs[3].project.files.field#0:line:1",
+            "code": "CONTACT_NUMBER"
+          },
+          "classification": "VERIFIED_SOURCE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes"
+        },
+        {
+          "finding": {
+            "location": "$.runs[4].project.files.field#0:line:1",
+            "code": "CONTACT_NUMBER"
+          },
+          "classification": "VERIFIED_SOURCE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes"
+        },
+        {
+          "finding": {
+            "location": "$.runs[5].project.files.field#0:line:1",
+            "code": "CONTACT_NUMBER"
+          },
+          "classification": "VERIFIED_SOURCE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes"
+        },
+        {
+          "finding": {
+            "location": "$.runs[6].project.files.field#0:line:1",
+            "code": "CONTACT_NUMBER"
+          },
+          "classification": "VERIFIED_SOURCE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes"
+        },
+        {
+          "finding": {
+            "location": "$.runs[7].project.files.field#0:line:1",
+            "code": "CONTACT_NUMBER"
+          },
+          "classification": "VERIFIED_SOURCE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes"
+        },
+        {
+          "finding": {
+            "location": "$.runs[8].project.files.field#0:line:1",
+            "code": "CONTACT_NUMBER"
+          },
+          "classification": "VERIFIED_SOURCE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes"
+        },
+        {
+          "finding": {
+            "location": "$.runs[9].project.files.field#0:line:1",
+            "code": "CONTACT_NUMBER"
+          },
+          "classification": "VERIFIED_SOURCE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes"
+        },
+        {
+          "finding": {
+            "location": "$.runs[10].project.files.field#0:line:1",
+            "code": "CONTACT_NUMBER"
+          },
+          "classification": "VERIFIED_SOURCE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes"
+        },
+        {
+          "finding": {
+            "location": "$.runs[11].project.files.field#0:line:1",
+            "code": "CONTACT_NUMBER"
+          },
+          "classification": "VERIFIED_SOURCE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes"
+        },
+        {
+          "finding": {
+            "location": "$.runs[12].project.files.field#0:line:1",
+            "code": "CONTACT_NUMBER"
+          },
+          "classification": "VERIFIED_SOURCE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes"
+        },
+        {
+          "finding": {
+            "location": "$.runs[13].project.files.field#0:line:1",
+            "code": "CONTACT_NUMBER"
+          },
+          "classification": "VERIFIED_SOURCE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes"
+        },
+        {
+          "finding": {
+            "location": "$.runs[14].project.files.field#0:line:1",
+            "code": "CONTACT_NUMBER"
+          },
+          "classification": "VERIFIED_SOURCE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes"
+        },
+        {
+          "finding": {
+            "location": "$.runs[15].project.files.field#0:line:1",
+            "code": "CONTACT_NUMBER"
+          },
+          "classification": "VERIFIED_SOURCE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes"
+        },
+        {
+          "finding": {
+            "location": "$.runs[16].project.files.field#0:line:1",
+            "code": "CONTACT_NUMBER"
+          },
+          "classification": "VERIFIED_SOURCE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes"
+        }
+      ],
+      "review": {
+        "guard_version": "1.0.0",
+        "decision": "cleared",
+        "content_sha256": "86c4489fd75adc8e6fae634a372bc0477b4362e473c7f815cc3efa80a8cf8afa",
+        "findings_sha256": "e44e1d8a7d22d5d2a9bcfdda0793cc37ed021ab35442b021b35fa27541bdc964",
+        "reference": "checkpoint_privacy_review.json",
+        "reason": "Every exact finding is a SHA256 source-file digest independently matched to current file bytes; no contact record is represented."
+      }
+    },
+    {
+      "path": "round2/fresh_transcripts.json",
+      "content_sha256": "af692a838e49368da39e76e55e45e51004c45432b5bc7b8cf8aa1a841b2d9ee9",
+      "findings": [],
+      "resolutions": [],
+      "review": null
+    },
+    {
+      "path": "round2/reviews_sources.json",
+      "content_sha256": "a7eee41aaa4db2760e52bdd92f142bd5c15a96b966296ee16b87024127518020",
+      "findings": [],
+      "resolutions": [],
+      "review": null
+    },
+    {
+      "path": "round2/REVIEW_CHECKPOINT.json",
+      "content_sha256": "a0174f5a234fd77eba3e3ee9709ee8cd930ea10ee5632afeaf95cbe77001ca4e",
+      "findings": [],
+      "resolutions": [],
+      "review": null
+    }
+  ]
+}

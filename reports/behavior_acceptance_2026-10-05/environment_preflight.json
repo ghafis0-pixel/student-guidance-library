@@ -1,0 +1,8 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "pypdf": "6.10.0",
+  "pypdfium2": "5.13.0",
+  "pdfium": "153.0.7999.0",
+  "pdf_reproducibility": "No new privacy extraction or alarm list was generated. Old PDF alarm adjudications are not automatically transferred to this environment.",
+  "higher_instruction_limits": "Current Codex developer instructions are present. Additional-agent execution requires direct user authorization. Exact proprietary system build and model weights are unavailable."
+}

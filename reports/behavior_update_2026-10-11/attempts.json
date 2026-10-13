@@ -1,0 +1,147 @@
+{
+  "B03_repeat": {
+    "scenario_id": "B03_ARTICLES_33_34",
+    "final_answer": "لا. شرط عدم التزام ولي الأمر بالخطة يخص بند الخمسة أيام للغياب **بعذر** في المادة 33، ولا يُشترط في بند الخمسة أيام للغياب **دون عذر** في المادة 34.\n\n| نوع الغياب | ما ورد في بند الخمسة أيام |\n|---|---|\n| بعذر مقبول — المادة 33، ص 50 | في حال عدم التزام ولي الأمر بالخطة التربوية «خطة التعلم في أيام الغياب»، يُحال الطالب إلى لجنة التوجيه الطلابي، وتُنظَّم جلسة توعوية مع ولي الأمر للتأكيد على أهمية اتباع الخطط التربوية والعلاجية. |\n| دون عذر — المادة 34، ص 51 | تُحال الحالة إلى لجنة التوجيه الطلابي، ويُعقد اجتماع لمراجعة الخطة التربوية والعلاجية وتحديثها وفق الحالة؛ لم يُعلَّق ذلك على عدم التزام ولي الأمر بالخطة. |\n\nالمرجع المعتمد: قواعد السلوك والمواظبة، الإصدار الخامس 1447هـ، الصفحتان المطبوعتان 50–51.\n:codex-file-citation{path=\"sandbox:/workspace/scratch/b1b3557a3fe1/project/references/02_regulatory/behavior_and_attendance_regulations/قواعد السلوك والمواظبة الإصدار الخامس 1447.pdf\" purpose=\"source\"}",
+    "visible_assistant_messages": [
+      {
+        "role": "assistant",
+        "channel": "commentary",
+        "content": "سأستخدم مهارة PDF للتحقق من نص المادتين في المرجع المعتمد."
+      },
+      {
+        "role": "assistant",
+        "channel": "final",
+        "content": "لا. شرط عدم التزام ولي الأمر بالخطة يخص بند الخمسة أيام للغياب **بعذر** في المادة 33، ولا يُشترط في بند الخمسة أيام للغياب **دون عذر** في المادة 34.\n\n| نوع الغياب | ما ورد في بند الخمسة أيام |\n|---|---|\n| بعذر مقبول — المادة 33، ص 50 | في حال عدم التزام ولي الأمر بالخطة التربوية «خطة التعلم في أيام الغياب»، يُحال الطالب إلى لجنة التوجيه الطلابي، وتُنظَّم جلسة توعوية مع ولي الأمر للتأكيد على أهمية اتباع الخطط التربوية والعلاجية. |\n| دون عذر — المادة 34، ص 51 | تُحال الحالة إلى لجنة التوجيه الطلابي، ويُعقد اجتماع لمراجعة الخطة التربوية والعلاجية وتحديثها وفق الحالة؛ لم يُعلَّق ذلك على عدم التزام ولي الأمر بالخطة. |\n\nالمرجع المعتمد: قواعد السلوك والمواظبة، الإصدار الخامس 1447هـ، الصفحتان المطبوعتان 50–51.\n:codex-file-citation{path=\"sandbox:/workspace/scratch/b1b3557a3fe1/project/references/02_regulatory/behavior_and_attendance_regulations/قواعد السلوك والمواظبة الإصدار الخامس 1447.pdf\" purpose=\"source\"}"
+      }
+    ],
+    "native_metadata": {
+      "context_id": "/root/behavior_b03_repeat",
+      "captured_at": "2026-10-11T14:04:27.286097+00:00",
+      "tools": [
+        "functions.exec",
+        "exec_command",
+        "skills__read",
+        "view_image"
+      ],
+      "source_files": [
+        "project/AGENTS.md",
+        "project/guide/workflow.md",
+        "test_runs/B03_ARTICLES_33_34.prompt.txt",
+        "project/catalog/source_registry.json",
+        "project/catalog/reference_matrix.json",
+        "project/references/02_regulatory/behavior_and_attendance_regulations/قواعد السلوك والمواظبة الإصدار الخامس 1447.pdf",
+        "skill://flora-artifact-skills/root/.codex/skills/builtins/pdf/SKILL.md"
+      ],
+      "visible_assistant_messages": [
+        {
+          "role": "assistant",
+          "channel": "commentary",
+          "content": "سأستخدم مهارة PDF للتحقق من نص المادتين في المرجع المعتمد."
+        },
+        {
+          "role": "assistant",
+          "channel": "final",
+          "content": "لا. شرط عدم التزام ولي الأمر بالخطة يخص بند الخمسة أيام للغياب **بعذر** في المادة 33، ولا يُشترط في بند الخمسة أيام للغياب **دون عذر** في المادة 34.\n\n| نوع الغياب | ما ورد في بند الخمسة أيام |\n|---|---|\n| بعذر مقبول — المادة 33، ص 50 | في حال عدم التزام ولي الأمر بالخطة التربوية «خطة التعلم في أيام الغياب»، يُحال الطالب إلى لجنة التوجيه الطلابي، وتُنظَّم جلسة توعوية مع ولي الأمر للتأكيد على أهمية اتباع الخطط التربوية والعلاجية. |\n| دون عذر — المادة 34، ص 51 | تُحال الحالة إلى لجنة التوجيه الطلابي، ويُعقد اجتماع لمراجعة الخطة التربوية والعلاجية وتحديثها وفق الحالة؛ لم يُعلَّق ذلك على عدم التزام ولي الأمر بالخطة. |\n\nالمرجع المعتمد: قواعد السلوك والمواظبة، الإصدار الخامس 1447هـ، الصفحتان المطبوعتان 50–51.\n:codex-file-citation{path=\"sandbox:/workspace/scratch/b1b3557a3fe1/project/references/02_regulatory/behavior_and_attendance_regulations/قواعد السلوك والمواظبة الإصدار الخامس 1447.pdf\" purpose=\"source\"}"
+        }
+      ]
+    },
+    "run": {
+      "schema_version": "1.0",
+      "scenario_id": "B03_ARTICLES_33_34",
+      "scenario_text": "سؤال معرفي: هل شرط عدم التزام ولي الأمر بالخطة في بند الخمسة أيام ينطبق على الغياب بعذر ودون عذر معًا؟ أريد الفرق من قواعد السلوك والمواظبة المعتمدة.",
+      "actual_answer": "لا. شرط عدم التزام ولي الأمر بالخطة يخص بند الخمسة أيام للغياب **بعذر** في المادة 33، ولا يُشترط في بند الخمسة أيام للغياب **دون عذر** في المادة 34.\n\n| نوع الغياب | ما ورد في بند الخمسة أيام |\n|---|---|\n| بعذر مقبول — المادة 33، ص 50 | في حال عدم التزام ولي الأمر بالخطة التربوية «خطة التعلم في أيام الغياب»، يُحال الطالب إلى لجنة التوجيه الطلابي، وتُنظَّم جلسة توعوية مع ولي الأمر للتأكيد على أهمية اتباع الخطط التربوية والعلاجية. |\n| دون عذر — المادة 34، ص 51 | تُحال الحالة إلى لجنة التوجيه الطلابي، ويُعقد اجتماع لمراجعة الخطة التربوية والعلاجية وتحديثها وفق الحالة؛ لم يُعلَّق ذلك على عدم التزام ولي الأمر بالخطة. |\n\nالمرجع المعتمد: قواعد السلوك والمواظبة، الإصدار الخامس 1447هـ، الصفحتان المطبوعتان 50–51.\n:codex-file-citation{path=\"sandbox:/workspace/scratch/b1b3557a3fe1/project/references/02_regulatory/behavior_and_attendance_regulations/قواعد السلوك والمواظبة الإصدار الخامس 1447.pdf\" purpose=\"source\"}",
+      "answer_sha256": "a1165edec058474960628f1165fef75ea8ac6197602777551ab76b29de6fa309",
+      "execution": {
+        "status": "RUN",
+        "kind": "actual_conversation",
+        "context_id": "/root/behavior_b03_repeat",
+        "isolated": true,
+        "prior_messages_count": 0,
+        "model": {
+          "name": "unavailable",
+          "version": "unavailable"
+        },
+        "tools": [
+          "functions.exec",
+          "exec_command",
+          "skills__read",
+          "view_image"
+        ],
+        "captured_at": "2026-10-11T14:04:27.286097+00:00",
+        "transcript_ref": "reports/behavior_update_2026-10-11/attempts.json#B03_repeat",
+        "runtime": "native Work subagent; not separate deployed application",
+        "capture_limit": "final مطابق للسياق الفعلي؛ لا تصدير آلي شامل للواجهة"
+      },
+      "project": {
+        "head": "unavailable",
+        "files": {
+          "AGENTS.md": "ab9ff25187799218fc342165ccaea74f1895e4caf539f04d5f0ab0b05b1f7432",
+          "catalog/reference_matrix.json": "6413c94beb994217a3fa255889e39022ef21c6eac450850e12624b650b9287f3",
+          "catalog/source_registry.json": "7c32a1d40de0a88668e1be21c545a3a031d7267e346900497a99fbb5997ad530",
+          "context/current.json": "bd37699b4c4da7c924931e431265025bf095db810f0fd8030ddff7c1127c6fa0",
+          "context/decisions.md": "ab487631c72770b24f8381ce89bbe9e1b607f9fee4f02a14cab7df6a0adf81fc",
+          "guide/workflow.md": "c16e3e915326946b38cdd05986c29d9504fbcb61e670d61be516cf31b3859426",
+          "references/02_regulatory/behavior_and_attendance_regulations/قواعد السلوك والمواظبة الإصدار الخامس 1447.pdf": "2ef1ca2b7618623b555542bbe4f7175f7bfbdfd45f55b043f6d9affc854b04ef",
+          "standards/behavior_acceptance.json": "490e1f09bb8854a9b071eabda2bcb5e6ef754284bfb14e0a7e9c69fb2bad5102",
+          "tools/check_behavior_acceptance.py": "0e5a66ab6459dee74bf41ed148158b6b760de195784e4883480b4058664afd9c"
+        },
+        "snapshot_sha256": "ebdf3b2076865609d000270c97675453e6d22c4d23439e7628f392879bf85eab"
+      },
+      "review": {
+        "scenario_id": "B03_ARTICLES_33_34",
+        "answer_sha256": "a1165edec058474960628f1165fef75ea8ac6197602777551ab76b29de6fa309",
+        "reviewer": "/root/instruction_review",
+        "independent": true,
+        "reviewed_at": "2026-10-11T14:11:02.967334+00:00",
+        "criteria": [
+          {
+            "id": "DIRECT",
+            "status": "PASS",
+            "reason": "يبدأ «لا» بفصل المادتين مباشرة؛ إعلان مهارة PDF المبلغ عنه منفصل وموجز ويلزم وفق البيئة، فلا يفسد DIRECT."
+          },
+          {
+            "id": "NATURAL",
+            "status": "PASS",
+            "reason": "المضمون عربي موجز وجدول المقارنة يزيل غموض السؤال؛ لم يضف قائمة إجراء لحالة فعلية."
+          },
+          {
+            "id": "NO_INTERNALS",
+            "status": "FAIL",
+            "reason": "RAW FAIL: الذيل :codex-file-citation يتضمن مسار scratch داخليًا، والمحك الحالي لا يستثني إسناد ملفات البيئة بهذا النوع. مهارة PDF تفرض هذا الإسناد صراحة، لذلك الفشل تعاقدي على الخام وليس تجاهلًا مهنيًا للتعليمات. الواجهة UNVERIFIED ولا يثبت الخام أن المسار ظهر فيها."
+          },
+          {
+            "id": "DECISIVE_CONSTRAINT",
+            "status": "PASS",
+            "reason": "يقصر شرط عدم الالتزام على بند5 بعذر ويصرح أنه لا يشترط دون عذر."
+          },
+          {
+            "id": "SOURCE_AND_FACT",
+            "status": "PASS",
+            "reason": "مطابق للصفحتين المطبوعتين50–51 اللتين راجعتهما بصريًا: الشرط في33 دون34. لا ادعاء تنفيذ أو حفظ."
+          },
+          {
+            "id": "ARTICLE_SEPARATION",
+            "status": "PASS",
+            "reason": "صورة33/50 تشترط عدم الالتزام في بند5، وصورة34/51 لا تشترطه؛ الجواب يفصل بينهما."
+          },
+          {
+            "id": "NO_IRRELEVANT_EXECUTION_QUESTION",
+            "status": "PASS",
+            "reason": "جواب معرفي مسند للمادتين والصفحتين دون سؤال تنفيذ."
+          }
+        ],
+        "capture_scope": "RAW_FINAL_ACTUAL; commentary/tools are context reports; complete automatic interface export unavailable",
+        "interface_status": "UNVERIFIED",
+        "attempt": "repeat; original review retained unchanged"
+      }
+    },
+    "evaluation": {
+      "scenario_id": "B03_ARTICLES_33_34",
+      "status": "FAIL",
+      "issues": [
+        "RUBRIC_FAIL:NO_INTERNALS"
+      ]
+    }
+  },
+  "policy": "المحاولة الثانية مستقلة ولم تستبدل المحاولة الأولى في runs.json أو نتيجة الجولة."
+}

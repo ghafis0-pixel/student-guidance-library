@@ -1,0 +1,90 @@
+{
+  "status": "FAIL",
+  "candidate_status": "CANDIDATE",
+  "recorded_at": "2026-10-04T23:18:36.448067+00:00",
+  "actual_completed_responses": 18,
+  "distinct_response_contexts": 18,
+  "independently_reviewed_responses": 18,
+  "combined_acceptance_counts": {
+    "PASS": 5,
+    "FAIL": 12,
+    "NOT_RUN": 0
+  },
+  "text_checker_only_counts": {
+    "PASS": 10,
+    "FAIL": 7,
+    "NOT_RUN": 0
+  },
+  "semantic_counts": {
+    "PASS": 5,
+    "FAIL": 12,
+    "NOT_RUN": 0
+  },
+  "critical_complete": false,
+  "conversation_acceptance_complete": false,
+  "review_files": {
+    "review_privacy.json": "26cf56fb0722010979ee653d786446f87cfabd193557dfbc0f0d180205041d80",
+    "review_sources.json": "65259f520f9d6e3c9e6f1cb26c02de3c5cc502a47f31bfcb34bf24aaf3ddcd79",
+    "review_daily.json": "4ff469a5d2b11444893eae6d36c772bc64e5994b8b7c77330c09520ef89a9efb",
+    "review_b10_retest.json": "565f180e10f1d582a5e3235e1d0eb247f222e0b184e24763d04bcb6444f152dd"
+  },
+  "frozen_review_inputs": {
+    "review_privacy_input.json": "ba58782714e94ed641fa913a6c8de4b868f4936c95d76f2b9bf318edf682e010",
+    "review_sources_input.json": "0a7dd6c25af62c101eda4205f28273a98861339ec9ab3e63007a35bd6fdc2491",
+    "review_daily_input.json": "282eb746db744a708371ae9c9f16cf298c5c5f7958d8a775ca8a3a94e26a2f46",
+    "review_b10_retest_input.json": "bbeb00ea358ed33da50bc658951de2ca12de6e3eb9163b3bbd99ccb565440b22"
+  },
+  "raw_capture_sha256": "841f8a1d191474cbcacedb7dc187332d7094590bbbd67dc0fd05e4e87f444341",
+  "reviewed_runs_sha256": "c198123041c08dae56b16bc22e24c84c2cda137d7275ecf9f3a600f74b943799",
+  "transcripts_sha256": "181dc71b2d7c316aca70ed1f372a23f0dde4e69c9bfe2bb61708a43ac07affbb",
+  "contract_sha256": "afcf73c5bbc26e789988808498a52572a25104db057f38380fa2a23d2e23f54c",
+  "candidate_package_sha256": "6a58e5d692376f574f22274e43b939c534f722250bb78da198a7e488b5562d59",
+  "project_snapshot_sha256": "fee2c5ba2f2cc7c99848f458fa69039f553fcdb2aa85d46ee2156a1e53bec54e",
+  "partial_attempts": 3,
+  "execution_errors": [
+    {
+      "agent": "/root/response_b05",
+      "context_id": "01a108fa-dbad-7860-a14c-ebef428a5538",
+      "turn_id": "01a108fa-de10-7da3-ba5c-8450eb934679",
+      "at": "2026-10-04T22:32:19.846Z",
+      "error_message": "Fatal error: application network permission was revoked",
+      "classification": "EXECUTION_ENVIRONMENT_ERROR; never acceptance"
+    },
+    {
+      "agent": "/root/review_privacy",
+      "context_id": "01a10903-e2db-7731-b72a-fd2d62c7437b",
+      "turn_id": "01a10903-e5a2-7e33-850e-91816d1efdff",
+      "at": "2026-10-04T22:32:19.904Z",
+      "error_message": "Fatal error: application network permission was revoked",
+      "classification": "EXECUTION_ENVIRONMENT_ERROR; never acceptance"
+    },
+    {
+      "agent": "/root/review_sources",
+      "context_id": "01a1090b-97b2-7961-ba01-3293ee0f8ea7",
+      "turn_id": "01a1090b-9baf-78e3-ab68-57cbf16f2a7e",
+      "at": "2026-10-04T22:32:47.676Z",
+      "error_message": "unexpected status 401 Unauthorized: Missing bearer or basic authentication in header, url: https://api.openai.com/v1/responses, cf-ray: a457a4fdb9947bd7-SOF, request id: req_bcb7de9f19814b60aadb061c24eb0abb",
+      "classification": "EXECUTION_ENVIRONMENT_ERROR; never acceptance"
+    }
+  ],
+  "historical_results": "9/8 and 15/2 retained in previous files; not used as acceptance of this round.",
+  "operational_state": {
+    "content_approval_ref": "DEC-014",
+    "execution_status": "not_reported",
+    "evidence_refs": [],
+    "work_register_changed": false,
+    "noor_save_performed": false
+  },
+  "limits": "This is a Codex subagent cold-context test with ambient instructions and memory, not certified equivalence to every future deployed environment. Dispatch plaintext is separately operator-recorded because local journals encrypt it. Raw memory citation metadata is retained; rendered-display equivalence was not verified. No failure is fixed by rewriting captured answers.",
+  "selected_response_count": 17,
+  "selected_distinct_response_contexts": 17,
+  "protocol_correction": {
+    "scenario_id": "B10_APPROVAL_NOOR",
+    "excluded_original_context": "01a108fc-1a6c-7910-bc19-6a8bd8103048",
+    "reason": "Respondent accessed its own rubric; preserved, not valid cold retrieval.",
+    "original_cold_status": "NOT_RUN",
+    "replacement_context": "01a1092d-0a2e-7af2-996d-8229a5b805f1",
+    "replacement_rubric_exposure": "No observed criterion/review-file reference in recorded invocations or returns",
+    "answer_selection_policy": "Only the documented protocol-invalid response is replaced; no other failed answer is rerun or selected by result."
+  }
+}

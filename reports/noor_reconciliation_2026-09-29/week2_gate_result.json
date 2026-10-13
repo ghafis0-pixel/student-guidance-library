@@ -1,0 +1,57 @@
+{
+  "Gate status": "NEEDS_FIX",
+  "Gate version": "1.0.0",
+  "Gate result date": "2026-09-29",
+  "Checked by": "Codex: مراجعة مصدرية بشرية/نموذجية، لا تحقق ميداني",
+  "References checked": [
+    {
+      "path": "catalog/reference_matrix.json",
+      "sha256": "061b51771ddf9581a41ebf0144f2f58442b1248b8a168d4723c8f7dadeeda48d"
+    },
+    {
+      "path": "references/03_official_operational_guides/noor/مرجع_نظام_نور_للتوجيه_الطلابي.md",
+      "sha256": "5ddbb789e467c48d59e966f9d44b360307f815f5ca987a57c925f1ebb253a637"
+    },
+    {
+      "path": "references/04_regional_plans/خطة برامج وخدمات التوجيه الطلابي تعليم القصيم 1448.pdf",
+      "sha256": "79e2198db34bb4f46985fbb50d27f27d24d98be4e15ecea92b6b38ba5e6f0fb9"
+    },
+    {
+      "path": "references/02_regulatory/organizational_guides/الدليل التنظيمي - مقتطف التوجيه الطلابي 1446.pdf",
+      "sha256": "fcb09f4b8b3ab720dc68684d077ab2de340ca8cbbd2742fd132003dd112babda"
+    },
+    {
+      "path": "references/02_regulatory/procedural_guides/الدليل الإجرائي - مقتطف الموجه الطلابي 1446.pdf",
+      "sha256": "0d74c788c94bee61d0608567607f0612caf9b890c8ae6bc932afe2b50df9795b"
+    }
+  ],
+  "Blocking issues": [],
+  "Warnings": [],
+  "Required fixes": [
+    "N01: مسار نور غير محسوم — حقول الخدمة الداخلية غير مفحوصة؛ المسار يحتاج تحديدًا ولا يختلق",
+    "W02: عبء حقول غير لازم — حقول مكررة أو غير مثبتة الحاجة وفق جدول المراجعة"
+  ],
+  "Passed rules": [
+    "E01",
+    "E02",
+    "E03",
+    "E04",
+    "N02",
+    "N03",
+    "V01",
+    "V02",
+    "P01",
+    "C01",
+    "D01",
+    "D02",
+    "D03",
+    "W01",
+    "W03",
+    "D04"
+  ],
+  "Failed rules": [
+    "N01",
+    "W02"
+  ],
+  "scope": "Design review only, not proof of field execution or Noor save"
+}

@@ -1,0 +1,153 @@
+{
+  "scope": "Independent rubric judgments covering all captured assistant messages; distinct from unchanged raw-text checker",
+  "counts": {
+    "PASS": 5,
+    "FAIL": 12,
+    "NOT_RUN": 0
+  },
+  "results": [
+    {
+      "scenario_id": "B01_PREVIOUS_UNKNOWN",
+      "status": "FAIL",
+      "failed_criteria": [
+        "NO_INTERNALS"
+      ],
+      "critical": true
+    },
+    {
+      "scenario_id": "B02_URGENT_SAFETY",
+      "status": "FAIL",
+      "failed_criteria": [
+        "NATURAL"
+      ],
+      "critical": true
+    },
+    {
+      "scenario_id": "B03_ARTICLES_33_34",
+      "status": "FAIL",
+      "failed_criteria": [
+        "DIRECT",
+        "NATURAL",
+        "NO_INTERNALS"
+      ],
+      "critical": true
+    },
+    {
+      "scenario_id": "B04_OFFICIAL_ROLES",
+      "status": "FAIL",
+      "failed_criteria": [
+        "DIRECT",
+        "NATURAL",
+        "DECISIVE_CONSTRAINT",
+        "VICE_PRINCIPAL_ROLE",
+        "COUNSELOR_ROLE"
+      ],
+      "critical": true
+    },
+    {
+      "scenario_id": "B05_COMPOUND_ACTION",
+      "status": "PASS",
+      "failed_criteria": [],
+      "critical": false
+    },
+    {
+      "scenario_id": "B06_SIMPLE_ACTION",
+      "status": "PASS",
+      "failed_criteria": [],
+      "critical": false
+    },
+    {
+      "scenario_id": "B07_KNOWLEDGE_NOOR",
+      "status": "FAIL",
+      "failed_criteria": [
+        "NATURAL",
+        "NO_INTERNALS"
+      ],
+      "critical": false
+    },
+    {
+      "scenario_id": "B08_PROFESSIONAL_UNKNOWN",
+      "status": "FAIL",
+      "failed_criteria": [
+        "DIRECT",
+        "NATURAL",
+        "NO_INTERNALS",
+        "ASK_DECISION_FACT"
+      ],
+      "critical": true
+    },
+    {
+      "scenario_id": "B09_SOURCE_VS_PROPOSAL",
+      "status": "PASS",
+      "failed_criteria": [],
+      "critical": false
+    },
+    {
+      "scenario_id": "B10_APPROVAL_NOOR",
+      "status": "FAIL",
+      "failed_criteria": [
+        "DIRECT",
+        "NO_INTERNALS"
+      ],
+      "critical": true
+    },
+    {
+      "scenario_id": "B11_PLAN_NOT_EVIDENCE",
+      "status": "FAIL",
+      "failed_criteria": [
+        "NATURAL",
+        "NO_INTERNALS"
+      ],
+      "critical": true
+    },
+    {
+      "scenario_id": "B12_INITIALS_ALLOWED",
+      "status": "FAIL",
+      "failed_criteria": [
+        "NO_INTERNALS"
+      ],
+      "critical": true
+    },
+    {
+      "scenario_id": "B13_INITIALS_COLLISION",
+      "status": "PASS",
+      "failed_criteria": [],
+      "critical": true
+    },
+    {
+      "scenario_id": "B14_HELP_BEFORE_RECORD",
+      "status": "FAIL",
+      "failed_criteria": [
+        "NATURAL",
+        "NO_INTERNALS"
+      ],
+      "critical": true
+    },
+    {
+      "scenario_id": "B15_INDEPENDENT_HELP",
+      "status": "PASS",
+      "failed_criteria": [],
+      "critical": false
+    },
+    {
+      "scenario_id": "B16_PUBLIC_INITIALS",
+      "status": "FAIL",
+      "failed_criteria": [
+        "NATURAL",
+        "NO_INTERNALS"
+      ],
+      "critical": true
+    },
+    {
+      "scenario_id": "B17_KNOWN_PRIOR_EXECUTION",
+      "status": "FAIL",
+      "failed_criteria": [
+        "DIRECT",
+        "NATURAL",
+        "NO_INTERNALS",
+        "NO_REPEAT_KNOWN_QUESTION"
+      ],
+      "critical": true
+    }
+  ]
+}

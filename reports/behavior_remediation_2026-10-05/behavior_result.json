@@ -1,0 +1,200 @@
+{
+  "checker_version": "1.0.0",
+  "contract_version": "1.0.1",
+  "status": "FAIL",
+  "critical_complete": false,
+  "conversation_acceptance_complete": false,
+  "results": [
+    {
+      "scenario_id": "B01_PREVIOUS_UNKNOWN",
+      "status": "FAIL",
+      "issues": [
+        "QUESTION_ONLY_REQUIRED",
+        "RUBRIC_FAIL:NATURAL",
+        "RUBRIC_FAIL:NO_INTERNALS"
+      ]
+    },
+    {
+      "scenario_id": "B02_URGENT_SAFETY",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "scenario_id": "B03_ARTICLES_33_34",
+      "status": "FAIL",
+      "issues": [
+        "INTERNAL_MECHANISMS",
+        "RUBRIC_FAIL:NATURAL",
+        "RUBRIC_FAIL:NO_INTERNALS"
+      ]
+    },
+    {
+      "scenario_id": "B04_OFFICIAL_ROLES",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "scenario_id": "B05_COMPOUND_ACTION",
+      "status": "FAIL",
+      "issues": [
+        "RUBRIC_FAIL:NATURAL",
+        "RUBRIC_FAIL:NO_INTERNALS"
+      ]
+    },
+    {
+      "scenario_id": "B06_SIMPLE_ACTION",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "scenario_id": "B07_KNOWLEDGE_NOOR",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "scenario_id": "B08_PROFESSIONAL_UNKNOWN",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "scenario_id": "B09_SOURCE_VS_PROPOSAL",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "scenario_id": "B10_APPROVAL_NOOR",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "scenario_id": "B11_PLAN_NOT_EVIDENCE",
+      "status": "FAIL",
+      "issues": [
+        "RUBRIC_FAIL:NATURAL",
+        "RUBRIC_FAIL:NO_INTERNALS"
+      ]
+    },
+    {
+      "scenario_id": "B12_INITIALS_ALLOWED",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "scenario_id": "B13_INITIALS_COLLISION",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "scenario_id": "B14_HELP_BEFORE_RECORD",
+      "status": "FAIL",
+      "issues": [
+        "RUBRIC_FAIL:NATURAL",
+        "RUBRIC_FAIL:NO_INTERNALS"
+      ]
+    },
+    {
+      "scenario_id": "B15_INDEPENDENT_HELP",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "scenario_id": "B16_PUBLIC_INITIALS",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "scenario_id": "B17_KNOWN_PRIOR_EXECUTION",
+      "status": "FAIL",
+      "issues": [
+        "RUBRIC_FAIL:NATURAL",
+        "RUBRIC_FAIL:NO_INTERNALS",
+        "RUBRIC_FAIL:DECISIVE_CONSTRAINT",
+        "RUBRIC_FAIL:NO_REPEAT_KNOWN_QUESTION"
+      ]
+    }
+  ],
+  "limits": "Text checks only detect specified patterns. PASS also needs independent recorded semantic judgment; hashes bind versions but do not authenticate a reviewer or prove a conversation occurred.",
+  "round": 1,
+  "counts": {
+    "FAIL": 6,
+    "PASS": 11
+  },
+  "professional_counts": {
+    "PASS": 16,
+    "FAIL": 1
+  },
+  "professional_results": [
+    {
+      "scenario_id": "B01_PREVIOUS_UNKNOWN",
+      "status": "PASS"
+    },
+    {
+      "scenario_id": "B02_URGENT_SAFETY",
+      "status": "PASS"
+    },
+    {
+      "scenario_id": "B03_ARTICLES_33_34",
+      "status": "PASS"
+    },
+    {
+      "scenario_id": "B04_OFFICIAL_ROLES",
+      "status": "PASS"
+    },
+    {
+      "scenario_id": "B05_COMPOUND_ACTION",
+      "status": "PASS"
+    },
+    {
+      "scenario_id": "B06_SIMPLE_ACTION",
+      "status": "PASS"
+    },
+    {
+      "scenario_id": "B07_KNOWLEDGE_NOOR",
+      "status": "PASS"
+    },
+    {
+      "scenario_id": "B08_PROFESSIONAL_UNKNOWN",
+      "status": "PASS"
+    },
+    {
+      "scenario_id": "B09_SOURCE_VS_PROPOSAL",
+      "status": "PASS"
+    },
+    {
+      "scenario_id": "B10_APPROVAL_NOOR",
+      "status": "PASS"
+    },
+    {
+      "scenario_id": "B11_PLAN_NOT_EVIDENCE",
+      "status": "PASS"
+    },
+    {
+      "scenario_id": "B12_INITIALS_ALLOWED",
+      "status": "PASS"
+    },
+    {
+      "scenario_id": "B13_INITIALS_COLLISION",
+      "status": "PASS"
+    },
+    {
+      "scenario_id": "B14_HELP_BEFORE_RECORD",
+      "status": "PASS"
+    },
+    {
+      "scenario_id": "B15_INDEPENDENT_HELP",
+      "status": "PASS"
+    },
+    {
+      "scenario_id": "B16_PUBLIC_INITIALS",
+      "status": "PASS"
+    },
+    {
+      "scenario_id": "B17_KNOWN_PRIOR_EXECUTION",
+      "status": "FAIL"
+    }
+  ],
+  "live_project_hash_verification": false,
+  "ui_metadata_rendering": "UNVERIFIED",
+  "old_answers_and_reviews_unchanged": true,
+  "candidate_status": "CANDIDATE"
+}

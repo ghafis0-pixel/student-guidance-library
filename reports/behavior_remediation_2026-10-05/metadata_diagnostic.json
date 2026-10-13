@@ -1,0 +1,16 @@
+{
+  "kind": "TEXT_BOUNDARY_DIAGNOSTIC_NOT_CONVERSATION_ACCEPTANCE",
+  "scenario_id": "B01_PREVIOUS_UNKNOWN",
+  "unchanged_raw_answer_sha256": "d765e167818265e34c8f8667ab1a0bfe95d28bfe59b3a92524b9cfa6726f441b",
+  "old_surface_issues": [
+    "QUESTION_ONLY_REQUIRED"
+  ],
+  "new_surface_issues_with_verified_host_requirement": [],
+  "exact_raw_preserved": true,
+  "mandatory_provenance_verified_by_independent_review": "review_metadata_boundary confirmed actual memory-read calls in all five round1 suffix cases; live acceptance additionally requires bound transcript/read call IDs",
+  "ui_rendering": "UNVERIFIED",
+  "historical_scores_changed": false,
+  "initial_new_unit_tests": "8 tests errored against absent new API; not the symptom-specific reproduction. This diagnostic is the actual old false-rejection reproduction.",
+  "sandbox_unit_temp_error": "Default temp location denied synthetic AGENTS.md writes; no product test failed for that reason. Tests rerun with temp directory inside workspace.",
+  "new_unit_tests_result": "41 tests passed; current unit evidence does not establish model behavior"
+}

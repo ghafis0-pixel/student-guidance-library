@@ -1,0 +1,26 @@
+{
+  "chunks/operational_guides.jsonl": {
+    "guard_version": "1.0.0",
+    "decision": "cleared",
+    "content_sha256": "ba5cd4720da753a97a3475745f8512ac807f7ca6ebae6361313009e312c0fe5c",
+    "findings_sha256": "90c3fd5f35c6b384c673173d0e55317662d74d0d4d7d43cae4ffa4b9f4c79755",
+    "reference": "reports/repair_2026-10-04/source_visual_review.md",
+    "reason": "Rendered original REF-OFFICIAL-GUIDE-V1 PDF 24 and REF-HISTORICAL-BEHAVIOR PDF 139 inspected: institutional publisher contacts, no student identity. Text retained verbatim."
+  },
+  "chunks/program_guides.jsonl": {
+    "guard_version": "1.0.0",
+    "decision": "cleared",
+    "content_sha256": "b016aafac57ff57635f264187a2b51f29553dd12c13f3095b833fc099061eb0b",
+    "findings_sha256": "a6d5fb6ed1f446cf6141d642a3ce63a899ef69640187ca4bf9c5fa1476b26811",
+    "reference": "reports/repair_2026-10-04/source_visual_review.md",
+    "reason": "Rendered original PG-11 PDF 34 and 40 inspected: empty template fields and published bibliography contact, no student identity. Text retained verbatim."
+  },
+  "chunks/regulatory.jsonl": {
+    "guard_version": "1.0.0",
+    "decision": "cleared",
+    "content_sha256": "3a19ba19b116ff8b52331552f7eef11470101ae24141045dc66748624c045fa1",
+    "findings_sha256": "7c1fd06aa8bed9e64e3a5a0ef22ec5ea33a0612d6a2949cc376f4ae2ed3b5396",
+    "reference": "reports/repair_2026-10-04/source_visual_review.md",
+    "reason": "Rendered original REF-BEHAVIOR-1447-V5 PDF 59 (printed 60) inspected: empty official form labels, no populated student identity. Text retained verbatim."
+  }
+}

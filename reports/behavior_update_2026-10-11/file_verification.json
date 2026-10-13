@@ -1,0 +1,185 @@
+{
+  "instruction_readback": [
+    {
+      "path": "catalog/program_source_rules.md",
+      "matched": true,
+      "sha256": "b37c74a59a51c2c6a9bcdff319f81f96518fa2087b3430a08495e402f522010f"
+    },
+    {
+      "path": "guide/workflow.md",
+      "matched": true,
+      "sha256": "c16e3e915326946b38cdd05986c29d9504fbcb61e670d61be516cf31b3859426"
+    },
+    {
+      "path": "context/decisions.md",
+      "matched": true,
+      "sha256": "ab487631c72770b24f8381ce89bbe9e1b607f9fee4f02a14cab7df6a0adf81fc"
+    },
+    {
+      "path": "catalog/manifest.json",
+      "matched": true,
+      "sha256": "fc06c403e27fc411f2124527f5787ce879f27a96a51819d0750b848b38d0fb6d"
+    },
+    {
+      "path": "references/02_regulatory/procedural_guides/derived/كل_ما_يخص_الموجه_الطلابي_في_الدليل_الإجرائي_نسخة_متحققة.md",
+      "matched": true,
+      "sha256": "c542b16117507b4abc25519d23fc5fffd6635894600db468384189cfc8d5ff03"
+    },
+    {
+      "path": "catalog/source_registry.json",
+      "matched": true,
+      "sha256": "7c32a1d40de0a88668e1be21c545a3a031d7267e346900497a99fbb5997ad530"
+    },
+    {
+      "path": "PROJECT_HANDOFF_CURRENT.md",
+      "matched": true,
+      "sha256": "285834d08d837ee8a4870339293be40c75e4f82be76443550f12cb8ec0bbb2c1"
+    },
+    {
+      "path": "AGENTS.md",
+      "matched": true,
+      "sha256": "ab9ff25187799218fc342165ccaea74f1895e4caf539f04d5f0ab0b05b1f7432"
+    },
+    {
+      "path": "standards/behavior_acceptance.json",
+      "matched": true,
+      "sha256": "490e1f09bb8854a9b071eabda2bcb5e6ef754284bfb14e0a7e9c69fb2bad5102"
+    },
+    {
+      "path": "catalog/reference_matrix.json",
+      "matched": true,
+      "sha256": "6413c94beb994217a3fa255889e39022ef21c6eac450850e12624b650b9287f3"
+    }
+  ],
+  "changed_file_privacy_scan": [
+    {
+      "path": "guide/workflow.md",
+      "findings": []
+    },
+    {
+      "path": "AGENTS.md",
+      "findings": []
+    },
+    {
+      "path": "context/decisions.md",
+      "findings": []
+    },
+    {
+      "path": "catalog/program_source_rules.md",
+      "findings": []
+    },
+    {
+      "path": "catalog/reference_matrix.json",
+      "findings": []
+    },
+    {
+      "path": "references/02_regulatory/procedural_guides/derived/كل_ما_يخص_الموجه_الطلابي_في_الدليل_الإجرائي_نسخة_متحققة.md",
+      "findings": []
+    },
+    {
+      "path": "catalog/source_registry.json",
+      "findings": []
+    },
+    {
+      "path": "standards/behavior_acceptance.json",
+      "findings": []
+    },
+    {
+      "path": "PROJECT_HANDOFF_CURRENT.md",
+      "findings": []
+    },
+    {
+      "path": "catalog/manifest.json",
+      "findings": []
+    }
+  ],
+  "source_hashes": [
+    {
+      "path": "references/02_regulatory/behavior_and_attendance_regulations/قواعد السلوك والمواظبة الإصدار الخامس 1447.pdf",
+      "actual_sha256": "2ef1ca2b7618623b555542bbe4f7175f7bfbdfd45f55b043f6d9affc854b04ef",
+      "recorded_sha256": "2ef1ca2b7618623b555542bbe4f7175f7bfbdfd45f55b043f6d9affc854b04ef",
+      "matched": true,
+      "source_id": "REF-BEHAVIOR-1447-V5"
+    },
+    {
+      "path": "references/02_regulatory/procedural_guides/الدليل الإجرائي الكامل - رجب 1446.pdf",
+      "actual_sha256": "9d37a896a6336c7e5f31f74b17bf1c5ccd3c638e7bc3ee8a1f1408a9d0102e8d",
+      "recorded_sha256": "9d37a896a6336c7e5f31f74b17bf1c5ccd3c638e7bc3ee8a1f1408a9d0102e8d",
+      "matched": true,
+      "source_id": "REF-PROCEDURAL-FULL-1446"
+    },
+    {
+      "path": "references/02_regulatory/procedural_guides/derived/كل_ما_يخص_الموجه_الطلابي_في_الدليل_الإجرائي_نسخة_متحققة.md",
+      "actual_sha256": "c542b16117507b4abc25519d23fc5fffd6635894600db468384189cfc8d5ff03",
+      "recorded_sha256": "c542b16117507b4abc25519d23fc5fffd6635894600db468384189cfc8d5ff03",
+      "matched": true,
+      "source_id": "KNOW-PROCEDURAL-COUNSELOR-1446"
+    },
+    {
+      "path": "references/02_regulatory/organizational_guides/الدليل التنظيمي الكامل - 1446.pdf",
+      "actual_sha256": "1732c4c7f052bdb2a26702290b447e7acb12448dcb0469864a4eaff586e5ab8b",
+      "recorded_sha256": "1732c4c7f052bdb2a26702290b447e7acb12448dcb0469864a4eaff586e5ab8b",
+      "matched": true,
+      "source_id": "REF-ORGANIZATIONAL-FULL-1446"
+    }
+  ],
+  "scope": "الملفات المتغيرة والمصادر المقروءة فقط؛ لا فحص شامل لmanifest أو مكتبة المصادر",
+  "preserved_workflow_sections": [
+    {
+      "section": "## البداية والرد",
+      "identical": true
+    },
+    {
+      "section": "## الاستيضاح والتنفيذ السابق",
+      "identical": true
+    },
+    {
+      "section": "## استحقاق واختيار الإجراءات — D1",
+      "identical": true
+    },
+    {
+      "section": "## كفاية واختيار الوسائل — D2",
+      "identical": true
+    },
+    {
+      "section": "## إطار ADHD-Friendly الشامل — D3",
+      "identical": true
+    },
+    {
+      "section": "## الإجراءات التنفيذية والتحديث الدائم",
+      "identical": true
+    }
+  ],
+  "independent_instruction_review": {
+    "reviewer": "/root/instruction_review",
+    "finding": "لم يجد عيبًا مؤثرًا مثبتًا في فروق التعليمات؛ حافظت على D1/D2/D3 والاستيضاح والسلامة والخصوصية وW01، وتصحيح C25 يطابق السياق دون تعديل الأصل.",
+    "limits": "مراجعة الفروق والنصوص والبصمات وصورة الإجرائي225؛ ليست فحص كل المكتبة أو اختبار الواجهة أو مراجعة Drive مباشرة."
+  },
+  "final_logs_handoff_readback": [
+    {
+      "path": "reports/00_scope_progress.md",
+      "matched": true,
+      "sha256": "050e1df275812c85a11290270ceb929d33089591b153c893f77b7642ff38c714"
+    },
+    {
+      "path": "reports/01_issues_changes.md",
+      "matched": true,
+      "sha256": "2f17b33b4dc386c9b3c15b0f59e4bfbedb414e3b2ec933d24a08894c9c2eb6c4"
+    },
+    {
+      "path": "reports/02_tests_review.md",
+      "matched": true,
+      "sha256": "37b676985395b9f90f90a6857a035fc4292a94d833ae026c7e01234962f69c0d"
+    },
+    {
+      "path": "reports/03_versions_delivery.md",
+      "matched": true,
+      "sha256": "eb1f62a9c89d45b9118141506e344b213ba0aac5d145d6162027895d123b8fd2"
+    },
+    {
+      "path": "PROJECT_HANDOFF_CURRENT.md",
+      "matched": true,
+      "sha256": "79ea3dc0d896e19b57d8a5c9718ff1ffbc1ab94c73b8d5a0f66e80e7ff493a98"
+    }
+  ]
+}

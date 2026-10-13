@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-10-02",
+  "school": "ابتدائية ثمامة بن عدي",
+  "city": "بريدة",
+  "education_department": "تعليم القصيم",
+  "academic_year_hijri": "1448هـ",
+  "term": "الفصل الدراسي الأول",
+  "grades": "الثاني إلى السادس",
+  "practical_executor_count": 1,
+  "student_count": 130,
+  "note": "هذه قيم الحالة التشغيلية الحالية، وليست سجلًا تاريخيًا."
+}

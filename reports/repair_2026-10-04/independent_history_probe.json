@@ -1,0 +1,76 @@
+{
+  "before_head": "afcaacb4dc50cef947fc01bc5538e9033373e03a",
+  "missing_before_files": [],
+  "changed_before_files": [
+    "AGENTS.md",
+    "catalog/core_guides_reading_map.md",
+    "catalog/package_inventory.md",
+    "catalog/records_noor_decision_matrix.json",
+    "catalog/records_noor_decision_matrix.md",
+    "catalog/unresolved_references.md",
+    "chunks/operational_guides.jsonl",
+    "chunks/program_guides.jsonl",
+    "chunks/regulatory.jsonl",
+    "chunks/templates.jsonl",
+    "guide/workflow.md",
+    "PROJECT_HANDOFF_CURRENT.md",
+    "standards/WEEKLY_PLAN_GATE.md",
+    "standards/weekly_plan_gate_assessment.schema.json",
+    "standards/weekly_plan_gate_checklist.md",
+    "standards/weekly_plan_gate_rules.yaml",
+    "tools/check_weekly_plan_gate.py",
+    "tools/check_work_register.py",
+    "tools/test_project_integrity.py",
+    "tools/test_weekly_plan_gate.py",
+    "work/register.json"
+  ],
+  "history_reports_changed": [],
+  "approved_plan_changed": [],
+  "context_decisions_changed": false,
+  "chunks": [
+    {
+      "path": "chunks/operational_guides.jsonl",
+      "before_records": 208,
+      "after_records": 208,
+      "same_text_and_ids": true
+    },
+    {
+      "path": "chunks/program_guides.jsonl",
+      "before_records": 496,
+      "after_records": 496,
+      "same_text_and_ids": true
+    },
+    {
+      "path": "chunks/regional_plans.jsonl",
+      "before_records": 0,
+      "after_records": 0,
+      "same_text_and_ids": true
+    },
+    {
+      "path": "chunks/regulatory.jsonl",
+      "before_records": 75,
+      "after_records": 75,
+      "same_text_and_ids": true
+    },
+    {
+      "path": "chunks/templates.jsonl",
+      "before_records": 71,
+      "after_records": 71,
+      "same_text_and_ids": true
+    }
+  ],
+  "source_hashes": {
+    "tools/check_weekly_plan_gate.py": "fa3cb3e87b32ba68e385f59e4d071af5cbd0cb32f26e8e22ccc772cb60ef3c60",
+    "tools/check_work_register.py": "461acc2e81d4b7eff5f8eb531492d79db4957d355bb7e4c53a90492f180d6b3e",
+    "tools/privacy_guard.py": "5a06bb3b70e13bb44d967d402c6a7a7ea023f79d17fc4b425e50f22a9d61d4b0",
+    "tools/build_delivery.py": "b3d7edef3befea73d2424e49872909af33cf5fc9f04bda16c7a8d20ac8c7c5c3",
+    "tools/check_behavior_acceptance.py": "681c229fc77ea53df20c4b4de827e30b7afc33efab73e5baac9c33dad6c41990",
+    "AGENTS.md": "e3ecc14c7564396cfb6b9c06b90bbb1ebf03268928f5a0ce8954a7066b80355d",
+    "guide/workflow.md": "4022bd13a97d1c3996a3eb7491b906a9f738441bebecaa0683f50bcccf9bed5b",
+    "standards/weekly_plan_gate_rules.yaml": "23784b0104867f0339ca568ed5dfa1d83d7fbe16b9027274c98411c4527b4816",
+    "standards/behavior_acceptance.json": "afcf73c5bbc26e789988808498a52572a25104db057f38380fa2a23d2e23f54c",
+    "work/register.json": "bf4c90392c74da34ddcc21d28f3d050205c2be3ddacb20fb2b9d56f4609250c9",
+    "reports/repair_2026-10-04/current_design_assessment.json": "f3e9772f5d65da99496e97c1aece48443300f1023a73db840864f9fdaacb74e0",
+    "reports/repair_2026-10-04/current_gate_result.json": "eace3c27400bbb279b69a758d4a13812722509db512d4877e76fe253cbfadd42"
+  }
+}

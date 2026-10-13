@@ -1,0 +1,470 @@
+{
+  "schema_version": "2.0",
+  "generated_on": "2026-10-11",
+  "scope": "Integrity inventory of approved original references and fixed operational copies; listing does not confer professional authority.",
+  "hash_algorithm": "SHA-256",
+  "file_count": 92,
+  "files": [
+    {
+      "path": "archive/original_sources/ 05دليل برنامج تعزيز برنامج المهارات النفسية والاجتماعية.pdf",
+      "size_bytes": 824477,
+      "sha256": "81b179970dea2d8465675bb3349c4f9aef6366735d6e55fc5f71d84b2f01eeab"
+    },
+    {
+      "path": "archive/original_sources/ دليل التربويين لرعاية السلوك.pdf",
+      "size_bytes": 14380117,
+      "sha256": "0191380f6ec2d7bcca3dedde4b21d25c6ddbfd016589428255f809ab40ac97db"
+    },
+    {
+      "path": "archive/original_sources/01_دليل الأسبوع التمهيدي.pdf",
+      "size_bytes": 14805810,
+      "sha256": "df65754305581e4627ed2710a05f239c6e4165ab3c66d8429652e352a82cb37a"
+    },
+    {
+      "path": "archive/original_sources/01‎⁨الإدارة العامة للتوجيه_دليل_برامج_وخدمات_التوجيه_الطلابي_الإصدار_الأول⁩01.pdf",
+      "size_bytes": 14308237,
+      "sha256": "270dd762ac6909d6cbf3f91038b388064ad6bdee681dbd7680a41414d7f6b544"
+    },
+    {
+      "path": "archive/original_sources/02دليل برنامج التوجيه المهني1445هـ.pdf",
+      "size_bytes": 2838076,
+      "sha256": "308cb35213647ff1d4468b11ed7afdfb53494e50556fe11d5d09d017130591cd"
+    },
+    {
+      "path": "archive/original_sources/03_دليل برنامج رفق لخفض العنف.pdf",
+      "size_bytes": 1375331,
+      "sha256": "9aa0cc3261a44867c2f65cb7ece42d1ca1a8060d4986c67542c6d2b36b98111c"
+    },
+    {
+      "path": "archive/original_sources/04- دليل إطار توثيق علاقة الأسرة مع المدرسة ١٤٤٦",
+      "size_bytes": 13059072,
+      "sha256": "aff214411e1abd5dd41370e4c88ef0288eccb8b971c60d69b996a700a3162c15"
+    },
+    {
+      "path": "archive/original_sources/06-دليل برنامج رعاية ودعم الفئات الخاصة من الطلبة .pdf",
+      "size_bytes": 1622438,
+      "sha256": "5da08c514a51ebdca16cb82b99ac4be703061d18d3d66e7dfc2a27143531fd9e"
+    },
+    {
+      "path": "archive/original_sources/07-دليل برنامج رعاية متكرري الغياب والتأخر.pdf",
+      "size_bytes": 3064336,
+      "sha256": "02ae161ad3d71dd3754bdb706aef51e4038cdc4941b5db03cdcc358da60e5145"
+    },
+    {
+      "path": "archive/original_sources/07_قواعد السلوك والمواظبة - الإصدار الخامس 1447هـ.pdf",
+      "size_bytes": 1735452,
+      "sha256": "2ef1ca2b7618623b555542bbe4f7175f7bfbdfd45f55b043f6d9affc854b04ef"
+    },
+    {
+      "path": "archive/original_sources/08-دليل برنامج المجلس الطلابي 1445هـ.pdf",
+      "size_bytes": 208741,
+      "sha256": "9978f84cdd358317a86f2faaf4761dba4fc3357688d9aa2c21501568da2d48d5"
+    },
+    {
+      "path": "archive/original_sources/08_الدليل الاسترشادي لأبرز الخدمات التقنية للتوجيه الطلابي في نظام نور.pdf",
+      "size_bytes": 800278,
+      "sha256": "7f77339e4d43dbadd06ebb77bf1277df6dd32ca4197725b73b2f53388e39db79"
+    },
+    {
+      "path": "archive/original_sources/09-دليل برنامج الاستخدام الآمن للإنترنت والألعاب الإلكترونية 1445.pdf",
+      "size_bytes": 3473823,
+      "sha256": "9069d092ef725028d044cf389047edeeb53a5ed32dc3cf20dacf4f29b9d580b6"
+    },
+    {
+      "path": "archive/original_sources/1-الدليل-التنظيمي_-التوجيه-الطلابي.pdf",
+      "size_bytes": 648263,
+      "sha256": "fcb09f4b8b3ab720dc68684d077ab2de340ca8cbbd2742fd132003dd112babda"
+    },
+    {
+      "path": "archive/original_sources/10-دليل لبرنامج تنمية الدافعية   1445.pdf",
+      "size_bytes": 2316652,
+      "sha256": "dd3e4abe4ba3942d6c1786e98265e6d88d63833b1b7c457c9f9300bdd9ea0a2a"
+    },
+    {
+      "path": "archive/original_sources/11_دليل التوجيه وقت الأزمات.pdf",
+      "size_bytes": 1131595,
+      "sha256": "984120dd6c1ce20ab76489de0ecbe2d7004db283bcc6f7725cb2a518b392c33f"
+    },
+    {
+      "path": "archive/original_sources/12-دليل قائمة المشكلات الطلابية 1445.pdf",
+      "size_bytes": 8869432,
+      "sha256": "5f509cfac0ceacf698e1e4e5816ccde7439b2c3beabb77edfdd6a41c3721c607"
+    },
+    {
+      "path": "archive/original_sources/13-دليل برنامج السلوك الإيجابي.pdf",
+      "size_bytes": 2960469,
+      "sha256": "be818591d3fdd614e730bf607bf47e364f32bb8c29ef1aac1277b8d1cb6f2303"
+    },
+    {
+      "path": "archive/original_sources/2-الدليل-الإجرائي-الموجه-الطلابي.pdf",
+      "size_bytes": 1271936,
+      "sha256": "0d74c788c94bee61d0608567607f0612caf9b890c8ae6bc932afe2b50df9795b"
+    },
+    {
+      "path": "archive/original_sources/إرسال بالبريد الإلكتروني خطة  الانضباط 1448 التوجيه الطلابي.pdf",
+      "size_bytes": 1133082,
+      "sha256": "731eeea4a59224edda48526e9d2ccd321b2880b723fa26f6ec04de4f20940188"
+    },
+    {
+      "path": "archive/original_sources/إرسال بالبريد الإلكتروني خطة_برامج_وخدمات_التوجيه_الطلابي_قسم_التوجيه_الطلابي_بتعليم_القصيم.pdf",
+      "size_bytes": 4293589,
+      "sha256": "79e2198db34bb4f46985fbb50d27f27d24d98be4e15ecea92b6b38ba5e6f0fb9"
+    },
+    {
+      "path": "archive/original_sources/الدليل_الاسترشادي_لأبرز_الخدمات_التقنية_للتوجيه_الطلابي_في_نظام.pdf",
+      "size_bytes": 800278,
+      "sha256": "7f77339e4d43dbadd06ebb77bf1277df6dd32ca4197725b73b2f53388e39db79"
+    },
+    {
+      "path": "archive/original_sources/سجلات_التوجيه_بالترتيب (2).zip",
+      "size_bytes": 4907406,
+      "sha256": "2bbfa2f99a7c46b5a06efc7ddd169f811edc1b8065d53215154c8572ea4ac89b"
+    },
+    {
+      "path": "archive/original_sources/مؤشرات نظام نور التوجيه الطلابي.pdf",
+      "size_bytes": 2916093,
+      "sha256": "e3f8fc61a1f368de29018f2872e9ec8f21c6e2b1930bf056de15711fbe909896"
+    },
+    {
+      "path": "archive/original_sources/مهام الموجه الطلابي حسب الدليل الإجرائي والتنظيمي .pdf",
+      "size_bytes": 5333008,
+      "sha256": "64b04ad7617b7a97452b8f595354f54b8e4d40a22678a84b675473f7ea51652b"
+    },
+    {
+      "path": "archive/original_sources/‎⁨استمارة متابعة خطة الموجه الطلابي⁩.pdf",
+      "size_bytes": 733017,
+      "sha256": "363da58bd7bbb68f24e1f0aabd96aaeb0ae50a165713b984af40d8da51c71bf5"
+    },
+    {
+      "path": "catalog/خريطة_صفحات_الموجه_الطلابي_نسخة_متحققة.md",
+      "size_bytes": 6795,
+      "sha256": "4c536221a1b74a190e0a697dfc89ec02acbb8d35330fa4ba02e6a6523b26ebdb"
+    },
+    {
+      "path": "outputs/templates/weekly_plan_template_v0.3.docx",
+      "size_bytes": 44306,
+      "sha256": "eb237d5eaf4aeb055a6f4ff4d7f849533d6a0bf4c4e9304bb0c7b47e62b63d15"
+    },
+    {
+      "path": "outputs/templates/weekly_plan_template_v0.3.pdf",
+      "size_bytes": 206892,
+      "sha256": "58d63c814b13f822abcd1209c3424f4ea01ac1136014c1d4c39ee54b16f0f252"
+    },
+    {
+      "path": "outputs/templates/weekly_plan_template_v0.4.docx",
+      "size_bytes": 40794,
+      "sha256": "2681f9c8cd756d8c62bcd3e6a78064c2a27411ddbcd373e43b91b0dbd362ca79"
+    },
+    {
+      "path": "outputs/templates/weekly_plan_template_v0.4.pdf",
+      "size_bytes": 126390,
+      "sha256": "639f16462e892de3f21b352bca7a9b9c6ba9bcb24bbbff1e4c86b28bb1974c02"
+    },
+    {
+      "path": "references/02_regulatory/behavior_and_attendance_regulations/قواعد السلوك والمواظبة الإصدار الخامس 1447.pdf",
+      "size_bytes": 1735452,
+      "sha256": "2ef1ca2b7618623b555542bbe4f7175f7bfbdfd45f55b043f6d9affc854b04ef"
+    },
+    {
+      "path": "references/02_regulatory/organizational_guides/الدليل التنظيمي - مقتطف التوجيه الطلابي 1446.pdf",
+      "size_bytes": 648263,
+      "sha256": "fcb09f4b8b3ab720dc68684d077ab2de340ca8cbbd2742fd132003dd112babda"
+    },
+    {
+      "path": "references/02_regulatory/organizational_guides/مهام الموجه الطلابي حسب الدليل الإجرائي والتنظيمي .pdf",
+      "size_bytes": 5333008,
+      "sha256": "64b04ad7617b7a97452b8f595354f54b8e4d40a22678a84b675473f7ea51652b"
+    },
+    {
+      "path": "references/02_regulatory/procedural_guides/الدليل الإجرائي - مقتطف الموجه الطلابي 1446.pdf",
+      "size_bytes": 1271936,
+      "sha256": "0d74c788c94bee61d0608567607f0612caf9b890c8ae6bc932afe2b50df9795b"
+    },
+    {
+      "path": "references/02_regulatory/procedural_guides/الدليل الإجرائي الكامل - رجب 1446.pdf",
+      "size_bytes": 12649267,
+      "sha256": "9d37a896a6336c7e5f31f74b17bf1c5ccd3c638e7bc3ee8a1f1408a9d0102e8d"
+    },
+    {
+      "path": "references/03_official_operational_guides/noor/الدليل الاسترشادي لأبرز الخدمات التقنية للتوجيه الطلابي في نظام نور.pdf",
+      "size_bytes": 800278,
+      "sha256": "7f77339e4d43dbadd06ebb77bf1277df6dd32ca4197725b73b2f53388e39db79"
+    },
+    {
+      "path": "references/03_official_operational_guides/noor/مؤشرات نظام نور التوجيه الطلابي.pdf",
+      "size_bytes": 2916093,
+      "sha256": "e3f8fc61a1f368de29018f2872e9ec8f21c6e2b1930bf056de15711fbe909896"
+    },
+    {
+      "path": "references/03_official_operational_guides/استمارة متابعة خطة الموجه الطلابي.pdf",
+      "size_bytes": 733017,
+      "sha256": "363da58bd7bbb68f24e1f0aabd96aaeb0ae50a165713b984af40d8da51c71bf5"
+    },
+    {
+      "path": "references/03_official_operational_guides/دليل التربويين لرعاية السلوك.pdf",
+      "size_bytes": 14380117,
+      "sha256": "0191380f6ec2d7bcca3dedde4b21d25c6ddbfd016589428255f809ab40ac97db"
+    },
+    {
+      "path": "references/03_official_operational_guides/دليل برامج وخدمات التوجيه الطلابي الإصدار الأول.pdf",
+      "size_bytes": 14308237,
+      "sha256": "270dd762ac6909d6cbf3f91038b388064ad6bdee681dbd7680a41414d7f6b544"
+    },
+    {
+      "path": "references/04_regional_plans/خطة برامج وخدمات التوجيه الطلابي تعليم القصيم 1448.pdf",
+      "size_bytes": 4293589,
+      "sha256": "79e2198db34bb4f46985fbb50d27f27d24d98be4e15ecea92b6b38ba5e6f0fb9"
+    },
+    {
+      "path": "references/05_program_guides/01_التهيئة_والدعم/01 دليل الأسبوع التمهيدي.pdf",
+      "size_bytes": 14805810,
+      "sha256": "df65754305581e4627ed2710a05f239c6e4165ab3c66d8429652e352a82cb37a"
+    },
+    {
+      "path": "references/05_program_guides/01_التهيئة_والدعم/04 دليل إطار توثيق علاقة الأسرة مع المدرسة 1446.pdf",
+      "size_bytes": 13059072,
+      "sha256": "aff214411e1abd5dd41370e4c88ef0288eccb8b971c60d69b996a700a3162c15"
+    },
+    {
+      "path": "references/05_program_guides/01_التهيئة_والدعم/11 دليل التوجيه وقت الأزمات.pdf",
+      "size_bytes": 1131595,
+      "sha256": "984120dd6c1ce20ab76489de0ecbe2d7004db283bcc6f7725cb2a518b392c33f"
+    },
+    {
+      "path": "references/05_program_guides/02_الوقاية_والانضباط/03 دليل برنامج رفق لخفض العنف.pdf",
+      "size_bytes": 1375331,
+      "sha256": "9aa0cc3261a44867c2f65cb7ece42d1ca1a8060d4986c67542c6d2b36b98111c"
+    },
+    {
+      "path": "references/05_program_guides/02_الوقاية_والانضباط/09 دليل برنامج الاستخدام الآمن للإنترنت والألعاب الإلكترونية 1445.pdf",
+      "size_bytes": 3473823,
+      "sha256": "9069d092ef725028d044cf389047edeeb53a5ed32dc3cf20dacf4f29b9d580b6"
+    },
+    {
+      "path": "references/05_program_guides/02_الوقاية_والانضباط/13 دليل برنامج السلوك الإيجابي.pdf",
+      "size_bytes": 2960469,
+      "sha256": "be818591d3fdd614e730bf607bf47e364f32bb8c29ef1aac1277b8d1cb6f2303"
+    },
+    {
+      "path": "references/05_program_guides/02_الوقاية_والانضباط/خطة الانضباط 1448 التوجيه الطلابي.pdf",
+      "size_bytes": 1133082,
+      "sha256": "731eeea4a59224edda48526e9d2ccd321b2880b723fa26f6ec04de4f20940188"
+    },
+    {
+      "path": "references/05_program_guides/03_النمو_والمستقبل/02 دليل برنامج التوجيه المهني 1445.pdf",
+      "size_bytes": 2838076,
+      "sha256": "308cb35213647ff1d4468b11ed7afdfb53494e50556fe11d5d09d017130591cd"
+    },
+    {
+      "path": "references/05_program_guides/03_النمو_والمستقبل/06 دليل برنامج رعاية ودعم الفئات الخاصة من الطلبة.pdf",
+      "size_bytes": 1622438,
+      "sha256": "5da08c514a51ebdca16cb82b99ac4be703061d18d3d66e7dfc2a27143531fd9e"
+    },
+    {
+      "path": "references/05_program_guides/03_النمو_والمستقبل/08 دليل برنامج المجلس الطلابي 1445.pdf",
+      "size_bytes": 208741,
+      "sha256": "9978f84cdd358317a86f2faaf4761dba4fc3357688d9aa2c21501568da2d48d5"
+    },
+    {
+      "path": "references/05_program_guides/03_النمو_والمستقبل/10 دليل برنامج تنمية الدافعية 1445.pdf",
+      "size_bytes": 2316652,
+      "sha256": "dd3e4abe4ba3942d6c1786e98265e6d88d63833b1b7c457c9f9300bdd9ea0a2a"
+    },
+    {
+      "path": "references/05_program_guides/04_برامج_توعوية_وتطويرية_للموجه/05 دليل برنامج المهارات النفسية والاجتماعية.pdf",
+      "size_bytes": 824477,
+      "sha256": "81b179970dea2d8465675bb3349c4f9aef6366735d6e55fc5f71d84b2f01eeab"
+    },
+    {
+      "path": "references/05_program_guides/04_برامج_توعوية_وتطويرية_للموجه/07 دليل برنامج رعاية متكرري الغياب والتأخر.pdf",
+      "size_bytes": 3064336,
+      "sha256": "02ae161ad3d71dd3754bdb706aef51e4038cdc4941b5db03cdcc358da60e5145"
+    },
+    {
+      "path": "references/05_program_guides/04_برامج_توعوية_وتطويرية_للموجه/12 دليل قائمة المشكلات الطلابية 1445.pdf",
+      "size_bytes": 8869432,
+      "sha256": "5f509cfac0ceacf698e1e4e5816ccde7439b2c3beabb77edfdd6a41c3721c607"
+    },
+    {
+      "path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/01_سجل التوجيه الطلابي/التوجيه الجمعي ـ.docx",
+      "size_bytes": 46459,
+      "sha256": "c14bf515cdab3f5ad6cd7b7b7e3a9d18e7f384e61c401dca32fb61cb03e8cd5f"
+    },
+    {
+      "path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/01_سجل التوجيه الطلابي/التوجيه الفردي نموذج ثاني.doc",
+      "size_bytes": 380416,
+      "sha256": "4e8e3bd82dac4352b34e57d96f8d944705fdca04ab3c0e2da3282a46ca8d4590"
+    },
+    {
+      "path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/01_سجل التوجيه الطلابي/التوجيه الفردي.doc",
+      "size_bytes": 281088,
+      "sha256": "90bdfb37435f2f6265bb669c3ff86b5152ed3f376abbad493d0248ae3e7b4f16"
+    },
+    {
+      "path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/01_سجل التوجيه الطلابي/بطاقة الطالب.docx",
+      "size_bytes": 55490,
+      "sha256": "7183a2459050e272f85529df62641c23631ef0d4679182077eb12c01c6cf195b"
+    },
+    {
+      "path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/01_سجل التوجيه الطلابي/بطــاقة متـــابعة التأخر الصباحي.docx",
+      "size_bytes": 59936,
+      "sha256": "d822ab8b6966ea0fe27c805b6beee6d525cd3957a4528a06d1607c38b298b2a2"
+    },
+    {
+      "path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/01_سجل التوجيه الطلابي/بطــاقة متـــابعة الطلبة المعيدين.docx",
+      "size_bytes": 53126,
+      "sha256": "fbe3134765626703024d2301bc266e40c9ba05a83199ed079a396f016b952f26"
+    },
+    {
+      "path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/01_سجل التوجيه الطلابي/بطــاقة متـــابعة متكرري الغياب.docx",
+      "size_bytes": 58857,
+      "sha256": "35b308c4be28cf07d61ea287caf4cbc1e1de4fbe263292a41ab7f95d5ce1e4a2"
+    },
+    {
+      "path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/01_سجل التوجيه الطلابي/سجل المواقف اليومية الطارئة.docx",
+      "size_bytes": 39986,
+      "sha256": "58a0c9616868a802045c88d79f311b2dd004a857d742e759e70fea1aac2d50c0"
+    },
+    {
+      "path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/01_سجل التوجيه الطلابي/عقد سلوكي بين الطلبة والتوجيه الطلابي.doc",
+      "size_bytes": 308736,
+      "sha256": "da7c45788165f72879497441b7721a364246b1524d2802e00634db14af7d8a89"
+    },
+    {
+      "path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/01_سجل التوجيه الطلابي/كشف بالحالات الاجتماعية للطلبة في المدرسة.docx",
+      "size_bytes": 337846,
+      "sha256": "e85a6a25b2166b03a1e1bf83476f9cf2bee9ac7b9310d21c1bd17b7d2fa81112"
+    },
+    {
+      "path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/01_سجل التوجيه الطلابي/كشف بالحالات المرضية للطلبة في المدرسة.docx",
+      "size_bytes": 182583,
+      "sha256": "348522ba6e6579c5e5f7714d06f4525fd1c8aaa5259515e8f6a73dc0c1b7959d"
+    },
+    {
+      "path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/01_سجل التوجيه الطلابي/كشف بالحالات المستحقة للإعانات والمكافأة في المدرسة.docx",
+      "size_bytes": 332530,
+      "sha256": "a871c08e30c8af3eea319ef03967fb2af732fadca24705979fbea02c16d16829"
+    },
+    {
+      "path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/01_سجل التوجيه الطلابي/متابعة الطلبة المتاخرين دراسياً.docx",
+      "size_bytes": 51771,
+      "sha256": "11acccec7a1e697342d666d9cf4b5313d5d90e9e4216d0637c796d6231b9add7"
+    },
+    {
+      "path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/01_سجل التوجيه الطلابي/متـــابعة الطلبة المتفوقين دراسياً.docx",
+      "size_bytes": 53391,
+      "sha256": "190b823bdcbe74bbf5c6959cf549fd72f7530b3ffecaea14657e1c3850ca0ff7"
+    },
+    {
+      "path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/02_سجل البرامج والخدمات/التقرير الفصلي للتوجيه الطلابي.docx",
+      "size_bytes": 45050,
+      "sha256": "b1711e335658f6359374ad28dda34b291849d28d6ac9b79437d6b545fd47685e"
+    },
+    {
+      "path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/02_سجل البرامج والخدمات/تقرير توثيق برنامج.docx",
+      "size_bytes": 179527,
+      "sha256": "6c547f6f5af59e262f23a9a49b00a951480bba20bcadb5ac86a0b1f6d225249d"
+    },
+    {
+      "path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/02_سجل البرامج والخدمات/جدول العمل الأسبوعي لأعمال التوجيه الطلابي.docx",
+      "size_bytes": 33562,
+      "sha256": "5b562b3404ae70e9eca59ec79ed0a540181bf862fb7c4887b383fad88debd442"
+    },
+    {
+      "path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/02_سجل البرامج والخدمات/حصر البرامج الارشادية المقدمة للطلبة.docx",
+      "size_bytes": 30388,
+      "sha256": "94adbd8dff348be313e20df6cef0a744233980aa84642f3557eca259ac325987"
+    },
+    {
+      "path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/02_سجل البرامج والخدمات/فهرس الإذاعة الإرشادية.docx",
+      "size_bytes": 34550,
+      "sha256": "9ca212d5820eac1109c1a43c4ace5d3a3d2e960e788f88ddb7073d9ead7f73f6"
+    },
+    {
+      "path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/04_سجل تعزيز السلوك الإيجابي/السلوك الايجابي.docx",
+      "size_bytes": 278610,
+      "sha256": "0a7ee89335f1ed8030292013a66149709325b00576bf8af2d148cc8f4c73516c"
+    },
+    {
+      "path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/04_سجل تعزيز السلوك الإيجابي/دليل برنامج تعزيز السلوك الإيجابي.pdf",
+      "size_bytes": 2960469,
+      "sha256": "be818591d3fdd614e730bf607bf47e364f32bb8c29ef1aac1277b8d1cb6f2303"
+    },
+    {
+      "path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/05_سجل دراسة الحالة/استمارة الملاحظة.docx",
+      "size_bytes": 55500,
+      "sha256": "3ae1d72547918bc5cc675fc3bffddcef1d3a2570fa52a751630d41d047a3fa64"
+    },
+    {
+      "path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/05_سجل دراسة الحالة/فهرس الحالات وتصنيفها.docx",
+      "size_bytes": 34652,
+      "sha256": "957d5f6b5b1ee12923a7eba902a6fda28321bbe4ba06314cd16a0e6486f249ef"
+    },
+    {
+      "path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/05_سجل دراسة الحالة/مفابلة إرشادية.docx",
+      "size_bytes": 36831,
+      "sha256": "52d78ed541e539e81dd09cfb38e67ef9a1ae9fa69eb706593f04f3ed89345060"
+    },
+    {
+      "path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/05_سجل دراسة الحالة/نموذج دراسة حالة.docx",
+      "size_bytes": 62450,
+      "sha256": "eab503e615215d2afc833dbee409b1539c576556335f166e60357618a2e2f5fc"
+    },
+    {
+      "path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/06_سجل الاجتماعات والمجالس/المجلس الطلابي.docx",
+      "size_bytes": 185633,
+      "sha256": "f01fb2636e86bc0c9cfbb40d9a6d196b31c22fa52cf894292a8cd2fc5b461d96"
+    },
+    {
+      "path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/06_سجل الاجتماعات والمجالس/فهرس روابط استطلاع الرأي والاستبانات.docx",
+      "size_bytes": 33592,
+      "sha256": "d2a856232833c919c2070cf73d040556a44afcbd8abe76faafa67188ae32e646"
+    },
+    {
+      "path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/06_سجل الاجتماعات والمجالس/لجنة التحصيل الدراسي.docx",
+      "size_bytes": 96236,
+      "sha256": "18e25d0b1fbe54526f0f81e5f99ebfb9ef91bd407994bbdca5556a8b44a1e950"
+    },
+    {
+      "path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/06_سجل الاجتماعات والمجالس/لجنة التوجيه الطلابي.docx",
+      "size_bytes": 108435,
+      "sha256": "7682bfdb627bf11eb946747c8fe3a5a290d8df87026029ed6a7e26efbc36adad"
+    },
+    {
+      "path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/06_سجل الاجتماعات والمجالس/مجالس أولياء الأمور.docx",
+      "size_bytes": 49048,
+      "sha256": "0f393beefd8297fd9a8dfd6b637921ad017b534b28a337b86fa2fbcf444117f5"
+    },
+    {
+      "path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/06_سجل الاجتماعات والمجالس/نموذج مقابلة ولية الأمر.docx",
+      "size_bytes": 211561,
+      "sha256": "e450fbacf74f1dac078eb365133b2e578dfff7b5d844b422d464c93a5c178358"
+    },
+    {
+      "path": "catalog/reference_matrix.json",
+      "size_bytes": 8163,
+      "sha256": "6413c94beb994217a3fa255889e39022ef21c6eac450850e12624b650b9287f3"
+    },
+    {
+      "path": "references/02_regulatory/organizational_guides/الدليل التنظيمي الكامل - 1446.pdf",
+      "size_bytes": 1268598,
+      "sha256": "1732c4c7f052bdb2a26702290b447e7acb12448dcb0469864a4eaff586e5ab8b"
+    },
+    {
+      "path": "catalog/source_registry.json",
+      "size_bytes": 53805,
+      "sha256": "7c32a1d40de0a88668e1be21c545a3a031d7267e346900497a99fbb5997ad530"
+    },
+    {
+      "path": "catalog/program_source_rules.md",
+      "size_bytes": 8787,
+      "sha256": "b37c74a59a51c2c6a9bcdff319f81f96518fa2087b3430a08495e402f522010f"
+    },
+    {
+      "path": "references/02_regulatory/procedural_guides/derived/كل_ما_يخص_الموجه_الطلابي_في_الدليل_الإجرائي_نسخة_متحققة.md",
+      "size_bytes": 28732,
+      "sha256": "c542b16117507b4abc25519d23fc5fffd6635894600db468384189cfc8d5ff03"
+    }
+  ],
+  "update_scope": "DEC-025: add full organizational original; update source routing, registry, scoped procedural derivative and program source rules. Other retained entries are not newly reverified."
+}

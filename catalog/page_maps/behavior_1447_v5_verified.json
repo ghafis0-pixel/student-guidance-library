@@ -1,0 +1,9 @@
+{
+  "source_id": "REF-BEHAVIOR-1447-V5",
+  "source_sha256": "2ef1ca2b7618623b555542bbe4f7175f7bfbdfd45f55b043f6d9affc854b04ef",
+  "mapping": {"50": 49, "51": 50},
+  "reviewed_by": "Codex root - rendered original pages visually inspected",
+  "reviewed_at": "2026-10-04",
+  "review_time_precision": "date_only; exact inspection time not recorded",
+  "scope": "Only printed pages 50 and 51, Articles 33 and 34. Values are physical one-based PDF ordinals. No offset extrapolation to other pages."
+}

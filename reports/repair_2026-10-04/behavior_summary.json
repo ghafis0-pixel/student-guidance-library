@@ -1,0 +1,26 @@
+{
+  "rounds": {
+    "historical": {
+      "status": "FAIL",
+      "critical_complete": false,
+      "pass": 9,
+      "fail": 8,
+      "not_run": 0
+    },
+    "current": {
+      "status": "FAIL",
+      "critical_complete": false,
+      "pass": 15,
+      "fail": 2,
+      "not_run": 0
+    }
+  },
+  "completed_conversations": 34,
+  "fresh_samples_per_round": 7,
+  "candidate_only": true,
+  "limits": [
+    "Current round uses supplied current content; cold retrieval naturalness remains unconfirmed.",
+    "Dispatch plaintext is encrypted in local logs; exact input independent verification unavailable.",
+    "Two initial usage-limit attempts emitted no answer and are NOT_RUN, never PASS."
+  ]
+}

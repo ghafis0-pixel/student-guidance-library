@@ -1,0 +1,10 @@
+# Generated operating data and private working files
+*.tmp
+~$*
+tmp/
+.DS_Store
+Thumbs.db
+private/
+sensitive/
+student-data/
+__pycache__/

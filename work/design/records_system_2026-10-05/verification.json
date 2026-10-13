@@ -1,0 +1,321 @@
+{
+  "date": "2026-10-05",
+  "artifact_status": "preliminary_analysis_complete_with_open_verification_questions",
+  "design_finalized": false,
+  "operational_records_approved": false,
+  "checks": {
+    "approved_start_full_text": "MATCH",
+    "user_approval_quote_full_text": "MATCH",
+    "decision_append_only": true,
+    "earlier_decision_bytes": "UNCHANGED",
+    "functions": 28,
+    "organizational_tasks_mapped": "28/28",
+    "scenario_walkthroughs": 15,
+    "existing_records_compared": 31,
+    "markdown_json_consistency": "MATCH",
+    "work_register_hash": "UNCHANGED",
+    "other_snapshotted_inputs": "UNCHANGED",
+    "local_links": "PASS",
+    "reader_review": "PASS_readability_only",
+    "git_diff_check_context_decisions": "PASS"
+  },
+  "source_checks": [
+    {
+      "id": "REF-ORGANIZATIONAL-1446",
+      "sha256": "fcb09f4b8b3ab720dc68684d077ab2de340ca8cbbd2742fd132003dd112babda",
+      "status": "MATCH",
+      "visually_read_pdf_pages": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "REF-PROCEDURAL-FULL-1446",
+      "sha256": "9d37a896a6336c7e5f31f74b17bf1c5ccd3c638e7bc3ee8a1f1408a9d0102e8d",
+      "status": "MATCH",
+      "visually_read_pdf_pages": [
+        141,
+        142,
+        147,
+        148,
+        184,
+        185,
+        194,
+        195,
+        225,
+        226,
+        299,
+        300,
+        311,
+        312
+      ]
+    },
+    {
+      "id": "REF-NOOR-TECH",
+      "sha256": "7f77339e4d43dbadd06ebb77bf1277df6dd32ca4197725b73b2f53388e39db79",
+      "status": "MATCH",
+      "visually_read_pdf_pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "id": "REF-NOOR-INDICATORS",
+      "sha256": "e3f8fc61a1f368de29018f2872e9ec8f21c6e2b1930bf056de15711fbe909896",
+      "status": "MATCH",
+      "visually_read_pdf_pages": [
+        14,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ]
+    },
+    {
+      "id": "REF-FOLLOWUP-FORM",
+      "sha256": "363da58bd7bbb68f24e1f0aabd96aaeb0ae50a165713b984af40d8da51c71bf5",
+      "status": "MATCH",
+      "visually_read_pdf_pages": [
+        2,
+        3,
+        8
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "00_approved_start.md",
+      "sha256": "11e010fd2a93d9d3a9399745c0a8af9ba7a59bd12e4f065f62478fcb871afccb",
+      "readable": true,
+      "privacy_guard": "PASS_WITH_LIMITS"
+    },
+    {
+      "path": "01_functions_noor_gaps.json",
+      "sha256": "47b0e795c9e790b7780d81d753d1ac635fae48d236972dab24af455cc3fc5958",
+      "readable": true,
+      "privacy_guard": "PASS_WITH_LIMITS"
+    },
+    {
+      "path": "01_functions_noor_gaps.md",
+      "sha256": "436760da481a555821b7c80b48f7ad97dbcfde47a8ec122a8a80e519eb8b1d5b",
+      "readable": true,
+      "privacy_guard": "PASS_WITH_LIMITS"
+    },
+    {
+      "path": "02_candidates_relationships_minimization.md",
+      "sha256": "2b3b07bda622c9eef6f499b0e12a1f338faf730984ce0d18908b827d9d49b1b9",
+      "readable": true,
+      "privacy_guard": "PASS_WITH_LIMITS"
+    },
+    {
+      "path": "03_scenarios_red_team.json",
+      "sha256": "c44a046b256b2f76941f5dac949c082153b3277a7572630172bb36c5195e2091",
+      "readable": true,
+      "privacy_guard": "PASS_WITH_LIMITS"
+    },
+    {
+      "path": "03_scenarios_red_team.md",
+      "sha256": "5625e3eacb129fad4960348fea302dd619d900a413e9e89ec3cee4b1b93e6ca4",
+      "readable": true,
+      "privacy_guard": "PASS_WITH_LIMITS"
+    },
+    {
+      "path": "04_existing_records_comparison.md",
+      "sha256": "31b95a7d8510a6ee8cf8e5cd2abd1728eb67cac88959093ca92f0669fe0f2e3b",
+      "readable": true,
+      "privacy_guard": "PASS_WITH_LIMITS"
+    },
+    {
+      "path": "05_reader_review.md",
+      "sha256": "367953bef5263967bb5d70d27b45d5e4510f2e7183ffadaac9fec7c74239e236",
+      "readable": true,
+      "privacy_guard": "PASS_WITH_LIMITS"
+    },
+    {
+      "path": "before/decisions.md",
+      "sha256": "39e7a694cf46fa37d79d958e65651ea30cd0b789197633a47e4ce33770168daf",
+      "readable": true,
+      "privacy_guard": "PASS_WITH_LIMITS"
+    },
+    {
+      "path": "inputs_snapshot.json",
+      "sha256": "acccf9d20b5bebd982b7da7774ca9233b92179a822fb0a2d8894616d87ed8014",
+      "readable": true,
+      "privacy_guard": "PASS_WITH_LIMITS"
+    },
+    {
+      "path": "README.md",
+      "sha256": "1f23cce5f1709c9a491009e6ba2b5a05dfb791182c92fe638b3b33e48c0eba1a",
+      "readable": true,
+      "privacy_guard": "PASS_WITH_LIMITS"
+    }
+  ],
+  "privacy_limits": "الفاحص مساعد مراجعة وليس ضمانًا لاكتشاف كل هوية؛ الحزمة وصف بنيوي وأمثلة تركيبية دون تفاصيل طلاب حقيقية.",
+  "not_run": [
+    "live_noor_session",
+    "real_student_record_save",
+    "software_or_database_implementation",
+    "program_execution",
+    "measured_counselor_time_savings"
+  ],
+  "open_questions": [
+    "Q01",
+    "Q02",
+    "Q03",
+    "Q04",
+    "Q05",
+    "Q06",
+    "Q07",
+    "Q08"
+  ],
+  "changed_existing_files": [
+    "context/decisions.md"
+  ],
+  "historical_scope_note": "الحقول الأصلية والبصمات أعلاه تخص جولة 2026-10-05؛ لا تثبت فحص التعديل الحالي. نتيجة 2026-10-08 في compatibility_review_2026_10_08 فقط.",
+  "compatibility_review_2026_10_08": {
+    "authorization": "اعتماد المستخدم Compatibility Review وطلب أقل تعديل محلي واستكمال التحقق المؤثر فقط",
+    "scope": "local_analysis_design_only",
+    "design_ready_for_final_decision": false,
+    "new_records_approved": false,
+    "principle": "existing_tools_first_proven_gap_only",
+    "modified_files": [
+      "01_functions_noor_gaps.json",
+      "01_functions_noor_gaps.md",
+      "02_candidates_relationships_minimization.md",
+      "04_existing_records_comparison.md",
+      "README.md",
+      "verification.json"
+    ],
+    "checks": {
+      "outside_design_bytes": "UNCHANGED",
+      "function_map_and_31_comparison_rows": "UNCHANGED",
+      "historical_noor_observations_and_scenarios": "UNCHANGED",
+      "existing_json_content": "PRESERVED",
+      "json_parse": "PASS",
+      "local_file_links": "PASS",
+      "privacy_scan_changed_content": "PASS_WITH_LIMITS"
+    },
+    "current_file_hashes": {
+      "01_functions_noor_gaps.json": "66cb7f890f3c094f28da1d3f034bc2d9bc577ac27f1c6addbeb65ab3724a2c5d",
+      "01_functions_noor_gaps.md": "38e8056b36d6a794aff019c3e83088d14adfa27c156273c597806dde9de45f3b",
+      "02_candidates_relationships_minimization.md": "564089abe0a11b8a17a265f48f4d061d19a2fde368e44ded00ae9e639e1057aa",
+      "04_existing_records_comparison.md": "3d49fa9cb34b0ae2e38cf79297d4d7ddfaf00ac020243865ee6828bdd53d2e8c",
+      "README.md": "c7ffd17354d64f00d1cebe4a9f3414086195f0e696126d3467afd66ee9e4e705"
+    },
+    "source_pages_visually_read": {
+      "REF-FOLLOWUP-FORM": [
+        2,
+        3,
+        8
+      ],
+      "REF-NOOR-TECH": [
+        6,
+        7
+      ],
+      "REF-NOOR-INDICATORS": [
+        20
+      ]
+    },
+    "q08_resolved": "موطن تدوين المواقف اليومية نور صراحة؛ لا يبرر المتطلب وحده دفترًا موازيًا؛ لا إلغاء لقرار قائم",
+    "decisive_remaining_question": "إيفاء متابعة المعيدين والمتأخرين وحصر الفئات الخاصة واستمارة الرعاية الفردية من نور والأصول القائمة وإمكان استرجاع كل مطلب؛ وإلا تحديد النقص فقط",
+    "conditional_not_global_blockers": [
+      "Q01",
+      "Q02",
+      "Q03",
+      "Q04",
+      "Q05",
+      "Q06",
+      "Q07"
+    ],
+    "live_noor": "BLOCKED_BROWSER_REQUEST_HEADER_POLICY_RETRY_FAILED; no new live verification",
+    "not_performed": [
+      "record_creation",
+      "operational_decision_change",
+      "official_source_change",
+      "database_creation",
+      "live_noor_write",
+      "independent_reader_review"
+    ],
+    "rollback_snapshot": "C:\\Users\\CSS\\AppData\\Local\\Temp\\records-review-36dbqkjc\\before"
+  },
+  "final_design_2026_10_08": {
+    "status": "approved_design_and_empty_private_home_prepared",
+    "q08": "closed_at_design_home_allocation_only",
+    "affected_requirements": [
+      "repeaters_and_academic_delay_followup",
+      "special_categories_roster",
+      "individual_care_form_when_needed"
+    ],
+    "homes": [
+      "noor",
+      "one_restricted_local_file_outside_git",
+      "independent_required_original"
+    ],
+    "source_boundary": "user_report_plus_official_form_pages_2_3_8_and_prior_noor_evidence; no fresh live Noor check",
+    "direct_save": "approved_explicit_local_capture_only_DEC-020",
+    "modified_files": [
+      "01_functions_noor_gaps.json",
+      "01_functions_noor_gaps.md",
+      "02_candidates_relationships_minimization.md",
+      "04_existing_records_comparison.md",
+      "07_minimal_final_design_2026-10-08.md",
+      "README.md",
+      "verification.json"
+    ],
+    "checks": {
+      "prior_function_json": "PRESERVED",
+      "function_and_comparison_rows": "PRESERVED",
+      "prior_live_noor_observations": "PRESERVED",
+      "historical_scenarios": "PRESERVED",
+      "json_parse": "PASS",
+      "links": "PASS",
+      "privacy_scan": "PASS_WITH_LIMITS"
+    },
+    "current_file_hashes": {
+      "01_functions_noor_gaps.json": "6eec3e407780d249bc6d50a829f530c278c73de687199c69e8e830bf1bf16d08",
+      "01_functions_noor_gaps.md": "81a7d50909c2f0e191cfdf48dcdaa6b75754e4fcaa687a631c3eab0d71712d56",
+      "02_candidates_relationships_minimization.md": "992a0972f4997e7557be1830b4567c797f5b954f6a59a1cac73823f5324633a7",
+      "04_existing_records_comparison.md": "9cf230d51f77a8f70874fa5c7bd73d1b553a4c7a7a262d3961e56acc15dca5be",
+      "07_minimal_final_design_2026-10-08.md": "8ac6b1ca028b5697936f81e60b42054df183039e21509fd21f728f41ca556756",
+      "README.md": "89851c290147a7ad0456833312a276290960d05b549323d00d8c12b815bcd3ee"
+    },
+    "no_real_student_data": true,
+    "no_private_file_created": true,
+    "no_operational_decision_changed": true,
+    "no_independent_reader_test": "NOT_RUN"
+  },
+  "implementation_2026_10_08": {
+    "approval": "user_explicit_design_Q08_direct_local_capture_and_empty_private_home",
+    "decisions": [
+      "DEC-019",
+      "DEC-020"
+    ],
+    "private_home": "sibling_student-guidance-private/work.json",
+    "private_home_checks": {
+      "outside_project_and_git": true,
+      "empty_entries": true,
+      "directory_acl_inheritance_disabled": true,
+      "directory_acl_only_user_system_admins": true,
+      "no_nonadministrative_smb_share": true,
+      "not_under_detected_onedrive_root": true,
+      "no_reparse_in_checked_ancestors": true
+    },
+    "operational_limits": [
+      "no_student_data_entered",
+      "no_noor_save",
+      "no_case_opened",
+      "no_official_origins_copied"
+    ],
+    "source_checks": "design_home_allocation_only_no_new_noor_live_check"
+  }
+}

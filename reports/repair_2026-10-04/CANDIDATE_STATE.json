@@ -1,0 +1,406 @@
+{
+  "schema_version": "1.0",
+  "status": "CANDIDATE",
+  "baseline_complete": false,
+  "recorded_at": "2026-10-04T18:11:24.389861+00:00",
+  "root": "C:\\Users\\CSS\\Documents\\Codex\\2026-09-27\\new-chat\\student-guidance-library",
+  "head": "afcaacb4dc50cef947fc01bc5538e9033373e03a",
+  "branch": "main",
+  "authorization_reference": "user_input:2026-10-04-authorized-project-repairs",
+  "technical_verification": {
+    "status": "PASS",
+    "test_methods": 136,
+    "evidence": "reports/repair_2026-10-04/verification_after.json"
+  },
+  "behavior_verification": {
+    "rounds": {
+      "historical": {
+        "status": "FAIL",
+        "critical_complete": false,
+        "pass": 9,
+        "fail": 8,
+        "not_run": 0
+      },
+      "current": {
+        "status": "FAIL",
+        "critical_complete": false,
+        "pass": 15,
+        "fail": 2,
+        "not_run": 0
+      }
+    },
+    "completed_conversations": 34,
+    "fresh_samples_per_round": 7,
+    "candidate_only": true,
+    "limits": [
+      "Current round uses supplied current content; cold retrieval naturalness remains unconfirmed.",
+      "Dispatch plaintext is encrypted in local logs; exact input independent verification unavailable.",
+      "Two initial usage-limit attempts emitted no answer and are NOT_RUN, never PASS."
+    ]
+  },
+  "blocking_reasons": [
+    "Current behavior B04 and B12 fail explicit criteria.",
+    "Cold file retrieval answer flow not accepted; host introductions remain.",
+    "Exact dispatched plaintext unavailable in encrypted local logs."
+  ],
+  "rollback": {
+    "path": "C:\\Users\\CSS\\Documents\\Codex\\2026-09-27\\new-chat\\work\\repair-2026-10-04\\rollback_full_local.zip",
+    "sha256": "9003c6486817a67db07e4a301caa93d9080e9c7d693315b8480c5c81d24617c7",
+    "files": 346
+  },
+  "fingerprint_scope": "Repair files and affecting Gate/behavior inputs; unchanged original assets are hashed where used but are not duplicated in delta archive. Own candidate/scope metadata excluded to avoid circular hashing.",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "e3ecc14c7564396cfb6b9c06b90bbb1ebf03268928f5a0ce8954a7066b80355d"
+    },
+    {
+      "path": "PROJECT_HANDOFF_CURRENT.md",
+      "sha256": "d43c5a866f669f395c00d532be0ebdb2b13c4902fc8e76c556a7be1af40c8b57"
+    },
+    {
+      "path": "catalog/core_guides_reading_map.md",
+      "sha256": "72c9e84654c448f270a366622dd93f7518e15bfb9ab78ec9420e89aed586af62"
+    },
+    {
+      "path": "catalog/manifest.json",
+      "sha256": "230cc93444c5dddeb5cb9c6d21839c332747936fa7b8f8ed4f4476bd8e1da594"
+    },
+    {
+      "path": "catalog/package_inventory.md",
+      "sha256": "56e1c44167f03b9f693aa2f261943405bf98dc37f8def1b80a2349b54a063940"
+    },
+    {
+      "path": "catalog/page_maps/behavior_1447_v5_verified.json",
+      "sha256": "696ce242d9d2fa79901451cfd529f21caefaac67e3162e362b2effef14815cbc"
+    },
+    {
+      "path": "catalog/records_noor_decision_matrix.json",
+      "sha256": "71e78dd8c589e7398e981ba15388129d86b0e5248483946dd1f4b756e35d5c3e"
+    },
+    {
+      "path": "catalog/records_noor_decision_matrix.md",
+      "sha256": "b3b10c6e1753db88404d99a5b74fe07b63d498b7556c7fd52d53440a2437f92e"
+    },
+    {
+      "path": "catalog/reference_matrix.json",
+      "sha256": "d2dcb3c01c92432115b812ac560011ba39619771bb85797943ef150416621f67"
+    },
+    {
+      "path": "catalog/source_registry.json",
+      "sha256": "958222b8be4b4054f80f012386716765012ed791d836e1cd6deaf635f59bea40"
+    },
+    {
+      "path": "catalog/unresolved_references.md",
+      "sha256": "81324b775effd15f2178e61c15672a361ae5905d09a92055af2fc9b4cdc34a5b"
+    },
+    {
+      "path": "chunks/operational_guides.jsonl",
+      "sha256": "ba5cd4720da753a97a3475745f8512ac807f7ca6ebae6361313009e312c0fe5c"
+    },
+    {
+      "path": "chunks/program_guides.jsonl",
+      "sha256": "b016aafac57ff57635f264187a2b51f29553dd12c13f3095b833fc099061eb0b"
+    },
+    {
+      "path": "chunks/regulatory.jsonl",
+      "sha256": "3a19ba19b116ff8b52331552f7eef11470101ae24141045dc66748624c045fa1"
+    },
+    {
+      "path": "chunks/templates.jsonl",
+      "sha256": "75d073fc60bd951ce26bb7c3904a29258e9775b6a7210a3310c9a0a02dc02909"
+    },
+    {
+      "path": "context/current.json",
+      "sha256": "bd37699b4c4da7c924931e431265025bf095db810f0fd8030ddff7c1127c6fa0"
+    },
+    {
+      "path": "context/decisions.md",
+      "sha256": "39e7a694cf46fa37d79d958e65651ea30cd0b789197633a47e4ce33770168daf"
+    },
+    {
+      "path": "guide/workflow.md",
+      "sha256": "4022bd13a97d1c3996a3eb7491b906a9f738441bebecaa0683f50bcccf9bed5b"
+    },
+    {
+      "path": "outputs/weekly_plans/2026-10-04_to_2026-10-08/weekly_plan_2026-10-04_adhd.docx",
+      "sha256": "3cb29234e362218cb547865cdce856211873ae909d084859a48e2e8070f8c0d0"
+    },
+    {
+      "path": "references/02_regulatory/behavior_and_attendance_regulations/قواعد السلوك والمواظبة الإصدار الخامس 1447.pdf",
+      "sha256": "2ef1ca2b7618623b555542bbe4f7175f7bfbdfd45f55b043f6d9affc854b04ef"
+    },
+    {
+      "path": "references/02_regulatory/organizational_guides/الدليل التنظيمي - مقتطف التوجيه الطلابي 1446.pdf",
+      "sha256": "fcb09f4b8b3ab720dc68684d077ab2de340ca8cbbd2742fd132003dd112babda"
+    },
+    {
+      "path": "references/02_regulatory/procedural_guides/الدليل الإجرائي الكامل - رجب 1446.pdf",
+      "sha256": "9d37a896a6336c7e5f31f74b17bf1c5ccd3c638e7bc3ee8a1f1408a9d0102e8d"
+    },
+    {
+      "path": "references/03_official_operational_guides/noor/مرجع_نظام_نور_للتوجيه_الطلابي.md",
+      "sha256": "870d1b98fb205746dc9a4bad36531a6eb25fa09fccdcb7e35f9e3b763dd0f5fc"
+    },
+    {
+      "path": "references/04_regional_plans/خطة برامج وخدمات التوجيه الطلابي تعليم القصيم 1448.pdf",
+      "sha256": "79e2198db34bb4f46985fbb50d27f27d24d98be4e15ecea92b6b38ba5e6f0fb9"
+    },
+    {
+      "path": "reports/repair_2026-10-04/behavior_summary.json",
+      "sha256": "9cc9e19addafe2c8de6221518364a484ad4c2b471ab67115a1f2736083fdf97e"
+    },
+    {
+      "path": "reports/repair_2026-10-04/changed_files.json",
+      "sha256": "9f523faeb6e06095e17fb8f33fdd4173c897c649850eec75501891a27ab740da"
+    },
+    {
+      "path": "reports/repair_2026-10-04/current_behavior_project.json",
+      "sha256": "3daff27c715b91a22b6082d849117d46a93e58762a8adf1b037dc3c53f992200"
+    },
+    {
+      "path": "reports/repair_2026-10-04/current_behavior_result.json",
+      "sha256": "f27b95cd23c051e4f53d80380d4bf53f49b749c058eea24eff42169990843d53"
+    },
+    {
+      "path": "reports/repair_2026-10-04/current_behavior_reviews.json",
+      "sha256": "844236dbfd9a629ca0ee5afa4c80c6942fa667f581080d2e3c0dfdfa29d822cd"
+    },
+    {
+      "path": "reports/repair_2026-10-04/current_behavior_runs.json",
+      "sha256": "ade4eab4a11b058c40ff1f51ce4e6d63fa85733d6851eff3bdbededa1378f02b"
+    },
+    {
+      "path": "reports/repair_2026-10-04/current_behavior_transcripts.json",
+      "sha256": "6fd8fe215ea3be81285a34bde3a692b4345cd921521af3336d26565beb386005"
+    },
+    {
+      "path": "reports/repair_2026-10-04/current_design_assessment.json",
+      "sha256": "f3e9772f5d65da99496e97c1aece48443300f1023a73db840864f9fdaacb74e0"
+    },
+    {
+      "path": "reports/repair_2026-10-04/current_design_assessment_superseded_daebf7371ee5.json",
+      "sha256": "daebf7371ee5291fb8218d7455009e0da7cda9f3824683af059ba0aeaf84eb37"
+    },
+    {
+      "path": "reports/repair_2026-10-04/current_design_assessment_superseded_e63f9210d430.json",
+      "sha256": "e63f9210d4308a656eec980954f93e3c6f097a642d69aa066d43aad020beab76"
+    },
+    {
+      "path": "reports/repair_2026-10-04/current_gate_result.json",
+      "sha256": "eace3c27400bbb279b69a758d4a13812722509db512d4877e76fe253cbfadd42"
+    },
+    {
+      "path": "reports/repair_2026-10-04/current_gate_result_superseded_783ef488f804.json",
+      "sha256": "783ef488f8044a1ec03c07be27f1893233e3aff0a19074c197d2d7ed6d14e58d"
+    },
+    {
+      "path": "reports/repair_2026-10-04/current_gate_result_superseded_9325e8360d7f.json",
+      "sha256": "9325e8360d7fc382ba086d6c1659bc1fab650e02c851602e2f48e0af1cc500da"
+    },
+    {
+      "path": "reports/repair_2026-10-04/delivery_capture_reviews.json",
+      "sha256": "b0a4ba77f51d2ee00974baa11ddc7d8519ac87b3311da57aac0227845d43db3e"
+    },
+    {
+      "path": "reports/repair_2026-10-04/delivery_privacy_review.md",
+      "sha256": "57f518c3fa4557a12712c2a6ecdb2f610d758d384f666025d32343c0b671960a"
+    },
+    {
+      "path": "reports/repair_2026-10-04/execution_report.md",
+      "sha256": "6cfac26dabbc836a71327c73e5c1d94b29c64b0f890e9d58b76a3aa1efbbb594"
+    },
+    {
+      "path": "reports/repair_2026-10-04/historical_behavior_project.json",
+      "sha256": "f7e5825a88864c5420b8f519409449459514348880f609548dfb1f7cd38c2543"
+    },
+    {
+      "path": "reports/repair_2026-10-04/historical_behavior_result.json",
+      "sha256": "23b79c7b59f1f58b7a0e25935d635295898f42b8387e5ab2cb5635781d6de288"
+    },
+    {
+      "path": "reports/repair_2026-10-04/historical_behavior_reviews.json",
+      "sha256": "a3b673acdc9d81117146e9ba60db0e893a4f9d643a63758d511c65ef1771abd7"
+    },
+    {
+      "path": "reports/repair_2026-10-04/historical_behavior_runs.json",
+      "sha256": "cd7c7f0467849d95eb9d8697aae8950676d62c4a719b88c1dca861d681687b8e"
+    },
+    {
+      "path": "reports/repair_2026-10-04/historical_behavior_transcripts.json",
+      "sha256": "7c0d1a59fd96e106ac50d71c9974a7f44cc0659c81ae7c84592ae795226c531b"
+    },
+    {
+      "path": "reports/repair_2026-10-04/historical_workflow_037033b638a9.md",
+      "sha256": "037033b638a9a00ce8fdd5719c84cb8a59e31d0470ccae0f9c256c54373b7aa4"
+    },
+    {
+      "path": "reports/repair_2026-10-04/independent_binding_probe.json",
+      "sha256": "d335753cdf072758bb458262a0db61bcf569efd3100e08192ec848e292b5dbd0"
+    },
+    {
+      "path": "reports/repair_2026-10-04/independent_binding_probe.py",
+      "sha256": "03bf244396e1e6aa6bff4cbdaf06b20f744d6259349c0a543032172c5f1498bb"
+    },
+    {
+      "path": "reports/repair_2026-10-04/independent_capture_probe.json",
+      "sha256": "92cf20c9c3e0bc367e0d06bbb76a7b0190b8923563c7632086017939e5b13c9a"
+    },
+    {
+      "path": "reports/repair_2026-10-04/independent_capture_probe.py",
+      "sha256": "89cecdbbfa5c05afc4a89812dda202d81af9abe3c860c0ec4ad988a4fe0706b6"
+    },
+    {
+      "path": "reports/repair_2026-10-04/independent_history_probe.json",
+      "sha256": "7bc0d5671231b28b0fbea84af29bcc2c9d2c39239823f6f04d117edf4a8abc42"
+    },
+    {
+      "path": "reports/repair_2026-10-04/independent_history_probe.py",
+      "sha256": "537634fca616d569506a0e99013e8261dd3cc01d0a1645e2a70e5557dc51e9db"
+    },
+    {
+      "path": "reports/repair_2026-10-04/independent_review_final_followup.md",
+      "sha256": "9f8bb2e53185c4baf2a3503827287a101dfcb9b19debc7f115fd48228ba6827e"
+    },
+    {
+      "path": "reports/repair_2026-10-04/independent_review_followup.md",
+      "sha256": "002a76c54e27bc93be8b14694be4b0270050ab55534105ac8faa60838410a833"
+    },
+    {
+      "path": "reports/repair_2026-10-04/independent_review_initial.md",
+      "sha256": "3c31686210cb214e6386fc390f7c9c2225c1de651de7072d218ce7eb396d85d7"
+    },
+    {
+      "path": "reports/repair_2026-10-04/negative_probe_history.json",
+      "sha256": "c4c1874a26ef089c22913073e9613cdf0f18e54e5dd9a1f8b1fcc39a6aedbac2"
+    },
+    {
+      "path": "reports/repair_2026-10-04/privacy_reviews.json",
+      "sha256": "08304453822a4402858e5fe90296a50044987038c950bff7d90cc9183a66a0d1"
+    },
+    {
+      "path": "reports/repair_2026-10-04/source_visual_review.md",
+      "sha256": "47a1a0ad0945777aa8cb50d19284b618fbc0528e455d861a0fc31dd359a3bdf1"
+    },
+    {
+      "path": "reports/repair_2026-10-04/verification_after.json",
+      "sha256": "50e60f04799e7a1355e14ef09d0ed25508928fa2b7363f748d6ddb9ff678e638"
+    },
+    {
+      "path": "reports/repair_2026-10-04/verification_before.json",
+      "sha256": "48513fff978127632aeb8bf9313524b5a9479b220464ed942e729b87586b52bf"
+    },
+    {
+      "path": "reports/repair_2026-10-04/work001_audit.jsonl",
+      "sha256": "426a74b45864a2bb00affa2e252e29876c12d22179b5c5538a70d4f324930ef5"
+    },
+    {
+      "path": "reports/repair_2026-10-04/work001_save_receipt.json",
+      "sha256": "365cb16d2c4607fa9e2360deee34e50b02b6355135e79119f49f5b8700639549"
+    },
+    {
+      "path": "reports/repair_2026-10-04/work001_save_receipt_1031b2a34ba4.json",
+      "sha256": "9b79495ee63459cc4d217487dbba4e17351fd6403596ddf8892f70563c367f12"
+    },
+    {
+      "path": "reports/repair_2026-10-04/work001_technical_proposal.json",
+      "sha256": "a5813a650f105c186f63e78dd414cf047aa44ecfb838f80948008fbd0be0f29c"
+    },
+    {
+      "path": "reports/repair_2026-10-04/work001_technical_proposal_1031b2a34ba4.json",
+      "sha256": "63e7ad6f4c6ccecaf9e37e78fb5d1e5393d5c7828ca2b0a8dc90c9889f44ba2d"
+    },
+    {
+      "path": "reports/repair_2026-10-04/write_independent_round_reviews.py",
+      "sha256": "8170d1f829f90fad54c3a98ab73e5f6b815f9af1fbe16993f7493480df80a4dc"
+    },
+    {
+      "path": "standards/WEEKLY_PLAN_GATE.md",
+      "sha256": "b57d647ce4a73413560c96f756a1ffda34b0ba65dcd936daf4d2d0c133f603f2"
+    },
+    {
+      "path": "standards/behavior_acceptance.json",
+      "sha256": "afcf73c5bbc26e789988808498a52572a25104db057f38380fa2a23d2e23f54c"
+    },
+    {
+      "path": "standards/privacy_guard.md",
+      "sha256": "5f880de06484ce961bb0537b75cdfa6b8e877c26a3ebb524ecade837cc92a8f2"
+    },
+    {
+      "path": "standards/weekly_plan_gate_assessment.schema.json",
+      "sha256": "3172a1ffcc0c06a86afdbdba19ac5434a6037435cb949d79429925333d3aa66e"
+    },
+    {
+      "path": "standards/weekly_plan_gate_checklist.md",
+      "sha256": "283f494b65ff68304f056d06fe4890e1e8ea73c70149b5e4f6e5f66328a8e133"
+    },
+    {
+      "path": "standards/weekly_plan_gate_rules.yaml",
+      "sha256": "23784b0104867f0339ca568ed5dfa1d83d7fbe16b9027274c98411c4527b4816"
+    },
+    {
+      "path": "tools/build_delivery.py",
+      "sha256": "b3d7edef3befea73d2424e49872909af33cf5fc9f04bda16c7a8d20ac8c7c5c3"
+    },
+    {
+      "path": "tools/check_behavior_acceptance.py",
+      "sha256": "681c229fc77ea53df20c4b4de827e30b7afc33efab73e5baac9c33dad6c41990"
+    },
+    {
+      "path": "tools/check_weekly_plan_gate.py",
+      "sha256": "fa3cb3e87b32ba68e385f59e4d071af5cbd0cb32f26e8e22ccc772cb60ef3c60"
+    },
+    {
+      "path": "tools/check_work_register.py",
+      "sha256": "461acc2e81d4b7eff5f8eb531492d79db4957d355bb7e4c53a90492f180d6b3e"
+    },
+    {
+      "path": "tools/privacy_guard.py",
+      "sha256": "5a06bb3b70e13bb44d967d402c6a7a7ea023f79d17fc4b425e50f22a9d61d4b0"
+    },
+    {
+      "path": "tools/sync_chunk_metadata.py",
+      "sha256": "5c74cb8c6b38a36a233e0b4e94fc8852d08d909f7f2fe12e6156bfded63a1315"
+    },
+    {
+      "path": "tools/test_behavior_acceptance.py",
+      "sha256": "7a7a5b0e6a0ade5f7461f46e0f8b5a81624d1156930a2389f0e3bdd59dc19a3f"
+    },
+    {
+      "path": "tools/test_gate_binding.py",
+      "sha256": "3efea757cbdf391003620335ab9eb3d4317a18658cc5b80d54d571378b330e01"
+    },
+    {
+      "path": "tools/test_privacy_guard.py",
+      "sha256": "898efa433212df5b52172f839ef8eaeafbaa0d1ee5ca68b41590463903429538"
+    },
+    {
+      "path": "tools/test_project_integrity.py",
+      "sha256": "5b9ad58269dbf199cacfee61392d40b6faa4f56789a0fdf41bd118473b4770d6"
+    },
+    {
+      "path": "tools/test_repair_integration.py",
+      "sha256": "800cc62bd66d9d9f8ea4192ec900ae9895ee7d270db92ea048e4e2935602cf9f"
+    },
+    {
+      "path": "tools/test_weekly_plan_gate.py",
+      "sha256": "aaa04fd5ce473ca8e3e0fe0825ffe28eb56106b908c6b0581c1d58e479d0c8fa"
+    },
+    {
+      "path": "work/planning/term1/noor_action_mapping_review_2026-09-30.md",
+      "sha256": "9b1cc02d55e40c6aa6f70966acf0ec6a945539799ecbdd85d4a30e87bc403600"
+    },
+    {
+      "path": "work/planning/term1/term1_eligibility_timing_decision_layer_1448.md",
+      "sha256": "0ad17989d4e0a0e40ed792e0b132788541160e159750bd02c241ae9365772c41"
+    },
+    {
+      "path": "work/planning/term1/مصفوفة_تنفيذ_الفصل_الأول.xlsx",
+      "sha256": "e7d7609d6f9e669406e24b6d7d43d993c8ede8d354903848cf2ff4467676d826"
+    },
+    {
+      "path": "work/register.json",
+      "sha256": "bf4c90392c74da34ddcc21d28f3d050205c2be3ddacb20fb2b9d56f4609250c9"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "checker_version": "1.0.0",
+  "contract_version": "1.0.0",
+  "status": "FAIL",
+  "critical_complete": false,
+  "conversation_acceptance_complete": false,
+  "results": [
+    {
+      "scenario_id": "B01_PREVIOUS_UNKNOWN",
+      "status": "FAIL",
+      "issues": [
+        "QUESTION_ONLY_REQUIRED",
+        "RUBRIC_FAIL:NO_INTERNALS"
+      ]
+    },
+    {
+      "scenario_id": "B02_URGENT_SAFETY",
+      "status": "FAIL",
+      "issues": [
+        "EXCESS_DETAIL",
+        "RUBRIC_FAIL:NATURAL"
+      ]
+    },
+    {
+      "scenario_id": "B03_ARTICLES_33_34",
+      "status": "FAIL",
+      "issues": [
+        "INTERNAL_MECHANISMS",
+        "EXCESS_DETAIL",
+        "RUBRIC_FAIL:DIRECT",
+        "RUBRIC_FAIL:NATURAL",
+        "RUBRIC_FAIL:NO_INTERNALS"
+      ]
+    },
+    {
+      "scenario_id": "B04_OFFICIAL_ROLES",
+      "status": "FAIL",
+      "issues": [
+        "RUBRIC_FAIL:DIRECT",
+        "RUBRIC_FAIL:NATURAL",
+        "RUBRIC_FAIL:DECISIVE_CONSTRAINT",
+        "RUBRIC_FAIL:VICE_PRINCIPAL_ROLE",
+        "RUBRIC_FAIL:COUNSELOR_ROLE"
+      ]
+    },
+    {
+      "scenario_id": "B05_COMPOUND_ACTION",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "scenario_id": "B06_SIMPLE_ACTION",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "scenario_id": "B07_KNOWLEDGE_NOOR",
+      "status": "FAIL",
+      "issues": [
+        "INTERNAL_MECHANISMS",
+        "RUBRIC_FAIL:NATURAL",
+        "RUBRIC_FAIL:NO_INTERNALS"
+      ]
+    },
+    {
+      "scenario_id": "B08_PROFESSIONAL_UNKNOWN",
+      "status": "FAIL",
+      "issues": [
+        "EXCESS_DETAIL",
+        "RUBRIC_FAIL:DIRECT",
+        "RUBRIC_FAIL:NATURAL",
+        "RUBRIC_FAIL:NO_INTERNALS",
+        "RUBRIC_FAIL:ASK_DECISION_FACT"
+      ]
+    },
+    {
+      "scenario_id": "B09_SOURCE_VS_PROPOSAL",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "scenario_id": "B10_APPROVAL_NOOR",
+      "status": "FAIL",
+      "issues": [
+        "RUBRIC_FAIL:DIRECT",
+        "RUBRIC_FAIL:NO_INTERNALS"
+      ]
+    },
+    {
+      "scenario_id": "B11_PLAN_NOT_EVIDENCE",
+      "status": "FAIL",
+      "issues": [
+        "EXCESS_DETAIL",
+        "RUBRIC_FAIL:NATURAL",
+        "RUBRIC_FAIL:NO_INTERNALS"
+      ]
+    },
+    {
+      "scenario_id": "B12_INITIALS_ALLOWED",
+      "status": "FAIL",
+      "issues": [
+        "RUBRIC_FAIL:NO_INTERNALS"
+      ]
+    },
+    {
+      "scenario_id": "B13_INITIALS_COLLISION",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "scenario_id": "B14_HELP_BEFORE_RECORD",
+      "status": "FAIL",
+      "issues": [
+        "RUBRIC_FAIL:NATURAL",
+        "RUBRIC_FAIL:NO_INTERNALS"
+      ]
+    },
+    {
+      "scenario_id": "B15_INDEPENDENT_HELP",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "scenario_id": "B16_PUBLIC_INITIALS",
+      "status": "FAIL",
+      "issues": [
+        "RUBRIC_FAIL:NATURAL",
+        "RUBRIC_FAIL:NO_INTERNALS"
+      ]
+    },
+    {
+      "scenario_id": "B17_KNOWN_PRIOR_EXECUTION",
+      "status": "FAIL",
+      "issues": [
+        "INTERNAL_MECHANISMS",
+        "RUBRIC_FAIL:DIRECT",
+        "RUBRIC_FAIL:NATURAL",
+        "RUBRIC_FAIL:NO_INTERNALS",
+        "RUBRIC_FAIL:NO_REPEAT_KNOWN_QUESTION"
+      ]
+    }
+  ],
+  "limits": "Text checks only detect specified patterns. PASS also needs independent recorded semantic judgment; hashes bind versions but do not authenticate a reviewer or prove a conversation occurred.",
+  "live_project_binding": {
+    "status": "PASS",
+    "evidence": "capture_audit.json",
+    "sha256": "5618d0a1caccb6f025d7bd9e552379fa791437831a5792e9fb703ec3593d6a01",
+    "method": "Every run file fingerprint compared to current bytes by audit_capture.py before evaluation; evaluator receives verify_project=False only after this asserted check."
+  }
+}

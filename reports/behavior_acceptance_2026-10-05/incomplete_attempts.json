@@ -1,0 +1,76 @@
+[
+  {
+    "scenario_id": "B04_OFFICIAL_ROLES",
+    "attempt": 1,
+    "context_id": "01a108eb-996e-7bd2-9986-788ad64fee21",
+    "agent_path": "/root/response_b04",
+    "session_file": "rollout-2026-10-05T00-57-00-01a108eb-996e-7bd2-9986-788ad64fee21.jsonl",
+    "execution": {
+      "status": "NOT_RUN",
+      "reason": "Interrupted after extended wait without a completed final response; rerun is a new context, not an edited answer."
+    },
+    "visible_assistant_messages": [
+      "أراجع النص المعتمد لتحديد مسؤولية كل دور.\n"
+    ],
+    "last_activity_at": "2026-10-04T22:15:34.388Z",
+    "dispatch": {
+      "dispatch_call_id": "call_L6Byh27jAEoKF5ZeZaCsqjHB",
+      "method": "spawn_agent",
+      "timestamp": "2026-10-04T21:57:00.334Z",
+      "fork_turns": "none",
+      "root_session_file": "rollout-2026-10-05T00-34-36-01a108d7-1817-7261-8432-a7e2be564ca1.jsonl",
+      "recorded_payload_sha256": "08c2105529095a3d9b22495b730c92cb0476c445eef558df79dfb94a554c5169",
+      "recorded_payload_encrypted": true,
+      "input_plaintext_status": "OPERATOR_CAPTURED_AT_TOOL_DISPATCH; LOCAL_JOURNAL_ENCRYPTED"
+    }
+  },
+  {
+    "scenario_id": "B03_ARTICLES_33_34",
+    "attempt": 1,
+    "context_id": "01a108ec-f0db-7920-a116-e93144edf482",
+    "agent_path": "/root/response_b03",
+    "session_file": "rollout-2026-10-05T00-58-28-01a108ec-f0db-7920-a116-e93144edf482.jsonl",
+    "execution": {
+      "status": "NOT_RUN",
+      "reason": "Interrupted after extended wait without a completed final response; rerun is a new context, not an edited answer."
+    },
+    "visible_assistant_messages": [],
+    "last_activity_at": "2026-10-04T22:13:00.622Z",
+    "dispatch": {
+      "dispatch_call_id": "call_Trtxvyjb7vNnnXl0hdQ0n1Iq",
+      "method": "spawn_agent",
+      "timestamp": "2026-10-04T21:58:28.291Z",
+      "fork_turns": "none",
+      "root_session_file": "rollout-2026-10-05T00-34-36-01a108d7-1817-7261-8432-a7e2be564ca1.jsonl",
+      "recorded_payload_sha256": "cddfb8fd237b076d67c37e895e625742684d5e74e46c754aea012cba6992cdd9",
+      "recorded_payload_encrypted": true,
+      "input_plaintext_status": "OPERATOR_CAPTURED_AT_TOOL_DISPATCH; LOCAL_JOURNAL_ENCRYPTED"
+    }
+  },
+  {
+    "scenario_id": "B05_COMPOUND_ACTION",
+    "attempt": 1,
+    "context_id": "01a108fa-dbad-7860-a14c-ebef428a5538",
+    "agent_path": "/root/response_b05",
+    "session_file": "rollout-2026-10-05T01-13-40-01a108fa-dbad-7860-a14c-ebef428a5538.jsonl",
+    "execution": {
+      "status": "NOT_RUN",
+      "reason": "Tool-reported actor failure: Fatal error: application network permission was revoked"
+    },
+    "visible_assistant_messages": [
+      "سأحدد لك بداية عملية تناسب تعثرًا بدأ هذا الأسبوع.\n",
+      "سأراجع نص الدليل الأصلي بمهارة قراءة PDF حتى يكون الفرق واضحًا بين الإجراء الرسمي والبداية العملية المقترحة.\n"
+    ],
+    "last_activity_at": "2026-10-04T22:32:19.846Z",
+    "dispatch": {
+      "dispatch_call_id": "call_0TMSknQSXXGB7tFH5Fpjsibq",
+      "method": "spawn_agent",
+      "timestamp": "2026-10-04T22:13:40.336Z",
+      "fork_turns": "none",
+      "root_session_file": "rollout-2026-10-05T00-34-36-01a108d7-1817-7261-8432-a7e2be564ca1.jsonl",
+      "recorded_payload_sha256": "0bf455e9606559ae78b1a2ecfb16bccdafad737534f684dfa67ceeba1b56289a",
+      "recorded_payload_encrypted": true,
+      "input_plaintext_status": "OPERATOR_CAPTURED_AT_TOOL_DISPATCH; LOCAL_JOURNAL_ENCRYPTED"
+    }
+  }
+]

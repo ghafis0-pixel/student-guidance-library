@@ -1,0 +1,163 @@
+{
+  "schema_version": "2.0",
+  "purpose": "توجيه السؤال إلى المصدر بحسب وظيفة القرار، دون ترتيب سلطة خطي عام أو تكرار metadata المصدر.",
+  "source_metadata_path": "catalog/source_registry.json",
+  "routing_rule": "تحقق من هوية المصدر وحالته وتغطيته وجودة استخراجه، ثم اختر الإجراء الرسمي برمزه واسمه ونطاقه من الخريطة واقرأ صفحات الأصل الكامل قبل الحكم؛ المقتطف التاريخي والمصادر المشتقة لا تصدر حكمًا مستقلًا.",
+  "decision_routes": [
+    {
+      "decision_type": "school_roles_and_committees",
+      "source_roles": {
+        "governing": [
+          "REF-ORGANIZATIONAL-FULL-1446"
+        ],
+        "supporting": [
+          "REF-PROCEDURAL-FULL-1446",
+          "REF-TASKS-GUIDE"
+        ]
+      },
+      "selection_rule": "الأصل التنظيمي يحدد الدور؛ المستخرج المشتق لا يتقدم عليه ولا يثبت انعقاد اجتماع."
+    },
+    {
+      "decision_type": "school_procedural_workflow",
+      "source_roles": {
+        "governing": [
+          "REF-PROCEDURAL-FULL-1446"
+        ],
+        "routing": [
+          "IDX-PROCEDURAL-COUNSELOR-1446"
+        ],
+        "derived_knowledge": [
+          "KNOW-PROCEDURAL-COUNSELOR-1446"
+        ]
+      },
+      "selection_rule": "لأسئلة مالك الإجراء وتسلسل الخطوات والمسؤول والنموذج ونقطة دخول الموجه، اقرأ الإجراء المحدد في الأصل الكامل. دور اللجنة لا يتحول إلى تكليف فردي للموجه أو إثبات اجتماع. نطاق المرحلة الدراسية يؤخذ من الإجراء قبل التطبيق."
+    },
+    {
+      "decision_type": "counselor_procedure",
+      "source_roles": {
+        "governing": [
+          "REF-PROCEDURAL-FULL-1446"
+        ],
+        "supporting": [
+          "REF-ORGANIZATIONAL-FULL-1446"
+        ],
+        "routing": [
+          "IDX-PROCEDURAL-COUNSELOR-1446"
+        ],
+        "derived_knowledge": [
+          "KNOW-PROCEDURAL-COUNSELOR-1446"
+        ]
+      },
+      "selection_rule": "الدليل الكامل يحكم الإجراء المحدد وتسلسل الجهات ونقطة دخول الموجه؛ الخريطة للاسترجاع والمشتق للفهم فقط. افصل إعداد الخطة واعتمادها وتنفيذها، ولا تستبدل حصر الحالات في س-5-ا1 بإجراء متابعة الغياب س-6-ا1."
+    },
+    {
+      "decision_type": "program_eligibility_timing_and_implementation",
+      "source_roles": {
+        "program_specific": [
+          "PG-01",
+          "PG-02",
+          "PG-03",
+          "PG-04",
+          "PG-05",
+          "PG-06",
+          "PG-07",
+          "PG-08",
+          "PG-09",
+          "PG-10",
+          "PG-11",
+          "PG-12",
+          "PG-13"
+        ],
+        "general_framework": [
+          "REF-OFFICIAL-GUIDE-V1"
+        ],
+        "local_plan": [
+          "REF-QASSIM-1448",
+          "PG-14"
+        ],
+        "roles_and_procedures": [
+          "REF-ORGANIZATIONAL-FULL-1446",
+          "REF-PROCEDURAL-FULL-1446"
+        ],
+        "documentation": [
+          "REF-NOOR-TECH",
+          "REF-NOOR-INDICATORS"
+        ]
+      },
+      "selection_rule": "اختر الأصل المختص بالنقطة: دليل البرنامج المنطبق لتحديد متطلباته واستحقاقه وتوقيته، والدليل الوزاري العام للإطار العام، وخطة القصيم للتفصيل المحلي ضمن حدود الوزاري، وخطة المدرسة الموثقة للتنفيذ. نور للتوثيق فقط؛ المشتق لا ينشئ استحقاقًا. راجع catalog/program_source_rules.md؛ لا تقرأ جميع الأدلة تلقائيًا."
+    },
+    {
+      "decision_type": "student_attendance_or_behavior",
+      "source_roles": {
+        "governing": [
+          "REF-BEHAVIOR-1447-V5"
+        ],
+        "practice": [
+          "PG-07",
+          "REF-HISTORICAL-BEHAVIOR"
+        ],
+        "documentation": [
+          "REF-NOOR-TECH"
+        ],
+        "procedure": [
+          "REF-PROCEDURAL-FULL-1446"
+        ],
+        "routing": [
+          "IDX-PROCEDURAL-COUNSELOR-1446"
+        ],
+        "derived_knowledge": [
+          "KNOW-PROCEDURAL-COUNSELOR-1446"
+        ]
+      },
+      "selection_rule": "قواعد السلوك والمواظبة تحكم حدود 3/5/10 أيام والعذر والجزاء؛ الدليل الإجرائي الكامل يحكم توزيع التنفيذ وتسلسل الإحالة ودور الموجه في س-6-ا1 (179–185) والسلوك س-6-ا3 (191–195). عند تسمية الدليل الإجرائي يبدأ فحصه أولًا، ولا تنسب حدًا نظاميًا إليه دون نصه."
+    },
+    {
+      "decision_type": "student_learning_or_homework_concern",
+      "source_roles": {
+        "governing": [
+          "REF-PROCEDURAL-FULL-1446"
+        ],
+        "practice": [
+          "REF-HISTORICAL-BEHAVIOR",
+          "PG-10"
+        ],
+        "documentation": [
+          "REF-NOOR-TECH"
+        ],
+        "routing": [
+          "IDX-PROCEDURAL-COUNSELOR-1446"
+        ],
+        "derived_knowledge": [
+          "KNOW-PROCEDURAL-COUNSELOR-1446"
+        ]
+      },
+      "selection_rule": "يفحص الإجراء المختص دون إنشاء جزاء أو إلزام للواجبات بلا نص. في س-9-ا2، يتولى المعلم إعداد وتنفيذ العلاج التحصيلي وفق المخطط224 وعمود المسؤول225 وRACI226، ويتولى الموجه المتابعة والدعم الإرشادي وفق225/05 والتنظيمي47/5–8. عبارة وصف04 تحتمل تخصيص متابعة النتائج للموجه؛ وصفها التباس صياغي وفق DEC-026، لا تعارض مسؤولية مثبت. لا يحرر الأصل أو تنقل الحصص العلاجية للموجه أو توقف المتابعة. التفاصيل في DEC-025 وDEC-026 وcatalog/program_source_rules.md."
+    },
+    {
+      "decision_type": "noor_documentation_and_verification",
+      "source_roles": {
+        "documentation": [
+          "REF-NOOR-TECH",
+          "REF-NOOR-INDICATORS"
+        ]
+      },
+      "selection_rule": "استخدم مرجع نور التشغيلي والمطابقة المعتمدة لتحديد موطن الإدخال؛ لا تستنتج من وجود الخيار حدوث التنفيذ أو الحفظ."
+    },
+    {
+      "decision_type": "followup_and_evidence_review",
+      "source_roles": {
+        "governing": [
+          "REF-FOLLOWUP-FORM"
+        ],
+        "supporting": [
+          "REF-PROCEDURAL-FULL-1446"
+        ]
+      },
+      "selection_rule": "الاستمارة تحدد عناصر المتابعة في نطاقها؛ الشاهد الفعلي وحالة العمل من سجل التنفيذ لا من القالب."
+    }
+  ],
+  "conflict_rule": "عند التعارض يقدّم الأصل الرسمي المنطبق على نوع السؤال؛ تُراجع الصفحة الأصلية عند ضعف OCR، ويُصرح بما لم يثبت.",
+  "named_reference_rule": "إذا سمّى المستخدم مرجعًا محددًا، افحص ذلك المرجع أولًا. إذا كانت النسخة جزئية أو لا تغطي النقطة، صرّح بذلك وانتقل إلى الأصل الكامل المتاح. لا تستبدل الإجراء المطلوب بنص عام قريب منه.",
+  "derived_fallback_rule": "غياب نقطة من الملف المشتق لا يعني غيابها من الدليل الكامل؛ انتقل إلى خريطة الصفحات ثم الأصل. إذا لم تغطها الخريطة فابحث في فهرس الأصل وصفحاته، ولا تجعل اكتمال الملخص شرطًا للجواب.",
+  "program_authority_path": "catalog/program_source_rules.md"
+}

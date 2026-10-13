@@ -1,0 +1,1498 @@
+{
+  "reviewed_at": "2026-10-04T23:25:54.105081+00:00",
+  "scope": "Exact new test artifacts only; fictional scenarios and tool invocation records, no school execution or case record. Pattern findings resolved only when demonstrably source-file digest values.",
+  "limits": "Pattern scanning is not comprehensive identity detection. No PDF extraction adjudication, UI rendering guarantee, or original reference privacy clearance is inherited.",
+  "files": [
+    {
+      "path": "actual_runs_reviewed.json",
+      "bytes": 824352,
+      "sha256": "ad0f52889105b53de9bf5185e5d11fd9599ca9a4ac8f5be0c258c0f4e4265238",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "ad0f52889105b53de9bf5185e5d11fd9599ca9a4ac8f5be0c258c0f4e4265238",
+        "findings_sha256": "e44e1d8a7d22d5d2a9bcfdda0793cc37ed021ab35442b021b35fa27541bdc964",
+        "status": "REVIEWED",
+        "review_ref": "privacy_delivery_review.json"
+      },
+      "review": {
+        "guard_version": "1.0.0",
+        "decision": "cleared",
+        "content_sha256": "ad0f52889105b53de9bf5185e5d11fd9599ca9a4ac8f5be0c258c0f4e4265238",
+        "findings_sha256": "e44e1d8a7d22d5d2a9bcfdda0793cc37ed021ab35442b021b35fa27541bdc964",
+        "reference": "privacy_delivery_review.json",
+        "reason": "Every finding in this exact content and finding set is a 64-character SHA256 value verified against its corresponding project file. No contact record is represented by these matched values."
+      },
+      "resolved_findings": [
+        {
+          "location": "$.runs[0].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[1].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[2].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[3].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[4].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[5].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[6].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[7].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[8].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[9].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[10].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[11].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[12].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[13].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[14].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[15].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[16].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        }
+      ]
+    },
+    {
+      "path": "actual_runs_unreviewed.json",
+      "bytes": 760926,
+      "sha256": "841f8a1d191474cbcacedb7dc187332d7094590bbbd67dc0fd05e4e87f444341",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "841f8a1d191474cbcacedb7dc187332d7094590bbbd67dc0fd05e4e87f444341",
+        "findings_sha256": "e44e1d8a7d22d5d2a9bcfdda0793cc37ed021ab35442b021b35fa27541bdc964",
+        "status": "REVIEWED",
+        "review_ref": "privacy_delivery_review.json"
+      },
+      "review": {
+        "guard_version": "1.0.0",
+        "decision": "cleared",
+        "content_sha256": "841f8a1d191474cbcacedb7dc187332d7094590bbbd67dc0fd05e4e87f444341",
+        "findings_sha256": "e44e1d8a7d22d5d2a9bcfdda0793cc37ed021ab35442b021b35fa27541bdc964",
+        "reference": "privacy_delivery_review.json",
+        "reason": "Every finding in this exact content and finding set is a 64-character SHA256 value verified against its corresponding project file. No contact record is represented by these matched values."
+      },
+      "resolved_findings": [
+        {
+          "location": "$.runs[0].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[1].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[2].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[3].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[4].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[5].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[6].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[7].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[8].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[9].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[10].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[11].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[12].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[13].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[14].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[15].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[16].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        }
+      ]
+    },
+    {
+      "path": "actual_transcripts.json",
+      "bytes": 163181,
+      "sha256": "181dc71b2d7c316aca70ed1f372a23f0dde4e69c9bfe2bb61708a43ac07affbb",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "181dc71b2d7c316aca70ed1f372a23f0dde4e69c9bfe2bb61708a43ac07affbb",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "artifact_hash_correction.json",
+      "bytes": 656,
+      "sha256": "881d8a4f5415242e85a1e4f2e72d1f5948e9e3d7f7d19f8da3b654d43eba0407",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "881d8a4f5415242e85a1e4f2e72d1f5948e9e3d7f7d19f8da3b654d43eba0407",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "audit_capture.py",
+      "bytes": 7656,
+      "sha256": "30165f45ec80b1ff03f8692b127685d70a2f6a8ea4c74162ab444eb5fb24dad0",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "30165f45ec80b1ff03f8692b127685d70a2f6a8ea4c74162ab444eb5fb24dad0",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "audit_retest_b10.py",
+      "bytes": 7813,
+      "sha256": "3b06344e6a667f19426362a0a86305484eddbc39a3b5cff62ed4c2accb89e450",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "3b06344e6a667f19426362a0a86305484eddbc39a3b5cff62ed4c2accb89e450",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "AUTHORIZATION_REFERENCE.md",
+      "bytes": 1053,
+      "sha256": "59597dd3aff53448297d667a355adec27a66315aaf415a2a8274de1bac3476fb",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "59597dd3aff53448297d667a355adec27a66315aaf415a2a8274de1bac3476fb",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "behavior_result.json",
+      "bytes": 4050,
+      "sha256": "098601fedffa4fa290eb6579cecb8d9780d0eec7bd3bbffe81c6796a81024eb1",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "098601fedffa4fa290eb6579cecb8d9780d0eec7bd3bbffe81c6796a81024eb1",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "candidate_package_verification.json",
+      "bytes": 41360,
+      "sha256": "6f734eacfc133b294dc53a9c051804e8089b5d3145a9d41d95d27e319525a32b",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "6f734eacfc133b294dc53a9c051804e8089b5d3145a9d41d95d27e319525a32b",
+        "findings_sha256": "a9be844f8ef6e1cc1cbb629d7aaeab791a3893e6109f9ff189abbaf9cb494dfc",
+        "status": "REVIEWED",
+        "review_ref": "privacy_delivery_review.json"
+      },
+      "review": {
+        "guard_version": "1.0.0",
+        "decision": "cleared",
+        "content_sha256": "6f734eacfc133b294dc53a9c051804e8089b5d3145a9d41d95d27e319525a32b",
+        "findings_sha256": "a9be844f8ef6e1cc1cbb629d7aaeab791a3893e6109f9ff189abbaf9cb494dfc",
+        "reference": "privacy_delivery_review.json",
+        "reason": "Every finding in this exact content and finding set is a 64-character SHA256 value verified against its corresponding project file. No contact record is represented by these matched values."
+      },
+      "resolved_findings": [
+        {
+          "location": "$.package_project_files_sha256.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        }
+      ]
+    },
+    {
+      "path": "CANDIDATE_STATE.json",
+      "bytes": 4754,
+      "sha256": "d6eba1c55f6e744bc2f669d8f621e07022fa8c2197ef88e0b51526f9f25da2ba",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "d6eba1c55f6e744bc2f669d8f621e07022fa8c2197ef88e0b51526f9f25da2ba",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "CANDIDATE_STATE_before_hash_fix.json",
+      "bytes": 4711,
+      "sha256": "5b894cb4e8bdc7bd651048320a6ef0a8d1dc5be0354127608684c0a928dbe360",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "5b894cb4e8bdc7bd651048320a6ef0a8d1dc5be0354127608684c0a928dbe360",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "capture_audit.json",
+      "bytes": 17752,
+      "sha256": "5618d0a1caccb6f025d7bd9e552379fa791437831a5792e9fb703ec3593d6a01",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "5618d0a1caccb6f025d7bd9e552379fa791437831a5792e9fb703ec3593d6a01",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "capture_progress.json",
+      "bytes": 4923,
+      "sha256": "8ea99a9316ed93b02665a105471f3ead765d000e394f04fef7ae26c49ec80987",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "8ea99a9316ed93b02665a105471f3ead765d000e394f04fef7ae26c49ec80987",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "capture_retest_b10.py",
+      "bytes": 12498,
+      "sha256": "86c8699069a2bfb491a77897504220c3576fd9217e2c5d82cc1d78786a46e145",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "86c8699069a2bfb491a77897504220c3576fd9217e2c5d82cc1d78786a46e145",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "capture_round.py",
+      "bytes": 12232,
+      "sha256": "dd7cdab63477ec855ffa024c09a45533c4060bcbb741ced9bb5d22933a7203dc",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "dd7cdab63477ec855ffa024c09a45533c4060bcbb741ced9bb5d22933a7203dc",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "cold_protocol_issue_B10.json",
+      "bytes": 1218,
+      "sha256": "ebb0ed4b68da5d9981aec45121b0b86f4513dc7d01ed1238a5f8d045eb20340b",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "ebb0ed4b68da5d9981aec45121b0b86f4513dc7d01ed1238a5f8d045eb20340b",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "environment_preflight.json",
+      "bytes": 545,
+      "sha256": "c801f2f9138fe22aac02f0186c7d3d8b46fbbea55bbec99e611d0f600327a0cd",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "c801f2f9138fe22aac02f0186c7d3d8b46fbbea55bbec99e611d0f600327a0cd",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "execution_report.md",
+      "bytes": 15303,
+      "sha256": "b021e5d114fff4e56f0b0cb691b17feb8eb238406fd61a0c5e3b25653d07a71d",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "b021e5d114fff4e56f0b0cb691b17feb8eb238406fd61a0c5e3b25653d07a71d",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "finalize_round.py",
+      "bytes": 9766,
+      "sha256": "1788f9747dfdcc699193bf8aae7e181dac7d02e515f9fd82446d2e05b0204bd6",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "1788f9747dfdcc699193bf8aae7e181dac7d02e515f9fd82446d2e05b0204bd6",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "incomplete_attempts.json",
+      "bytes": 3643,
+      "sha256": "2d31cb41dc727da5f4876883d137507a26037d889dc7c6c40b4bfa1c45e8421f",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "2d31cb41dc727da5f4876883d137507a26037d889dc7c6c40b4bfa1c45e8421f",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "independent_b10_retest_capture_review.json",
+      "bytes": 17263,
+      "sha256": "9c3aa710504a21bf136c8babf1d9f6b0e0965b289ae805c1d09a36f5b92f2a3d",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "9c3aa710504a21bf136c8babf1d9f6b0e0965b289ae805c1d09a36f5b92f2a3d",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "independent_capture_review.json",
+      "bytes": 40467,
+      "sha256": "bbfc7bec406c8ab826c156f9eabb1b65fd4f90a65bdceceb1a93944cb32d578e",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "bbfc7bec406c8ab826c156f9eabb1b65fd4f90a65bdceceb1a93944cb32d578e",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "independent_review_received.md",
+      "bytes": 18799,
+      "sha256": "61def520c75f2eaa4274aafbd6ca1f50ecaa259eec1be06f8288cfa94570bcfe",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "61def520c75f2eaa4274aafbd6ca1f50ecaa259eec1be06f8288cfa94570bcfe",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "independent_reviews.json",
+      "bytes": 62533,
+      "sha256": "a1c9fdc9ed462a2f6f5bfd27400f49eeed4721570588cb85e3ae9821fb52600e",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "a1c9fdc9ed462a2f6f5bfd27400f49eeed4721570588cb85e3ae9821fb52600e",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "initial_actual_runs_reviewed.json",
+      "bytes": 823352,
+      "sha256": "ca057863cba82eadd14ce128bd9884b97fa6d2cd7a7512551c1833352c375bd0",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "ca057863cba82eadd14ce128bd9884b97fa6d2cd7a7512551c1833352c375bd0",
+        "findings_sha256": "e44e1d8a7d22d5d2a9bcfdda0793cc37ed021ab35442b021b35fa27541bdc964",
+        "status": "REVIEWED",
+        "review_ref": "privacy_delivery_review.json"
+      },
+      "review": {
+        "guard_version": "1.0.0",
+        "decision": "cleared",
+        "content_sha256": "ca057863cba82eadd14ce128bd9884b97fa6d2cd7a7512551c1833352c375bd0",
+        "findings_sha256": "e44e1d8a7d22d5d2a9bcfdda0793cc37ed021ab35442b021b35fa27541bdc964",
+        "reference": "privacy_delivery_review.json",
+        "reason": "Every finding in this exact content and finding set is a 64-character SHA256 value verified against its corresponding project file. No contact record is represented by these matched values."
+      },
+      "resolved_findings": [
+        {
+          "location": "$.runs[0].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[1].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[2].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[3].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[4].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[5].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[6].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[7].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[8].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[9].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[10].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[11].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[12].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[13].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[14].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[15].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[16].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        }
+      ]
+    },
+    {
+      "path": "initial_behavior_result.json",
+      "bytes": 3905,
+      "sha256": "79766e307be8d56af3f38d7166813bde6dd4159dc168a1abe92121f74dd9e89e",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "79766e307be8d56af3f38d7166813bde6dd4159dc168a1abe92121f74dd9e89e",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "initial_CANDIDATE_STATE.json",
+      "bytes": 3813,
+      "sha256": "eb1c013a1c2ebfcb98e725d82ff9e181a7a9e01fa2e1e416711bb78557c594b7",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "eb1c013a1c2ebfcb98e725d82ff9e181a7a9e01fa2e1e416711bb78557c594b7",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "initial_independent_reviews.json",
+      "bytes": 61294,
+      "sha256": "5a2f168ed9e144ba6867b48b12853618e296044001ffdb231e99cfbb89641926",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "5a2f168ed9e144ba6867b48b12853618e296044001ffdb231e99cfbb89641926",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "initial_semantic_summary.json",
+      "bytes": 3376,
+      "sha256": "5ff9f60c68bca318ea238ec966b8a9b57050fe5dc2ef1e3e056c8b38b22f9fcb",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "5ff9f60c68bca318ea238ec966b8a9b57050fe5dc2ef1e3e056c8b38b22f9fcb",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "initial_text_checker_summary.json",
+      "bytes": 1873,
+      "sha256": "bf762685149ec7c1b1e09c767126d92e8dd6d5565f337c9acd0741f4438fb3a9",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "bf762685149ec7c1b1e09c767126d92e8dd6d5565f337c9acd0741f4438fb3a9",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "integrate_b10_retest.py",
+      "bytes": 10002,
+      "sha256": "5ee1b5c75d77414b932e6bd7c194f193a7b3ce8a8d22edbea1f6972a3931d60e",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "5ee1b5c75d77414b932e6bd7c194f193a7b3ce8a8d22edbea1f6972a3931d60e",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "make_review_input.py",
+      "bytes": 2177,
+      "sha256": "8826e09999b0f6845abb6496eeda46c5bc92e64c5f5f31a65228c1f40b2b60de",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "8826e09999b0f6845abb6496eeda46c5bc92e64c5f5f31a65228c1f40b2b60de",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "native_checker_result.json",
+      "bytes": 3596,
+      "sha256": "2c96add25073909c0630fa764ef72f39602fb998054760efd5297d33583d8110",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "2c96add25073909c0630fa764ef72f39602fb998054760efd5297d33583d8110",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "native_checker_verification.json",
+      "bytes": 667,
+      "sha256": "90fdad3fd9317e996cba0e28057aa9467136e54ba864060c5812c6c7457d67c3",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "90fdad3fd9317e996cba0e28057aa9467136e54ba864060c5812c6c7457d67c3",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "package_evidence.py",
+      "bytes": 6657,
+      "sha256": "51b98f9e547467d762766c06bfc403a054e33674366d7dcf17c0a2b31bc11aeb",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "51b98f9e547467d762766c06bfc403a054e33674366d7dcf17c0a2b31bc11aeb",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "pre_run_NOT_RUN.json",
+      "bytes": 3047,
+      "sha256": "e7aa2adf4df9a06108d3f88990870e368124597e04eee69195d9fdea2e838a31",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "e7aa2adf4df9a06108d3f88990870e368124597e04eee69195d9fdea2e838a31",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "preparation_report.md",
+      "bytes": 6970,
+      "sha256": "87d7e02e44bd99e6c93516b9c5052f71c9301513a47bd333223151607e4f6c39",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "87d7e02e44bd99e6c93516b9c5052f71c9301513a47bd333223151607e4f6c39",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "preparation_verification.json",
+      "bytes": 871,
+      "sha256": "22eba883550ff2a9b98bb9cc6a8e872f19fc4f5dbf2dc1be9533013d9f15adfd",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "22eba883550ff2a9b98bb9cc6a8e872f19fc4f5dbf2dc1be9533013d9f15adfd",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "prepare_acceptance.py",
+      "bytes": 5805,
+      "sha256": "a90a4c93c68f7319573d3ef8373d531f4f92281666a134a221b829cacb8309fd",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "a90a4c93c68f7319573d3ef8373d531f4f92281666a134a221b829cacb8309fd",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "prepared_run_plan.json",
+      "bytes": 1315,
+      "sha256": "a1ce7c4c6d1283adc3afc8468703f8cf6b265531a73b00efc25b4416b4cd99c3",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "a1ce7c4c6d1283adc3afc8468703f8cf6b265531a73b00efc25b4416b4cd99c3",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "privacy_scan_progress.json",
+      "bytes": 4169,
+      "sha256": "7552597addce22f695a572bfc7816a992558a34fd043896b77c22bd0568a2f44",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "7552597addce22f695a572bfc7816a992558a34fd043896b77c22bd0568a2f44",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "project_before.json",
+      "bytes": 40577,
+      "sha256": "c3462fb77a5dcbfa2bc0f7d3707ec2839d5495d13385fc94ed3904b791200c57",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "c3462fb77a5dcbfa2bc0f7d3707ec2839d5495d13385fc94ed3904b791200c57",
+        "findings_sha256": "4aa14073cab99f757d3b758e4a501c51773fbbfc359ee05059643630da1b985d",
+        "status": "REVIEWED",
+        "review_ref": "privacy_delivery_review.json"
+      },
+      "review": {
+        "guard_version": "1.0.0",
+        "decision": "cleared",
+        "content_sha256": "c3462fb77a5dcbfa2bc0f7d3707ec2839d5495d13385fc94ed3904b791200c57",
+        "findings_sha256": "4aa14073cab99f757d3b758e4a501c51773fbbfc359ee05059643630da1b985d",
+        "reference": "privacy_delivery_review.json",
+        "reason": "Every finding in this exact content and finding set is a 64-character SHA256 value verified against its corresponding project file. No contact record is represented by these matched values."
+      },
+      "resolved_findings": [
+        {
+          "location": "$.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        }
+      ]
+    },
+    {
+      "path": "project_unchanged_after_preparation.json",
+      "bytes": 244,
+      "sha256": "337043e36de26ad878dd9c73c36be80a5205575b43587da522e8b798f48c262d",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "337043e36de26ad878dd9c73c36be80a5205575b43587da522e8b798f48c262d",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "project_unchanged_after_round.json",
+      "bytes": 467,
+      "sha256": "e016d116f2f29a9e6fc663336b5348c0d878840eed01fdc8ccd20411a0576450",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "e016d116f2f29a9e6fc663336b5348c0d878840eed01fdc8ccd20411a0576450",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "raw_and_metadata_diagnostics.json",
+      "bytes": 4761,
+      "sha256": "be847704dd67d3cea9df7b6911b844cd516f1243b7b77f35bfcef3d441035f5c",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "be847704dd67d3cea9df7b6911b844cd516f1243b7b77f35bfcef3d441035f5c",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "record_retest_tool_returns.py",
+      "bytes": 3581,
+      "sha256": "c6e1518448f2a9c40eaf16d80514f03e7169950f74e9afb12bbefe36f5e0fa91",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "c6e1518448f2a9c40eaf16d80514f03e7169950f74e9afb12bbefe36f5e0fa91",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "record_tool_returns.py",
+      "bytes": 3506,
+      "sha256": "b9eb4458c8fd546c80b9248c5477893dcdd3e552a7913cf3eb7278f93690c2d9",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "b9eb4458c8fd546c80b9248c5477893dcdd3e552a7913cf3eb7278f93690c2d9",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "retest_b10_actual_runs_unreviewed.json",
+      "bytes": 44947,
+      "sha256": "235231f151e77ba66376a233aa6f76306fde97cba519ed5e8e2b98bd5f2528c3",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "235231f151e77ba66376a233aa6f76306fde97cba519ed5e8e2b98bd5f2528c3",
+        "findings_sha256": "9daa9d2d48e1efbd2b57677781235b08bd11b98fe53e1221ba097946504fe16f",
+        "status": "REVIEWED",
+        "review_ref": "privacy_delivery_review.json"
+      },
+      "review": {
+        "guard_version": "1.0.0",
+        "decision": "cleared",
+        "content_sha256": "235231f151e77ba66376a233aa6f76306fde97cba519ed5e8e2b98bd5f2528c3",
+        "findings_sha256": "9daa9d2d48e1efbd2b57677781235b08bd11b98fe53e1221ba097946504fe16f",
+        "reference": "privacy_delivery_review.json",
+        "reason": "Every finding in this exact content and finding set is a 64-character SHA256 value verified against its corresponding project file. No contact record is represented by these matched values."
+      },
+      "resolved_findings": [
+        {
+          "location": "$.runs[0].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        }
+      ]
+    },
+    {
+      "path": "retest_b10_actual_transcripts.json",
+      "bytes": 8516,
+      "sha256": "639b9126c37aeb7b6c6f4b1de6e3dc24394855885008e9c0124d9ff925771e7c",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "639b9126c37aeb7b6c6f4b1de6e3dc24394855885008e9c0124d9ff925771e7c",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "retest_b10_capture_audit.json",
+      "bytes": 2985,
+      "sha256": "8e8f76ece151c98a574bff870715a0d9dcab1cd3b36b5145930dd6ea069e02af",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "8e8f76ece151c98a574bff870715a0d9dcab1cd3b36b5145930dd6ea069e02af",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "retest_b10_capture_progress.json",
+      "bytes": 354,
+      "sha256": "a0eb1fd09104c4bfeb6e7502cffbfbd1ff6bdf05bc9691517b2c77587f79f594",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "a0eb1fd09104c4bfeb6e7502cffbfbd1ff6bdf05bc9691517b2c77587f79f594",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "retest_b10_incomplete_attempts.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "retest_b10_selection.json",
+      "bytes": 1750,
+      "sha256": "7d5608ef0a8630e587a25bab59a16bcf6f81351471421c94ec5c8ccc2ae52e0e",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "7d5608ef0a8630e587a25bab59a16bcf6f81351471421c94ec5c8ccc2ae52e0e",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "retest_b10_tool_return_receipts.json",
+      "bytes": 1687,
+      "sha256": "25c5de4751f1b935767f2f29b901b3f2d0306a159188001b795401c6ef9db6d1",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "25c5de4751f1b935767f2f29b901b3f2d0306a159188001b795401c6ef9db6d1",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "review_b10_retest.json",
+      "bytes": 6080,
+      "sha256": "565f180e10f1d582a5e3235e1d0eb247f222e0b184e24763d04bcb6444f152dd",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "565f180e10f1d582a5e3235e1d0eb247f222e0b184e24763d04bcb6444f152dd",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "review_b10_retest_input.json",
+      "bytes": 53482,
+      "sha256": "bbeb00ea358ed33da50bc658951de2ca12de6e3eb9163b3bbd99ccb565440b22",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "bbeb00ea358ed33da50bc658951de2ca12de6e3eb9163b3bbd99ccb565440b22",
+        "findings_sha256": "9daa9d2d48e1efbd2b57677781235b08bd11b98fe53e1221ba097946504fe16f",
+        "status": "REVIEWED",
+        "review_ref": "privacy_delivery_review.json"
+      },
+      "review": {
+        "guard_version": "1.0.0",
+        "decision": "cleared",
+        "content_sha256": "bbeb00ea358ed33da50bc658951de2ca12de6e3eb9163b3bbd99ccb565440b22",
+        "findings_sha256": "9daa9d2d48e1efbd2b57677781235b08bd11b98fe53e1221ba097946504fe16f",
+        "reference": "privacy_delivery_review.json",
+        "reason": "Every finding in this exact content and finding set is a 64-character SHA256 value verified against its corresponding project file. No contact record is represented by these matched values."
+      },
+      "resolved_findings": [
+        {
+          "location": "$.runs[0].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        }
+      ]
+    },
+    {
+      "path": "review_daily.json",
+      "bytes": 18631,
+      "sha256": "4ff469a5d2b11444893eae6d36c772bc64e5994b8b7c77330c09520ef89a9efb",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "4ff469a5d2b11444893eae6d36c772bc64e5994b8b7c77330c09520ef89a9efb",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "review_daily_input.json",
+      "bytes": 314969,
+      "sha256": "282eb746db744a708371ae9c9f16cf298c5c5f7958d8a775ca8a3a94e26a2f46",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "282eb746db744a708371ae9c9f16cf298c5c5f7958d8a775ca8a3a94e26a2f46",
+        "findings_sha256": "a570386c84618383a0f188c1c32bb3d58bb9ea147f1b86b3c964f25a32c741c3",
+        "status": "REVIEWED",
+        "review_ref": "privacy_delivery_review.json"
+      },
+      "review": {
+        "guard_version": "1.0.0",
+        "decision": "cleared",
+        "content_sha256": "282eb746db744a708371ae9c9f16cf298c5c5f7958d8a775ca8a3a94e26a2f46",
+        "findings_sha256": "a570386c84618383a0f188c1c32bb3d58bb9ea147f1b86b3c964f25a32c741c3",
+        "reference": "privacy_delivery_review.json",
+        "reason": "Every finding in this exact content and finding set is a 64-character SHA256 value verified against its corresponding project file. No contact record is represented by these matched values."
+      },
+      "resolved_findings": [
+        {
+          "location": "$.runs[0].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[1].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[2].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[3].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[4].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[5].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        }
+      ]
+    },
+    {
+      "path": "review_privacy.json",
+      "bytes": 19811,
+      "sha256": "26cf56fb0722010979ee653d786446f87cfabd193557dfbc0f0d180205041d80",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "26cf56fb0722010979ee653d786446f87cfabd193557dfbc0f0d180205041d80",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "review_privacy_input.json",
+      "bytes": 261647,
+      "sha256": "ba58782714e94ed641fa913a6c8de4b868f4936c95d76f2b9bf318edf682e010",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "ba58782714e94ed641fa913a6c8de4b868f4936c95d76f2b9bf318edf682e010",
+        "findings_sha256": "d062ad823f7e908ad4d83749e6e94fcf297e36c9bdb0047e5a0b8854e3ddd265",
+        "status": "REVIEWED",
+        "review_ref": "privacy_delivery_review.json"
+      },
+      "review": {
+        "guard_version": "1.0.0",
+        "decision": "cleared",
+        "content_sha256": "ba58782714e94ed641fa913a6c8de4b868f4936c95d76f2b9bf318edf682e010",
+        "findings_sha256": "d062ad823f7e908ad4d83749e6e94fcf297e36c9bdb0047e5a0b8854e3ddd265",
+        "reference": "privacy_delivery_review.json",
+        "reason": "Every finding in this exact content and finding set is a 64-character SHA256 value verified against its corresponding project file. No contact record is represented by these matched values."
+      },
+      "resolved_findings": [
+        {
+          "location": "$.runs[0].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[1].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[2].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[3].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[4].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        }
+      ]
+    },
+    {
+      "path": "review_sources.json",
+      "bytes": 21501,
+      "sha256": "65259f520f9d6e3c9e6f1cb26c02de3c5cc502a47f31bfcb34bf24aaf3ddcd79",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "65259f520f9d6e3c9e6f1cb26c02de3c5cc502a47f31bfcb34bf24aaf3ddcd79",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "review_sources_input.json",
+      "bytes": 346092,
+      "sha256": "0a7dd6c25af62c101eda4205f28273a98861339ec9ab3e63007a35bd6fdc2491",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "0a7dd6c25af62c101eda4205f28273a98861339ec9ab3e63007a35bd6fdc2491",
+        "findings_sha256": "a570386c84618383a0f188c1c32bb3d58bb9ea147f1b86b3c964f25a32c741c3",
+        "status": "REVIEWED",
+        "review_ref": "privacy_delivery_review.json"
+      },
+      "review": {
+        "guard_version": "1.0.0",
+        "decision": "cleared",
+        "content_sha256": "0a7dd6c25af62c101eda4205f28273a98861339ec9ab3e63007a35bd6fdc2491",
+        "findings_sha256": "a570386c84618383a0f188c1c32bb3d58bb9ea147f1b86b3c964f25a32c741c3",
+        "reference": "privacy_delivery_review.json",
+        "reason": "Every finding in this exact content and finding set is a 64-character SHA256 value verified against its corresponding project file. No contact record is represented by these matched values."
+      },
+      "resolved_findings": [
+        {
+          "location": "$.runs[0].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[1].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[2].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[3].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[4].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        },
+        {
+          "location": "$.runs[5].project.files.field#0:line:1",
+          "code": "CONTACT_NUMBER",
+          "classification": "SOURCE_FILE_SHA256_FALSE_POSITIVE",
+          "source_path": ".gitattributes",
+          "source_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+        }
+      ]
+    },
+    {
+      "path": "run_plan.json",
+      "bytes": 2133,
+      "sha256": "d4be444d9607c2e0dbdddb642c997066b06ce3363abeccb2141ae29533a9aa20",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "d4be444d9607c2e0dbdddb642c997066b06ce3363abeccb2141ae29533a9aa20",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "scenario_requests.json",
+      "bytes": 6214,
+      "sha256": "77a7874020d0c45901f474ad1fc58637be91dafa7f0bce185f62bba2cef3ee3a",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "77a7874020d0c45901f474ad1fc58637be91dafa7f0bce185f62bba2cef3ee3a",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "semantic_summary.json",
+      "bytes": 3386,
+      "sha256": "3676c95873c32c7af61a73d45bd6c2310f6f14bf160c44c2a1db4dfc6dc76be4",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "3676c95873c32c7af61a73d45bd6c2310f6f14bf160c44c2a1db4dfc6dc76be4",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "text_checker_summary.json",
+      "bytes": 1849,
+      "sha256": "2c7b8dca09f60551adb476ee4737ac1953437576b1021f1172c8c6220ec19ccd",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "2c7b8dca09f60551adb476ee4737ac1953437576b1021f1172c8c6220ec19ccd",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "tool_return_receipts.json",
+      "bytes": 36332,
+      "sha256": "abd73219cdb12cefc60bc16d00bd2e21fb9032cb4f09c6e78b5a1ceab2ba56ae",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "abd73219cdb12cefc60bc16d00bd2e21fb9032cb4f09c6e78b5a1ceab2ba56ae",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "verification.json",
+      "bytes": 1099,
+      "sha256": "8cce84b3f0b27062597dc39115b588551188f1cebbfe772667ba1b6458ea13c8",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "8cce84b3f0b27062597dc39115b588551188f1cebbfe772667ba1b6458ea13c8",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    },
+    {
+      "path": "write_final_report.py",
+      "bytes": 16411,
+      "sha256": "b74b979dffa07d863b281b39e6e9a2b614137430b3739cf53758d4147fb717c0",
+      "gate": {
+        "guard_version": "1.0.0",
+        "content_sha256": "b74b979dffa07d863b281b39e6e9a2b614137430b3739cf53758d4147fb717c0",
+        "findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "status": "PASS_WITH_LIMITS"
+      },
+      "review": null,
+      "resolved_findings": []
+    }
+  ]
+}

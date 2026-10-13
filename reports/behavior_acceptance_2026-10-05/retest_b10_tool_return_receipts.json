@@ -1,0 +1,42 @@
+{
+  "scope": "Recorded return hashes and status metadata for each captured invocation, without reproducing tool-output content.",
+  "limits": "Successful returns and source paths in invocation show retrieval activity; they do not certify full original-source reading, exact page interpretation, absence of truncation, or rendered images. Exit codes are included only when explicitly printed in a parseable JSON return.",
+  "results": {
+    "B10_APPROVAL_NOOR": {
+      "context_id": "01a1092d-0a2e-7af2-996d-8229a5b805f1",
+      "referenced_project_paths_in_invocation": [
+        "context/current.json",
+        "context/decisions.md",
+        "guide/workflow.md",
+        "work/register.json"
+      ],
+      "tool_returns": [
+        {
+          "call_id": "call_CtOibCQEAibjgYofCh9i2elV",
+          "name": "exec",
+          "returned_at": "2026-10-04T23:09:12.001Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "2772029119e14afdbee22e5efe152009a45b05cf373630ea4f575741e30c3c2b",
+          "text_blocks": 2,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [],
+          "nonempty_return": true
+        },
+        {
+          "call_id": "call_Lh2pxWVhlKCQjSLunFO56Ex9",
+          "name": "exec",
+          "returned_at": "2026-10-04T23:09:40.371Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "5b37b063dfab75c9773d53f54d88c8b1735304aa3ab5e139bd4f3540d3fed24c",
+          "text_blocks": 3,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [
+            0,
+            0
+          ],
+          "nonempty_return": true
+        }
+      ]
+    }
+  }
+}

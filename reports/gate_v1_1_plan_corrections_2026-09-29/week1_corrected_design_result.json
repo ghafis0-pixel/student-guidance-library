@@ -1,0 +1,76 @@
+{
+  "gate_status": "APPROVED",
+  "gate_version": "1.1.0",
+  "runner_version": "1.1.0",
+  "schema_version": "2.0",
+  "phase": "DESIGN",
+  "gate_result_date": "2026-09-29",
+  "checked_by": "Codex - phase 5 corrected-plan design review",
+  "references_checked": [
+    {
+      "key": "QASSIM_PLAN",
+      "path": "references/04_regional_plans/خطة برامج وخدمات التوجيه الطلابي تعليم القصيم 1448.pdf",
+      "sha256": "79e2198db34bb4f46985fbb50d27f27d24d98be4e15ecea92b6b38ba5e6f0fb9"
+    },
+    {
+      "key": "NOOR_REFERENCE",
+      "path": "references/03_official_operational_guides/noor/مرجع_نظام_نور_للتوجيه_الطلابي.md",
+      "sha256": "eff5af0b0290caeb1edf0ab11c8da09a8bbec69a4a862ea6c9d00afe1a8859f3"
+    },
+    {
+      "key": "ORGANIZATIONAL_GUIDE",
+      "path": "references/02_regulatory/organizational_guides/الدليل التنظيمي - مقتطف التوجيه الطلابي 1446.pdf",
+      "sha256": "fcb09f4b8b3ab720dc68684d077ab2de340ca8cbbd2742fd132003dd112babda"
+    },
+    {
+      "key": "PROCEDURAL_GUIDE",
+      "path": "references/02_regulatory/procedural_guides/الدليل الإجرائي - مقتطف الموجه الطلابي 1446.pdf",
+      "sha256": "0d74c788c94bee61d0608567607f0612caf9b890c8ae6bc932afe2b50df9795b"
+    },
+    {
+      "key": "PROGRAM_REGISTRY",
+      "path": "catalog/source_registry.json",
+      "sha256": "e9b525f96e5b4e9fa0bcc99b4bc4d8b2a7cfe63a633ae8074042b1f2bbd62ed4"
+    },
+    {
+      "key": "SCHOOL_CONTEXT",
+      "path": "AGENTS.md",
+      "sha256": "42c2f495a54a99b58fb90e58a48211aef4b89a2ca24beda9a802fcd307bc7436"
+    },
+    {
+      "key": "GATE_SPEC",
+      "path": "standards/WEEKLY_PLAN_GATE.md",
+      "sha256": "7c4b5e33b7c588a89665da327f18cbb04e8bba653c08a3b9df810c03445ae5ab"
+    }
+  ],
+  "blocking_issues": [],
+  "human_reviews": [],
+  "warnings": [],
+  "information": [],
+  "pending_items": [
+    "N03: PENDING - حقول العدد والأثر بقيت فارغة، ولا توجد قيمة مؤشر أو نسبة مختلقة؛ القياس ينتظر التنفيذ الواقعي."
+  ],
+  "passed_rules": [
+    "C01",
+    "D01",
+    "D02",
+    "D04",
+    "E01",
+    "E02",
+    "E03",
+    "E04",
+    "N01",
+    "N03",
+    "P01",
+    "V01",
+    "V02",
+    "W01",
+    "W02",
+    "W03"
+  ],
+  "failed_rules": [],
+  "not_applicable_rules": [],
+  "not_assessable_rules": [],
+  "affected_rules_by_reference": {},
+  "scope": "Phase-specific review; never proof of field execution or Noor save by itself."
+}

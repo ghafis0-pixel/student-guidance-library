@@ -1,0 +1,15 @@
+{
+  "saved_at": "2026-10-05T09:31:34.620025+00:00",
+  "candidate_status": "BEHAVIOR_ACCEPTANCE_PASS_PENDING_USER_ADOPTION",
+  "behavior_acceptance": "PASS",
+  "scenario_pass": 17,
+  "scenario_fail": 0,
+  "professional_pass": 17,
+  "pending_reviews": [],
+  "native_checker_exit_code": 0,
+  "contract_version": "1.0.2",
+  "ui_metadata_rendering": "UNVERIFIED",
+  "regenerated_responses_on_resume": false,
+  "field_execution_or_noor_save": false,
+  "uploaded": false
+}

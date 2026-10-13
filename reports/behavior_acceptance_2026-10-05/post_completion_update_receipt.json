@@ -1,0 +1,23 @@
+{
+  "date_riyadh": "2026-10-05",
+  "authorization": "User requested updating the report and attachments with the proposed post-completion use.",
+  "historical_acceptance": {
+    "candidate_status": "CANDIDATE",
+    "pass": 5,
+    "fail": 12
+  },
+  "modified_version_behavioral_acceptance": "NOT_RUN",
+  "historical_report_sha256": "b021e5d114fff4e56f0b0cb691b17feb8eb238406fd61a0c5e3b25653d07a71d",
+  "updated_report_sha256": "78e27fea7d7d9fb9553c75f3675e8c15e698bb0d9e6c289020136d822c440eaf",
+  "proposal_sha256": "37dd6433e67651012363f5fa4e32782cabfc8551a7a89635edacf92e9104e073",
+  "original_evidence_archive_sha256": "4c4d7cc538621b1982500fa344da61150ed448972c526401ab7ff70ba6caceba",
+  "historical_members_verified_against_original_manifest": 70,
+  "alignment_snapshots_match_receipt": true,
+  "results_rejudged": false,
+  "scenarios_rerun": false,
+  "operational_records_modified": false,
+  "field_execution": false,
+  "noor_saved": false,
+  "uploaded": false,
+  "package_kind": "Historical evidence plus updated report and proposed post-completion use; not a deployment package."
+}

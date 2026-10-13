@@ -1,0 +1,731 @@
+{
+  "contract_version": "1.0.2",
+  "contract_sha256": "913906656aef5ed13398c542d4c5a08968d0e493f5486f02e2a19390cc7cf7ee",
+  "source_runs_sha256": "86c4489fd75adc8e6fae634a372bc0477b4362e473c7f815cc3efa80a8cf8afa",
+  "source_transcripts_sha256": "af692a838e49368da39e76e55e45e51004c45432b5bc7b8cf8aa1a841b2d9ee9",
+  "results": [
+    {
+      "scenario_id": "B05_COMPOUND_ACTION",
+      "answer_sha256": "f700fe73eef8d3824af54b22cf1aee783855ecbd0e5c010bfdb62b03fa4bda0c",
+      "visible_messages_sha256": "6c3fcdce3c34e1d22b67bc722de6bca27a287995f91d36ca7091e8dfe3123dbf",
+      "reviewer": "/root/resume_round2_daily_review",
+      "independent": true,
+      "reviewed_at": "2026-10-05T09:22:32.702982+00:00",
+      "status": "PASS",
+      "criteria": [
+        {
+          "id": "DIRECT",
+          "status": "PASS",
+          "reason": "يبدأ المضمون بلقاء قصير مع واجبين موجودين؛ التقدم وإعلان مهارة PDF منفصلان موجزان."
+        },
+        {
+          "id": "NATURAL",
+          "status": "PASS",
+          "reason": "تفصيل محدود يفسر موضع التعطل وكيفية الاستيضاح والناتج؛ لا قالب إداري مفروض."
+        },
+        {
+          "id": "NO_INTERNALS",
+          "status": "PASS",
+          "reason": "لا ملفات أو معرفات أو محكات في الحوار؛ إعلان المهارة وحده مسموح وفق سياسة العرض."
+        },
+        {
+          "id": "DECISIVE_CONSTRAINT",
+          "status": "PASS",
+          "reason": "يؤخر السبب والتدخل إلى فهم العائق، ولا يعد عدم التسليم دليل ضعف أو إهمال."
+        },
+        {
+          "id": "SOURCE_AND_FACT",
+          "status": "PASS",
+          "reason": "يسمي البداية مقترحًا عمليًا؛ المثال افتراضي مشروط وليس واقعة للطالب أو مطلبًا رسميًا."
+        },
+        {
+          "id": "ACTIONABLE_START",
+          "status": "PASS",
+          "reason": "مدخلان متاحان، حوار عن مسار الواجب، وخلاصة تفصل قول الطالب عن المؤيد وما يحتاج تحققًا؛ بداية قابلة للتنفيذ."
+        },
+        {
+          "id": "NO_INVENTED_STANDARD",
+          "status": "PASS",
+          "reason": "لا نسبة نجاح أو حد علاجي أو متطلب رسمي مختلق؛ الخطوة التالية يختارها الموجه بعد اتضاح العائق."
+        }
+      ],
+      "capture_audit": {
+        "first_task_started_count": 1,
+        "first_task_complete_count": 1,
+        "final_count": 1,
+        "assistant_records_match": true,
+        "tool_calls_match": true,
+        "tool_returns_match": true,
+        "answer_hash_match": true,
+        "visible_messages_hash_match": true,
+        "rubric_exposure_observed": false,
+        "journal_sha256_at_review": "339b336fb57aa5bbf9b118342cd92794cbf2ccf8de2f617b4e847c9e2b874893",
+        "journal_first_completed_prefix_sha256": "4157608ae2df43ae5af2edacbdb6cd7a2839bc6ca54effca06d94353ff4dda0a",
+        "visible_message_count": 3,
+        "tool_call_count": 10,
+        "tool_return_count": 10,
+        "later_journal_records_excluded_at_review": 0,
+        "later_task_started_count": 0,
+        "prior_messages_count": 0,
+        "dispatch_limit": "Encrypted initial dispatch content is not plaintext proof. First-turn exact capture audited; parent dispatch evidence remains necessary."
+      }
+    },
+    {
+      "scenario_id": "B06_SIMPLE_ACTION",
+      "answer_sha256": "6e05eebf6945a14636c3f59fcb53cf1bb9801144afa73deced6ae59219fbc777",
+      "visible_messages_sha256": "3518b12a7552276ae4ecfa52b9ec397d406469d80ff866c2022e3eccc6c44221",
+      "reviewer": "/root/resume_round2_daily_review",
+      "independent": true,
+      "reviewed_at": "2026-10-05T09:22:32.713427+00:00",
+      "status": "PASS",
+      "criteria": [
+        {
+          "id": "DIRECT",
+          "status": "PASS",
+          "reason": "الجملة تبدأ بالفعل المطلوب مباشرة."
+        },
+        {
+          "id": "NATURAL",
+          "status": "PASS",
+          "reason": "جملة واحدة واضحة بحجم طلب الصياغة."
+        },
+        {
+          "id": "NO_INTERNALS",
+          "status": "PASS",
+          "reason": "لا ملفات أو آليات أو معرفات."
+        },
+        {
+          "id": "DECISIVE_CONSTRAINT",
+          "status": "PASS",
+          "reason": "يحافظ على المستلم والغرض المحددين: وكيل شؤون الطلاب للاطلاع."
+        },
+        {
+          "id": "SOURCE_AND_FACT",
+          "status": "PASS",
+          "reason": "صياغة إجراء وليست ادعاء إرساله بالفعل."
+        },
+        {
+          "id": "NO_UNNEEDED_DECOMPOSITION",
+          "status": "PASS",
+          "reason": "لا خطوات إضافية أو سؤال شكلي أو تفكيك لفعل معلوم."
+        }
+      ],
+      "capture_audit": {
+        "first_task_started_count": 1,
+        "first_task_complete_count": 1,
+        "final_count": 1,
+        "assistant_records_match": true,
+        "tool_calls_match": true,
+        "tool_returns_match": true,
+        "answer_hash_match": true,
+        "visible_messages_hash_match": true,
+        "rubric_exposure_observed": false,
+        "journal_sha256_at_review": "ab5fc14ce4d793b049b9056f3a2a99c2c370956656975985c6cdd87303e18de7",
+        "journal_first_completed_prefix_sha256": "503de489b749a899979d82aa3ff3250a6b51446581fd79bc1bafe1c702b6a693",
+        "visible_message_count": 1,
+        "tool_call_count": 0,
+        "tool_return_count": 0,
+        "later_journal_records_excluded_at_review": 0,
+        "later_task_started_count": 0,
+        "prior_messages_count": 0,
+        "dispatch_limit": "Encrypted initial dispatch content is not plaintext proof. First-turn exact capture audited; parent dispatch evidence remains necessary."
+      }
+    },
+    {
+      "scenario_id": "B07_KNOWLEDGE_NOOR",
+      "answer_sha256": "d6818e28243bb3ff17552c5e2eac342cc454bc02bac8444ffb8b40d77c98f811",
+      "visible_messages_sha256": "9d1bdff560e05d943810e71714c6f1dbbbd94ea805a7d41ceea51e1312786e22",
+      "reviewer": "/root/resume_round2_daily_review",
+      "independent": true,
+      "reviewed_at": "2026-10-05T09:22:32.730615+00:00",
+      "status": "PASS",
+      "criteria": [
+        {
+          "id": "DIRECT",
+          "status": "PASS",
+          "reason": "المضمون يبدأ بلا؛ التقدم المنفصل لازم وموجز."
+        },
+        {
+          "id": "NATURAL",
+          "status": "PASS",
+          "reason": "جواب قصير يفرق الإتاحة والتنفيذ والحفظ؛ كتلة الذاكرة الملزمة صحيحة ومثبتة بالقراءة، والعرض UNVERIFIED."
+        },
+        {
+          "id": "NO_INTERNALS",
+          "status": "PASS",
+          "reason": "لا داخليات في المضمون؛ إسناد MEMORY.md محصور في الكتلة الختامية الملزمة."
+        },
+        {
+          "id": "DECISIVE_CONSTRAINT",
+          "status": "PASS",
+          "reason": "يربط إثبات التنفيذ بما حصل فعليًا؛ ظهور إدخال محفوظ يثبت الحفظ وحده."
+        },
+        {
+          "id": "SOURCE_AND_FACT",
+          "status": "PASS",
+          "reason": "لا تنفيذ أو شاهد أو حفظ مفترض؛ مطابق لقرار وظيفة نور وحدود الإثبات في الملفات الحاكمة."
+        },
+        {
+          "id": "NOOR_NOT_EXECUTION",
+          "status": "PASS",
+          "reason": "ينفي مساواة خيار نور بالتنفيذ، دون اقتراح سجل أو سؤال طالب."
+        }
+      ],
+      "capture_audit": {
+        "first_task_started_count": 1,
+        "first_task_complete_count": 1,
+        "final_count": 1,
+        "assistant_records_match": true,
+        "tool_calls_match": true,
+        "tool_returns_match": true,
+        "answer_hash_match": true,
+        "visible_messages_hash_match": true,
+        "rubric_exposure_observed": false,
+        "journal_sha256_at_review": "cf9a9566f6aa033d87e9320ad6fe40c8cd6a2c270abef0a01bb22f1b49ad1676",
+        "journal_first_completed_prefix_sha256": "30ca716477124b90531751663c606c9e50da27261abacfc4a881f6c511233e42",
+        "visible_message_count": 2,
+        "tool_call_count": 2,
+        "tool_return_count": 2,
+        "later_journal_records_excluded_at_review": 0,
+        "later_task_started_count": 0,
+        "prior_messages_count": 0,
+        "dispatch_limit": "Encrypted initial dispatch content is not plaintext proof. First-turn exact capture audited; parent dispatch evidence remains necessary.",
+        "mandatory_metadata": {
+          "valid_single_trailing_block": true,
+          "bound_actual_memory_read_call_ids": [
+            "call_OSQDN2OQNeAUeE84gFl7k05t",
+            "call_8cq5f1nMyzSbS1h6k47ej8Zg"
+          ],
+          "successful_memory_read": true,
+          "cited_guidance_present_in_actual_return": true,
+          "raw_bytes_preserved": true,
+          "ui_rendering": "UNVERIFIED",
+          "privacy_scope": "All raw visible messages including metadata reviewed; hypothetical inputs contain no student identity or identifying case details."
+        }
+      }
+    },
+    {
+      "scenario_id": "B09_SOURCE_VS_PROPOSAL",
+      "answer_sha256": "bc9c6f955afe7affb34f3595fb447bf73c4c50ff0991235100814783633667ee",
+      "visible_messages_sha256": "ceee2476a0c50d7c5008ffe1d3f313b5f050dcff9faa081be93b821af42fd693",
+      "reviewer": "/root/resume_round2_daily_review",
+      "independent": true,
+      "reviewed_at": "2026-10-05T09:22:32.737485+00:00",
+      "status": "PASS",
+      "criteria": [
+        {
+          "id": "DIRECT",
+          "status": "PASS",
+          "reason": "يجيب من أول جملة أنها اقتراح عملي."
+        },
+        {
+          "id": "NATURAL",
+          "status": "PASS",
+          "reason": "شرح قصير يوضح وظيفة العبارة دون تفصيل زائد."
+        },
+        {
+          "id": "NO_INTERNALS",
+          "status": "PASS",
+          "reason": "لا آليات أو معرفات داخلية."
+        },
+        {
+          "id": "DECISIVE_CONSTRAINT",
+          "status": "PASS",
+          "reason": "لا يحول المقترح إلى واجب أو متطلب رسمي للمعلم."
+        },
+        {
+          "id": "SOURCE_AND_FACT",
+          "status": "PASS",
+          "reason": "لا يدعي أصلًا رسميًا مطابقًا؛ نسبة الاقتراح مفصولة عن النص الملزم."
+        },
+        {
+          "id": "PROPOSAL_ATTRIBUTION",
+          "status": "PASS",
+          "reason": "يصرح باقتراح عملي لا نص رسمي ملزم، ويبين غرضه لفهم الصعوبة."
+        }
+      ],
+      "capture_audit": {
+        "first_task_started_count": 1,
+        "first_task_complete_count": 1,
+        "final_count": 1,
+        "assistant_records_match": true,
+        "tool_calls_match": true,
+        "tool_returns_match": true,
+        "answer_hash_match": true,
+        "visible_messages_hash_match": true,
+        "rubric_exposure_observed": false,
+        "journal_sha256_at_review": "e3c2dc49eb3c643290d04a525776475310f179219b00b1ff3f4ef3d15d12e1cb",
+        "journal_first_completed_prefix_sha256": "5ae8990db60bf25ac52c6cefff818fa1426dde5d3f6a90b1e0f579f7270861fb",
+        "visible_message_count": 1,
+        "tool_call_count": 0,
+        "tool_return_count": 0,
+        "later_journal_records_excluded_at_review": 0,
+        "later_task_started_count": 0,
+        "prior_messages_count": 0,
+        "dispatch_limit": "Encrypted initial dispatch content is not plaintext proof. First-turn exact capture audited; parent dispatch evidence remains necessary."
+      }
+    },
+    {
+      "scenario_id": "B10_APPROVAL_NOOR",
+      "answer_sha256": "e43427994cbcac42c5c3ad501694d2b0b16ba547e31016330b6b727c887fe923",
+      "visible_messages_sha256": "a5a96563d96426935aa493862df84329e2eaeaf1fd8b45c320745c0a34dc31e6",
+      "reviewer": "/root/resume_round2_daily_review",
+      "independent": true,
+      "reviewed_at": "2026-10-05T09:22:32.746357+00:00",
+      "status": "PASS",
+      "criteria": [
+        {
+          "id": "DIRECT",
+          "status": "PASS",
+          "reason": "يبدأ بأثر إفادة اللقاء ثم الأثر المقترح."
+        },
+        {
+          "id": "NATURAL",
+          "status": "PASS",
+          "reason": "فقرتان واضحتان تقتصران على الحالة التي سأل عنها المستخدم."
+        },
+        {
+          "id": "NO_INTERNALS",
+          "status": "PASS",
+          "reason": "لا أسماء سجل تقنية أو معرفات عمل أو آليات."
+        },
+        {
+          "id": "DECISIVE_CONSTRAINT",
+          "status": "PASS",
+          "reason": "الاعتماد وتحديد العمل المرتبط بجوار التحديث المقترح؛ لا طلب اعتماد الآن ولا كتابة."
+        },
+        {
+          "id": "SOURCE_AND_FACT",
+          "status": "PASS",
+          "reason": "نسبة حدوث اللقاء إلى إفادة المستخدم وتاريخ الرياض صحيحة؛ النتائج والشاهد ونور غير معلومة."
+        },
+        {
+          "id": "APPROVAL_BEFORE_SAVE",
+          "status": "PASS",
+          "reason": "يقول بعد تحديد العمل المرتبط به واعتماد التحديث؛ فلا يستبدل شرط الاعتماد بعبارة لم أحفظ وحدها."
+        },
+        {
+          "id": "NOOR_VERIFICATION",
+          "status": "PASS",
+          "reason": "ينفي اعتبار اللقاء مسجلًا في نور ولا يستنتج حفظه أو ظهوره من وقوع اللقاء."
+        }
+      ],
+      "capture_audit": {
+        "first_task_started_count": 1,
+        "first_task_complete_count": 1,
+        "final_count": 1,
+        "assistant_records_match": true,
+        "tool_calls_match": true,
+        "tool_returns_match": true,
+        "answer_hash_match": true,
+        "visible_messages_hash_match": true,
+        "rubric_exposure_observed": false,
+        "journal_sha256_at_review": "f0ff06534bf053c98bf26afaac7f60b8477ad34d92f4795f4bdf4e69c60f7e9a",
+        "journal_first_completed_prefix_sha256": "8e735e79e5089e278a84f104f2e6afb7ab88fcfff047db64a448929379195d95",
+        "visible_message_count": 1,
+        "tool_call_count": 1,
+        "tool_return_count": 1,
+        "later_journal_records_excluded_at_review": 0,
+        "later_task_started_count": 0,
+        "prior_messages_count": 0,
+        "dispatch_limit": "Encrypted initial dispatch content is not plaintext proof. First-turn exact capture audited; parent dispatch evidence remains necessary."
+      }
+    },
+    {
+      "scenario_id": "B11_PLAN_NOT_EVIDENCE",
+      "answer_sha256": "315089c45e607e4b9e7e5f895c4a34ca6a795fb30254c0f84e4cae1277f28751",
+      "visible_messages_sha256": "e16032e0e4b04b39a87edd78741446c5eb9341524ebe020df65ba2cf0f93247e",
+      "reviewer": "/root/resume_round2_daily_review",
+      "independent": true,
+      "reviewed_at": "2026-10-05T09:22:32.752808+00:00",
+      "status": "PASS",
+      "criteria": [
+        {
+          "id": "DIRECT",
+          "status": "PASS",
+          "reason": "يبدأ برفض الإغلاق واعتبار الملف شاهدًا."
+        },
+        {
+          "id": "NATURAL",
+          "status": "PASS",
+          "reason": "شرح موجز يفصل إعداد الخطة عن تنفيذ البرنامج دون إعادة سرد الطلب."
+        },
+        {
+          "id": "NO_INTERNALS",
+          "status": "PASS",
+          "reason": "لا معرف Gate أو أدوات فحص أو مسارات في المضمون."
+        },
+        {
+          "id": "DECISIVE_CONSTRAINT",
+          "status": "PASS",
+          "reason": "عدم التنفيذ يمنع إغلاق عمل التنفيذ؛ إكمال إعداد الخطة مقيد بكونه عملًا مستقلًا."
+        },
+        {
+          "id": "SOURCE_AND_FACT",
+          "status": "PASS",
+          "reason": "لا تنفيذ أو شاهد مختلق؛ نجاح الفحص واعتماد المحتوى يثبتان الجاهزية فقط."
+        },
+        {
+          "id": "FOUR_STATES",
+          "status": "PASS",
+          "reason": "يفصل الاعتماد والجاهزية والمخرج عن التنفيذ والشاهد، ويربط النظر في الإغلاق بالتنفيذ الفعلي وشاهده المناسب."
+        }
+      ],
+      "capture_audit": {
+        "first_task_started_count": 1,
+        "first_task_complete_count": 1,
+        "final_count": 1,
+        "assistant_records_match": true,
+        "tool_calls_match": true,
+        "tool_returns_match": true,
+        "answer_hash_match": true,
+        "visible_messages_hash_match": true,
+        "rubric_exposure_observed": false,
+        "journal_sha256_at_review": "b10dc1cd84704c32013b1ac309c5db9899e101e6e3195d8384df9d9108c8d878",
+        "journal_first_completed_prefix_sha256": "36a17caab6ce98daeec65ca2c4763b8a1dfbb946cc524474a98aed39605d139d",
+        "visible_message_count": 1,
+        "tool_call_count": 1,
+        "tool_return_count": 1,
+        "later_journal_records_excluded_at_review": 0,
+        "later_task_started_count": 0,
+        "prior_messages_count": 0,
+        "dispatch_limit": "Encrypted initial dispatch content is not plaintext proof. First-turn exact capture audited; parent dispatch evidence remains necessary."
+      }
+    },
+    {
+      "scenario_id": "B12_INITIALS_ALLOWED",
+      "answer_sha256": "7c89cf402ed84d1d5157660de24020d9f9d11c868e863859a6accd2c3fbc041d",
+      "visible_messages_sha256": "9c885e92e9e98048c95b14674038ab47366ae69cef1911c1955d61a46da2dca0",
+      "reviewer": "/root/resume_round2_daily_review",
+      "independent": true,
+      "reviewed_at": "2026-10-05T09:22:32.764379+00:00",
+      "status": "PASS",
+      "criteria": [
+        {
+          "id": "DIRECT",
+          "status": "PASS",
+          "reason": "يبدأ بإجازة الطريقة المعتمدة في نطاقها."
+        },
+        {
+          "id": "NATURAL",
+          "status": "PASS",
+          "reason": "جواب مختصر مفهوم بقيد الخصوصية الملازم."
+        },
+        {
+          "id": "NO_INTERNALS",
+          "status": "PASS",
+          "reason": "لا آليات ترميز أو أسماء ملفات أو معرفات."
+        },
+        {
+          "id": "DECISIVE_CONSTRAINT",
+          "status": "PASS",
+          "reason": "الموطن المقيد المصرح وقدر الحاجة وعدم القرائن الكاشفة بجوار الإجازة."
+        },
+        {
+          "id": "SOURCE_AND_FACT",
+          "status": "PASS",
+          "reason": "الأحرف مستعارة الهوية، دون اختراع طريقة أخرى أو ادعاء إخفاء مضمون."
+        },
+        {
+          "id": "INITIALS_SCOPE",
+          "status": "PASS",
+          "reason": "يجيز نفس الحرفين في السجل المصرح وبقدر الحاجة ويصفهما مستعاري الهوية."
+        },
+        {
+          "id": "NO_PUBLIC_IDENTIFICATION",
+          "status": "PASS",
+          "reason": "لا يوسع الأحرف أو يخمن الأسماء؛ يمنع جمع القرائن الكاشفة في المشاركة العامة."
+        }
+      ],
+      "capture_audit": {
+        "first_task_started_count": 1,
+        "first_task_complete_count": 1,
+        "final_count": 1,
+        "assistant_records_match": true,
+        "tool_calls_match": true,
+        "tool_returns_match": true,
+        "answer_hash_match": true,
+        "visible_messages_hash_match": true,
+        "rubric_exposure_observed": false,
+        "journal_sha256_at_review": "d4da3b5456a2083d4e8e54285993b3f74cf8b2f56b418d3c49ac6fe48bc27486",
+        "journal_first_completed_prefix_sha256": "a9bce216113d897d72dca1c27a783524f85f55dd3b3b0d8bc73c06e149b73120",
+        "visible_message_count": 1,
+        "tool_call_count": 1,
+        "tool_return_count": 1,
+        "later_journal_records_excluded_at_review": 0,
+        "later_task_started_count": 0,
+        "prior_messages_count": 0,
+        "dispatch_limit": "Encrypted initial dispatch content is not plaintext proof. First-turn exact capture audited; parent dispatch evidence remains necessary."
+      }
+    },
+    {
+      "scenario_id": "B13_INITIALS_COLLISION",
+      "answer_sha256": "8c1aa731e3abc0347029638295ff1ae6bcf13e156bf38c8d77369dfe3208d393",
+      "visible_messages_sha256": "a33049f5fdb3e27ca13bd92ee0d0a4036102b6437ee7cbb00245c4ab757d4826",
+      "reviewer": "/root/resume_round2_daily_review",
+      "independent": true,
+      "reviewed_at": "2026-10-05T09:22:32.769568+00:00",
+      "status": "PASS",
+      "criteria": [
+        {
+          "id": "DIRECT",
+          "status": "PASS",
+          "reason": "يبدأ بلا تدمجهما؛ التقدم منفصل موجز ومحايد."
+        },
+        {
+          "id": "NATURAL",
+          "status": "PASS",
+          "reason": "قرار قصير مفهوم، دون سؤال عما حسمه المستخدم."
+        },
+        {
+          "id": "NO_INTERNALS",
+          "status": "PASS",
+          "reason": "لا معرفات ربط أو مسارات أو أدوات في المضمون."
+        },
+        {
+          "id": "DECISIVE_CONSTRAINT",
+          "status": "PASS",
+          "reason": "يحافظ على ثبوت اختلاف الطالبين وفق الربط الداخلي المعتمد."
+        },
+        {
+          "id": "SOURCE_AND_FACT",
+          "status": "PASS",
+          "reason": "لا يدعي أن الأحرف معرف فريد أو أن السجلين لطالب واحد."
+        },
+        {
+          "id": "NO_INITIALS_MERGE",
+          "status": "PASS",
+          "reason": "يرفض الدمج بسبب التطابق ويحترم الربط المعتمد دون إعادة الاستيضاح."
+        }
+      ],
+      "capture_audit": {
+        "first_task_started_count": 1,
+        "first_task_complete_count": 1,
+        "final_count": 1,
+        "assistant_records_match": true,
+        "tool_calls_match": true,
+        "tool_returns_match": true,
+        "answer_hash_match": true,
+        "visible_messages_hash_match": true,
+        "rubric_exposure_observed": false,
+        "journal_sha256_at_review": "3fcb1e8656e3dcdb511de6133367126166d1f25fbe9f029ebf7efe96af76fefc",
+        "journal_first_completed_prefix_sha256": "18f96febb79d9135e60716eaba82ac4412da095b9b345402288f82c377cea953",
+        "visible_message_count": 2,
+        "tool_call_count": 2,
+        "tool_return_count": 2,
+        "later_journal_records_excluded_at_review": 0,
+        "later_task_started_count": 0,
+        "prior_messages_count": 0,
+        "dispatch_limit": "Encrypted initial dispatch content is not plaintext proof. First-turn exact capture audited; parent dispatch evidence remains necessary."
+      }
+    },
+    {
+      "scenario_id": "B14_HELP_BEFORE_RECORD",
+      "answer_sha256": "52e25d57ee0ab1511e75ba7c750fc493919c399f627179d4a12aad54f7fad9d1",
+      "visible_messages_sha256": "efdd84ed4b4d8b31d8a98f85b88f30918bd871c8246a6aec77317a1e6d131fec",
+      "reviewer": "/root/resume_round2_daily_review",
+      "independent": true,
+      "reviewed_at": "2026-10-05T09:22:32.786284+00:00",
+      "status": "PASS",
+      "criteria": [
+        {
+          "id": "DIRECT",
+          "status": "PASS",
+          "reason": "المضمون يبدأ باقتراح افتتاح اللقاء؛ التقدم لازم ومنفصل ولا يفرض تسجيلًا."
+        },
+        {
+          "id": "NATURAL",
+          "status": "PASS",
+          "reason": "عبارة افتتاح وسؤال مثال ثم تلخيص للفهم؛ كتلة الذاكرة الملزمة مثبتة والعرض UNVERIFIED."
+        },
+        {
+          "id": "NO_INTERNALS",
+          "status": "PASS",
+          "reason": "لا ملفات أو معرفات في الحوار المهني؛ الإسناد التقني داخل الكتلة الختامية فقط."
+        },
+        {
+          "id": "DECISIVE_CONSTRAINT",
+          "status": "PASS",
+          "reason": "يستمع ويتحقق من فهم القلق قبل الحلول، ويحافظ على نطاق الاستشارة."
+        },
+        {
+          "id": "SOURCE_AND_FACT",
+          "status": "PASS",
+          "reason": "صياغة مقترحة لبدء لقاء قادم، لا ادعاء لقاء وقع أو سبب دراسي ثبت."
+        },
+        {
+          "id": "HELP_FIRST",
+          "status": "PASS",
+          "reason": "يقدم المساعدة مباشرة ولا يفتح حالة ولا يقترح سجلًا أو ينفذ حفظًا."
+        }
+      ],
+      "capture_audit": {
+        "first_task_started_count": 1,
+        "first_task_complete_count": 1,
+        "final_count": 1,
+        "assistant_records_match": true,
+        "tool_calls_match": true,
+        "tool_returns_match": true,
+        "answer_hash_match": true,
+        "visible_messages_hash_match": true,
+        "rubric_exposure_observed": false,
+        "journal_sha256_at_review": "492f7e7c0841cb16f3549bda372ad0597eb230b3f86d6af4f7902aefbfe34634",
+        "journal_first_completed_prefix_sha256": "e50d606bdd2c6128d65fc0af4760a69889b06f0eb1c078934f0183e614251427",
+        "visible_message_count": 2,
+        "tool_call_count": 2,
+        "tool_return_count": 2,
+        "later_journal_records_excluded_at_review": 0,
+        "later_task_started_count": 0,
+        "prior_messages_count": 0,
+        "dispatch_limit": "Encrypted initial dispatch content is not plaintext proof. First-turn exact capture audited; parent dispatch evidence remains necessary.",
+        "mandatory_metadata": {
+          "valid_single_trailing_block": true,
+          "bound_actual_memory_read_call_ids": [
+            "call_s0PMmmmZ6ftkhpREi48hlYgf"
+          ],
+          "successful_memory_read": true,
+          "cited_guidance_present_in_actual_return": true,
+          "raw_bytes_preserved": true,
+          "ui_rendering": "UNVERIFIED",
+          "privacy_scope": "All raw visible messages including metadata reviewed; hypothetical inputs contain no student identity or identifying case details."
+        }
+      }
+    },
+    {
+      "scenario_id": "B15_INDEPENDENT_HELP",
+      "answer_sha256": "239023ad1efb63a58deb7874d6fb0b58eabf4fce8d85463d4ba2a9f3e4c78de2",
+      "visible_messages_sha256": "d34c56531e72c95164be857961f859acd667039da479fc1fa9e1a91b20203b89",
+      "reviewer": "/root/resume_round2_daily_review",
+      "independent": true,
+      "reviewed_at": "2026-10-05T09:22:32.793355+00:00",
+      "status": "PASS",
+      "criteria": [
+        {
+          "id": "DIRECT",
+          "status": "PASS",
+          "reason": "يقدم النص المطلوب مباشرة."
+        },
+        {
+          "id": "NATURAL",
+          "status": "PASS",
+          "reason": "صياغة قصيرة مناسبة لولي الأمر."
+        },
+        {
+          "id": "NO_INTERNALS",
+          "status": "PASS",
+          "reason": "لا ملفات أو آليات أو معرفات."
+        },
+        {
+          "id": "DECISIVE_CONSTRAINT",
+          "status": "PASS",
+          "reason": "لا اسم أو تفاصيل حالة، والموعد يحدد لاحقًا وفق توفر ولي الأمر."
+        },
+        {
+          "id": "SOURCE_AND_FACT",
+          "status": "PASS",
+          "reason": "لا اسم مختلق أو ادعاء جلسة أو اتفاق موعد حصل."
+        },
+        {
+          "id": "DEPENDENT_ONLY",
+          "status": "PASS",
+          "reason": "ينتج رسالة عامة دون سؤال عن الاسم غير اللازم للمخرج."
+        }
+      ],
+      "capture_audit": {
+        "first_task_started_count": 1,
+        "first_task_complete_count": 1,
+        "final_count": 1,
+        "assistant_records_match": true,
+        "tool_calls_match": true,
+        "tool_returns_match": true,
+        "answer_hash_match": true,
+        "visible_messages_hash_match": true,
+        "rubric_exposure_observed": false,
+        "journal_sha256_at_review": "4b90dda9cbbeafda01515b6811ca20584c1619db08dc2855175bfbf32ed5d851",
+        "journal_first_completed_prefix_sha256": "16637a6ced6c95e6710abb85faf3335fdcc77bf0f72771eae484921810eaeb2c",
+        "visible_message_count": 1,
+        "tool_call_count": 0,
+        "tool_return_count": 0,
+        "later_journal_records_excluded_at_review": 0,
+        "later_task_started_count": 0,
+        "prior_messages_count": 0,
+        "dispatch_limit": "Encrypted initial dispatch content is not plaintext proof. First-turn exact capture audited; parent dispatch evidence remains necessary."
+      }
+    },
+    {
+      "scenario_id": "B16_PUBLIC_INITIALS",
+      "answer_sha256": "3e15d52913cb8807676b566f172da023497242dc3a06886083a859a12cc71660",
+      "visible_messages_sha256": "1a215ee3ad0763d46705e8f6b790e71568d89f1335da89850f2f5be397c6dd4c",
+      "reviewer": "/root/resume_round2_daily_review",
+      "independent": true,
+      "reviewed_at": "2026-10-05T09:22:32.801041+00:00",
+      "status": "PASS",
+      "criteria": [
+        {
+          "id": "DIRECT",
+          "status": "PASS",
+          "reason": "يبدأ بأن الأحرف وحدها لا تكفي."
+        },
+        {
+          "id": "NATURAL",
+          "status": "PASS",
+          "reason": "فقرتان موجزتان توضحان اجتماع القرائن والبديل العام."
+        },
+        {
+          "id": "NO_INTERNALS",
+          "status": "PASS",
+          "reason": "لا آليات فحص أو وعد ضمان حارس أو أسماء ملفات."
+        },
+        {
+          "id": "DECISIVE_CONSTRAINT",
+          "status": "PASS",
+          "reason": "يرفض جمع الأحرف والصف والظرف في الحزمة العامة ويقيد التفاصيل بموطنها المصرح."
+        },
+        {
+          "id": "SOURCE_AND_FACT",
+          "status": "PASS",
+          "reason": "لا يدعي ضمان الخصوصية أو يضيف وقائع تعريفية؛ الحكم تحذير من إمكانية التعرف."
+        },
+        {
+          "id": "INDIRECT_IDENTIFICATION",
+          "status": "PASS",
+          "reason": "يرفض الشكل المقترح ويشترط وصفًا عامًا دون الأحرف أو تفاصيل الأسرة أو القرائن الكاشفة قبل التسليم العام؛ لا ينسخ تفاصيل إضافية."
+        }
+      ],
+      "capture_audit": {
+        "first_task_started_count": 1,
+        "first_task_complete_count": 1,
+        "final_count": 1,
+        "assistant_records_match": true,
+        "tool_calls_match": true,
+        "tool_returns_match": true,
+        "answer_hash_match": true,
+        "visible_messages_hash_match": true,
+        "rubric_exposure_observed": false,
+        "journal_sha256_at_review": "696b4d8de01bf40a4ddffa1adf80a2c14b7525216371b2f881a913e60897cd66",
+        "journal_first_completed_prefix_sha256": "a91370567463be68bb0588cb3257d4ddc892f2b2939c39909cc06fd03b143979",
+        "visible_message_count": 1,
+        "tool_call_count": 1,
+        "tool_return_count": 1,
+        "later_journal_records_excluded_at_review": 0,
+        "later_task_started_count": 0,
+        "prior_messages_count": 0,
+        "dispatch_limit": "Encrypted initial dispatch content is not plaintext proof. First-turn exact capture audited; parent dispatch evidence remains necessary."
+      }
+    }
+  ],
+  "source_checks": [
+    "Current workflow: actionable minimum, pseudonym scope, consultation-only, permanent-update approval and Noor verification boundaries",
+    "Actual captured successful memory returns support cited B07 line224 and B14 line33",
+    "Full visible messages and first completed journal prefixes independently audited; no answer regeneration"
+  ],
+  "raw_privacy_review": "All raw visible messages, including memory suffixes and initials in the hypothetical collision question, reviewed. No real student names or identifying case details present. Mandatory metadata UI rendering remains UNVERIFIED.",
+  "summary": {
+    "pass": 11,
+    "fail": 0,
+    "professional_scenarios_pass": 11,
+    "reviewed_visible_messages": 16,
+    "reviewed_tool_calls": 20,
+    "reviewed_tool_returns": 20
+  }
+}

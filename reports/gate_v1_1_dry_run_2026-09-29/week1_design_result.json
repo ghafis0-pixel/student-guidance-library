@@ -1,0 +1,84 @@
+{
+  "gate_status": "BLOCKED",
+  "gate_version": "1.1.0",
+  "runner_version": "1.1.0",
+  "schema_version": "2.0",
+  "phase": "DESIGN",
+  "gate_result_date": "2026-09-29",
+  "checked_by": "Codex - independent design dry run",
+  "references_checked": [
+    {
+      "key": "QASSIM_PLAN",
+      "path": "references/04_regional_plans/خطة برامج وخدمات التوجيه الطلابي تعليم القصيم 1448.pdf",
+      "sha256": "79e2198db34bb4f46985fbb50d27f27d24d98be4e15ecea92b6b38ba5e6f0fb9"
+    },
+    {
+      "key": "NOOR_REFERENCE",
+      "path": "references/03_official_operational_guides/noor/مرجع_نظام_نور_للتوجيه_الطلابي.md",
+      "sha256": "5ddbb789e467c48d59e966f9d44b360307f815f5ca987a57c925f1ebb253a637"
+    },
+    {
+      "key": "ORGANIZATIONAL_GUIDE",
+      "path": "references/02_regulatory/organizational_guides/الدليل التنظيمي - مقتطف التوجيه الطلابي 1446.pdf",
+      "sha256": "fcb09f4b8b3ab720dc68684d077ab2de340ca8cbbd2742fd132003dd112babda"
+    },
+    {
+      "key": "PROCEDURAL_GUIDE",
+      "path": "references/02_regulatory/procedural_guides/الدليل الإجرائي - مقتطف الموجه الطلابي 1446.pdf",
+      "sha256": "0d74c788c94bee61d0608567607f0612caf9b890c8ae6bc932afe2b50df9795b"
+    },
+    {
+      "key": "PROGRAM_REGISTRY",
+      "path": "catalog/source_registry.json",
+      "sha256": "e9b525f96e5b4e9fa0bcc99b4bc4d8b2a7cfe63a633ae8074042b1f2bbd62ed4"
+    },
+    {
+      "key": "SCHOOL_CONTEXT",
+      "path": "AGENTS.md",
+      "sha256": "72e66a763500099aee2cea76e7b559ac9a1a58d50bcb87b32c0bec132fc371a0"
+    },
+    {
+      "key": "GATE_SPEC",
+      "path": "standards/WEEKLY_PLAN_GATE.md",
+      "sha256": "7c4b5e33b7c588a89665da327f18cbb04e8bba653c08a3b9df810c03445ae5ab"
+    }
+  ],
+  "blocking_issues": [
+    "E01: استحقاق برنامج رسمي أو أولوية جديدة غير مثبت - الخطة تجعل خطة نور السنوية مصدرًا حاكمًا للاستحقاق إلى جانب خطة القصيم، بينما نور قناة ربط وتوثيق ولا ينشئ الاستحقاق بمجرد وجود البرنامج."
+  ],
+  "human_reviews": [
+    "N01: مسار نور أو توقيت إثباته غير محسوم - الخطة تؤجل اختيار نشاط عام أو توجيه جمعي إلى ما بعد التنفيذ، لكن مسار خدمة نور المتوقع وحقوله لم يُحسما بعد.",
+    "W02: عبء حقول يحتاج مراجعة - حقلا توقيع المدير والموجه في ملخص الإغلاق لا يستندان إلى متطلب مثبت داخل المواد المفحوصة وقد يضيفان اعتمادًا ورقيًا زائدًا."
+  ],
+  "warnings": [
+    "W03: التصميم يحتاج تبسيطًا أو أصبح غير قابل للتنفيذ - الخطة تضع خطوات يومية صغيرة لكنها لا تتضمن عوازل زمنية صريحة ولا حدًا أدنى مستقلًا لليوم السيئ."
+  ],
+  "information": [],
+  "pending_items": [
+    "N03: PENDING - حقول العدد والأثر بقيت فارغة، ولا توجد قيمة مؤشر أو نسبة مختلقة؛ القياس ينتظر التنفيذ الواقعي."
+  ],
+  "passed_rules": [
+    "C01",
+    "D01",
+    "D02",
+    "D04",
+    "E02",
+    "E03",
+    "E04",
+    "N03",
+    "P01",
+    "V01",
+    "V02",
+    "W01"
+  ],
+  "failed_rules": [
+    "E01",
+    "N01",
+    "W02",
+    "W03"
+  ],
+  "not_applicable_rules": [],
+  "not_assessable_rules": [],
+  "affected_rules_by_reference": {},
+  "scope": "Phase-specific review; never proof of field execution or Noor save by itself."
+}

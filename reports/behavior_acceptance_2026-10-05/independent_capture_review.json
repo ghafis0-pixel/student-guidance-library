@@ -1,0 +1,649 @@
+{
+  "reviewer": "/root/review_capture",
+  "reviewed_at": "2026-10-04T23:09:43.441790+00:00",
+  "scope": "Independent evidence-integrity audit only; no response rerun, no semantic acceptance judgment.",
+  "input_sha256": {
+    "reports/behavior_acceptance_2026-10-05/actual_runs_unreviewed.json": "841f8a1d191474cbcacedb7dc187332d7094590bbbd67dc0fd05e4e87f444341",
+    "reports/behavior_acceptance_2026-10-05/actual_transcripts.json": "181dc71b2d7c316aca70ed1f372a23f0dde4e69c9bfe2bb61708a43ac07affbb",
+    "reports/behavior_acceptance_2026-10-05/capture_audit.json": "5618d0a1caccb6f025d7bd9e552379fa791437831a5792e9fb703ec3593d6a01",
+    "reports/behavior_acceptance_2026-10-05/project_before.json": "c3462fb77a5dcbfa2bc0f7d3707ec2839d5495d13385fc94ed3904b791200c57",
+    "standards/behavior_acceptance.json": "afcf73c5bbc26e789988808498a52572a25104db057f38380fa2a23d2e23f54c",
+    "reports/behavior_acceptance_2026-10-05/scenario_requests.json": "77a7874020d0c45901f474ad1fc58637be91dafa7f0bce185f62bba2cef3ee3a",
+    "reports/behavior_acceptance_2026-10-05/incomplete_attempts.json": "2d31cb41dc727da5f4876883d137507a26037d889dc7c6c40b4bfa1c45e8421f",
+    "reports/behavior_acceptance_2026-10-05/review_privacy.json": "26cf56fb0722010979ee653d786446f87cfabd193557dfbc0f0d180205041d80",
+    "reports/behavior_acceptance_2026-10-05/review_privacy_input.json": "ba58782714e94ed641fa913a6c8de4b868f4936c95d76f2b9bf318edf682e010",
+    "reports/behavior_acceptance_2026-10-05/review_sources_input.json": "0a7dd6c25af62c101eda4205f28273a98861339ec9ab3e63007a35bd6fdc2491",
+    "reports/behavior_acceptance_2026-10-05/capture_progress.json": "8ea99a9316ed93b02665a105471f3ead765d000e394f04fef7ae26c49ec80987",
+    "reports/behavior_acceptance_2026-10-05/raw_and_metadata_diagnostics.json": "be847704dd67d3cea9df7b6911b844cd516f1243b7b77f35bfcef3d441035f5c",
+    "reports/behavior_acceptance_2026-10-05/audit_capture.py": "30165f45ec80b1ff03f8692b127685d70a2f6a8ea4c74162ab444eb5fb24dad0",
+    "C:/Users/CSS/.codex/sessions/2026/10/05/rollout-2026-10-05T00-57-10-01a108eb-bec3-7180-86e1-bdcc59f03f21.jsonl": "6fb03e090f2b31c58240da035e07d3548b48f987a8178559008d977301b6c537",
+    "C:/Users/CSS/.codex/sessions/2026/10/05/rollout-2026-10-05T00-34-36-01a108d7-1817-7261-8432-a7e2be564ca1.jsonl": "2156bab0e776ca47132d6f5b46df39b7be9430c776eebe4ab61f27effef16751",
+    "C:/Users/CSS/.codex/sessions/2026/10/05/rollout-2026-10-05T01-07-07-01a108f4-dcf9-70d1-abfc-addcdb012572.jsonl": "8278b492eb47c2f198ff31eaf2b031b005887cc1c057ce913c46fe18ae2185fb",
+    "C:/Users/CSS/.codex/sessions/2026/10/05/rollout-2026-10-05T01-15-39-01a108fc-acdb-7d43-ab0b-dc8f47c3fbde.jsonl": "fb3e761ff97ce925f788b00fb8a7f7cf6bd58a08ef66c7ba5b826fb7ae35e20b",
+    "C:/Users/CSS/.codex/sessions/2026/10/05/rollout-2026-10-05T01-19-14-01a108ff-f3b3-7f41-a421-a6beb4e1bbb8.jsonl": "546fdb4e02ea84f9b4c0b2126fc7bbe8d85cd059823c8b10f1c0c6caf83a60c2",
+    "C:/Users/CSS/.codex/sessions/2026/10/05/rollout-2026-10-05T01-38-50-01a10911-e61c-7ab3-8f1e-02de7d2bbcf0.jsonl": "3d7c6dcbe4ef42b3926ed959c733ecb78a17937458876e4e69a01b044b478dd1",
+    "C:/Users/CSS/.codex/sessions/2026/10/05/rollout-2026-10-05T01-13-06-01a108fa-55ff-7d83-8f03-d60580d593bb.jsonl": "c3a1682b5c56834da412461162f13273c734ab9297990c1e715532ae0c57eb11",
+    "C:/Users/CSS/.codex/sessions/2026/10/05/rollout-2026-10-05T01-13-30-01a108fa-b498-7310-a85a-be8b071bb8b8.jsonl": "e29b4eb0a94ec58d436a947affa65aa524605618c18802ad2826916a4b377ede",
+    "C:/Users/CSS/.codex/sessions/2026/10/05/rollout-2026-10-05T01-09-04-01a108f6-a2cc-7122-b946-2ce2354fa1a5.jsonl": "c2afed031daf284a12a67aa390df1af68f94a13ace8ef3c32bf1e0ce5945485b",
+    "C:/Users/CSS/.codex/sessions/2026/10/05/rollout-2026-10-05T01-21-24-01a10901-f0b8-7142-8e02-ed3b844677e4.jsonl": "50f3e88545dc3b47ea818882b3c0e57c76402e45d3910a8cfff3883eb6ba0212",
+    "C:/Users/CSS/.codex/sessions/2026/10/05/rollout-2026-10-05T01-15-02-01a108fc-1a6c-7910-bc19-6a8bd8103048.jsonl": "e9cd4b179844e8429a891889fcc8e16f84c7f3c3712eba7d3eed2b339424ba89",
+    "C:/Users/CSS/.codex/sessions/2026/10/05/rollout-2026-10-05T01-16-59-01a108fd-e680-7293-ac5b-60da6c69d9b4.jsonl": "8b1b884c969f23c7781c7cf0486445bfe6b6ec1e4e5b762d43774de7683cabb8",
+    "C:/Users/CSS/.codex/sessions/2026/10/05/rollout-2026-10-05T00-57-05-01a108eb-acc8-78e2-90e1-7dd37881ae0b.jsonl": "25310204231ac4f170b4a2b6a6f72a771e4bf7f4985e3f705d0990385e97e37f",
+    "C:/Users/CSS/.codex/sessions/2026/10/05/rollout-2026-10-05T01-08-31-01a108f6-223c-7721-809f-05f6cd32dee4.jsonl": "63649aad9984c5654f4d51d0ca78c4b80530ece4fe297ac4331d455061ab511d",
+    "C:/Users/CSS/.codex/sessions/2026/10/05/rollout-2026-10-05T01-18-36-01a108ff-6091-71b2-bd84-85f705272d2a.jsonl": "fd7d828a7bc4446a37ee1323da1a75b49e9382e1721f9f3fe9a711ca50ce7e59",
+    "C:/Users/CSS/.codex/sessions/2026/10/05/rollout-2026-10-05T01-19-47-01a10900-7381-7cc3-928b-f99b7300dc71.jsonl": "f8bbb986be2632ad75c3bd6df9e6887625a90ba509cd196c27ce5d40730315a4",
+    "C:/Users/CSS/.codex/sessions/2026/10/05/rollout-2026-10-05T01-20-23-01a10901-0000-7652-8fc5-0b68044dc5f3.jsonl": "78ed54737d64c7e065230f4b0e607d4847b6d8dcdab1e1b7edd25e5e486808c3",
+    "C:/Users/CSS/.codex/sessions/2026/10/05/rollout-2026-10-05T00-58-33-01a108ed-0634-73d1-af2e-47abbebb02d4.jsonl": "5a90357b51eae9f1a137dabf6d873597fa9251c26d50693ec54071d93b0f57de",
+    "AGENTS.md": "e3ecc14c7564396cfb6b9c06b90bbb1ebf03268928f5a0ce8954a7066b80355d",
+    "catalog/reference_matrix.json": "d2dcb3c01c92432115b812ac560011ba39619771bb85797943ef150416621f67",
+    "catalog/source_registry.json": "958222b8be4b4054f80f012386716765012ed791d836e1cd6deaf635f59bea40",
+    "catalog/خريطة_صفحات_الموجه_الطلابي_نسخة_متحققة.md": "4c536221a1b74a190e0a697dfc89ec02acbb8d35330fa4ba02e6a6523b26ebdb",
+    "context/current.json": "bd37699b4c4da7c924931e431265025bf095db810f0fd8030ddff7c1127c6fa0",
+    "context/decisions.md": "39e7a694cf46fa37d79d958e65651ea30cd0b789197633a47e4ce33770168daf",
+    "extracted_text/pdf/REF-BEHAVIOR-1447-V5.txt": "66c18f64fecefecd65f6bd19118ccc1f29832f538d83a05900f7e72a6e4108aa",
+    "guide/workflow.md": "60105007682051de23e95e42108cca3e5a21b1491af86ea19b2be076e3416dd5",
+    "references/02_regulatory/behavior_and_attendance_regulations/قواعد السلوك والمواظبة الإصدار الخامس 1447.pdf": "2ef1ca2b7618623b555542bbe4f7175f7bfbdfd45f55b043f6d9affc854b04ef",
+    "references/02_regulatory/procedural_guides/derived/كل_ما_يخص_الموجه_الطلابي_في_الدليل_الإجرائي_نسخة_متحققة.md": "eb4e3349126577250d68fdeb4f0274e39658f2a4d1485a775f90cf5a2b100453",
+    "references/02_regulatory/procedural_guides/الدليل الإجرائي الكامل - رجب 1446.pdf": "9d37a896a6336c7e5f31f74b17bf1c5ccd3c638e7bc3ee8a1f1408a9d0102e8d",
+    "standards/WEEKLY_PLAN_GATE.md": "b57d647ce4a73413560c96f756a1ffda34b0ba65dcd936daf4d2d0c133f603f2",
+    "tools/check_behavior_acceptance.py": "681c229fc77ea53df20c4b4de827e30b7afc33efab73e5baac9c33dad6c41990",
+    "work/register.json": "bf4c90392c74da34ddcc21d28f3d050205c2be3ddacb20fb2b9d56f4609250c9",
+    "C:/Users/CSS/.codex/sessions/2026/10/05/rollout-2026-10-05T00-57-00-01a108eb-996e-7bd2-9986-788ad64fee21.jsonl": "1305545a51a3c964f7b0f513d39f5cd611793580199c2ebf790a0c052d50f6be",
+    "C:/Users/CSS/.codex/sessions/2026/10/05/rollout-2026-10-05T00-58-28-01a108ec-f0db-7920-a116-e93144edf482.jsonl": "d8a34e6d348e5d9955726ca3700dbc0e124d4f11f5eb1ba6296ff817c299f16a",
+    "C:/Users/CSS/.codex/sessions/2026/10/05/rollout-2026-10-05T01-13-40-01a108fa-dbad-7860-a14c-ebef428a5538.jsonl": "4e6222954d1a2582183afc4c7cc9cdea375f5da6235f76959e206cfd167c435e",
+    "C:/Users/CSS/.codex/sessions/2026/10/05/rollout-2026-10-05T01-23-32-01a10903-e2db-7731-b72a-fd2d62c7437b.jsonl": "0a87c2357594ccc30fc30a850fe2c68be718945b494c75f49f7b8c792dc1f090",
+    "C:/Users/CSS/.codex/sessions/2026/10/05/rollout-2026-10-05T01-31-57-01a1090b-97b2-7961-ba01-3293ee0f8ea7.jsonl": "5ac11ef00ffcfac28dfac4ab7905aeda632bbecaedefea5c9bd1001a5d364799",
+    "reports/behavior_acceptance_2026-10-05/tool_return_receipts.json": "abd73219cdb12cefc60bc16d00bd2e21fb9032cb4f09c6e78b5a1ceab2ba56ae",
+    "reports/behavior_acceptance_2026-10-05/review_sources.json": "65259f520f9d6e3c9e6f1cb26c02de3c5cc502a47f31bfcb34bf24aaf3ddcd79",
+    "reports/behavior_acceptance_2026-10-05/review_daily.json": "4ff469a5d2b11444893eae6d36c772bc64e5994b8b7c77330c09520ef89a9efb",
+    "reports/behavior_acceptance_2026-10-05/review_daily_input.json": "282eb746db744a708371ae9c9f16cf298c5c5f7958d8a775ca8a3a94e26a2f46",
+    "reports/behavior_acceptance_2026-10-05/cold_protocol_issue_B10.json": "ebb0ed4b68da5d9981aec45121b0b86f4513dc7d01ed1238a5f8d045eb20340b"
+  },
+  "checks": [
+    {
+      "id": "capture_exact_answers_all_messages_tools",
+      "status": "PASS",
+      "reason": "All 17 original journals independently parsed; final raw answers, every assistant message including phase/timestamp, tool invocations, and their canonical hashes compared without normalization.",
+      "evidence": [
+        {
+          "scenario_id": "B01_PREVIOUS_UNKNOWN",
+          "context_id": "01a108eb-bec3-7180-86e1-bdcc59f03f21",
+          "journal_file": "C:/Users/CSS/.codex/sessions/2026/10/05/rollout-2026-10-05T00-57-10-01a108eb-bec3-7180-86e1-bdcc59f03f21.jsonl",
+          "visible_messages_count": 1,
+          "answer_sha256": "46d8325407d64ee0dc182984b3d90c87952e33bf8f7d2399b945a18b3f7c2368",
+          "visible_messages_sha256": "3b522a6c1a8fd77c217702ab061f93b38120ab35be6f9925542791e6dba5eaa8",
+          "all_comparisons_match": true,
+          "user_message_records": 1,
+          "inter_agent_metadata_records": 1,
+          "prompt_plaintext_in_journal_verified": false
+        },
+        {
+          "scenario_id": "B02_URGENT_SAFETY",
+          "context_id": "01a108f4-dcf9-70d1-abfc-addcdb012572",
+          "journal_file": "C:/Users/CSS/.codex/sessions/2026/10/05/rollout-2026-10-05T01-07-07-01a108f4-dcf9-70d1-abfc-addcdb012572.jsonl",
+          "visible_messages_count": 2,
+          "answer_sha256": "ec5393e533f79644715aab50f2b4cbfd027d397a40f09691a47735d1b1f70a2f",
+          "visible_messages_sha256": "f68658d10da148a93f6310bcfbea50028be437502fdaec6705b58f2798ba52cd",
+          "all_comparisons_match": true,
+          "user_message_records": 1,
+          "inter_agent_metadata_records": 1,
+          "prompt_plaintext_in_journal_verified": false
+        },
+        {
+          "scenario_id": "B03_ARTICLES_33_34",
+          "context_id": "01a108fc-acdb-7d43-ab0b-dc8f47c3fbde",
+          "journal_file": "C:/Users/CSS/.codex/sessions/2026/10/05/rollout-2026-10-05T01-15-39-01a108fc-acdb-7d43-ab0b-dc8f47c3fbde.jsonl",
+          "visible_messages_count": 3,
+          "answer_sha256": "a29e6b4f76165103e3d3607e55ba8ed66372c814530d53d41266aa482440592c",
+          "visible_messages_sha256": "a54d8ca525c964f6aa8e0ead2e8acdb0227513fa0a6748db90d818e8dd128fd1",
+          "all_comparisons_match": true,
+          "user_message_records": 1,
+          "inter_agent_metadata_records": 1,
+          "prompt_plaintext_in_journal_verified": false
+        },
+        {
+          "scenario_id": "B04_OFFICIAL_ROLES",
+          "context_id": "01a108ff-f3b3-7f41-a421-a6beb4e1bbb8",
+          "journal_file": "C:/Users/CSS/.codex/sessions/2026/10/05/rollout-2026-10-05T01-19-14-01a108ff-f3b3-7f41-a421-a6beb4e1bbb8.jsonl",
+          "visible_messages_count": 1,
+          "answer_sha256": "a104152c9ea795a936659eb0e0d40831b8932afac889e19192e13532894326f4",
+          "visible_messages_sha256": "f7ba2b4dc1a0d1a858b1afe9159d14103379a0d15f0f5a95e6c6de808649d5a2",
+          "all_comparisons_match": true,
+          "user_message_records": 1,
+          "inter_agent_metadata_records": 1,
+          "prompt_plaintext_in_journal_verified": false
+        },
+        {
+          "scenario_id": "B05_COMPOUND_ACTION",
+          "context_id": "01a10911-e61c-7ab3-8f1e-02de7d2bbcf0",
+          "journal_file": "C:/Users/CSS/.codex/sessions/2026/10/05/rollout-2026-10-05T01-38-50-01a10911-e61c-7ab3-8f1e-02de7d2bbcf0.jsonl",
+          "visible_messages_count": 3,
+          "answer_sha256": "75c84826f56c2b18585986d13fc6c4158c954f6c31e886d31018e30bfa01959f",
+          "visible_messages_sha256": "6726d3d85a677574aef5464ec2f9873d6990762d7d063e6a247f21e08c47d7d5",
+          "all_comparisons_match": true,
+          "user_message_records": 1,
+          "inter_agent_metadata_records": 1,
+          "prompt_plaintext_in_journal_verified": false
+        },
+        {
+          "scenario_id": "B06_SIMPLE_ACTION",
+          "context_id": "01a108fa-55ff-7d83-8f03-d60580d593bb",
+          "journal_file": "C:/Users/CSS/.codex/sessions/2026/10/05/rollout-2026-10-05T01-13-06-01a108fa-55ff-7d83-8f03-d60580d593bb.jsonl",
+          "visible_messages_count": 1,
+          "answer_sha256": "6e05eebf6945a14636c3f59fcb53cf1bb9801144afa73deced6ae59219fbc777",
+          "visible_messages_sha256": "3518b12a7552276ae4ecfa52b9ec397d406469d80ff866c2022e3eccc6c44221",
+          "all_comparisons_match": true,
+          "user_message_records": 1,
+          "inter_agent_metadata_records": 1,
+          "prompt_plaintext_in_journal_verified": false
+        },
+        {
+          "scenario_id": "B07_KNOWLEDGE_NOOR",
+          "context_id": "01a108fa-b498-7310-a85a-be8b071bb8b8",
+          "journal_file": "C:/Users/CSS/.codex/sessions/2026/10/05/rollout-2026-10-05T01-13-30-01a108fa-b498-7310-a85a-be8b071bb8b8.jsonl",
+          "visible_messages_count": 2,
+          "answer_sha256": "a2f053112420b2c1f6cd276e23b1380d0464cbfac22fd555ae61173dc1bda2a4",
+          "visible_messages_sha256": "6fd527be0cac54af8265399dbb6205af016b6cc70aa4c0a8e2134d0562f2e07b",
+          "all_comparisons_match": true,
+          "user_message_records": 1,
+          "inter_agent_metadata_records": 1,
+          "prompt_plaintext_in_journal_verified": false
+        },
+        {
+          "scenario_id": "B08_PROFESSIONAL_UNKNOWN",
+          "context_id": "01a108f6-a2cc-7122-b946-2ce2354fa1a5",
+          "journal_file": "C:/Users/CSS/.codex/sessions/2026/10/05/rollout-2026-10-05T01-09-04-01a108f6-a2cc-7122-b946-2ce2354fa1a5.jsonl",
+          "visible_messages_count": 3,
+          "answer_sha256": "a8b5063a111ced02e153e57a9e4a8a3d34005d14616d9d645afbf987205d18a3",
+          "visible_messages_sha256": "ca51b6a5eb807eef6c3b8e676dfa61e69a5a55069b265a53cc871a42d33e0752",
+          "all_comparisons_match": true,
+          "user_message_records": 1,
+          "inter_agent_metadata_records": 1,
+          "prompt_plaintext_in_journal_verified": false
+        },
+        {
+          "scenario_id": "B09_SOURCE_VS_PROPOSAL",
+          "context_id": "01a10901-f0b8-7142-8e02-ed3b844677e4",
+          "journal_file": "C:/Users/CSS/.codex/sessions/2026/10/05/rollout-2026-10-05T01-21-24-01a10901-f0b8-7142-8e02-ed3b844677e4.jsonl",
+          "visible_messages_count": 1,
+          "answer_sha256": "acea28a2de2f7e70f578cdfcf42e5b53e6216945cc418ca4673fe02a44793530",
+          "visible_messages_sha256": "883d009eb82c21a06113f651f7b843128735922af5454487acef6912655e835a",
+          "all_comparisons_match": true,
+          "user_message_records": 1,
+          "inter_agent_metadata_records": 1,
+          "prompt_plaintext_in_journal_verified": false
+        },
+        {
+          "scenario_id": "B10_APPROVAL_NOOR",
+          "context_id": "01a108fc-1a6c-7910-bc19-6a8bd8103048",
+          "journal_file": "C:/Users/CSS/.codex/sessions/2026/10/05/rollout-2026-10-05T01-15-02-01a108fc-1a6c-7910-bc19-6a8bd8103048.jsonl",
+          "visible_messages_count": 2,
+          "answer_sha256": "f2c72ab529f46d85478f716c5b2207e6f7f91a7c715f1e3471b4060a93c29aa1",
+          "visible_messages_sha256": "42985cfc2f71abfb25479edf57a1503b613a0058ec111b614fc8ec614163285a",
+          "all_comparisons_match": true,
+          "user_message_records": 1,
+          "inter_agent_metadata_records": 1,
+          "prompt_plaintext_in_journal_verified": false
+        },
+        {
+          "scenario_id": "B11_PLAN_NOT_EVIDENCE",
+          "context_id": "01a108fd-e680-7293-ac5b-60da6c69d9b4",
+          "journal_file": "C:/Users/CSS/.codex/sessions/2026/10/05/rollout-2026-10-05T01-16-59-01a108fd-e680-7293-ac5b-60da6c69d9b4.jsonl",
+          "visible_messages_count": 2,
+          "answer_sha256": "a57f33ba5a112c87ddae66a12a0f2853cc3f87a7eec54ede79481785b7c6d7f7",
+          "visible_messages_sha256": "02fdb5563df30b1e5b0c0a618683c02b1b3a2236278cb68965f42123c84f066d",
+          "all_comparisons_match": true,
+          "user_message_records": 1,
+          "inter_agent_metadata_records": 1,
+          "prompt_plaintext_in_journal_verified": false
+        },
+        {
+          "scenario_id": "B12_INITIALS_ALLOWED",
+          "context_id": "01a108eb-acc8-78e2-90e1-7dd37881ae0b",
+          "journal_file": "C:/Users/CSS/.codex/sessions/2026/10/05/rollout-2026-10-05T00-57-05-01a108eb-acc8-78e2-90e1-7dd37881ae0b.jsonl",
+          "visible_messages_count": 1,
+          "answer_sha256": "993f98cff96c69d0ac79eb5956441583708f9ddda731bdcc3c0f36503a2b830b",
+          "visible_messages_sha256": "4c6dfa0ddd8cf87b12c0178e0b53d3199424c011ee1ead04855ee8aebb73bcd7",
+          "all_comparisons_match": true,
+          "user_message_records": 1,
+          "inter_agent_metadata_records": 1,
+          "prompt_plaintext_in_journal_verified": false
+        },
+        {
+          "scenario_id": "B13_INITIALS_COLLISION",
+          "context_id": "01a108f6-223c-7721-809f-05f6cd32dee4",
+          "journal_file": "C:/Users/CSS/.codex/sessions/2026/10/05/rollout-2026-10-05T01-08-31-01a108f6-223c-7721-809f-05f6cd32dee4.jsonl",
+          "visible_messages_count": 1,
+          "answer_sha256": "df0cd0843695be6dc82fe41688de21c738b9ee9c8dd6f7db406a6665ea6d54e5",
+          "visible_messages_sha256": "1b7ab40e5c1e75ae3e1a6f18945dc86e6c22cf19e39e835239017a158e02dae1",
+          "all_comparisons_match": true,
+          "user_message_records": 1,
+          "inter_agent_metadata_records": 1,
+          "prompt_plaintext_in_journal_verified": false
+        },
+        {
+          "scenario_id": "B14_HELP_BEFORE_RECORD",
+          "context_id": "01a108ff-6091-71b2-bd84-85f705272d2a",
+          "journal_file": "C:/Users/CSS/.codex/sessions/2026/10/05/rollout-2026-10-05T01-18-36-01a108ff-6091-71b2-bd84-85f705272d2a.jsonl",
+          "visible_messages_count": 2,
+          "answer_sha256": "be5a0544dd1267f72729c52135549e4c9b7c432b1114476404c4844987408e56",
+          "visible_messages_sha256": "1c22ad2806580ca16cec8c51597a72197fbec98112c53df1bf46d8cce56b877b",
+          "all_comparisons_match": true,
+          "user_message_records": 1,
+          "inter_agent_metadata_records": 1,
+          "prompt_plaintext_in_journal_verified": false
+        },
+        {
+          "scenario_id": "B15_INDEPENDENT_HELP",
+          "context_id": "01a10900-7381-7cc3-928b-f99b7300dc71",
+          "journal_file": "C:/Users/CSS/.codex/sessions/2026/10/05/rollout-2026-10-05T01-19-47-01a10900-7381-7cc3-928b-f99b7300dc71.jsonl",
+          "visible_messages_count": 1,
+          "answer_sha256": "2ee3d366c2f58e49860e060e8e0218b108b846b0a2322021bc7b8e54aaaa4cf4",
+          "visible_messages_sha256": "e5594a53ef88ce8eecaf5354e10de51ce8dfb0326dee387526f6c5516ac5ca6d",
+          "all_comparisons_match": true,
+          "user_message_records": 1,
+          "inter_agent_metadata_records": 1,
+          "prompt_plaintext_in_journal_verified": false
+        },
+        {
+          "scenario_id": "B16_PUBLIC_INITIALS",
+          "context_id": "01a10901-0000-7652-8fc5-0b68044dc5f3",
+          "journal_file": "C:/Users/CSS/.codex/sessions/2026/10/05/rollout-2026-10-05T01-20-23-01a10901-0000-7652-8fc5-0b68044dc5f3.jsonl",
+          "visible_messages_count": 2,
+          "answer_sha256": "cb9cc3e6e4721522efe36f7bb08c7c0e260e8728beaf5685ba8b0951d9e0cac1",
+          "visible_messages_sha256": "ff529a64f76d3e79843b27cf5e0eb37e67628e59d774134655cbf05658eb8343",
+          "all_comparisons_match": true,
+          "user_message_records": 1,
+          "inter_agent_metadata_records": 1,
+          "prompt_plaintext_in_journal_verified": false
+        },
+        {
+          "scenario_id": "B17_KNOWN_PRIOR_EXECUTION",
+          "context_id": "01a108ed-0634-73d1-af2e-47abbebb02d4",
+          "journal_file": "C:/Users/CSS/.codex/sessions/2026/10/05/rollout-2026-10-05T00-58-33-01a108ed-0634-73d1-af2e-47abbebb02d4.jsonl",
+          "visible_messages_count": 3,
+          "answer_sha256": "401db36bb9d0a7e55e2bff2cada5667c0d7835ed5626813c1d92163b172c2a31",
+          "visible_messages_sha256": "c96cce7f69cef379004c6c700f0abb3267c011909b0107bd6b108ed4349d4eb9",
+          "all_comparisons_match": true,
+          "user_message_records": 1,
+          "inter_agent_metadata_records": 1,
+          "prompt_plaintext_in_journal_verified": false
+        }
+      ]
+    },
+    {
+      "id": "capture_distinct_fresh_agent_contexts",
+      "status": "PASS",
+      "reason": "17 distinct session ids; each has one task start and one successful completion; dispatch uses fork_turns=none and the recorded target. This establishes distinct agent contexts, not equality to a standalone user chat."
+    },
+    {
+      "id": "contract_operator_prompt_and_version_binding",
+      "status": "PASS",
+      "reason": "17 operator-captured scenario texts match contract prompts and scenario_requests; audit binds exact current run/transcript bytes. Every run preserves the initial 259-file map; B03 and B17 additionally bind one retrieval-text file and have valid 260-file canonical snapshots.",
+      "snapshot_membership_additions": [
+        {
+          "scenario_id": "B03_ARTICLES_33_34",
+          "added_file_hashes": {
+            "extracted_text/pdf/REF-BEHAVIOR-1447-V5.txt": "66c18f64fecefecd65f6bd19118ccc1f29832f538d83a05900f7e72a6e4108aa"
+          },
+          "base_259_files_preserved": true,
+          "canonical_run_snapshot_valid": true
+        },
+        {
+          "scenario_id": "B17_KNOWN_PRIOR_EXECUTION",
+          "added_file_hashes": {
+            "extracted_text/pdf/REF-BEHAVIOR-1447-V5.txt": "66c18f64fecefecd65f6bd19118ccc1f29832f538d83a05900f7e72a6e4108aa"
+          },
+          "base_259_files_preserved": true,
+          "canonical_run_snapshot_valid": true
+        }
+      ]
+    },
+    {
+      "id": "encrypted_dispatch_plaintext",
+      "status": "NOT_RUN",
+      "verification": "NOT_VERIFIED",
+      "reason": "Every root spawn payload message is encrypted ciphertext. Ciphertext hash/target and operator copy are bound, but ciphertext does not independently authenticate the scenario plaintext, wrapper instructions, or exclusion of expected answers/rubrics."
+    },
+    {
+      "id": "current_required_and_invoked_project_versions",
+      "status": "PASS",
+      "reason": "Current bytes of required and invocation-referenced files match their per-run snapshots. B03 and B17 bind an additional retrieval-text file absent from project_before; it is not an authoritative original source or proof of inclusion in the ZIP. Remaining baseline files were compared as captured hash maps only, not reread.",
+      "checked_files": [
+        "AGENTS.md",
+        "catalog/reference_matrix.json",
+        "catalog/source_registry.json",
+        "catalog/خريطة_صفحات_الموجه_الطلابي_نسخة_متحققة.md",
+        "context/current.json",
+        "context/decisions.md",
+        "extracted_text/pdf/REF-BEHAVIOR-1447-V5.txt",
+        "guide/workflow.md",
+        "references/02_regulatory/behavior_and_attendance_regulations/قواعد السلوك والمواظبة الإصدار الخامس 1447.pdf",
+        "references/02_regulatory/procedural_guides/derived/كل_ما_يخص_الموجه_الطلابي_في_الدليل_الإجرائي_نسخة_متحققة.md",
+        "references/02_regulatory/procedural_guides/الدليل الإجرائي الكامل - رجب 1446.pdf",
+        "standards/WEEKLY_PLAN_GATE.md",
+        "standards/behavior_acceptance.json",
+        "tools/check_behavior_acceptance.py",
+        "work/register.json"
+      ]
+    },
+    {
+      "id": "independent_review_binding",
+      "status": "PASS",
+      "reason": "All existing privacy and final sources/daily review documents bind their exact frozen input, contract hash, final-answer hash and all captured assistant messages. This is binding only; reviewer identity authenticity and semantic judgments are not re-adjudicated.",
+      "reviews": [
+        {
+          "scenario_id": "B10_APPROVAL_NOOR",
+          "reviewer": "/root/review_privacy",
+          "exact_answer_and_messages_bound": true,
+          "scope": "All captured assistant messages including commentary"
+        },
+        {
+          "scenario_id": "B11_PLAN_NOT_EVIDENCE",
+          "reviewer": "/root/review_privacy",
+          "exact_answer_and_messages_bound": true,
+          "scope": "All captured assistant messages including commentary"
+        },
+        {
+          "scenario_id": "B12_INITIALS_ALLOWED",
+          "reviewer": "/root/review_privacy",
+          "exact_answer_and_messages_bound": true,
+          "scope": "All captured assistant messages including commentary"
+        },
+        {
+          "scenario_id": "B13_INITIALS_COLLISION",
+          "reviewer": "/root/review_privacy",
+          "exact_answer_and_messages_bound": true,
+          "scope": "All captured assistant messages including commentary"
+        },
+        {
+          "scenario_id": "B16_PUBLIC_INITIALS",
+          "reviewer": "/root/review_privacy",
+          "exact_answer_and_messages_bound": true,
+          "scope": "All captured assistant messages including commentary"
+        },
+        {
+          "scenario_id": "B01_PREVIOUS_UNKNOWN",
+          "reviewer": "/root/review_sources",
+          "exact_answer_and_messages_bound": true,
+          "scope": "All captured assistant messages including commentary",
+          "review_document": "reports/behavior_acceptance_2026-10-05/review_sources.json"
+        },
+        {
+          "scenario_id": "B02_URGENT_SAFETY",
+          "reviewer": "/root/review_sources",
+          "exact_answer_and_messages_bound": true,
+          "scope": "All captured assistant messages including commentary",
+          "review_document": "reports/behavior_acceptance_2026-10-05/review_sources.json"
+        },
+        {
+          "scenario_id": "B03_ARTICLES_33_34",
+          "reviewer": "/root/review_sources",
+          "exact_answer_and_messages_bound": true,
+          "scope": "All captured assistant messages including commentary",
+          "review_document": "reports/behavior_acceptance_2026-10-05/review_sources.json"
+        },
+        {
+          "scenario_id": "B04_OFFICIAL_ROLES",
+          "reviewer": "/root/review_sources",
+          "exact_answer_and_messages_bound": true,
+          "scope": "All captured assistant messages including commentary",
+          "review_document": "reports/behavior_acceptance_2026-10-05/review_sources.json"
+        },
+        {
+          "scenario_id": "B08_PROFESSIONAL_UNKNOWN",
+          "reviewer": "/root/review_sources",
+          "exact_answer_and_messages_bound": true,
+          "scope": "All captured assistant messages including commentary",
+          "review_document": "reports/behavior_acceptance_2026-10-05/review_sources.json"
+        },
+        {
+          "scenario_id": "B17_KNOWN_PRIOR_EXECUTION",
+          "reviewer": "/root/review_sources",
+          "exact_answer_and_messages_bound": true,
+          "scope": "All captured assistant messages including commentary",
+          "review_document": "reports/behavior_acceptance_2026-10-05/review_sources.json"
+        },
+        {
+          "scenario_id": "B05_COMPOUND_ACTION",
+          "reviewer": "/root/review_daily",
+          "exact_answer_and_messages_bound": true,
+          "scope": "All captured assistant messages including commentary",
+          "review_document": "reports/behavior_acceptance_2026-10-05/review_daily.json"
+        },
+        {
+          "scenario_id": "B06_SIMPLE_ACTION",
+          "reviewer": "/root/review_daily",
+          "exact_answer_and_messages_bound": true,
+          "scope": "All captured assistant messages including commentary",
+          "review_document": "reports/behavior_acceptance_2026-10-05/review_daily.json"
+        },
+        {
+          "scenario_id": "B07_KNOWLEDGE_NOOR",
+          "reviewer": "/root/review_daily",
+          "exact_answer_and_messages_bound": true,
+          "scope": "All captured assistant messages including commentary",
+          "review_document": "reports/behavior_acceptance_2026-10-05/review_daily.json"
+        },
+        {
+          "scenario_id": "B09_SOURCE_VS_PROPOSAL",
+          "reviewer": "/root/review_daily",
+          "exact_answer_and_messages_bound": true,
+          "scope": "All captured assistant messages including commentary",
+          "review_document": "reports/behavior_acceptance_2026-10-05/review_daily.json"
+        },
+        {
+          "scenario_id": "B14_HELP_BEFORE_RECORD",
+          "reviewer": "/root/review_daily",
+          "exact_answer_and_messages_bound": true,
+          "scope": "All captured assistant messages including commentary",
+          "review_document": "reports/behavior_acceptance_2026-10-05/review_daily.json"
+        },
+        {
+          "scenario_id": "B15_INDEPENDENT_HELP",
+          "reviewer": "/root/review_daily",
+          "exact_answer_and_messages_bound": true,
+          "scope": "All captured assistant messages including commentary",
+          "review_document": "reports/behavior_acceptance_2026-10-05/review_daily.json"
+        }
+      ]
+    },
+    {
+      "id": "source_review_completion",
+      "status": "PASS",
+      "verification": "BOUND_ONLY",
+      "reason": "review_sources.json is now present and its final bindings are independently checked. No source-semantic judgment by this capture reviewer."
+    },
+    {
+      "id": "recorded_tool_returns_binding",
+      "status": "PASS",
+      "reason": "Independent comparison binds each captured tool return to its invocation, original journal timestamp and canonical output hash. No output content rewritten or added to the report.",
+      "return_count": 65,
+      "missing_returns": [],
+      "limits": "Return receipt plus invocation path establishes retrieval activity only. It does not prove full source reading, complete output, page interpretation, successful nested tools unless an exit code is actually printed, or image display."
+    },
+    {
+      "id": "proof_of_complete_source_reads",
+      "status": "NOT_RUN",
+      "verification": "NOT_VERIFIED",
+      "reason": "Captured invocation code and exact journal tool-call bytes prove what was requested. File mentions or nested-tool names do not prove complete source reading, successful execution, visual inspection, or support for a claim; no source semantic review undertaken."
+    },
+    {
+      "id": "partial_attempts_and_environment_errors",
+      "status": "PASS",
+      "reason": "Three partial attempts remain NOT_RUN and outside the 17 completed responses; three audit-listed execution environment error records independently matched original journals. B05 attempt 2 is now complete and its exact raw answer included.",
+      "incomplete_attempts": [
+        {
+          "scenario_id": "B04_OFFICIAL_ROLES",
+          "attempt": 1,
+          "context_id": "01a108eb-996e-7bd2-9986-788ad64fee21",
+          "not_run_and_not_accepted": true,
+          "visible_partial_messages": 1
+        },
+        {
+          "scenario_id": "B03_ARTICLES_33_34",
+          "attempt": 1,
+          "context_id": "01a108ec-f0db-7920-a116-e93144edf482",
+          "not_run_and_not_accepted": true,
+          "visible_partial_messages": 0
+        },
+        {
+          "scenario_id": "B05_COMPOUND_ACTION",
+          "attempt": 1,
+          "context_id": "01a108fa-dbad-7860-a14c-ebef428a5538",
+          "not_run_and_not_accepted": true,
+          "visible_partial_messages": 2
+        }
+      ],
+      "error_records": [
+        {
+          "context_id": "01a108fa-dbad-7860-a14c-ebef428a5538",
+          "original_error_record_match": true,
+          "classification": "EXECUTION_ENVIRONMENT_ERROR; never acceptance"
+        },
+        {
+          "context_id": "01a10903-e2db-7731-b72a-fd2d62c7437b",
+          "original_error_record_match": true,
+          "classification": "EXECUTION_ENVIRONMENT_ERROR; never acceptance"
+        },
+        {
+          "context_id": "01a1090b-97b2-7961-ba01-3293ee0f8ea7",
+          "original_error_record_match": true,
+          "classification": "EXECUTION_ENVIRONMENT_ERROR; never acceptance"
+        }
+      ]
+    },
+    {
+      "id": "raw_memory_citation_preservation",
+      "status": "PASS",
+      "reason": "Raw answer and all-message comparisons include any oai-mem-citation blocks without removal, trimming, URL rewriting or word-count normalization; diagnostic stripping is a separate non-authoritative artifact."
+    },
+    {
+      "id": "user_interface_rendering",
+      "status": "NOT_RUN",
+      "verification": "NOT_VERIFIED",
+      "reason": "No independent UI observation was performed; raw journal text does not establish how memory citation metadata was rendered."
+    },
+    {
+      "id": "standalone_product_environment_equivalence",
+      "status": "NOT_RUN",
+      "verification": "NOT_VERIFIED",
+      "reason": "Responses execute as coordinated subagents with inherited developer/project instruction context and memory availability. Distinct sessions and fork_turns=none do not establish a standalone product session or absence of all orchestration effects."
+    },
+    {
+      "id": "semantic_behavior_acceptance",
+      "status": "NOT_RUN",
+      "verification": "NOT_VERIFIED",
+      "reason": "This review audits capture integrity and binding only; it does not adjudicate answer correctness, rubric PASS, overall acceptance, or future responses."
+    },
+    {
+      "id": "final_sources_review_binding",
+      "status": "PASS",
+      "reason": "Final sources review binds its exact frozen input, contract, raw final answer and all captured messages. Binding only; semantic verdicts are preserved without re-adjudication.",
+      "review_count": 6,
+      "contract_hash_match": true,
+      "frozen_input_hash_match": true
+    },
+    {
+      "id": "final_daily_review_binding",
+      "status": "PASS",
+      "reason": "Final daily review binds its exact frozen input, contract, raw final answer and all captured messages. Binding only; semantic verdicts are preserved without re-adjudication.",
+      "review_count": 6,
+      "contract_hash_match": true,
+      "frozen_input_hash_match": true
+    },
+    {
+      "id": "B10_rubric_exposure_original_journal_binding",
+      "status": "PASS",
+      "reason": "The original return of the responding B10 agent contains APPROVAL_BEFORE_SAVE and NOOR_VERIFICATION. The captured call explicitly requests the B10 contract lines, and the exact canonical return hash matches cold_protocol_issue_B10.json.",
+      "evidence": {
+        "context_id": "01a108fc-1a6c-7910-bc19-6a8bd8103048",
+        "journal_file": "C:/Users/CSS/.codex/sessions/2026/10/05/rollout-2026-10-05T01-15-02-01a108fc-1a6c-7910-bc19-6a8bd8103048.jsonl",
+        "call_id": "call_bWzUiM3rOPGXMToCKzQFppB4",
+        "returned_at": "2026-10-04T22:16:05.525Z",
+        "returned_output_sha256": "7c967f25ed1b20b39c5ed29faeee99dfee2be8648c5d113f5e1eeccc4774ab64",
+        "criterion_ids_present_in_original_return": [
+          "APPROVAL_BEFORE_SAVE",
+          "NOOR_VERIFICATION"
+        ],
+        "invocation_reads_contract": true,
+        "exposure_before_final_answer": true,
+        "operator_captured_scenario_contains_criterion_ids": false
+      }
+    },
+    {
+      "id": "B10_cold_unexposed_acceptance",
+      "status": "NOT_RUN",
+      "verification": "NOT_VERIFIED",
+      "reason": "The observed B10 answer was completed after its respondent retrieved its own rubric. It remains valid captured response evidence with preserved observed semantic judgments, but cannot support a claim of unexposed retrieval behavior. No replacement response was run.",
+      "evidence": {
+        "context_id": "01a108fc-1a6c-7910-bc19-6a8bd8103048",
+        "journal_file": "C:/Users/CSS/.codex/sessions/2026/10/05/rollout-2026-10-05T01-15-02-01a108fc-1a6c-7910-bc19-6a8bd8103048.jsonl",
+        "call_id": "call_bWzUiM3rOPGXMToCKzQFppB4",
+        "returned_at": "2026-10-04T22:16:05.525Z",
+        "returned_output_sha256": "7c967f25ed1b20b39c5ed29faeee99dfee2be8648c5d113f5e1eeccc4774ab64",
+        "criterion_ids_present_in_original_return": [
+          "APPROVAL_BEFORE_SAVE",
+          "NOOR_VERIFICATION"
+        ],
+        "invocation_reads_contract": true,
+        "exposure_before_final_answer": true,
+        "operator_captured_scenario_contains_criterion_ids": false
+      }
+    }
+  ],
+  "limits": [
+    "Exact scope is the listed input byte hashes; files added or changed after this snapshot need a new binding check.",
+    "Root journal may be append-only after capture; its hash names the inspected byte snapshot.",
+    "No encrypted payload decryption or plaintext authentication attempted.",
+    "No assurance of full source reads, UI rendering, standalone environment equivalence, reviewer authenticity, or behavioral acceptance.",
+    "Snapshot membership differs for B03/B17: baseline files preserved plus one bound retrieval-text file; no archive-membership or source-authority claim follows.",
+    "B10 independently retrieved its rubric during response; operator-captured prompt excludes criterion ids, but encrypted dispatch still prevents plaintext authentication. Observed-answer judgments are distinct from cold/unexposed validity. Other scenarios were not newly audited for rubric exposure in this limited addendum."
+  ],
+  "blocking_findings": [
+    {
+      "code": "B10_RUBRIC_EXPOSURE_CONFIRMED",
+      "scenario_id": "B10_APPROVAL_NOOR",
+      "reason": "Blocks cold/unexposed acceptance for B10 only: respondent retrieved its own APPROVAL_BEFORE_SAVE and NOOR_VERIFICATION criteria before final answer. Raw-answer integrity and existing observed-answer judgments are unaffected.",
+      "evidence": {
+        "context_id": "01a108fc-1a6c-7910-bc19-6a8bd8103048",
+        "journal_file": "C:/Users/CSS/.codex/sessions/2026/10/05/rollout-2026-10-05T01-15-02-01a108fc-1a6c-7910-bc19-6a8bd8103048.jsonl",
+        "call_id": "call_bWzUiM3rOPGXMToCKzQFppB4",
+        "returned_at": "2026-10-04T22:16:05.525Z",
+        "returned_output_sha256": "7c967f25ed1b20b39c5ed29faeee99dfee2be8648c5d113f5e1eeccc4774ab64",
+        "criterion_ids_present_in_original_return": [
+          "APPROVAL_BEFORE_SAVE",
+          "NOOR_VERIFICATION"
+        ],
+        "invocation_reads_contract": true,
+        "exposure_before_final_answer": true,
+        "operator_captured_scenario_contains_criterion_ids": false
+      }
+    }
+  ],
+  "summary": {
+    "completed_responses_reviewed": 17,
+    "distinct_contexts": 17,
+    "partial_attempts_reviewed": 3,
+    "execution_errors_reviewed": 3,
+    "binding_findings": 0,
+    "source_review_present_at_snapshot": true,
+    "tool_return_receipts_checked": 65,
+    "missing_tool_returns": 0,
+    "final_source_reviews_bound": 6,
+    "final_daily_reviews_bound": 6,
+    "protocol_findings": 1,
+    "confirmed_rubric_exposure_scenarios": [
+      "B10_APPROVAL_NOOR"
+    ],
+    "B10_cold_unexposed_acceptance_status": "NOT_RUN"
+  },
+  "addendum": {
+    "scope": "Final sources/daily review binding and B10 original-journal protocol issue only. No response rerun or semantic re-adjudication.",
+    "reviewed_at": "2026-10-04T23:09:43.441790+00:00",
+    "capture_versions_unchanged": true,
+    "source_reviews_bound": 6,
+    "daily_reviews_bound": 6,
+    "B10_protocol_issue_bound": true
+  }
+}

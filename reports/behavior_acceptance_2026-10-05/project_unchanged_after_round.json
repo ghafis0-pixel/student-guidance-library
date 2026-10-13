@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "bound_files": 259,
+  "changed_bound_files": [],
+  "project_snapshot_sha256": "fee2c5ba2f2cc7c99848f458fa69039f553fcdb2aa85d46ee2156a1e53bec54e",
+  "work_register_sha256": "bf4c90392c74da34ddcc21d28f3d050205c2be3ddacb20fb2b9d56f4609250c9",
+  "decisions_sha256": "39e7a694cf46fa37d79d958e65651ea30cd0b789197633a47e4ce33770168daf",
+  "evidence": "Same source files as candidate-v2, independently verified at capture and finalization"
+}

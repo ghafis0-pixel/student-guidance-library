@@ -1,0 +1,42 @@
+[
+  {
+    "event": "before_check",
+    "command": [
+      "C:\\Users\\CSS\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "tools/verify_library.py"
+    ],
+    "exit_code": 0,
+    "output": "{\r\n  \"status\": \"pass\",\r\n  \"manifest_files\": 93,\r\n  \"source_records\": 29,\r\n  \"noor_matrix_records\": 31,\r\n  \"work_records\": 1,\r\n  \"ocr_required\": [\r\n    \"REF-QASSIM-1448\",\r\n    \"REF-TASKS-GUIDE\",\r\n    \"PG-04\"\r\n  ],\r\n  \"errors\": []\r\n}\r\n"
+  },
+  {
+    "event": "before_check",
+    "command": [
+      "C:\\Users\\CSS\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "tools/test_weekly_plan_gate.py"
+    ],
+    "exit_code": 0,
+    "output": "....................\r\n----------------------------------------------------------------------\r\nRan 20 tests in 3.276s\r\n\r\nOK\r\n"
+  },
+  {
+    "event": "before_check",
+    "command": [
+      "C:\\Users\\CSS\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "tools/test_project_integrity.py"
+    ],
+    "exit_code": 0,
+    "output": "............................\r\n----------------------------------------------------------------------\r\nRan 28 tests in 0.535s\r\n\r\nOK\r\n"
+  },
+  {
+    "event": "before_check",
+    "command": [
+      "C:\\Users\\CSS\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "tools/check_work_register.py"
+    ],
+    "exit_code": 0,
+    "output": "{\r\n  \"status\": \"pass\",\r\n  \"errors\": []\r\n}\r\n"
+  }
+]

@@ -1,0 +1,338 @@
+{
+  "binding_version": "1.0",
+  "assessment_sha256": "be0853162fab8f751b9eca2c91883558898be044ae1d9c444b0f9e0641357ebf",
+  "rules_sha256": "23784b0104867f0339ca568ed5dfa1d83d7fbe16b9027274c98411c4527b4816",
+  "runner_sha256": "fa3cb3e87b32ba68e385f59e4d071af5cbd0cb32f26e8e22ccc772cb60ef3c60",
+  "input_fingerprints": [
+    {
+      "path": "catalog/manifest.json",
+      "sha256": "230cc93444c5dddeb5cb9c6d21839c332747936fa7b8f8ed4f4476bd8e1da594"
+    },
+    {
+      "path": "catalog/records_noor_decision_matrix.json",
+      "sha256": "71e78dd8c589e7398e981ba15388129d86b0e5248483946dd1f4b756e35d5c3e"
+    },
+    {
+      "path": "catalog/source_registry.json",
+      "sha256": "958222b8be4b4054f80f012386716765012ed791d836e1cd6deaf635f59bea40"
+    },
+    {
+      "path": "context/current.json",
+      "sha256": "bd37699b4c4da7c924931e431265025bf095db810f0fd8030ddff7c1127c6fa0"
+    },
+    {
+      "path": "context/decisions.md",
+      "sha256": "39e7a694cf46fa37d79d958e65651ea30cd0b789197633a47e4ce33770168daf"
+    },
+    {
+      "path": "outputs/weekly_plans/2026-10-04_to_2026-10-08/weekly_plan_2026-10-04_adhd.docx",
+      "sha256": "3cb29234e362218cb547865cdce856211873ae909d084859a48e2e8070f8c0d0"
+    },
+    {
+      "path": "references/02_regulatory/organizational_guides/الدليل التنظيمي - مقتطف التوجيه الطلابي 1446.pdf",
+      "sha256": "fcb09f4b8b3ab720dc68684d077ab2de340ca8cbbd2742fd132003dd112babda"
+    },
+    {
+      "path": "references/02_regulatory/procedural_guides/الدليل الإجرائي الكامل - رجب 1446.pdf",
+      "sha256": "9d37a896a6336c7e5f31f74b17bf1c5ccd3c638e7bc3ee8a1f1408a9d0102e8d"
+    },
+    {
+      "path": "references/03_official_operational_guides/noor/مرجع_نظام_نور_للتوجيه_الطلابي.md",
+      "sha256": "870d1b98fb205746dc9a4bad36531a6eb25fa09fccdcb7e35f9e3b763dd0f5fc"
+    },
+    {
+      "path": "references/04_regional_plans/خطة برامج وخدمات التوجيه الطلابي تعليم القصيم 1448.pdf",
+      "sha256": "79e2198db34bb4f46985fbb50d27f27d24d98be4e15ecea92b6b38ba5e6f0fb9"
+    },
+    {
+      "path": "standards/WEEKLY_PLAN_GATE.md",
+      "sha256": "b57d647ce4a73413560c96f756a1ffda34b0ba65dcd936daf4d2d0c133f603f2"
+    },
+    {
+      "path": "standards/weekly_plan_gate_assessment.schema.json",
+      "sha256": "e102cce9c2b0b4677b010ea91d47f1a208533a1b0445b2263470114f2196227d"
+    },
+    {
+      "path": "standards/weekly_plan_gate_rules.yaml",
+      "sha256": "23784b0104867f0339ca568ed5dfa1d83d7fbe16b9027274c98411c4527b4816"
+    },
+    {
+      "path": "work/planning/term1/noor_action_mapping_review_2026-09-30.md",
+      "sha256": "9b1cc02d55e40c6aa6f70966acf0ec6a945539799ecbdd85d4a30e87bc403600"
+    },
+    {
+      "path": "work/planning/term1/term1_eligibility_timing_decision_layer_1448.md",
+      "sha256": "0ad17989d4e0a0e40ed792e0b132788541160e159750bd02c241ae9365772c41"
+    },
+    {
+      "path": "work/planning/term1/مصفوفة_تنفيذ_الفصل_الأول.xlsx",
+      "sha256": "e7d7609d6f9e669406e24b6d7d43d993c8ede8d354903848cf2ff4467676d826"
+    }
+  ],
+  "runtime_dependencies": {
+    "pypdf": "6.10.0"
+  },
+  "binding_sha256": "558b88e2f7907f492d068ac822f8a22bd43c2005eab6c4d3b73e8c7b0e110a94",
+  "gate_status": "APPROVED",
+  "gate_version": "1.2.1",
+  "runner_version": "1.2.1",
+  "schema_version": "2.1",
+  "phase": "DESIGN",
+  "gate_result_date": "2026-10-04",
+  "checked_by": "Codex - current plan content and input review 2026-10-04",
+  "plan_sha256": "3cb29234e362218cb547865cdce856211873ae909d084859a48e2e8070f8c0d0",
+  "references_checked": [
+    {
+      "key": "GATE_SPEC",
+      "path": "standards/WEEKLY_PLAN_GATE.md",
+      "sha256": "b57d647ce4a73413560c96f756a1ffda34b0ba65dcd936daf4d2d0c133f603f2"
+    },
+    {
+      "key": "GOVERNING_DECISIONS",
+      "path": "context/decisions.md",
+      "sha256": "39e7a694cf46fa37d79d958e65651ea30cd0b789197633a47e4ce33770168daf"
+    },
+    {
+      "key": "NOOR_ACTION_MAPPING",
+      "path": "work/planning/term1/noor_action_mapping_review_2026-09-30.md",
+      "sha256": "9b1cc02d55e40c6aa6f70966acf0ec6a945539799ecbdd85d4a30e87bc403600"
+    },
+    {
+      "key": "NOOR_DECISION_MATRIX",
+      "path": "catalog/records_noor_decision_matrix.json",
+      "sha256": "71e78dd8c589e7398e981ba15388129d86b0e5248483946dd1f4b756e35d5c3e"
+    },
+    {
+      "key": "NOOR_REFERENCE",
+      "path": "references/03_official_operational_guides/noor/مرجع_نظام_نور_للتوجيه_الطلابي.md",
+      "sha256": "870d1b98fb205746dc9a4bad36531a6eb25fa09fccdcb7e35f9e3b763dd0f5fc"
+    },
+    {
+      "key": "ORGANIZATIONAL_GUIDE",
+      "path": "references/02_regulatory/organizational_guides/الدليل التنظيمي - مقتطف التوجيه الطلابي 1446.pdf",
+      "sha256": "fcb09f4b8b3ab720dc68684d077ab2de340ca8cbbd2742fd132003dd112babda"
+    },
+    {
+      "key": "PROCEDURAL_GUIDE",
+      "path": "references/02_regulatory/procedural_guides/الدليل الإجرائي الكامل - رجب 1446.pdf",
+      "sha256": "9d37a896a6336c7e5f31f74b17bf1c5ccd3c638e7bc3ee8a1f1408a9d0102e8d"
+    },
+    {
+      "key": "PROGRAM_REGISTRY",
+      "path": "catalog/source_registry.json",
+      "sha256": "958222b8be4b4054f80f012386716765012ed791d836e1cd6deaf635f59bea40"
+    },
+    {
+      "key": "QASSIM_PLAN",
+      "path": "references/04_regional_plans/خطة برامج وخدمات التوجيه الطلابي تعليم القصيم 1448.pdf",
+      "sha256": "79e2198db34bb4f46985fbb50d27f27d24d98be4e15ecea92b6b38ba5e6f0fb9"
+    },
+    {
+      "key": "SCHOOL_CONTEXT",
+      "path": "context/current.json",
+      "sha256": "bd37699b4c4da7c924931e431265025bf095db810f0fd8030ddff7c1127c6fa0"
+    },
+    {
+      "key": "TERM1_MATRIX",
+      "path": "work/planning/term1/مصفوفة_تنفيذ_الفصل_الأول.xlsx",
+      "sha256": "e7d7609d6f9e669406e24b6d7d43d993c8ede8d354903848cf2ff4467676d826"
+    },
+    {
+      "key": "TERM1_TIMING_LAYER",
+      "path": "work/planning/term1/term1_eligibility_timing_decision_layer_1448.md",
+      "sha256": "0ad17989d4e0a0e40ed792e0b132788541160e159750bd02c241ae9365772c41"
+    }
+  ],
+  "blocking_issues": [],
+  "human_reviews": [],
+  "warnings": [],
+  "information": [],
+  "pending_items": [
+    "N03: PENDING - حقول الأعداد والمؤشرات فارغة إلى وقوع التنفيذ والقياس؛ لا نسبة أو قيمة أثر فعلية أو متوقعة معبأة."
+  ],
+  "passed_rules": [
+    "C01",
+    "D01",
+    "D02",
+    "D04",
+    "E01",
+    "E02",
+    "E03",
+    "E04",
+    "N01",
+    "N03",
+    "P01",
+    "V01",
+    "V02",
+    "W01",
+    "W02",
+    "W03"
+  ],
+  "failed_rules": [],
+  "not_applicable_rules": [],
+  "not_assessable_rules": [],
+  "affected_rules_by_reference": {},
+  "locator_checks": {
+    "E01": {
+      "source_status": "EXISTS",
+      "location_status": "VERIFIED",
+      "semantic_support": "NOT_AUTOMATICALLY_VERIFIED",
+      "input_paths": [
+        "outputs/weekly_plans/2026-10-04_to_2026-10-08/weekly_plan_2026-10-04_adhd.docx"
+      ],
+      "issue": null,
+      "resolved_path": "outputs/weekly_plans/2026-10-04_to_2026-10-08/weekly_plan_2026-10-04_adhd.docx"
+    },
+    "E02": {
+      "source_status": "EXISTS",
+      "location_status": "VERIFIED",
+      "semantic_support": "NOT_AUTOMATICALLY_VERIFIED",
+      "input_paths": [
+        "outputs/weekly_plans/2026-10-04_to_2026-10-08/weekly_plan_2026-10-04_adhd.docx"
+      ],
+      "issue": null,
+      "resolved_path": "outputs/weekly_plans/2026-10-04_to_2026-10-08/weekly_plan_2026-10-04_adhd.docx"
+    },
+    "E03": {
+      "source_status": "EXISTS",
+      "location_status": "VERIFIED",
+      "semantic_support": "NOT_AUTOMATICALLY_VERIFIED",
+      "input_paths": [
+        "outputs/weekly_plans/2026-10-04_to_2026-10-08/weekly_plan_2026-10-04_adhd.docx"
+      ],
+      "issue": null,
+      "resolved_path": "outputs/weekly_plans/2026-10-04_to_2026-10-08/weekly_plan_2026-10-04_adhd.docx"
+    },
+    "E04": {
+      "source_status": "EXISTS",
+      "location_status": "VERIFIED",
+      "semantic_support": "NOT_AUTOMATICALLY_VERIFIED",
+      "input_paths": [
+        "outputs/weekly_plans/2026-10-04_to_2026-10-08/weekly_plan_2026-10-04_adhd.docx"
+      ],
+      "issue": null,
+      "resolved_path": "outputs/weekly_plans/2026-10-04_to_2026-10-08/weekly_plan_2026-10-04_adhd.docx"
+    },
+    "N01": {
+      "source_status": "EXISTS",
+      "location_status": "VERIFIED",
+      "semantic_support": "NOT_AUTOMATICALLY_VERIFIED",
+      "input_paths": [
+        "outputs/weekly_plans/2026-10-04_to_2026-10-08/weekly_plan_2026-10-04_adhd.docx"
+      ],
+      "issue": null,
+      "resolved_path": "outputs/weekly_plans/2026-10-04_to_2026-10-08/weekly_plan_2026-10-04_adhd.docx"
+    },
+    "N03": {
+      "source_status": "EXISTS",
+      "location_status": "VERIFIED",
+      "semantic_support": "NOT_AUTOMATICALLY_VERIFIED",
+      "input_paths": [
+        "outputs/weekly_plans/2026-10-04_to_2026-10-08/weekly_plan_2026-10-04_adhd.docx"
+      ],
+      "issue": null,
+      "resolved_path": "outputs/weekly_plans/2026-10-04_to_2026-10-08/weekly_plan_2026-10-04_adhd.docx"
+    },
+    "V01": {
+      "source_status": "EXISTS",
+      "location_status": "VERIFIED",
+      "semantic_support": "NOT_AUTOMATICALLY_VERIFIED",
+      "input_paths": [
+        "outputs/weekly_plans/2026-10-04_to_2026-10-08/weekly_plan_2026-10-04_adhd.docx"
+      ],
+      "issue": null,
+      "resolved_path": "outputs/weekly_plans/2026-10-04_to_2026-10-08/weekly_plan_2026-10-04_adhd.docx"
+    },
+    "V02": {
+      "source_status": "EXISTS",
+      "location_status": "VERIFIED",
+      "semantic_support": "NOT_AUTOMATICALLY_VERIFIED",
+      "input_paths": [
+        "outputs/weekly_plans/2026-10-04_to_2026-10-08/weekly_plan_2026-10-04_adhd.docx"
+      ],
+      "issue": null,
+      "resolved_path": "outputs/weekly_plans/2026-10-04_to_2026-10-08/weekly_plan_2026-10-04_adhd.docx"
+    },
+    "P01": {
+      "source_status": "EXISTS",
+      "location_status": "VERIFIED",
+      "semantic_support": "NOT_AUTOMATICALLY_VERIFIED",
+      "input_paths": [
+        "outputs/weekly_plans/2026-10-04_to_2026-10-08/weekly_plan_2026-10-04_adhd.docx"
+      ],
+      "issue": null,
+      "resolved_path": "outputs/weekly_plans/2026-10-04_to_2026-10-08/weekly_plan_2026-10-04_adhd.docx"
+    },
+    "C01": {
+      "source_status": "EXISTS",
+      "location_status": "VERIFIED",
+      "semantic_support": "NOT_AUTOMATICALLY_VERIFIED",
+      "input_paths": [
+        "outputs/weekly_plans/2026-10-04_to_2026-10-08/weekly_plan_2026-10-04_adhd.docx"
+      ],
+      "issue": null,
+      "resolved_path": "outputs/weekly_plans/2026-10-04_to_2026-10-08/weekly_plan_2026-10-04_adhd.docx"
+    },
+    "D01": {
+      "source_status": "EXISTS",
+      "location_status": "VERIFIED",
+      "semantic_support": "NOT_AUTOMATICALLY_VERIFIED",
+      "input_paths": [
+        "outputs/weekly_plans/2026-10-04_to_2026-10-08/weekly_plan_2026-10-04_adhd.docx"
+      ],
+      "issue": null,
+      "resolved_path": "outputs/weekly_plans/2026-10-04_to_2026-10-08/weekly_plan_2026-10-04_adhd.docx"
+    },
+    "D02": {
+      "source_status": "EXISTS",
+      "location_status": "VERIFIED",
+      "semantic_support": "NOT_AUTOMATICALLY_VERIFIED",
+      "input_paths": [
+        "outputs/weekly_plans/2026-10-04_to_2026-10-08/weekly_plan_2026-10-04_adhd.docx"
+      ],
+      "issue": null,
+      "resolved_path": "outputs/weekly_plans/2026-10-04_to_2026-10-08/weekly_plan_2026-10-04_adhd.docx"
+    },
+    "W01": {
+      "source_status": "EXISTS",
+      "location_status": "VERIFIED",
+      "semantic_support": "NOT_AUTOMATICALLY_VERIFIED",
+      "input_paths": [
+        "outputs/weekly_plans/2026-10-04_to_2026-10-08/weekly_plan_2026-10-04_adhd.docx"
+      ],
+      "issue": null,
+      "resolved_path": "outputs/weekly_plans/2026-10-04_to_2026-10-08/weekly_plan_2026-10-04_adhd.docx"
+    },
+    "W02": {
+      "source_status": "EXISTS",
+      "location_status": "VERIFIED",
+      "semantic_support": "NOT_AUTOMATICALLY_VERIFIED",
+      "input_paths": [
+        "outputs/weekly_plans/2026-10-04_to_2026-10-08/weekly_plan_2026-10-04_adhd.docx"
+      ],
+      "issue": null,
+      "resolved_path": "outputs/weekly_plans/2026-10-04_to_2026-10-08/weekly_plan_2026-10-04_adhd.docx"
+    },
+    "W03": {
+      "source_status": "EXISTS",
+      "location_status": "VERIFIED",
+      "semantic_support": "NOT_AUTOMATICALLY_VERIFIED",
+      "input_paths": [
+        "outputs/weekly_plans/2026-10-04_to_2026-10-08/weekly_plan_2026-10-04_adhd.docx"
+      ],
+      "issue": null,
+      "resolved_path": "outputs/weekly_plans/2026-10-04_to_2026-10-08/weekly_plan_2026-10-04_adhd.docx"
+    },
+    "D04": {
+      "source_status": "EXISTS",
+      "location_status": "VERIFIED",
+      "semantic_support": "NOT_AUTOMATICALLY_VERIFIED",
+      "input_paths": [
+        "standards/weekly_plan_gate_rules.yaml"
+      ],
+      "issue": null,
+      "resolved_path": "standards/weekly_plan_gate_rules.yaml"
+    }
+  },
+  "scope": "Phase-specific review; never proof of field execution or Noor save by itself."
+}

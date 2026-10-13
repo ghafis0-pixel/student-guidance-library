@@ -1,0 +1,41 @@
+{
+  "captured_at": "2026-10-05",
+  "files": [
+    {
+      "path": "context/current.json",
+      "sha256": "bd37699b4c4da7c924931e431265025bf095db810f0fd8030ddff7c1127c6fa0"
+    },
+    {
+      "path": "context/decisions.md",
+      "sha256": "39e7a694cf46fa37d79d958e65651ea30cd0b789197633a47e4ce33770168daf"
+    },
+    {
+      "path": "work/register.json",
+      "sha256": "bf4c90392c74da34ddcc21d28f3d050205c2be3ddacb20fb2b9d56f4609250c9"
+    },
+    {
+      "path": "guide/workflow.md",
+      "sha256": "c42757055163aa60153986a8a671559810ff15a44e94020325c1e845231301da"
+    },
+    {
+      "path": "catalog/source_registry.json",
+      "sha256": "958222b8be4b4054f80f012386716765012ed791d836e1cd6deaf635f59bea40"
+    },
+    {
+      "path": "catalog/reference_matrix.json",
+      "sha256": "d2dcb3c01c92432115b812ac560011ba39619771bb85797943ef150416621f67"
+    },
+    {
+      "path": "catalog/records_noor_decision_matrix.json",
+      "sha256": "71e78dd8c589e7398e981ba15388129d86b0e5248483946dd1f4b756e35d5c3e"
+    },
+    {
+      "path": "work/planning/term1/noor_action_mapping_review_2026-09-30.md",
+      "sha256": "9b1cc02d55e40c6aa6f70966acf0ec6a945539799ecbdd85d4a30e87bc403600"
+    },
+    {
+      "path": "references/03_official_operational_guides/noor/مرجع_نظام_نور_للتوجيه_الطلابي.md",
+      "sha256": "870d1b98fb205746dc9a4bad36531a6eb25fa09fccdcb7e35f9e3b763dd0f5fc"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "status": "pass",
+  "errors": [],
+  "warnings": [
+    "Structure and file integrity are verified, but OCR/text fidelity remains unverified for: REF-QASSIM-1448, REF-TASKS-GUIDE, PG-04",
+    "Core PDF text has not been verified for search: REF-ORGANIZATIONAL-1446, REF-PROCEDURAL-1446",
+    "Qassim 1448 timing and program index is not machine-readable; verify against source PDF before planning."
+  ],
+  "source_records": 26,
+  "source_status_counts": {
+    "plan_year_1448": 1,
+    "derived_from_procedural_and_organizational_guides": 1,
+    "primary_for_roles_in_supplied_package": 1,
+    "primary_for_counselor_workflow_in_supplied_package": 1,
+    "current_for_1448_review": 1,
+    "applicable_in_package_requires_latest_check": 1,
+    "requires_verification_of_currentness": 1,
+    "current_within_package": 2,
+    "duplicate": 1,
+    "historical": 1,
+    "read_before_formal_program_execution": 13,
+    "supporting_material_requires_program_match": 1,
+    "templates_subject_to_decision_matrix": 1
+  },
+  "text_status_counts": {
+    "needs_ocr": 3,
+    "needs_text_review": 2,
+    "searchable": 3,
+    "partially_searchable": 17,
+    "mixed": 1
+  },
+  "ocr_required_source_ids": [
+    "REF-QASSIM-1448",
+    "REF-TASKS-GUIDE",
+    "PG-04"
+  ],
+  "text_review_source_ids": [
+    "REF-ORGANIZATIONAL-1446",
+    "REF-PROCEDURAL-1446"
+  ],
+  "organized_records": 31,
+  "chunk_counts": {
+    "operational_guides.jsonl": 208,
+    "program_guides.jsonl": 496,
+    "regional_plans.jsonl": 0,
+    "regulatory.jsonl": 75,
+    "templates.jsonl": 71
+  },
+  "chunk_total": 850,
+  "regional_index_ready": false,
+  "integrity_counts": {
+    "pdf": 53,
+    "docx": 31,
+    "zip": 1
+  },
+  "manifest_entries_checked": 201,
+  "forbidden_plan_files": []
+}

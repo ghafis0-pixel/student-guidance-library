@@ -1,0 +1,159 @@
+{
+  "captured_at": "2026-10-04T22:53:06.904077+00:00",
+  "captured_runs": 17,
+  "planned_runs": 17,
+  "items": [
+    {
+      "scenario_id": "B01_PREVIOUS_UNKNOWN",
+      "status": "CAPTURED_UNREVIEWED",
+      "context_id": "01a108eb-bec3-7180-86e1-bdcc59f03f21",
+      "visible_message_count": 1,
+      "raw_text_checker_issues": [
+        "QUESTION_ONLY_REQUIRED"
+      ]
+    },
+    {
+      "scenario_id": "B02_URGENT_SAFETY",
+      "status": "CAPTURED_UNREVIEWED",
+      "context_id": "01a108f4-dcf9-70d1-abfc-addcdb012572",
+      "visible_message_count": 2,
+      "raw_text_checker_issues": [
+        "EXCESS_DETAIL"
+      ]
+    },
+    {
+      "scenario_id": "B03_ARTICLES_33_34",
+      "attempt": 1,
+      "status": "INTERRUPTED_NOT_RUN",
+      "context_id": "01a108ec-f0db-7920-a116-e93144edf482"
+    },
+    {
+      "scenario_id": "B03_ARTICLES_33_34",
+      "status": "CAPTURED_UNREVIEWED",
+      "context_id": "01a108fc-acdb-7d43-ab0b-dc8f47c3fbde",
+      "visible_message_count": 3,
+      "raw_text_checker_issues": [
+        "INTERNAL_MECHANISMS",
+        "EXCESS_DETAIL"
+      ]
+    },
+    {
+      "scenario_id": "B04_OFFICIAL_ROLES",
+      "attempt": 1,
+      "status": "INTERRUPTED_NOT_RUN",
+      "context_id": "01a108eb-996e-7bd2-9986-788ad64fee21"
+    },
+    {
+      "scenario_id": "B04_OFFICIAL_ROLES",
+      "status": "CAPTURED_UNREVIEWED",
+      "context_id": "01a108ff-f3b3-7f41-a421-a6beb4e1bbb8",
+      "visible_message_count": 1,
+      "raw_text_checker_issues": []
+    },
+    {
+      "scenario_id": "B05_COMPOUND_ACTION",
+      "attempt": 1,
+      "status": "ERRORED_NOT_RUN",
+      "context_id": "01a108fa-dbad-7860-a14c-ebef428a5538"
+    },
+    {
+      "scenario_id": "B05_COMPOUND_ACTION",
+      "status": "CAPTURED_UNREVIEWED",
+      "context_id": "01a10911-e61c-7ab3-8f1e-02de7d2bbcf0",
+      "visible_message_count": 3,
+      "raw_text_checker_issues": []
+    },
+    {
+      "scenario_id": "B06_SIMPLE_ACTION",
+      "status": "CAPTURED_UNREVIEWED",
+      "context_id": "01a108fa-55ff-7d83-8f03-d60580d593bb",
+      "visible_message_count": 1,
+      "raw_text_checker_issues": []
+    },
+    {
+      "scenario_id": "B07_KNOWLEDGE_NOOR",
+      "status": "CAPTURED_UNREVIEWED",
+      "context_id": "01a108fa-b498-7310-a85a-be8b071bb8b8",
+      "visible_message_count": 2,
+      "raw_text_checker_issues": [
+        "INTERNAL_MECHANISMS"
+      ]
+    },
+    {
+      "scenario_id": "B08_PROFESSIONAL_UNKNOWN",
+      "status": "CAPTURED_UNREVIEWED",
+      "context_id": "01a108f6-a2cc-7122-b946-2ce2354fa1a5",
+      "visible_message_count": 3,
+      "raw_text_checker_issues": [
+        "EXCESS_DETAIL"
+      ]
+    },
+    {
+      "scenario_id": "B09_SOURCE_VS_PROPOSAL",
+      "status": "CAPTURED_UNREVIEWED",
+      "context_id": "01a10901-f0b8-7142-8e02-ed3b844677e4",
+      "visible_message_count": 1,
+      "raw_text_checker_issues": []
+    },
+    {
+      "scenario_id": "B10_APPROVAL_NOOR",
+      "status": "CAPTURED_UNREVIEWED",
+      "context_id": "01a108fc-1a6c-7910-bc19-6a8bd8103048",
+      "visible_message_count": 2,
+      "raw_text_checker_issues": []
+    },
+    {
+      "scenario_id": "B11_PLAN_NOT_EVIDENCE",
+      "status": "CAPTURED_UNREVIEWED",
+      "context_id": "01a108fd-e680-7293-ac5b-60da6c69d9b4",
+      "visible_message_count": 2,
+      "raw_text_checker_issues": [
+        "EXCESS_DETAIL"
+      ]
+    },
+    {
+      "scenario_id": "B12_INITIALS_ALLOWED",
+      "status": "CAPTURED_UNREVIEWED",
+      "context_id": "01a108eb-acc8-78e2-90e1-7dd37881ae0b",
+      "visible_message_count": 1,
+      "raw_text_checker_issues": []
+    },
+    {
+      "scenario_id": "B13_INITIALS_COLLISION",
+      "status": "CAPTURED_UNREVIEWED",
+      "context_id": "01a108f6-223c-7721-809f-05f6cd32dee4",
+      "visible_message_count": 1,
+      "raw_text_checker_issues": []
+    },
+    {
+      "scenario_id": "B14_HELP_BEFORE_RECORD",
+      "status": "CAPTURED_UNREVIEWED",
+      "context_id": "01a108ff-6091-71b2-bd84-85f705272d2a",
+      "visible_message_count": 2,
+      "raw_text_checker_issues": []
+    },
+    {
+      "scenario_id": "B15_INDEPENDENT_HELP",
+      "status": "CAPTURED_UNREVIEWED",
+      "context_id": "01a10900-7381-7cc3-928b-f99b7300dc71",
+      "visible_message_count": 1,
+      "raw_text_checker_issues": []
+    },
+    {
+      "scenario_id": "B16_PUBLIC_INITIALS",
+      "status": "CAPTURED_UNREVIEWED",
+      "context_id": "01a10901-0000-7652-8fc5-0b68044dc5f3",
+      "visible_message_count": 2,
+      "raw_text_checker_issues": []
+    },
+    {
+      "scenario_id": "B17_KNOWN_PRIOR_EXECUTION",
+      "status": "CAPTURED_UNREVIEWED",
+      "context_id": "01a108ed-0634-73d1-af2e-47abbebb02d4",
+      "visible_message_count": 3,
+      "raw_text_checker_issues": [
+        "INTERNAL_MECHANISMS"
+      ]
+    }
+  ]
+}

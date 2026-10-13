@@ -1,0 +1,431 @@
+{
+  "status": "PASS",
+  "audited_at": "2026-10-04T22:54:05.637292+00:00",
+  "captured_responses": 17,
+  "distinct_response_contexts": 17,
+  "runs_sha256": "841f8a1d191474cbcacedb7dc187332d7094590bbbd67dc0fd05e4e87f444341",
+  "transcripts_sha256": "181dc71b2d7c316aca70ed1f372a23f0dde4e69c9bfe2bb61708a43ac07affbb",
+  "checks": [
+    {
+      "scenario_id": "B01_PREVIOUS_UNKNOWN",
+      "context_id": "01a108eb-bec3-7180-86e1-bdcc59f03f21",
+      "answer_sha256": "46d8325407d64ee0dc182984b3d90c87952e33bf8f7d2399b945a18b3f7c2368",
+      "visible_messages_count": 1,
+      "first_and_only_response_turn": true,
+      "raw_answers_and_all_messages_match_journal": true,
+      "dispatch_target_and_recorded_payload_match": true,
+      "prompt_plaintext_in_journal_verified": false,
+      "tool_call_bytes_match_journal": true,
+      "top_level_tool_names": [
+        "exec"
+      ],
+      "nested_tool_names_referenced": [
+        "exec_command"
+      ],
+      "referenced_project_files": [
+        "catalog/reference_matrix.json",
+        "context/current.json",
+        "context/decisions.md",
+        "guide/workflow.md"
+      ]
+    },
+    {
+      "scenario_id": "B02_URGENT_SAFETY",
+      "context_id": "01a108f4-dcf9-70d1-abfc-addcdb012572",
+      "answer_sha256": "ec5393e533f79644715aab50f2b4cbfd027d397a40f09691a47735d1b1f70a2f",
+      "visible_messages_count": 2,
+      "first_and_only_response_turn": true,
+      "raw_answers_and_all_messages_match_journal": true,
+      "dispatch_target_and_recorded_payload_match": true,
+      "prompt_plaintext_in_journal_verified": false,
+      "tool_call_bytes_match_journal": true,
+      "top_level_tool_names": [
+        "exec"
+      ],
+      "nested_tool_names_referenced": [
+        "web__run"
+      ],
+      "referenced_project_files": []
+    },
+    {
+      "scenario_id": "B03_ARTICLES_33_34",
+      "context_id": "01a108fc-acdb-7d43-ab0b-dc8f47c3fbde",
+      "answer_sha256": "a29e6b4f76165103e3d3607e55ba8ed66372c814530d53d41266aa482440592c",
+      "visible_messages_count": 3,
+      "first_and_only_response_turn": true,
+      "raw_answers_and_all_messages_match_journal": true,
+      "dispatch_target_and_recorded_payload_match": true,
+      "prompt_plaintext_in_journal_verified": false,
+      "tool_call_bytes_match_journal": true,
+      "top_level_tool_names": [
+        "exec",
+        "wait_agent"
+      ],
+      "nested_tool_names_referenced": [
+        "exec_command",
+        "mcp__codex_app__load_workspace_dependencies",
+        "view_image"
+      ],
+      "referenced_project_files": [
+        "catalog/reference_matrix.json",
+        "catalog/source_registry.json",
+        "context/current.json",
+        "context/decisions.md",
+        "extracted_text/pdf/REF-BEHAVIOR-1447-V5.txt",
+        "guide/workflow.md",
+        "references/02_regulatory/behavior_and_attendance_regulations/قواعد السلوك والمواظبة الإصدار الخامس 1447.pdf"
+      ]
+    },
+    {
+      "scenario_id": "B04_OFFICIAL_ROLES",
+      "context_id": "01a108ff-f3b3-7f41-a421-a6beb4e1bbb8",
+      "answer_sha256": "a104152c9ea795a936659eb0e0d40831b8932afac889e19192e13532894326f4",
+      "visible_messages_count": 1,
+      "first_and_only_response_turn": true,
+      "raw_answers_and_all_messages_match_journal": true,
+      "dispatch_target_and_recorded_payload_match": true,
+      "prompt_plaintext_in_journal_verified": false,
+      "tool_call_bytes_match_journal": true,
+      "top_level_tool_names": [],
+      "nested_tool_names_referenced": [],
+      "referenced_project_files": []
+    },
+    {
+      "scenario_id": "B05_COMPOUND_ACTION",
+      "context_id": "01a10911-e61c-7ab3-8f1e-02de7d2bbcf0",
+      "answer_sha256": "75c84826f56c2b18585986d13fc6c4158c954f6c31e886d31018e30bfa01959f",
+      "visible_messages_count": 3,
+      "first_and_only_response_turn": true,
+      "raw_answers_and_all_messages_match_journal": true,
+      "dispatch_target_and_recorded_payload_match": true,
+      "prompt_plaintext_in_journal_verified": false,
+      "tool_call_bytes_match_journal": true,
+      "top_level_tool_names": [
+        "exec",
+        "interrupt_agent",
+        "list_agents",
+        "request_user_input",
+        "send_message",
+        "sleep"
+      ],
+      "nested_tool_names_referenced": [
+        "exec_command",
+        "mcp__codex_app__load_workspace_dependencies",
+        "view_image"
+      ],
+      "referenced_project_files": [
+        "catalog/reference_matrix.json",
+        "catalog/source_registry.json",
+        "catalog/خريطة_صفحات_الموجه_الطلابي_نسخة_متحققة.md",
+        "context/current.json",
+        "context/decisions.md",
+        "guide/workflow.md",
+        "references/02_regulatory/procedural_guides/derived/كل_ما_يخص_الموجه_الطلابي_في_الدليل_الإجرائي_نسخة_متحققة.md",
+        "references/02_regulatory/procedural_guides/الدليل الإجرائي الكامل - رجب 1446.pdf"
+      ]
+    },
+    {
+      "scenario_id": "B06_SIMPLE_ACTION",
+      "context_id": "01a108fa-55ff-7d83-8f03-d60580d593bb",
+      "answer_sha256": "6e05eebf6945a14636c3f59fcb53cf1bb9801144afa73deced6ae59219fbc777",
+      "visible_messages_count": 1,
+      "first_and_only_response_turn": true,
+      "raw_answers_and_all_messages_match_journal": true,
+      "dispatch_target_and_recorded_payload_match": true,
+      "prompt_plaintext_in_journal_verified": false,
+      "tool_call_bytes_match_journal": true,
+      "top_level_tool_names": [],
+      "nested_tool_names_referenced": [],
+      "referenced_project_files": []
+    },
+    {
+      "scenario_id": "B07_KNOWLEDGE_NOOR",
+      "context_id": "01a108fa-b498-7310-a85a-be8b071bb8b8",
+      "answer_sha256": "a2f053112420b2c1f6cd276e23b1380d0464cbfac22fd555ae61173dc1bda2a4",
+      "visible_messages_count": 2,
+      "first_and_only_response_turn": true,
+      "raw_answers_and_all_messages_match_journal": true,
+      "dispatch_target_and_recorded_payload_match": true,
+      "prompt_plaintext_in_journal_verified": false,
+      "tool_call_bytes_match_journal": true,
+      "top_level_tool_names": [
+        "exec"
+      ],
+      "nested_tool_names_referenced": [
+        "exec_command"
+      ],
+      "referenced_project_files": [
+        "context/current.json",
+        "context/decisions.md",
+        "guide/workflow.md"
+      ]
+    },
+    {
+      "scenario_id": "B08_PROFESSIONAL_UNKNOWN",
+      "context_id": "01a108f6-a2cc-7122-b946-2ce2354fa1a5",
+      "answer_sha256": "a8b5063a111ced02e153e57a9e4a8a3d34005d14616d9d645afbf987205d18a3",
+      "visible_messages_count": 3,
+      "first_and_only_response_turn": true,
+      "raw_answers_and_all_messages_match_journal": true,
+      "dispatch_target_and_recorded_payload_match": true,
+      "prompt_plaintext_in_journal_verified": false,
+      "tool_call_bytes_match_journal": true,
+      "top_level_tool_names": [
+        "exec",
+        "list_agents",
+        "send_message"
+      ],
+      "nested_tool_names_referenced": [
+        "exec_command",
+        "mcp__codex_app__load_workspace_dependencies",
+        "view_image"
+      ],
+      "referenced_project_files": [
+        "catalog/reference_matrix.json",
+        "catalog/source_registry.json",
+        "catalog/خريطة_صفحات_الموجه_الطلابي_نسخة_متحققة.md",
+        "context/current.json",
+        "context/decisions.md",
+        "guide/workflow.md",
+        "references/02_regulatory/procedural_guides/الدليل الإجرائي الكامل - رجب 1446.pdf"
+      ]
+    },
+    {
+      "scenario_id": "B09_SOURCE_VS_PROPOSAL",
+      "context_id": "01a10901-f0b8-7142-8e02-ed3b844677e4",
+      "answer_sha256": "acea28a2de2f7e70f578cdfcf42e5b53e6216945cc418ca4673fe02a44793530",
+      "visible_messages_count": 1,
+      "first_and_only_response_turn": true,
+      "raw_answers_and_all_messages_match_journal": true,
+      "dispatch_target_and_recorded_payload_match": true,
+      "prompt_plaintext_in_journal_verified": false,
+      "tool_call_bytes_match_journal": true,
+      "top_level_tool_names": [
+        "exec"
+      ],
+      "nested_tool_names_referenced": [
+        "exec_command"
+      ],
+      "referenced_project_files": [
+        "context/current.json",
+        "context/decisions.md",
+        "guide/workflow.md"
+      ]
+    },
+    {
+      "scenario_id": "B10_APPROVAL_NOOR",
+      "context_id": "01a108fc-1a6c-7910-bc19-6a8bd8103048",
+      "answer_sha256": "f2c72ab529f46d85478f716c5b2207e6f7f91a7c715f1e3471b4060a93c29aa1",
+      "visible_messages_count": 2,
+      "first_and_only_response_turn": true,
+      "raw_answers_and_all_messages_match_journal": true,
+      "dispatch_target_and_recorded_payload_match": true,
+      "prompt_plaintext_in_journal_verified": false,
+      "tool_call_bytes_match_journal": true,
+      "top_level_tool_names": [
+        "exec"
+      ],
+      "nested_tool_names_referenced": [
+        "exec_command"
+      ],
+      "referenced_project_files": [
+        "context/current.json",
+        "context/decisions.md",
+        "guide/workflow.md",
+        "standards/behavior_acceptance.json",
+        "work/register.json"
+      ]
+    },
+    {
+      "scenario_id": "B11_PLAN_NOT_EVIDENCE",
+      "context_id": "01a108fd-e680-7293-ac5b-60da6c69d9b4",
+      "answer_sha256": "a57f33ba5a112c87ddae66a12a0f2853cc3f87a7eec54ede79481785b7c6d7f7",
+      "visible_messages_count": 2,
+      "first_and_only_response_turn": true,
+      "raw_answers_and_all_messages_match_journal": true,
+      "dispatch_target_and_recorded_payload_match": true,
+      "prompt_plaintext_in_journal_verified": false,
+      "tool_call_bytes_match_journal": true,
+      "top_level_tool_names": [
+        "exec"
+      ],
+      "nested_tool_names_referenced": [
+        "exec_command"
+      ],
+      "referenced_project_files": [
+        "context/current.json",
+        "context/decisions.md",
+        "guide/workflow.md",
+        "standards/WEEKLY_PLAN_GATE.md",
+        "work/register.json"
+      ]
+    },
+    {
+      "scenario_id": "B12_INITIALS_ALLOWED",
+      "context_id": "01a108eb-acc8-78e2-90e1-7dd37881ae0b",
+      "answer_sha256": "993f98cff96c69d0ac79eb5956441583708f9ddda731bdcc3c0f36503a2b830b",
+      "visible_messages_count": 1,
+      "first_and_only_response_turn": true,
+      "raw_answers_and_all_messages_match_journal": true,
+      "dispatch_target_and_recorded_payload_match": true,
+      "prompt_plaintext_in_journal_verified": false,
+      "tool_call_bytes_match_journal": true,
+      "top_level_tool_names": [
+        "exec"
+      ],
+      "nested_tool_names_referenced": [
+        "exec_command"
+      ],
+      "referenced_project_files": [
+        "context/current.json",
+        "context/decisions.md",
+        "guide/workflow.md"
+      ]
+    },
+    {
+      "scenario_id": "B13_INITIALS_COLLISION",
+      "context_id": "01a108f6-223c-7721-809f-05f6cd32dee4",
+      "answer_sha256": "df0cd0843695be6dc82fe41688de21c738b9ee9c8dd6f7db406a6665ea6d54e5",
+      "visible_messages_count": 1,
+      "first_and_only_response_turn": true,
+      "raw_answers_and_all_messages_match_journal": true,
+      "dispatch_target_and_recorded_payload_match": true,
+      "prompt_plaintext_in_journal_verified": false,
+      "tool_call_bytes_match_journal": true,
+      "top_level_tool_names": [],
+      "nested_tool_names_referenced": [],
+      "referenced_project_files": []
+    },
+    {
+      "scenario_id": "B14_HELP_BEFORE_RECORD",
+      "context_id": "01a108ff-6091-71b2-bd84-85f705272d2a",
+      "answer_sha256": "be5a0544dd1267f72729c52135549e4c9b7c432b1114476404c4844987408e56",
+      "visible_messages_count": 2,
+      "first_and_only_response_turn": true,
+      "raw_answers_and_all_messages_match_journal": true,
+      "dispatch_target_and_recorded_payload_match": true,
+      "prompt_plaintext_in_journal_verified": false,
+      "tool_call_bytes_match_journal": true,
+      "top_level_tool_names": [
+        "exec"
+      ],
+      "nested_tool_names_referenced": [
+        "exec_command"
+      ],
+      "referenced_project_files": [
+        "context/current.json",
+        "context/decisions.md",
+        "guide/workflow.md"
+      ]
+    },
+    {
+      "scenario_id": "B15_INDEPENDENT_HELP",
+      "context_id": "01a10900-7381-7cc3-928b-f99b7300dc71",
+      "answer_sha256": "2ee3d366c2f58e49860e060e8e0218b108b846b0a2322021bc7b8e54aaaa4cf4",
+      "visible_messages_count": 1,
+      "first_and_only_response_turn": true,
+      "raw_answers_and_all_messages_match_journal": true,
+      "dispatch_target_and_recorded_payload_match": true,
+      "prompt_plaintext_in_journal_verified": false,
+      "tool_call_bytes_match_journal": true,
+      "top_level_tool_names": [],
+      "nested_tool_names_referenced": [],
+      "referenced_project_files": []
+    },
+    {
+      "scenario_id": "B16_PUBLIC_INITIALS",
+      "context_id": "01a10901-0000-7652-8fc5-0b68044dc5f3",
+      "answer_sha256": "cb9cc3e6e4721522efe36f7bb08c7c0e260e8728beaf5685ba8b0951d9e0cac1",
+      "visible_messages_count": 2,
+      "first_and_only_response_turn": true,
+      "raw_answers_and_all_messages_match_journal": true,
+      "dispatch_target_and_recorded_payload_match": true,
+      "prompt_plaintext_in_journal_verified": false,
+      "tool_call_bytes_match_journal": true,
+      "top_level_tool_names": [
+        "exec"
+      ],
+      "nested_tool_names_referenced": [
+        "exec_command"
+      ],
+      "referenced_project_files": [
+        "context/current.json",
+        "context/decisions.md",
+        "guide/workflow.md"
+      ]
+    },
+    {
+      "scenario_id": "B17_KNOWN_PRIOR_EXECUTION",
+      "context_id": "01a108ed-0634-73d1-af2e-47abbebb02d4",
+      "answer_sha256": "401db36bb9d0a7e55e2bff2cada5667c0d7835ed5626813c1d92163b172c2a31",
+      "visible_messages_count": 3,
+      "first_and_only_response_turn": true,
+      "raw_answers_and_all_messages_match_journal": true,
+      "dispatch_target_and_recorded_payload_match": true,
+      "prompt_plaintext_in_journal_verified": false,
+      "tool_call_bytes_match_journal": true,
+      "top_level_tool_names": [
+        "exec",
+        "sleep"
+      ],
+      "nested_tool_names_referenced": [
+        "exec_command",
+        "mcp__codex_app__load_workspace_dependencies",
+        "view_image",
+        "write_stdin"
+      ],
+      "referenced_project_files": [
+        "catalog/reference_matrix.json",
+        "catalog/source_registry.json",
+        "context/current.json",
+        "context/decisions.md",
+        "extracted_text/pdf/REF-BEHAVIOR-1447-V5.txt",
+        "guide/workflow.md",
+        "references/02_regulatory/behavior_and_attendance_regulations/قواعد السلوك والمواظبة الإصدار الخامس 1447.pdf",
+        "references/02_regulatory/procedural_guides/الدليل الإجرائي الكامل - رجب 1446.pdf"
+      ]
+    }
+  ],
+  "project_files_referenced_union": [
+    "catalog/reference_matrix.json",
+    "catalog/source_registry.json",
+    "catalog/خريطة_صفحات_الموجه_الطلابي_نسخة_متحققة.md",
+    "context/current.json",
+    "context/decisions.md",
+    "extracted_text/pdf/REF-BEHAVIOR-1447-V5.txt",
+    "guide/workflow.md",
+    "references/02_regulatory/behavior_and_attendance_regulations/قواعد السلوك والمواظبة الإصدار الخامس 1447.pdf",
+    "references/02_regulatory/procedural_guides/derived/كل_ما_يخص_الموجه_الطلابي_في_الدليل_الإجرائي_نسخة_متحققة.md",
+    "references/02_regulatory/procedural_guides/الدليل الإجرائي الكامل - رجب 1446.pdf",
+    "standards/WEEKLY_PLAN_GATE.md",
+    "standards/behavior_acceptance.json",
+    "work/register.json"
+  ],
+  "execution_errors": [
+    {
+      "agent": "/root/response_b05",
+      "context_id": "01a108fa-dbad-7860-a14c-ebef428a5538",
+      "turn_id": "01a108fa-de10-7da3-ba5c-8450eb934679",
+      "at": "2026-10-04T22:32:19.846Z",
+      "error_message": "Fatal error: application network permission was revoked",
+      "classification": "EXECUTION_ENVIRONMENT_ERROR; never acceptance"
+    },
+    {
+      "agent": "/root/review_privacy",
+      "context_id": "01a10903-e2db-7731-b72a-fd2d62c7437b",
+      "turn_id": "01a10903-e5a2-7e33-850e-91816d1efdff",
+      "at": "2026-10-04T22:32:19.904Z",
+      "error_message": "Fatal error: application network permission was revoked",
+      "classification": "EXECUTION_ENVIRONMENT_ERROR; never acceptance"
+    },
+    {
+      "agent": "/root/review_sources",
+      "context_id": "01a1090b-97b2-7961-ba01-3293ee0f8ea7",
+      "turn_id": "01a1090b-9baf-78e3-ab68-57cbf16f2a7e",
+      "at": "2026-10-04T22:32:47.676Z",
+      "error_message": "unexpected status 401 Unauthorized: Missing bearer or basic authentication in header, url: https://api.openai.com/v1/responses, cf-ray: a457a4fdb9947bd7-SOF, request id: req_bcb7de9f19814b60aadb061c24eb0abb",
+      "classification": "EXECUTION_ENVIRONMENT_ERROR; never acceptance"
+    }
+  ],
+  "limits": "Journal dispatch plaintext is encrypted in this environment. Prompt text is separately operator-captured; ciphertext binding does not authenticate its plaintext. Nested tool names are inferred from recorded invocation code. File references prove tool invocation content, not full file reading. No semantic or independent acceptance judgment is made by this audit."
+}

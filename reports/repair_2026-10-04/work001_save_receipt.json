@@ -1,0 +1,11 @@
+{
+  "audit_version": "1.0",
+  "transaction_id": "aa38b41c-67a0-46cc-a996-9175ef9e78d7",
+  "before_sha256": "8731cc55ea27fc29b6334d8877daa4c8b0e840ee2a2f9cc25395f22685b68d9e",
+  "proposal_sha256": "ef4bac7832c4b9256185928068a11603c9b6798e46bc50831a289b89550eb87d",
+  "approval_ref": "user_input:2026-10-04-authorized-project-repairs-section-1-and-8-WORK-001-technical-binding",
+  "proposed_result_sha256": "9c627d7a53eb4b3df4b0e644a72c24e0112b5a4f6cca27be2f728e6b4eb2cc4c",
+  "at": "2026-10-04T13:53:25.816475+00:00",
+  "status": "saved",
+  "result_sha256": "9c627d7a53eb4b3df4b0e644a72c24e0112b5a4f6cca27be2f728e6b4eb2cc4c"
+}

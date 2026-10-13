@@ -1,0 +1,10 @@
+{
+  "artifact": "CANDIDATE_STATE.json",
+  "before_sha256": "5b894cb4e8bdc7bd651048320a6ef0a8d1dc5be0354127608684c0a928dbe360",
+  "field": "reviewed_runs_sha256",
+  "previous_value": "c198123041c08dae56b16bc22e24c84c2cda137d7275ecf9f3a600f74b943799",
+  "correct_value": "ad0f52889105b53de9bf5185e5d11fd9599ca9a4ac8f5be0c258c0f4e4265238",
+  "cause": "Digest was computed from an in-memory LF serialization, while Path.write_text on Windows wrote CRLF. The current saved file bytes are now used. Captured answers, reviews and selected run bytes were not changed.",
+  "saved_selected_run_crlf_count": 5769,
+  "captured_answer_bytes_changed": false
+}

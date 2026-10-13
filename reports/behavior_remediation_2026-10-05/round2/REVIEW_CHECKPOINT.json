@@ -1,0 +1,71 @@
+{
+  "saved_at": "2026-10-05T09:12:37.093277+00:00",
+  "round": 2,
+  "contract_version": "1.0.2",
+  "candidate_status": "CANDIDATE",
+  "aggregate_acceptance": "PENDING_INDEPENDENT_REVIEW",
+  "actual_responses_saved": 17,
+  "independently_reviewed_count": 6,
+  "reviewed_results": [
+    {
+      "scenario_id": "B01_PREVIOUS_UNKNOWN",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "scenario_id": "B02_URGENT_SAFETY",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "scenario_id": "B03_ARTICLES_33_34",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "scenario_id": "B04_OFFICIAL_ROLES",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "scenario_id": "B08_PROFESSIONAL_UNKNOWN",
+      "status": "PASS",
+      "issues": [],
+      "required_host_metadata": {
+        "kind": "mandatory_memory_citation",
+        "raw_preserved": true,
+        "ui_rendering": "UNVERIFIED"
+      }
+    },
+    {
+      "scenario_id": "B17_KNOWN_PRIOR_EXECUTION",
+      "status": "PASS",
+      "issues": []
+    }
+  ],
+  "pending_review_scenarios": [
+    "B05_COMPOUND_ACTION",
+    "B06_SIMPLE_ACTION",
+    "B07_KNOWLEDGE_NOOR",
+    "B09_SOURCE_VS_PROPOSAL",
+    "B10_APPROVAL_NOOR",
+    "B11_PLAN_NOT_EVIDENCE",
+    "B12_INITIALS_ALLOWED",
+    "B13_INITIALS_COLLISION",
+    "B14_HELP_BEFORE_RECORD",
+    "B15_INDEPENDENT_HELP",
+    "B16_PUBLIC_INITIALS"
+  ],
+  "snapshot_files_verified": 259,
+  "snapshot_drift": [],
+  "scenario_and_professional_criteria_unchanged": true,
+  "protected_operational_files_unchanged": {
+    "AGENTS.md": true,
+    "work/register.json": true,
+    "context/current.json": true,
+    "context/decisions.md": true
+  },
+  "ui_metadata_rendering": "UNVERIFIED",
+  "blocker": "Independent review agents stopped at account usage limit. No missing judgment substituted by the primary agent.",
+  "resume": "Review only pending_review_scenarios against saved round2 captures; do not regenerate responses. Save round2/reviews_daily.json, then run finalize_remediation.py --round 2 and native acceptance checker."
+}

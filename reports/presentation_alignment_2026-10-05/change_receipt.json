@@ -1,0 +1,21 @@
+{
+  "scope": "Remove presentation conflict with mandatory host progress and skill announcements only.",
+  "changed_files": {
+    "AGENTS.md": {
+      "before_sha256": "e3ecc14c7564396cfb6b9c06b90bbb1ebf03268928f5a0ce8954a7066b80355d",
+      "after_sha256": "ff63b38898057661d7002ef4d2fbcff6d73e2b87d310e02cd22c329ad16fe765"
+    },
+    "guide/workflow.md": {
+      "before_sha256": "60105007682051de23e95e42108cca3e5a21b1491af86ea19b2be076e3416dd5",
+      "after_sha256": "8d751c743dc1afd188d12389fe21382264d48e3e61d214978e40f66fd50e8304"
+    },
+    "standards/behavior_acceptance.json": {
+      "before_sha256": "afcf73c5bbc26e789988808498a52572a25104db057f38380fa2a23d2e23f54c",
+      "after_sha256": "7ac4e3fd81787f9820772d72ab829dfd14065a841bf3a22bdaaf5d49d8827fb2"
+    }
+  },
+  "contract_version": "1.0.1",
+  "new_conversation_acceptance_status": "NOT_RUN",
+  "scenario_prompts_and_professional_criteria_unchanged": true,
+  "operational_register_and_historical_answers_and_results_unchanged": true
+}

@@ -1,0 +1,431 @@
+{
+  "schema_version": "2.1",
+  "gate_version": "1.2.2",
+  "adopted_on": "2026-09-29",
+  "status": "active",
+  "runner_compatibility": {
+    "compatible_runner": ">=1.2.2",
+    "current_runner": "1.2.2",
+    "compatible": true,
+    "instruction": "Use runner 1.2.2 with schema 2.1 typed locators and input-bound phase results, including governing decisions and current Noor mappings. Historical results are not current readiness."
+  },
+  "phases": [
+    "DESIGN",
+    "PRE_EXECUTION",
+    "POST_EXECUTION",
+    "CLOSURE"
+  ],
+  "review_levels": [
+    "BLOCKER",
+    "WARNING",
+    "REVIEW",
+    "INFO"
+  ],
+  "information_statuses": [
+    "VERIFIED",
+    "SUPPORTED",
+    "INFERENCE",
+    "UNVERIFIED",
+    "PENDING",
+    "NOT_MEASURED",
+    "NOT_APPLICABLE",
+    "NOT_ASSESSABLE_YET"
+  ],
+  "phase_outcomes": [
+    "APPROVED",
+    "APPROVED_WITH_WARNINGS",
+    "HUMAN_REVIEW_REQUIRED",
+    "BLOCKED",
+    "NOT_READY_FOR_PHASE"
+  ],
+  "evidence_contract": {
+    "required_fields": [
+      "rule_id",
+      "phase",
+      "result",
+      "information_status",
+      "evidence_type",
+      "claim",
+      "locator",
+      "reviewed_by",
+      "reviewed_at"
+    ],
+    "locator_required_fields": [
+      "path"
+    ],
+    "not_applicable_requires": [
+      "applicability_reason",
+      "scope",
+      "reviewed_by"
+    ],
+    "locator_selector": "Exactly one of pdf_page (1-based physical page), printed_page plus a version-bound page_map, section (exact Markdown/DOCX title or JSON Pointer), paragraph plus exact text (DOCX).",
+    "rule": "Source existence, location existence, and semantic support are separate. Ambiguous legacy locators or unverifiable OCR/sections need review. Structural existence never proves semantic support, reviewer identity, or field execution."
+  },
+  "year_normalization": {
+    "source_value": "1447",
+    "interpreted_value": "1448",
+    "reason": "user-confirmed typo",
+    "scope": "identified Qassim-plan table locations only",
+    "preserve_original": true,
+    "apply_to_other_sources": false
+  },
+  "reference_catalog": {
+    "QASSIM_PLAN": "references/04_regional_plans/خطة برامج وخدمات التوجيه الطلابي تعليم القصيم 1448.pdf",
+    "NOOR_REFERENCE": "references/03_official_operational_guides/noor/مرجع_نظام_نور_للتوجيه_الطلابي.md",
+    "ORGANIZATIONAL_GUIDE": "references/02_regulatory/organizational_guides/الدليل التنظيمي الكامل - 1446.pdf",
+    "PROCEDURAL_GUIDE": "references/02_regulatory/procedural_guides/الدليل الإجرائي الكامل - رجب 1446.pdf",
+    "PROGRAM_REGISTRY": "catalog/source_registry.json",
+    "SCHOOL_CONTEXT": "context/current.json",
+    "GATE_SPEC": "standards/WEEKLY_PLAN_GATE.md",
+    "GOVERNING_DECISIONS": "context/decisions.md",
+    "NOOR_DECISION_MATRIX": "catalog/records_noor_decision_matrix.json",
+    "SOURCE_ROUTING": "catalog/reference_matrix.json",
+    "PROGRAM_SOURCE_RULES": "catalog/program_source_rules.md"
+  },
+  "rule_definitions": [
+    {
+      "rule_id": "E01",
+      "category": "eligibility",
+      "description": "يحتاج البرنامج الرسمي أو الأولوية الجديدة إلى سند استحقاق خاص أو حاجة فعلية موثقة؛ تكفي إحالة التشغيل للأعمال المستمرة والخدمات الحدثية، ووجود البرنامج في نور لا يكفي",
+      "phases": [
+        "DESIGN",
+        "PRE_EXECUTION"
+      ],
+      "review_level": "BLOCKER",
+      "reference_keys": [
+        "QASSIM_PLAN",
+        "SCHOOL_CONTEXT",
+        "SOURCE_ROUTING",
+        "PROGRAM_SOURCE_RULES"
+      ],
+      "source_type": "governing_and_local",
+      "source": "خطة القصيم 1448 أو مصدر حاكم مختص أو حاجة فعلية موثقة",
+      "message_if_failed": "استحقاق برنامج رسمي أو أولوية جديدة غير مثبت"
+    },
+    {
+      "rule_id": "E02",
+      "category": "eligibility",
+      "description": "تطابق الفئة والانطباق مع الصفوف 2-6 والواقع الفعلي، ولا تعتمد فئة نور العامة بدل فئة المصدر",
+      "phases": [
+        "DESIGN",
+        "PRE_EXECUTION"
+      ],
+      "review_level": "BLOCKER",
+      "reference_keys": [
+        "QASSIM_PLAN",
+        "PROGRAM_REGISTRY",
+        "SCHOOL_CONTEXT"
+      ],
+      "source_type": "governing_and_school_context",
+      "source": "خطة القصيم + دليل البرنامج + سياق المدرسة",
+      "message_if_failed": "الفئة أو الانطباق غير صحيح"
+    },
+    {
+      "rule_id": "E03",
+      "category": "eligibility",
+      "description": "يوثق تقويم الأسبوع وقيمة السنة الأصلية والتفسير المحدود؛ يصعد الغموض إلى BLOCKER فقط إذا غير الاستحقاق أو الموعد",
+      "phases": [
+        "DESIGN",
+        "PRE_EXECUTION"
+      ],
+      "review_level": "REVIEW",
+      "reference_keys": [
+        "QASSIM_PLAN",
+        "GATE_SPEC",
+        "SOURCE_ROUTING",
+        "PROGRAM_SOURCE_RULES"
+      ],
+      "escalate_to": "BLOCKER",
+      "escalation_condition": "year_or_date_ambiguity_changes_eligibility_or_timing",
+      "source_type": "governing_with_user_normalization",
+      "source": "خطة القصيم + قرار المستخدم المحدد النطاق",
+      "message_if_failed": "السنة أو التوقيت يحتاج حسمًا"
+    },
+    {
+      "rule_id": "E04",
+      "category": "eligibility",
+      "description": "يفصل البرنامج الرسمي عن النشاط الداعم والخدمة الحدثية والعمل المستمر ويحدد أثر النوع على التنفيذ والتوثيق",
+      "phases": [
+        "DESIGN",
+        "PRE_EXECUTION"
+      ],
+      "review_level": "REVIEW",
+      "reference_keys": [
+        "QASSIM_PLAN",
+        "GATE_SPEC"
+      ],
+      "source_type": "operational",
+      "source": "خطة القصيم + قواعد التشغيل المعتمدة",
+      "message_if_failed": "تصنيف البند أو أثره التشغيلي غير محسوم"
+    },
+    {
+      "rule_id": "N01",
+      "category": "noor",
+      "description": "يحدد مسار نور المتوقع في التصميم دون اختراع حقول، ثم يسجل الإجراء والخدمة والحالة الفعلية بعد التنفيذ فقط، ويسمح بغير مطلوب في نور بسبب موثق",
+      "phases": [
+        "DESIGN",
+        "PRE_EXECUTION",
+        "POST_EXECUTION",
+        "CLOSURE"
+      ],
+      "review_level": "REVIEW",
+      "reference_keys": [
+        "NOOR_REFERENCE",
+        "GOVERNING_DECISIONS",
+        "NOOR_DECISION_MATRIX",
+        "SOURCE_ROUTING"
+      ],
+      "source_type": "technical_and_operational",
+      "source": "مرجع نظام نور الموثق",
+      "message_if_failed": "مسار نور أو توقيت إثباته غير محسوم"
+    },
+    {
+      "rule_id": "N02",
+      "category": "noor",
+      "description": "لا تسجل حالة نفذ أو عدد مستفيدين فعلي من توقع أو من ظهور خيار في نور",
+      "phases": [
+        "POST_EXECUTION",
+        "CLOSURE"
+      ],
+      "review_level": "BLOCKER",
+      "reference_keys": [
+        "NOOR_REFERENCE",
+        "GATE_SPEC"
+      ],
+      "source_type": "integrity",
+      "source": "سجل التنفيذ الفعلي + نور عند الاستخدام",
+      "message_if_failed": "تنفيذ أو عدد مستفيدين مختلق"
+    },
+    {
+      "rule_id": "N03",
+      "category": "noor",
+      "description": "لا تخترع قيمة مؤشر أو نسبة، وتميز مؤشرات القصيم عن نور، وتستخدم PENDING أو NOT_MEASURED عند غياب القيمة الواقعية",
+      "phases": [
+        "DESIGN",
+        "POST_EXECUTION",
+        "CLOSURE"
+      ],
+      "review_level": "BLOCKER",
+      "reference_keys": [
+        "QASSIM_PLAN",
+        "NOOR_REFERENCE",
+        "GATE_SPEC"
+      ],
+      "non_failure_statuses": [
+        "PENDING",
+        "NOT_MEASURED",
+        "NOT_ASSESSABLE_YET"
+      ],
+      "source_type": "governing_technical_and_integrity",
+      "source": "خطة القصيم + مرجع نور + القياس الفعلي",
+      "message_if_failed": "قيمة مؤشر أو نسبة غير مثبتة"
+    },
+    {
+      "rule_id": "V01",
+      "category": "evidence",
+      "description": "الشاهد المتوقع يخطط له قبل التنفيذ والشاهد الفعلي لا ينسب إلا بعده؛ الأثر يحتاج نتيجة أو قياسًا مستقلًا",
+      "phases": [
+        "DESIGN",
+        "PRE_EXECUTION",
+        "POST_EXECUTION",
+        "CLOSURE"
+      ],
+      "review_level": "REVIEW",
+      "reference_keys": [
+        "PROGRAM_REGISTRY",
+        "GATE_SPEC"
+      ],
+      "escalate_to": "BLOCKER",
+      "escalation_condition": "fabricated_execution_evidence_or_outcome_claim",
+      "source_type": "program_and_integrity",
+      "source": "دليل البرنامج + سجل التنفيذ والقياس الفعلي",
+      "message_if_failed": "شاهد أو أثر مختلق أو غير مميز"
+    },
+    {
+      "rule_id": "V02",
+      "category": "evidence",
+      "description": "يستخدم الحد الأدنى من الشواهد الذي يحقق متطلب المصدر في موطن واحد، ولا تدمج أدلة تثبت وقائع مختلفة ولا ينشأ تقرير شكلي زائد",
+      "phases": [
+        "DESIGN",
+        "PRE_EXECUTION",
+        "POST_EXECUTION",
+        "CLOSURE"
+      ],
+      "review_level": "REVIEW",
+      "reference_keys": [
+        "PROGRAM_REGISTRY",
+        "GATE_SPEC"
+      ],
+      "source_type": "program_and_operational",
+      "source": "دليل البرنامج + قواعد التشغيل المعتمدة",
+      "message_if_failed": "الشاهد غير كاف أو زائد أو في موطن غير صحيح"
+    },
+    {
+      "rule_id": "P01",
+      "category": "privacy",
+      "description": "لا تحفظ بيانات الطلاب الحساسة في الخطة العامة أو Git، ويفرق بين القالب الفارغ والنسخة المعبأة",
+      "phases": [
+        "DESIGN",
+        "PRE_EXECUTION",
+        "POST_EXECUTION",
+        "CLOSURE"
+      ],
+      "review_level": "BLOCKER",
+      "reference_keys": [
+        "SCHOOL_CONTEXT",
+        "GATE_SPEC"
+      ],
+      "source_type": "privacy_and_school_context",
+      "source": "قواعد الخصوصية وسياق المدرسة",
+      "message_if_failed": "مخالفة خصوصية أو حفظ نسخة معبأة حساسة في موطن عام"
+    },
+    {
+      "rule_id": "C01",
+      "category": "committees",
+      "description": "يثبت الدور النظامي عند استحقاقه، لكن العضوية أو المقرّرية لا تثبت اجتماعًا أو حضورًا أو تنفيذًا جماعيًا ولا تنقل مهمة اللجنة إلى الموجه",
+      "phases": [
+        "DESIGN",
+        "PRE_EXECUTION",
+        "POST_EXECUTION",
+        "CLOSURE"
+      ],
+      "review_level": "REVIEW",
+      "reference_keys": [
+        "ORGANIZATIONAL_GUIDE",
+        "PROCEDURAL_GUIDE"
+      ],
+      "escalate_to": "BLOCKER",
+      "escalation_condition": "fabricated_meeting_attendance_or_committee_execution",
+      "source_type": "governing",
+      "source": "الدليل التنظيمي والإجرائي",
+      "message_if_failed": "دور لجنة غير محفوظ أو عمل جماعي مختلق"
+    },
+    {
+      "rule_id": "D01",
+      "category": "duplication",
+      "description": "يمنع السجل الورقي الموازي الذي يكرر نور بلا قيمة، ويسمح بالالتقاط المؤقت والأصل الموقع وأداة العمل الحساسة والشاهد المطلوب مع تحديد الحفظ أو الإتلاف الآمن",
+      "phases": [
+        "DESIGN",
+        "PRE_EXECUTION",
+        "POST_EXECUTION",
+        "CLOSURE"
+      ],
+      "review_level": "REVIEW",
+      "reference_keys": [
+        "NOOR_REFERENCE",
+        "GATE_SPEC"
+      ],
+      "source_type": "operational",
+      "source": "مرجع نور + قرار المستخدم + قواعد التشغيل المعتمدة",
+      "message_if_failed": "ازدواج غير مبرر أو مصير ورقة غير محسوم"
+    },
+    {
+      "rule_id": "D02",
+      "category": "documentation",
+      "description": "تفصل حالات لم يدخل وأدخل وتحقق ظهوره وغير مطلوب في نور، ولا يغلق مسار نور بمجرد الإدخال",
+      "phases": [
+        "DESIGN",
+        "POST_EXECUTION",
+        "CLOSURE"
+      ],
+      "review_level": "REVIEW",
+      "reference_keys": [
+        "NOOR_REFERENCE",
+        "GATE_SPEC"
+      ],
+      "escalate_to": "BLOCKER",
+      "escalation_condition": "closure_claimed_without_required_visibility_verification",
+      "source_type": "technical_and_operational",
+      "source": "مرجع نور + قواعد التشغيل المعتمدة",
+      "message_if_failed": "حالة التوثيق أو الإغلاق غير صحيحة"
+    },
+    {
+      "rule_id": "D03",
+      "category": "documentation",
+      "description": "تحفظ الأصول الموقعة والمواد الحساسة في موطن مقيد ولا تتلف بعد الإدخال",
+      "phases": [
+        "PRE_EXECUTION",
+        "POST_EXECUTION",
+        "CLOSURE"
+      ],
+      "review_level": "BLOCKER",
+      "reference_keys": [
+        "GATE_SPEC"
+      ],
+      "source_type": "privacy_and_operational",
+      "source": "قواعد الحفظ والخصوصية المعتمدة",
+      "message_if_failed": "فقد أصل أو كشف بيانات حساسة"
+    },
+    {
+      "rule_id": "W01",
+      "category": "workload",
+      "description": "أولوية تقدم واحدة مع السماح بالتوازي الضروري للأعمال النظامية المستمرة والغياب والانضباط والحالات والمواعيد والخدمات الحدثية والطوارئ؛ لا أولوية اختيارية ثانية بلا إغلاق أو ترحيل مسبب",
+      "phases": [
+        "DESIGN",
+        "PRE_EXECUTION",
+        "POST_EXECUTION"
+      ],
+      "review_level": "REVIEW",
+      "reference_keys": [
+        "SCHOOL_CONTEXT",
+        "GATE_SPEC"
+      ],
+      "source_type": "operational_and_school_context",
+      "source": "سياق المدرسة ومتطلبات ADHD المعتمدة",
+      "message_if_failed": "تعدد أولويات التقدم أو منع تواز تشغيلي ضروري"
+    },
+    {
+      "rule_id": "W02",
+      "category": "workload",
+      "description": "يحتفظ فقط بالحقل الذي يخدم قرارًا أو متطلبًا رسميًا أو نورًا أو شاهدًا أو مؤشرًا أو إغلاقًا، ولا يفشل تحسين شكلي الخطة تلقائيًا",
+      "phases": [
+        "DESIGN",
+        "PRE_EXECUTION"
+      ],
+      "review_level": "REVIEW",
+      "reference_keys": [
+        "GATE_SPEC"
+      ],
+      "source_type": "operational",
+      "source": "قواعد تقليل العبء المعتمدة",
+      "message_if_failed": "عبء حقول يحتاج مراجعة"
+    },
+    {
+      "rule_id": "W03",
+      "category": "workload",
+      "description": "خطوة أولى صغيرة وعوازل عملية وثوابت فعلية وحد أدنى لليوم السيئ متناسب مع الأسبوع",
+      "phases": [
+        "DESIGN",
+        "PRE_EXECUTION"
+      ],
+      "review_level": "WARNING",
+      "reference_keys": [
+        "SCHOOL_CONTEXT",
+        "GATE_SPEC"
+      ],
+      "escalate_to": "BLOCKER",
+      "escalation_condition": "plan_is_not_executable_by_one_counselor",
+      "source_type": "operational",
+      "source": "متطلبات ADHD وسياق المدرسة المعتمدان",
+      "message_if_failed": "التصميم يحتاج تبسيطًا أو أصبح غير قابل للتنفيذ"
+    },
+    {
+      "rule_id": "D04",
+      "category": "documentation",
+      "description": "يحفظ سجل تدقيق مرتبطًا ببصمة الخطة وكامل التقييم وقواعد Gate والفاحص وإصداره ومدخلاته والمرحلة والمراجع البشري وتاريخ الحكم؛ يعاد تقييم الجاهزية عند الاستخدام",
+      "phases": [
+        "DESIGN",
+        "PRE_EXECUTION",
+        "POST_EXECUTION",
+        "CLOSURE"
+      ],
+      "review_level": "REVIEW",
+      "reference_keys": [
+        "GATE_SPEC"
+      ],
+      "source_type": "operational_governance",
+      "source": "قواعد المشروع المعتمدة",
+      "message_if_failed": "أثر التدقيق ناقص أو غير مرتبط"
+    }
+  ]
+}

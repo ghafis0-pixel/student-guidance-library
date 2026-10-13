@@ -1,0 +1,110 @@
+{
+  "checker_version": "1.0.1",
+  "contract_version": "1.0.2",
+  "status": "PASS",
+  "critical_complete": true,
+  "conversation_acceptance_complete": true,
+  "results": [
+    {
+      "scenario_id": "B01_PREVIOUS_UNKNOWN",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "scenario_id": "B02_URGENT_SAFETY",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "scenario_id": "B03_ARTICLES_33_34",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "scenario_id": "B04_OFFICIAL_ROLES",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "scenario_id": "B05_COMPOUND_ACTION",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "scenario_id": "B06_SIMPLE_ACTION",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "scenario_id": "B07_KNOWLEDGE_NOOR",
+      "status": "PASS",
+      "issues": [],
+      "required_host_metadata": {
+        "kind": "mandatory_memory_citation",
+        "raw_preserved": true,
+        "ui_rendering": "UNVERIFIED"
+      }
+    },
+    {
+      "scenario_id": "B08_PROFESSIONAL_UNKNOWN",
+      "status": "PASS",
+      "issues": [],
+      "required_host_metadata": {
+        "kind": "mandatory_memory_citation",
+        "raw_preserved": true,
+        "ui_rendering": "UNVERIFIED"
+      }
+    },
+    {
+      "scenario_id": "B09_SOURCE_VS_PROPOSAL",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "scenario_id": "B10_APPROVAL_NOOR",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "scenario_id": "B11_PLAN_NOT_EVIDENCE",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "scenario_id": "B12_INITIALS_ALLOWED",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "scenario_id": "B13_INITIALS_COLLISION",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "scenario_id": "B14_HELP_BEFORE_RECORD",
+      "status": "PASS",
+      "issues": [],
+      "required_host_metadata": {
+        "kind": "mandatory_memory_citation",
+        "raw_preserved": true,
+        "ui_rendering": "UNVERIFIED"
+      }
+    },
+    {
+      "scenario_id": "B15_INDEPENDENT_HELP",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "scenario_id": "B16_PUBLIC_INITIALS",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "scenario_id": "B17_KNOWN_PRIOR_EXECUTION",
+      "status": "PASS",
+      "issues": []
+    }
+  ],
+  "limits": "Text checks only detect specified patterns. PASS also needs independent recorded semantic judgment; hashes bind versions but do not authenticate a reviewer or prove a conversation occurred."
+}

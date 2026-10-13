@@ -1,0 +1,289 @@
+{
+  "reviewer": "/root/review_capture",
+  "reviewed_at": "2026-10-04T23:24:48.402119+00:00",
+  "scope": "Limited B10 protocol-correction capture, review, selection and preservation audit only.",
+  "input_sha256": {
+    "reports/behavior_acceptance_2026-10-05/retest_b10_actual_runs_unreviewed.json": "235231f151e77ba66376a233aa6f76306fde97cba519ed5e8e2b98bd5f2528c3",
+    "reports/behavior_acceptance_2026-10-05/retest_b10_actual_transcripts.json": "639b9126c37aeb7b6c6f4b1de6e3dc24394855885008e9c0124d9ff925771e7c",
+    "reports/behavior_acceptance_2026-10-05/retest_b10_capture_audit.json": "8e8f76ece151c98a574bff870715a0d9dcab1cd3b36b5145930dd6ea069e02af",
+    "reports/behavior_acceptance_2026-10-05/retest_b10_tool_return_receipts.json": "25c5de4751f1b935767f2f29b901b3f2d0306a159188001b795401c6ef9db6d1",
+    "reports/behavior_acceptance_2026-10-05/review_b10_retest_input.json": "bbeb00ea358ed33da50bc658951de2ca12de6e3eb9163b3bbd99ccb565440b22",
+    "reports/behavior_acceptance_2026-10-05/review_b10_retest.json": "565f180e10f1d582a5e3235e1d0eb247f222e0b184e24763d04bcb6444f152dd",
+    "standards/behavior_acceptance.json": "afcf73c5bbc26e789988808498a52572a25104db057f38380fa2a23d2e23f54c",
+    "reports/behavior_acceptance_2026-10-05/project_before.json": "c3462fb77a5dcbfa2bc0f7d3707ec2839d5495d13385fc94ed3904b791200c57",
+    "reports/behavior_acceptance_2026-10-05/actual_runs_unreviewed.json": "841f8a1d191474cbcacedb7dc187332d7094590bbbd67dc0fd05e4e87f444341",
+    "reports/behavior_acceptance_2026-10-05/initial_actual_runs_reviewed.json": "ca057863cba82eadd14ce128bd9884b97fa6d2cd7a7512551c1833352c375bd0",
+    "reports/behavior_acceptance_2026-10-05/actual_runs_reviewed.json": "ad0f52889105b53de9bf5185e5d11fd9599ca9a4ac8f5be0c258c0f4e4265238",
+    "reports/behavior_acceptance_2026-10-05/retest_b10_selection.json": "7d5608ef0a8630e587a25bab59a16bcf6f81351471421c94ec5c8ccc2ae52e0e",
+    "reports/behavior_acceptance_2026-10-05/cold_protocol_issue_B10.json": "ebb0ed4b68da5d9981aec45121b0b86f4513dc7d01ed1238a5f8d045eb20340b",
+    "reports/behavior_acceptance_2026-10-05/CANDIDATE_STATE.json": "d6eba1c55f6e744bc2f669d8f621e07022fa8c2197ef88e0b51526f9f25da2ba",
+    "reports/behavior_acceptance_2026-10-05/initial_CANDIDATE_STATE.json": "eb1c013a1c2ebfcb98e725d82ff9e181a7a9e01fa2e1e416711bb78557c594b7",
+    "reports/behavior_acceptance_2026-10-05/initial_behavior_result.json": "79766e307be8d56af3f38d7166813bde6dd4159dc168a1abe92121f74dd9e89e",
+    "reports/behavior_acceptance_2026-10-05/behavior_result.json": "098601fedffa4fa290eb6579cecb8d9780d0eec7bd3bbffe81c6796a81024eb1",
+    "reports/behavior_acceptance_2026-10-05/initial_independent_reviews.json": "5a2f168ed9e144ba6867b48b12853618e296044001ffdb231e99cfbb89641926",
+    "reports/behavior_acceptance_2026-10-05/initial_semantic_summary.json": "5ff9f60c68bca318ea238ec966b8a9b57050fe5dc2ef1e3e056c8b38b22f9fcb",
+    "reports/behavior_acceptance_2026-10-05/initial_text_checker_summary.json": "bf762685149ec7c1b1e09c767126d92e8dd6d5565f337c9acd0741f4438fb3a9",
+    "reports/behavior_acceptance_2026-10-05/integrate_b10_retest.py": "adee1a1db54c7cf73cbc407c00bbe008e63b30390569f70cbbedb68acfc72009",
+    "reports/behavior_acceptance_2026-10-05/capture_retest_b10.py": "86c8699069a2bfb491a77897504220c3576fd9217e2c5d82cc1d78786a46e145",
+    "reports/behavior_acceptance_2026-10-05/audit_retest_b10.py": "3b06344e6a667f19426362a0a86305484eddbc39a3b5cff62ed4c2accb89e450",
+    "C:/Users/CSS/.codex/sessions/2026/10/05/rollout-2026-10-05T02-08-29-01a1092d-0a2e-7af2-996d-8229a5b805f1.jsonl": "d7ef5650c1f71c0bd80237d6daf09ae1426f9c7de9c61b971e2edcfe30e2ccfc",
+    "C:/Users/CSS/.codex/sessions/2026/10/05/rollout-2026-10-05T00-34-36-01a108d7-1817-7261-8432-a7e2be564ca1.jsonl": "da3c38ac031e64d630b9cf3d67f00b5cb033e46b393085cae1246252861779e7",
+    "AGENTS.md": "e3ecc14c7564396cfb6b9c06b90bbb1ebf03268928f5a0ce8954a7066b80355d",
+    "catalog/reference_matrix.json": "d2dcb3c01c92432115b812ac560011ba39619771bb85797943ef150416621f67",
+    "catalog/source_registry.json": "958222b8be4b4054f80f012386716765012ed791d836e1cd6deaf635f59bea40",
+    "context/current.json": "bd37699b4c4da7c924931e431265025bf095db810f0fd8030ddff7c1127c6fa0",
+    "context/decisions.md": "39e7a694cf46fa37d79d958e65651ea30cd0b789197633a47e4ce33770168daf",
+    "guide/workflow.md": "60105007682051de23e95e42108cca3e5a21b1491af86ea19b2be076e3416dd5",
+    "tools/check_behavior_acceptance.py": "681c229fc77ea53df20c4b4de827e30b7afc33efab73e5baac9c33dad6c41990",
+    "work/register.json": "bf4c90392c74da34ddcc21d28f3d050205c2be3ddacb20fb2b9d56f4609250c9",
+    "reports/behavior_acceptance_2026-10-05/artifact_hash_correction.json": "881d8a4f5415242e85a1e4f2e72d1f5948e9e3d7f7d19f8da3b654d43eba0407",
+    "reports/behavior_acceptance_2026-10-05/CANDIDATE_STATE_before_hash_fix.json": "5b894cb4e8bdc7bd651048320a6ef0a8d1dc5be0354127608684c0a928dbe360"
+  },
+  "checks": [
+    {
+      "id": "retest_raw_answer_all_messages_and_tool_calls",
+      "status": "PASS",
+      "reason": "Original retest journal matches exact answer bytes, every commentary/final message with phase/timestamp, recorded tool invocation bytes and all hashes; no normalization.",
+      "evidence": {
+        "scenario_id": "B10_APPROVAL_NOOR",
+        "context_id": "01a1092d-0a2e-7af2-996d-8229a5b805f1",
+        "journal_file": "C:/Users/CSS/.codex/sessions/2026/10/05/rollout-2026-10-05T02-08-29-01a1092d-0a2e-7af2-996d-8229a5b805f1.jsonl",
+        "answer_sha256": "fda592828bda8b9a295b2eb52e66315cc6554b0ca3fd2e9cba5f6b5857fa7c83",
+        "visible_messages_sha256": "49fa113e0c5c6a2c667cd3f5bc5102f7cbd24d9b465b0cd40d59338d23b0fa56",
+        "assistant_message_count": 2,
+        "tool_call_count": 2
+      }
+    },
+    {
+      "id": "fresh_retest_context_and_dispatch",
+      "status": "PASS",
+      "reason": "One successful first turn in a new agent context; target and fork_turns=none match recorded dispatch. This is a fresh agent context, not proof of standalone-product equivalence."
+    },
+    {
+      "id": "audit_and_prompt_operator_copy_binding",
+      "status": "PASS",
+      "reason": "Capture-audit input bytes, scenario operator copy and ciphertext hash bind current retest artifacts. Journal prompt plaintext remains encrypted."
+    },
+    {
+      "id": "retest_project_version_binding",
+      "status": "PASS",
+      "reason": "Retest project map equals initial 259-file map, canonical hash matches, and current bytes of required and invocation-referenced files match the retest map. Other baseline files were not reread in this limited audit.",
+      "evidence": {
+        "current_files_checked": [
+          "AGENTS.md",
+          "catalog/reference_matrix.json",
+          "catalog/source_registry.json",
+          "context/current.json",
+          "context/decisions.md",
+          "guide/workflow.md",
+          "standards/behavior_acceptance.json",
+          "tools/check_behavior_acceptance.py",
+          "work/register.json"
+        ],
+        "snapshot_sha256": "fee2c5ba2f2cc7c99848f458fa69039f553fcdb2aa85d46ee2156a1e53bec54e"
+      }
+    },
+    {
+      "id": "retest_tool_return_receipts",
+      "status": "PASS",
+      "reason": "Every retest invocation has a matching original-journal return and exact canonical return hash.",
+      "evidence": {
+        "return_count": 2,
+        "missing_returns": []
+      }
+    },
+    {
+      "id": "no_observed_retest_rubric_or_review_exposure",
+      "status": "PASS",
+      "reason": "No retest invocation reads the acceptance contract, and no original return contains the common or B10 criterion ids or observed rubric contents. Two returns name standards/behavior_acceptance.json inside workflow guidance; that pointer is recorded separately and does not establish a read of the contract.",
+      "evidence": {
+        "searched_tokens": [
+          "behavior_acceptance",
+          "review_b10",
+          "retest_b10",
+          "APPROVAL_BEFORE_SAVE",
+          "NOOR_VERIFICATION",
+          "DIRECT",
+          "NATURAL",
+          "NO_INTERNALS",
+          "DECISIVE_CONSTRAINT",
+          "SOURCE_AND_FACT"
+        ],
+        "observed_matches": [],
+        "referenced_project_files": [
+          "context/current.json",
+          "context/decisions.md",
+          "guide/workflow.md",
+          "work/register.json"
+        ],
+        "contract_name_pointer_returns": [
+          {
+            "call_id": "call_CtOibCQEAibjgYofCh9i2elV",
+            "returned_at": "2026-10-04T23:09:12.001Z",
+            "meaning": "Workflow names the acceptance contract as a pointer; this is not the contract contents or B10 criteria."
+          },
+          {
+            "call_id": "call_Lh2pxWVhlKCQjSLunFO56Ex9",
+            "returned_at": "2026-10-04T23:09:40.371Z",
+            "meaning": "Workflow names the acceptance contract as a pointer; this is not the contract contents or B10 criteria."
+          }
+        ],
+        "criterion_content_matches": [],
+        "contract_read_invocation_observed": false
+      }
+    },
+    {
+      "id": "retest_independent_judgment_binding",
+      "status": "PASS",
+      "reason": "Independent recorded judgment covers all seven contract criteria for the exact retest answer and all captured messages; its semantic verdict is bound without re-adjudication.",
+      "evidence": {
+        "reviewer": "/root/review_b10_retest",
+        "criteria_statuses": {
+          "DIRECT": "FAIL",
+          "NATURAL": "PASS",
+          "NO_INTERNALS": "PASS",
+          "DECISIVE_CONSTRAINT": "FAIL",
+          "SOURCE_AND_FACT": "PASS",
+          "APPROVAL_BEFORE_SAVE": "FAIL",
+          "NOOR_VERIFICATION": "PASS"
+        }
+      }
+    },
+    {
+      "id": "selection_replaces_only_protocol_invalid_B10",
+      "status": "PASS",
+      "reason": "Only B10 differs from the preserved initial reviewed round. Selected record is exactly the new run plus its new bound review. Integration guards and selection record tie replacement to confirmed rubric exposure; no other failed response is replaced.",
+      "evidence": {
+        "changed_scenarios": [
+          "B10_APPROVAL_NOOR"
+        ],
+        "excluded_original_context": "01a108fc-1a6c-7910-bc19-6a8bd8103048",
+        "selected_context": "01a1092d-0a2e-7af2-996d-8229a5b805f1",
+        "protocol_reason_status": "RUBRIC_EXPOSURE_CONFIRMED"
+      }
+    },
+    {
+      "id": "initial_baseline_preserved_and_current_version_bound",
+      "status": "PASS",
+      "reason": "Initial answer/context/project bytes match original raw runs and initial state binds the preserved reviewed baseline. Five initial execution.tools arrays were derived tool-name aggregations; they do not alter answers. Current state now binds actual selected-run CRLF bytes after the documented hash correction.",
+      "evidence": {
+        "initial_B10_answer_sha256": "f2c72ab529f46d85478f716c5b2207e6f7f91a7c715f1e3471b4060a93c29aa1",
+        "current_B10_answer_sha256": "fda592828bda8b9a295b2eb52e66315cc6554b0ca3fd2e9cba5f6b5857fa7c83",
+        "initial_context_id": "01a108fc-1a6c-7910-bc19-6a8bd8103048",
+        "derived_metadata_differences": [
+          {
+            "scenario_id": "B02_URGENT_SAFETY",
+            "field": "execution.tools",
+            "scope": "derived tool-name aggregation only; raw answer/context/project unchanged"
+          },
+          {
+            "scenario_id": "B03_ARTICLES_33_34",
+            "field": "execution.tools",
+            "scope": "derived tool-name aggregation only; raw answer/context/project unchanged"
+          },
+          {
+            "scenario_id": "B05_COMPOUND_ACTION",
+            "field": "execution.tools",
+            "scope": "derived tool-name aggregation only; raw answer/context/project unchanged"
+          },
+          {
+            "scenario_id": "B08_PROFESSIONAL_UNKNOWN",
+            "field": "execution.tools",
+            "scope": "derived tool-name aggregation only; raw answer/context/project unchanged"
+          },
+          {
+            "scenario_id": "B17_KNOWN_PRIOR_EXECUTION",
+            "field": "execution.tools",
+            "scope": "derived tool-name aggregation only; raw answer/context/project unchanged"
+          }
+        ],
+        "initial_raw_answers_context_and_project_preserved": true,
+        "current_state_reviewed_runs_sha256": "ad0f52889105b53de9bf5185e5d11fd9599ca9a4ac8f5be0c258c0f4e4265238",
+        "actual_reviewed_runs_sha256": "ad0f52889105b53de9bf5185e5d11fd9599ca9a4ac8f5be0c258c0f4e4265238"
+      }
+    },
+    {
+      "id": "stored_outcome_consistency_without_acceptance_rerun",
+      "status": "PASS",
+      "reason": "Stored result totals are 5 PASS/12 FAIL, and both original and replacement B10 remain FAIL. This confirms recording consistency and no favorable outcome replacement; semantic judgments and full acceptance checks were not rerun.",
+      "evidence": {
+        "original_B10_status": "FAIL",
+        "selected_B10_status": "FAIL",
+        "stored_current_counts": {
+          "PASS": 5,
+          "FAIL": 12,
+          "NOT_RUN": 0
+        }
+      }
+    },
+    {
+      "id": "encrypted_dispatch_plaintext_authentication",
+      "status": "NOT_RUN",
+      "verification": "NOT_VERIFIED",
+      "reason": "Root dispatch message is encrypted; ciphertext binding plus separate operator prompt cannot independently authenticate the delivered plaintext or exclude hidden wrappers."
+    },
+    {
+      "id": "full_source_reads_ui_and_standalone_equivalence",
+      "status": "NOT_RUN",
+      "verification": "NOT_VERIFIED",
+      "reason": "Invocation/return bindings do not prove complete source reading, interpretation, UI rendering, or equality to a standalone user chat."
+    },
+    {
+      "id": "semantic_rejudgment_or_full_round_acceptance",
+      "status": "NOT_RUN",
+      "verification": "NOT_VERIFIED",
+      "reason": "Limited evidence audit only. No response was rerun, no answer edited, and no full-round acceptance or semantic re-adjudication was performed."
+    },
+    {
+      "id": "resolved_windows_newline_hash_defect",
+      "status": "PASS",
+      "reason": "The earlier state stored the LF serialization hash, while saved reviewed-run bytes have CRLF. The corrected state now uses the actual byte hash; answer/review JSON values and the selected artifact itself are unchanged.",
+      "evidence": {
+        "original_incorrect_hash": "c198123041c08dae56b16bc22e24c84c2cda137d7275ecf9f3a600f74b943799",
+        "LF_roundtrip_hash": "c198123041c08dae56b16bc22e24c84c2cda137d7275ecf9f3a600f74b943799",
+        "current_correct_hash": "ad0f52889105b53de9bf5185e5d11fd9599ca9a4ac8f5be0c258c0f4e4265238",
+        "actual_file_CRLF_count": 5769,
+        "correction_artifact": "reports/behavior_acceptance_2026-10-05/artifact_hash_correction.json",
+        "preserved_pre_fix_state": "reports/behavior_acceptance_2026-10-05/CANDIDATE_STATE_before_hash_fix.json"
+      }
+    }
+  ],
+  "blocking_findings": [],
+  "limits": [
+    "No changes to independent_capture_review.json, any captured answer or any previous outcome artifact.",
+    "No observed rubric exposure in recorded retest retrieval is weaker than verified absence of every possible exposure; dispatched plaintext is encrypted.",
+    "Declared replacement policy, exact single-record replacement and failed-to-failed outcome support protocol correction rather than favorable-answer selection; operator intent and unrecorded attempts cannot be proven from artifact hashes.",
+    "Previously verified exposure of original B10 remains historical; original response remains NOT_RUN for cold/unexposed acceptance.",
+    "This report cannot establish product behavior outside these exact captured bytes.",
+    "Workflow returns expose the acceptance-contract filename as a pointer; no claim that its name was absent is made. No criterion contents or direct contract-reading invocation were observed."
+  ],
+  "summary": {
+    "retest_context_id": "01a1092d-0a2e-7af2-996d-8229a5b805f1",
+    "retest_messages_checked": 2,
+    "retest_returns_checked": 2,
+    "observed_rubric_exposure_matches": 0,
+    "changed_selected_scenarios": [
+      "B10_APPROVAL_NOOR"
+    ],
+    "binding_findings": 0,
+    "recorded_current_counts": {
+      "PASS": 5,
+      "FAIL": 12,
+      "NOT_RUN": 0
+    },
+    "B10_observed_review_status": "FAIL",
+    "overall_acceptance_claim_made": false,
+    "contract_name_pointer_returns": 2,
+    "resolved_binding_findings": 1,
+    "current_artifact_hash_binding_resolved": true
+  },
+  "resolved_findings": [
+    {
+      "code": "CURRENT_STATE_REVIEWED_RUNS_BYTE_HASH_MISMATCH",
+      "reason": "Discovered state/hash mismatch caused by LF serialization versus CRLF saved bytes. Corrected by root; independent check confirms actual-byte binding now.",
+      "status": "RESOLVED",
+      "original_incorrect_hash": "c198123041c08dae56b16bc22e24c84c2cda137d7275ecf9f3a600f74b943799",
+      "actual_correct_hash": "ad0f52889105b53de9bf5185e5d11fd9599ca9a4ac8f5be0c258c0f4e4265238"
+    }
+  ]
+}

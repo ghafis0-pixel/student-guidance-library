@@ -1,0 +1,88 @@
+{
+  "saved_at": "2026-10-05T09:31:41.560496+00:00",
+  "status": "BEHAVIOR_ACCEPTANCE_PASS",
+  "reviewed": 17,
+  "pending": 0,
+  "members": {
+    "remediation_report.md": {
+      "bytes": 7915,
+      "sha256": "8141591563cbe0992ee4714bf2cb66362e0c34e7c48840df3b8cfcde48642d7d"
+    },
+    "investigation.md": {
+      "bytes": 5064,
+      "sha256": "0f2395091b50e9cae85cf0b5935acea463f6bf04b21806e497a3c44c256f60a6"
+    },
+    "before_sha256.json": {
+      "bytes": 573,
+      "sha256": "a93f3ae51fcc95ead48bce34bd618709d66941204119d6ba862737c3a45cdb19"
+    },
+    "behavior_result.json": {
+      "bytes": 4590,
+      "sha256": "c4235fbe69dc9236f51cd479691b5ed14d978d77cf6e417c699e2da2794f5d80"
+    },
+    "save_review_checkpoint.py": {
+      "bytes": 3554,
+      "sha256": "1ddfad8a123760b0664d54bd5da30df85d0b221f701de70a947bfa8fc3908ca1"
+    },
+    "finalize_remediation.py": {
+      "bytes": 3867,
+      "sha256": "56183dc239e6a887db7286ece2771061a07a7352047f34bb1c7143ce59564ce9"
+    },
+    "metadata_diagnostic.json": {
+      "bytes": 1125,
+      "sha256": "1dddacdf2b06d2e66f5391cba673b4f83cf3b74ea5fbccf790eead2fea200a2a"
+    },
+    "round2/candidate_snapshot.json": {
+      "bytes": 40554,
+      "sha256": "8427ea8678bdd5b3a68a0399e88d9147aa86592d0430cd06e8e1de77e2813ecf"
+    },
+    "round2/capture_progress.json": {
+      "bytes": 203,
+      "sha256": "04e1d929cecfb23b8da2f226ac285f6f547b281c7d5a26acd257494c2cdf58f4"
+    },
+    "round2/fresh_runs_unreviewed.json": {
+      "bytes": 748563,
+      "sha256": "86c4489fd75adc8e6fae634a372bc0477b4362e473c7f815cc3efa80a8cf8afa"
+    },
+    "round2/fresh_transcripts.json": {
+      "bytes": 98865,
+      "sha256": "af692a838e49368da39e76e55e45e51004c45432b5bc7b8cf8aa1a841b2d9ee9"
+    },
+    "round2/reviews_sources.json": {
+      "bytes": 20190,
+      "sha256": "a7eee41aaa4db2760e52bdd92f142bd5c15a96b966296ee16b87024127518020"
+    },
+    "round2/reviews_daily.json": {
+      "bytes": 33552,
+      "sha256": "fd0dda7f33119c54d6d6c02cd5b94260d7ec4f6ecb255ac18467f6bd9f72a5da"
+    },
+    "round2/fresh_runs_reviewed.json": {
+      "bytes": 802605,
+      "sha256": "8d2a5b9456c08f35dde3dec2426e47fb7235ab87bcc1db283a63a6e83ab8daf7"
+    },
+    "round2/behavior_result.json": {
+      "bytes": 4459,
+      "sha256": "6d4a2508a365c73d8331e809a06eedace0cdf77987fa5b72d97ca0d3cfbaea3f"
+    },
+    "round2/native_acceptance_result.json": {
+      "bytes": 2675,
+      "sha256": "ad80b7a65d6f882348c3b72bccfd77a5631c812a1d750b3982cdf66ececb4b7c"
+    },
+    "round2/native_acceptance_receipt.json": {
+      "bytes": 606,
+      "sha256": "71302c21f03742fce6f605b57cf1692ca4275dbcbc01a123c2e6e4a4bb61d122"
+    },
+    "round2/FINAL_STATE.json": {
+      "bytes": 481,
+      "sha256": "3403a76ceec8dc1a8b05dea03b940e29cec340d1b64ef160f3ec025d15a28a1a"
+    },
+    "round2/REVIEW_CHECKPOINT.json": {
+      "bytes": 2135,
+      "sha256": "a0174f5a234fd77eba3e3ee9709ee8cd930ea10ee5632afeaf95cbe77001ca4e"
+    },
+    "final_privacy_review.json": {
+      "bytes": 20076,
+      "sha256": "4a72026c128b19777da0f1ae90dbcf3791826cf1fb37135fd5eaec6c75157d01"
+    }
+  }
+}

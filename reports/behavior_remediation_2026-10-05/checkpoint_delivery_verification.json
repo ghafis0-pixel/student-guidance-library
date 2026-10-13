@@ -1,0 +1,11 @@
+{
+  "status": "BYTES_AND_CRC_PASS",
+  "acceptance": "PENDING_INDEPENDENT_REVIEW",
+  "archive_path": "C:\\Users\\CSS\\.codex\\visualizations\\2026\\10\\04\\01a108d7-1817-7261-8432-a7e2be564ca1\\behavior_remediation_2026-10-05_review_checkpoint.zip",
+  "archive_bytes": 297774,
+  "archive_sha256": "ee0589ce464ac8579a6eb519510cac82eb7fc83dbb20b71161d0f2646d35e736",
+  "members": 15,
+  "local_only": true,
+  "uploaded": false,
+  "previous_archives_overwritten": false
+}

@@ -1,0 +1,14 @@
+{
+  "captured_at": "2026-10-04T23:11:03.352919+00:00",
+  "captured_runs": 1,
+  "planned_runs": 1,
+  "items": [
+    {
+      "scenario_id": "B10_APPROVAL_NOOR",
+      "status": "CAPTURED_UNREVIEWED",
+      "context_id": "01a1092d-0a2e-7af2-996d-8229a5b805f1",
+      "visible_message_count": 2,
+      "raw_text_checker_issues": []
+    }
+  ]
+}

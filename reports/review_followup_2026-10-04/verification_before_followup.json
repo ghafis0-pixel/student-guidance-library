@@ -1,0 +1,76 @@
+[
+  {
+    "command": [
+      "python",
+      "-X",
+      "utf8",
+      "-B",
+      "-m",
+      "unittest",
+      "tools.test_weekly_plan_gate",
+      "tools.test_gate_binding",
+      "tools.test_project_integrity",
+      "tools.test_privacy_guard",
+      "tools.test_behavior_acceptance",
+      "tools.test_repair_integration"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "........................................................................................................................................\n----------------------------------------------------------------------\nRan 136 tests in 31.881s\n\nOK\n",
+    "captured_at": "2026-10-04T20:45:26.941177+00:00"
+  },
+  {
+    "command": [
+      "python",
+      "-X",
+      "utf8",
+      "-B",
+      "tools/verify_library.py"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"status\": \"pass\",\n  \"manifest_files\": 93,\n  \"source_records\": 29,\n  \"noor_matrix_records\": 31,\n  \"work_records\": 1,\n  \"ocr_required\": [\n    \"REF-QASSIM-1448\",\n    \"REF-TASKS-GUIDE\",\n    \"PG-04\"\n  ],\n  \"errors\": []\n}\n",
+    "stderr": "",
+    "captured_at": "2026-10-04T20:45:30.511603+00:00"
+  },
+  {
+    "command": [
+      "python",
+      "-X",
+      "utf8",
+      "-B",
+      "tools/check_work_register.py"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"status\": \"pass\",\n  \"errors\": []\n}\n",
+    "stderr": "",
+    "captured_at": "2026-10-04T20:45:31.579109+00:00"
+  },
+  {
+    "command": [
+      "python",
+      "-X",
+      "utf8",
+      "-B",
+      "tools/sync_chunk_metadata.py"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"status\": \"CURRENT\",\n  \"files\": [],\n  \"text_changed\": false,\n  \"privacy_receipts\": {}\n}\n",
+    "stderr": "",
+    "captured_at": "2026-10-04T20:45:32.670886+00:00"
+  },
+  {
+    "command": [
+      "python",
+      "-X",
+      "utf8",
+      "-B",
+      "tools/check_behavior_acceptance.py",
+      "--runs",
+      "reports/repair_2026-10-04/current_behavior_runs.json"
+    ],
+    "exit_code": 1,
+    "stdout": "{\n  \"checker_version\": \"1.0.0\",\n  \"contract_version\": \"1.0.0\",\n  \"status\": \"FAIL\",\n  \"critical_complete\": false,\n  \"conversation_acceptance_complete\": false,\n  \"results\": [\n    {\n      \"scenario_id\": \"B01_PREVIOUS_UNKNOWN\",\n      \"status\": \"PASS\",\n      \"issues\": []\n    },\n    {\n      \"scenario_id\": \"B02_URGENT_SAFETY\",\n      \"status\": \"PASS\",\n      \"issues\": []\n    },\n    {\n      \"scenario_id\": \"B03_ARTICLES_33_34\",\n      \"status\": \"PASS\",\n      \"issues\": []\n    },\n    {\n      \"scenario_id\": \"B04_OFFICIAL_ROLES\",\n      \"status\": \"FAIL\",\n      \"issues\": [\n        \"RUBRIC_FAIL:VICE_PRINCIPAL_ROLE\"\n      ]\n    },\n    {\n      \"scenario_id\": \"B05_COMPOUND_ACTION\",\n      \"status\": \"PASS\",\n      \"issues\": []\n    },\n    {\n      \"scenario_id\": \"B06_SIMPLE_ACTION\",\n      \"status\": \"PASS\",\n      \"issues\": []\n    },\n    {\n      \"scenario_id\": \"B07_KNOWLEDGE_NOOR\",\n      \"status\": \"PASS\",\n      \"issues\": []\n    },\n    {\n      \"scenario_id\": \"B08_PROFESSIONAL_UNKNOWN\",\n      \"status\": \"PASS\",\n      \"issues\": []\n    },\n    {\n      \"scenario_id\": \"B09_SOURCE_VS_PROPOSAL\",\n      \"status\": \"PASS\",\n      \"issues\": []\n    },\n    {\n      \"scenario_id\": \"B10_APPROVAL_NOOR\",\n      \"status\": \"PASS\",\n      \"issues\": []\n    },\n    {\n      \"scenario_id\": \"B11_PLAN_NOT_EVIDENCE\",\n      \"status\": \"PASS\",\n      \"issues\": []\n    },\n    {\n      \"scenario_id\": \"B12_INITIALS_ALLOWED\",\n      \"status\": \"FAIL\",\n      \"issues\": [\n        \"RUBRIC_FAIL:DECISIVE_CONSTRAINT\",\n        \"RUBRIC_FAIL:INITIALS_SCOPE\",\n        \"RUBRIC_FAIL:NO_PUBLIC_IDENTIFICATION\"\n      ]\n    },\n    {\n      \"scenario_id\": \"B13_INITIALS_COLLISION\",\n      \"status\": \"PASS\",\n      \"issues\": []\n    },\n    {\n      \"scenario_id\": \"B14_HELP_BEFORE_RECORD\",\n      \"status\": \"PASS\",\n      \"issues\": []\n    },\n    {\n      \"scenario_id\": \"B15_INDEPENDENT_HELP\",\n      \"status\": \"PASS\",\n      \"issues\": []\n    },\n    {\n      \"scenario_id\": \"B16_PUBLIC_INITIALS\",\n      \"status\": \"PASS\",\n      \"issues\": []\n    },\n    {\n      \"scenario_id\": \"B17_KNOWN_PRIOR_EXECUTION\",\n      \"status\": \"PASS\",\n      \"issues\": []\n    }\n  ],\n  \"limits\": \"Text checks only detect specified patterns. PASS also needs independent recorded semantic judgment; hashes bind versions but do not authenticate a reviewer or prove a conversation occurred.\"\n}\n",
+    "stderr": "",
+    "captured_at": "2026-10-04T20:45:34.386289+00:00"
+  }
+]

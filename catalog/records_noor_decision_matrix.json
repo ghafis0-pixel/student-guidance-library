@@ -1,0 +1,327 @@
+{
+  "schema_version": "1.0",
+  "created_on": "2026-09-27",
+  "scope": "سجلات_التوجيه_بالترتيب (2).zip",
+  "current_context_path": "context/current.json",
+  "governing_rule": "يوثق العمل مرة واحدة: يكون نظام نور هو السجل الأساسي للخدمة التي يغطيها، وتستخدم الورقة عند الحاجة كالتقاط مؤقت، مع إبقاء الأصول الموقعة والشواهد المستقلة والسجلات النظامية خارج نور وفق مرجعها.",
+  "decision_codes": {
+    "noor_primary_capture": "نور هو السجل الأساسي، والنموذج يستخدم مؤقتا ثم يغلق بعد الإدخال والتحقق.",
+    "noor_primary_report": "يعتمد تقرير أو سجل نور ولا ينشأ سجل ورقي مواز.",
+    "independent_evidence": "أصل أو شاهد مستقل يحتفظ به ويشار إليه في نور عند الارتباط.",
+    "conditional_official": "يستخدم فقط إذا أثبت المرجع الحالي وجوبه ونفذ الحدث فعلا.",
+    "conditional_program_evidence": "يستخدم بقدر الحد الأدنى الذي يطلبه دليل البرنامج أو خطة 1448، دون نسخ بيانات نور.",
+    "reference_only": "مرجع أو نموذج تاريخي، وليس سجل تشغيل نشطا بذاته.",
+    "weekly_planning": "أداة تخطيط أسبوعي وليست سجل إثبات أو بديلا عن نور.",
+    "restricted_daily_incident": "سجل موقف يومي في موطن مقيد؛ يبقى الموقف في سجله ولا يفتح مسار متابعة تلقائيًا."
+  },
+  "sources": [
+    {
+      "source_id": "REF-RECORDS-ZIP",
+      "title": "سجلات_التوجيه_بالترتيب (2).zip",
+      "role": "مصدر النماذج الواحد والثلاثين"
+    },
+    {
+      "source_id": "REF-NOOR-TECH",
+      "title": "08_الدليل الاسترشادي لأبرز الخدمات التقنية للتوجيه الطلابي في نظام نور.pdf",
+      "role": "تحديد الخدمات التي يغطيها نور",
+      "year": "1447هـ/2025م",
+      "version": "الإصدار الأول"
+    },
+    {
+      "source_id": "REF-NOOR-INDICATORS",
+      "title": "مؤشرات نظام نور التوجيه الطلابي.pdf",
+      "role": "التحقق من التسجيل والتقارير ومؤشرات المتابعة"
+    },
+    {
+      "source_id": "REF-QASSIM-1448",
+      "title": "خطة برامج وخدمات التوجيه الطلابي بتعليم القصيم 1448هـ",
+      "role": "تفصيل محلي للبرامج ضمن حدود المراجع الوزارية المختصة؛ ليس المصدر الوحيد للاستحقاق والتوقيت."
+    },
+    {
+      "source_id": "REF-FOLLOWUP-FORM",
+      "title": "استمارة متابعة خطة الموجه الطلابي",
+      "role": "التحقق من متطلبات المتابعة دون تحويلها إلى سجل أسبوعي مكرر"
+    }
+  ],
+  "records": [
+    {
+      "record_id": "R-001",
+      "original_path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/06_سجل الاجتماعات والمجالس/المجلس الطلابي.docx",
+      "decision_code": "conditional_official",
+      "noor_service": null,
+      "operational_rule": "لا يعتمد المحتوى الجاهز أو الاجتماعات والأعمال المقترحة كشاهد. ينشأ محضر فقط لاجتماع وقع فعلا وبالأدوار التي يثبتها المرجع الحالي.",
+      "contains_sensitive_data": true,
+      "requires_current_source_check": true
+    },
+    {
+      "record_id": "R-002",
+      "original_path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/06_سجل الاجتماعات والمجالس/فهرس روابط استطلاع الرأي والاستبانات.docx",
+      "decision_code": "reference_only",
+      "noor_service": null,
+      "operational_rule": "لا ينشأ فهرس إلا لاستطلاعات مستخدمة فعلا وتطلبها الخطة أو دليل البرنامج. لا تستخدم الروابط النموذجية بوصفها شواهد.",
+      "contains_sensitive_data": false,
+      "requires_current_source_check": false
+    },
+    {
+      "record_id": "R-003",
+      "original_path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/06_سجل الاجتماعات والمجالس/لجنة التحصيل الدراسي.docx",
+      "decision_code": "conditional_official",
+      "noor_service": null,
+      "operational_rule": "سجل لجنة مستقل وليس سجلا للموجه. يحفظ لدى الجهة المالكة للجنة، ولا يكلف الموجه بأعمال أعضائها. يتحقق انطباق الدور والمتطلب من المرجع الحالي المعتمد، لا من سنة القالب وحدها.",
+      "contains_sensitive_data": true,
+      "requires_current_source_check": true
+    },
+    {
+      "record_id": "R-004",
+      "original_path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/06_سجل الاجتماعات والمجالس/لجنة التوجيه الطلابي.docx",
+      "decision_code": "conditional_official",
+      "noor_service": null,
+      "operational_rule": "سجل لجنة التوجيه الطلابي عند انطباق العمل؛ التنظيمي الكاملPDF22 يثبت الاجتماعات الشهرية والمحاضر والتقارير الفصلية لأعمال التوجيه وأعمال اللجنة، مع اعتماد المدير والرفع للجهة المختصة. الموجه عضو ومقرر لا منفذ جميع أعمال الأعضاء. لا تفرض نسخة تقرير منفصلة إذا استوفى التقرير الفصلي المتطلبين ومسار الاعتماد والرفع؛ لا يجعل القالب أو المسودة اجتماعًا أو عملًا منفذًا. التفاصيل DEC-025.",
+      "contains_sensitive_data": true,
+      "requires_current_source_check": true
+    },
+    {
+      "record_id": "R-005",
+      "original_path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/06_سجل الاجتماعات والمجالس/مجالس أولياء الأمور.docx",
+      "decision_code": "conditional_official",
+      "noor_service": null,
+      "operational_rule": "محاضر المجلس مستقلة إذا عقد المجلس فعلا وكان مطلوبا بمرجع حالي. لا يخلط سجل المجلس بسجل زيارة ولي الأمر في نور.",
+      "contains_sensitive_data": true,
+      "requires_current_source_check": true
+    },
+    {
+      "record_id": "R-006",
+      "original_path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/06_سجل الاجتماعات والمجالس/نموذج مقابلة ولية الأمر.docx",
+      "decision_code": "noor_primary_capture",
+      "noor_service": "سجل زيارات أولياء الأمور",
+      "operational_rule": "تلتقط خلاصة الزيارة ثم تدخل في نور. يحتفظ فقط بالتوقيع أو الموافقة أو المستند الأصلي إن وجد، ولا ينشأ سجل زيارات ورقي مواز.",
+      "contains_sensitive_data": true,
+      "requires_current_source_check": false
+    },
+    {
+      "record_id": "R-007",
+      "original_path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/04_سجل تعزيز السلوك الإيجابي/السلوك الايجابي.docx",
+      "decision_code": "conditional_program_evidence",
+      "noor_service": "برامج التوجيه الطلابي وتقارير السلوك الإيجابي",
+      "operational_rule": "ينفذ المتطلب المنطبق من الأصل المختص وفق catalog/program_source_rules.md؛ لا يعتمد الملف الكامل أو نشاط مقترح تلقائيًا. يوثق الحد الأدنى الفعلي في نور مع الشاهد المطلوب.",
+      "contains_sensitive_data": true,
+      "requires_current_source_check": true
+    },
+    {
+      "record_id": "R-008",
+      "original_path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/04_سجل تعزيز السلوك الإيجابي/دليل برنامج تعزيز السلوك الإيجابي.pdf",
+      "decision_code": "reference_only",
+      "noor_service": "برامج التوجيه الطلابي وتقارير السلوك الإيجابي",
+      "operational_rule": "دليل تنفيذي معتمد يقرأ قبل تنفيذ البرنامج، وليس سجلا يعبأ. يتحقق انطباقه ومتطلباته مقابل خطة 1448 وقواعد السلوك الحالية؛ تاريخ الإصدار وحده لا يخفض صلاحيته.",
+      "contains_sensitive_data": false,
+      "requires_current_source_check": true
+    },
+    {
+      "record_id": "R-009",
+      "original_path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/02_سجل البرامج والخدمات/التقرير الفصلي للتوجيه الطلابي.docx",
+      "decision_code": "noor_primary_report",
+      "noor_service": "تقارير برامج التوجيه ومتابعة الحالات والغياب والسلوك",
+      "operational_rule": "يعد التقرير في نهاية كل فصل وفق خطة القصيم PDF60، أو عند طلب رسمي، من بيانات نور والمصادر الفعلية. لا يعبأ كسجل متكرر طوال الفصل، ولا يثبت أعمالا لم تنفذ.",
+      "contains_sensitive_data": true,
+      "requires_current_source_check": true
+    },
+    {
+      "record_id": "R-010",
+      "original_path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/02_سجل البرامج والخدمات/تقرير توثيق برنامج.docx",
+      "decision_code": "conditional_program_evidence",
+      "noor_service": "برامج التوجيه الطلابي",
+      "operational_rule": "يستخدم فقط عندما يطلب دليل البرنامج أو المتابعة تقريرا مستقلا. لا تعاد كتابة الأهداف والفئة والمؤشرات الثابتة؛ تسجل النتيجة الفعلية ومرجع الشاهد وحالة نور.",
+      "contains_sensitive_data": false,
+      "requires_current_source_check": false
+    },
+    {
+      "record_id": "R-011",
+      "original_path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/02_سجل البرامج والخدمات/جدول العمل الأسبوعي لأعمال التوجيه الطلابي.docx",
+      "decision_code": "weekly_planning",
+      "noor_service": null,
+      "operational_rule": "يستبدل تشغيليا بهيكل الخطة الأسبوعية المعتمد لموجه واحد. لا يحمل أسماء الطلاب ولا يكرر تفاصيل السجلات، ويعرض فقط مسار العمل وحالة إغلاق نور.",
+      "contains_sensitive_data": false,
+      "requires_current_source_check": false
+    },
+    {
+      "record_id": "R-012",
+      "original_path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/02_سجل البرامج والخدمات/حصر البرامج الارشادية المقدمة للطلبة.docx",
+      "decision_code": "noor_primary_report",
+      "noor_service": "برامج التوجيه الطلابي",
+      "operational_rule": "يعتمد حصر نور والخطة السنوية المسجلة فيه. لا يحتفظ بجدول يدوي مواز إلا لاستخراج مؤقت لغرض تقرير مطلوب.",
+      "contains_sensitive_data": false,
+      "requires_current_source_check": false
+    },
+    {
+      "record_id": "R-013",
+      "original_path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/02_سجل البرامج والخدمات/فهرس الإذاعة الإرشادية.docx",
+      "decision_code": "reference_only",
+      "noor_service": "برامج التوجيه الطلابي عند كون الإذاعة إجراء تنفيذ",
+      "operational_rule": "لا ينشأ فهرس مستقل افتراضيا. تسجل الإذاعة ضمن البرنامج أو الإجراء الأسبوعي الفعلي، ويحفظ النص أو الشاهد فقط إذا طلبه دليل البرنامج.",
+      "contains_sensitive_data": false,
+      "requires_current_source_check": false
+    },
+    {
+      "record_id": "R-014",
+      "original_path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/05_سجل دراسة الحالة/استمارة الملاحظة.docx",
+      "decision_code": "independent_evidence",
+      "noor_service": "دراسة حالة الطالب أو متابعة حالة الطالب",
+      "operational_rule": "أداة مهنية مستقلة تستخدم عند الحاجة الفعلية وتوضع في ملف الحالة السري. يدخل ملخصها ونتيجتها في نور دون نسخ كل التفاصيل.",
+      "contains_sensitive_data": true,
+      "requires_current_source_check": false
+    },
+    {
+      "record_id": "R-015",
+      "original_path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/05_سجل دراسة الحالة/فهرس الحالات وتصنيفها.docx",
+      "decision_code": "noor_primary_report",
+      "noor_service": "دراسة حالة الطالب ومتابعة حالة الطالب",
+      "operational_rule": "لا ينشأ فهرس ورقي بأسماء الحالات. يعتمد بحث وتقارير نور؛ الاسترجاع الداخلي اللازم ضمن الموطن المحلي المقيد الواحد في DEC-019، لا فهرس مواز جديد. تبقى الأصول الواجبة لدى مالكها.",
+      "contains_sensitive_data": true,
+      "requires_current_source_check": false
+    },
+    {
+      "record_id": "R-016",
+      "original_path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/05_سجل دراسة الحالة/مفابلة إرشادية.docx",
+      "decision_code": "independent_evidence",
+      "noor_service": "جلسات الإرشاد الفردي والجماعي أو دراسة حالة الطالب",
+      "operational_rule": "تستخدم كمذكرة مهنية سرية عند مقابلة فعلية تتطلبها الحالة، ثم يسجل الملخص والنتيجة والمتابعة في نور. لا تجمع كنماذج فارغة ضمن سجل أسبوعي.",
+      "contains_sensitive_data": true,
+      "requires_current_source_check": false
+    },
+    {
+      "record_id": "R-017",
+      "original_path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/05_سجل دراسة الحالة/نموذج دراسة حالة.docx",
+      "decision_code": "noor_primary_capture",
+      "noor_service": "دراسة حالة الطالب ومتابعة حالة الطالب",
+      "operational_rule": "نور هو ملف الحالة الأساسي في حدود حقوله. تستخدم ورقة التقاط مؤقتة للبيانات الميدانية، وتفصل المرفقات والتواقيع والتقارير الأصلية في ملف سري مستقل.",
+      "contains_sensitive_data": true,
+      "requires_current_source_check": false
+    },
+    {
+      "record_id": "R-018",
+      "original_path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/01_سجل التوجيه الطلابي/التوجيه الجمعي ـ.docx",
+      "decision_code": "noor_primary_capture",
+      "noor_service": "التوجيه الجمعي أو جلسات الإرشاد الجماعي",
+      "operational_rule": "تستخدم بطاقة التقاط مختصرة عند التنفيذ ثم تدخل الجلسة في نور. يحفظ الشاهد المستقل عند وجود متطلب، ولا يحتفظ بسجل ورقي مواز.",
+      "contains_sensitive_data": false,
+      "requires_current_source_check": false
+    },
+    {
+      "record_id": "R-019",
+      "original_path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/01_سجل التوجيه الطلابي/التوجيه الفردي نموذج ثاني.doc",
+      "decision_code": "noor_primary_report",
+      "noor_service": "جلسات الإرشاد الفردي ومتابعة حالة الطالب والسجل الشامل",
+      "operational_rule": "لا يعتمد كسجل سنوي مواز لتتبع الطالب. تستخدم بيانات نور؛ المتابعة الداخلية اللازمة في الموطن المحلي المقيد الواحد وفق DEC-019، لا ورقة متابعة دائمة موازية. فتح دراسة حالة يحتاج حاجة مهنية واعتمادا في نطاقه، ولا يمنحه إذن الالتقاط المحلي وحده.",
+      "contains_sensitive_data": true,
+      "requires_current_source_check": false
+    },
+    {
+      "record_id": "R-020",
+      "original_path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/01_سجل التوجيه الطلابي/التوجيه الفردي.doc",
+      "decision_code": "noor_primary_capture",
+      "noor_service": "جلسات الإرشاد الفردي والجماعي",
+      "operational_rule": "تلتقط عناصر الجلسة الضرورية ثم تدخل في نور ويعاد التحقق من ظهورها. تحتفظ فقط بالمرفق أو الأصل المستقل إن وجد.",
+      "contains_sensitive_data": true,
+      "requires_current_source_check": false
+    },
+    {
+      "record_id": "R-021",
+      "original_path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/01_سجل التوجيه الطلابي/بطاقة الطالب.docx",
+      "decision_code": "noor_primary_report",
+      "noor_service": "السجل الشامل",
+      "operational_rule": "لا تجمع بطاقة عامة مكررة لكل طالب بما تحمله من بيانات أسرية وصحية. يعتمد السجل الشامل في نور، ويحفظ فقط أصل تحديث أو إقرار موقع عند وجود مسوغ رسمي.",
+      "contains_sensitive_data": true,
+      "requires_current_source_check": true
+    },
+    {
+      "record_id": "R-022",
+      "original_path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/01_سجل التوجيه الطلابي/بطــاقة متـــابعة التأخر الصباحي.docx",
+      "decision_code": "noor_primary_capture",
+      "noor_service": "رصد ومتابعة غياب وتأخر الطلبة ومتابعة حالة الطالب",
+      "operational_rule": "تستخدم كقائمة عمل مؤقتة عند الحاجة ثم تسجل المعالجة في نور. لا تحفظ كسجل سنوي مواز بعد التحقق من الإدخال.",
+      "contains_sensitive_data": true,
+      "requires_current_source_check": false
+    },
+    {
+      "record_id": "R-023",
+      "original_path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/01_سجل التوجيه الطلابي/بطــاقة متـــابعة الطلبة المعيدين.docx",
+      "decision_code": "noor_primary_report",
+      "noor_service": "السجل الشامل ومتابعة حالة الطالب",
+      "operational_rule": "يعتمد على بيانات نور الأكاديمية، وتوثق فقط خطة المعالجة أو الإحالة الفعلية التي لا يحتفظ النظام بأصلها.",
+      "contains_sensitive_data": true,
+      "requires_current_source_check": false
+    },
+    {
+      "record_id": "R-024",
+      "original_path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/01_سجل التوجيه الطلابي/بطــاقة متـــابعة متكرري الغياب.docx",
+      "decision_code": "noor_primary_capture",
+      "noor_service": "رصد ومتابعة غياب وتأخر الطلبة ومتابعة حالة الطالب",
+      "operational_rule": "تستخدم مؤقتا لتسجيل السبب والإجراء أثناء المقابلة، ثم تدخل المعالجة في نور. لا ينشأ سجل ورقي دائم مواز.",
+      "contains_sensitive_data": true,
+      "requires_current_source_check": false
+    },
+    {
+      "record_id": "R-025",
+      "original_path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/01_سجل التوجيه الطلابي/سجل المواقف اليومية الطارئة.docx",
+      "decision_code": "restricted_daily_incident",
+      "noor_service": "يوجه حسب النتيجة إلى مشكلة سلوكية أو جلسة إرشاد أو زيارة ولي أمر أو دراسة حالة",
+      "operational_rule": "عند مدخل المستخدم، يبدأ بالفهم والمساعدة والتشخيص اللازم وفق DEC-016. توقيت اعتماد الحفظ وحدوده وفق DEC-020: أمر الحفظ الصريح أو مسار الالتقاط المعتمد لا يحتاج موافقة ثانية؛ السؤال والاستشارة والمثال والمنع وغموض قصد الحفظ لا تبيح الكتابة. الحقائق اللازمة تحفظ في الموطن المقيد الواحد في DEC-019، دون فتح أو إعادة فتح حالة تلقائيا. التحديث الآخر خارج هذا الإذن يعرض بأثره للاعتماد. إذن الالتقاط ليس إذنا بإدخال نور؛ يوثق فيه فقط ما وقع من خدمة فعلية مطابقة بإذنه والتحقق من ظهورها، ولا يحول الموقف إلى شاهد تنفيذ.",
+      "contains_sensitive_data": true,
+      "requires_current_source_check": false
+    },
+    {
+      "record_id": "R-026",
+      "original_path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/01_سجل التوجيه الطلابي/عقد سلوكي بين الطلبة والتوجيه الطلابي.doc",
+      "decision_code": "independent_evidence",
+      "noor_service": "رصد ومتابعة المشكلات السلوكية أو متابعة حالة الطالب",
+      "operational_rule": "العقد الموقع أصل مستقل ولا يستبدله ملخص نور. يستخدم عند مسوغ مهني ونظامي فعلي، ويحفظ سرا ويشار إلى نتيجته في نور، مع الالتزام بقواعد السلوك الحالية.",
+      "contains_sensitive_data": true,
+      "requires_current_source_check": true
+    },
+    {
+      "record_id": "R-027",
+      "original_path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/01_سجل التوجيه الطلابي/كشف بالحالات الاجتماعية للطلبة في المدرسة.docx",
+      "decision_code": "noor_primary_report",
+      "noor_service": "السجل الشامل أو دراسة حالة الطالب",
+      "operational_rule": "لا يعتمد كشف عام بأسماء الحالات ولا ورقة توقيع واسعة للمعلمين لما فيها من إفشاء. تسجل الحالة في نور ويشارك الحد الأدنى اللازم فقط مع المخول نظاما.",
+      "contains_sensitive_data": true,
+      "requires_current_source_check": true
+    },
+    {
+      "record_id": "R-028",
+      "original_path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/01_سجل التوجيه الطلابي/كشف بالحالات المرضية للطلبة في المدرسة.docx",
+      "decision_code": "conditional_official",
+      "noor_service": "السجل الشامل، ورصد الحالات النفسية المشخصة عند انطباقها فقط",
+      "operational_rule": "لا يستخدم كشف توقيع عام. تحفظ التقارير الطبية الأصلية لدى الجهة المخولة، وتشارك معلومات السلامة بالحد الأدنى وفق مسوغ رسمي وخطة الطوارئ.",
+      "contains_sensitive_data": true,
+      "requires_current_source_check": true
+    },
+    {
+      "record_id": "R-029",
+      "original_path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/01_سجل التوجيه الطلابي/كشف بالحالات المستحقة للإعانات والمكافأة في المدرسة.docx",
+      "decision_code": "conditional_official",
+      "noor_service": null,
+      "operational_rule": "ليس من خدمات نور التوجيهية المثبتة في الدليل. يستخدم فقط عند تكليف رسمي وصرف فعلي، وتحفظ التواقيع والسجلات المدنية لدى الجهة المالكة للعملية.",
+      "contains_sensitive_data": true,
+      "requires_current_source_check": true
+    },
+    {
+      "record_id": "R-030",
+      "original_path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/01_سجل التوجيه الطلابي/متابعة الطلبة المتاخرين دراسياً.docx",
+      "decision_code": "noor_primary_capture",
+      "noor_service": "متابعة حالة الطالب والسجل الشامل",
+      "operational_rule": "تؤخذ إحالة المعلم أو ملاحظته بوصفها مصدرا عند حدوثها، ثم تسجل الخطة والمتابعة في نور. لا يطلب كشف شهري شامل ما لم يثبت مرجع حالي ذلك.",
+      "contains_sensitive_data": true,
+      "requires_current_source_check": false
+    },
+    {
+      "record_id": "R-031",
+      "original_path": "references/06_templates_and_evidence/سجلات_التوجيه_وفق_خطة_1448/01_سجل التوجيه الطلابي/متـــابعة الطلبة المتفوقين دراسياً.docx",
+      "decision_code": "noor_primary_report",
+      "noor_service": "السجل الشامل وبرامج التوجيه الطلابي عند وجود برنامج رعاية",
+      "operational_rule": "يعتمد على البيانات الأكاديمية في نور. تحفظ شهادة التكريم أو شاهد الرعاية الفعلي فقط، ولا ينشأ كشف شهري مواز دون متطلب رسمي.",
+      "contains_sensitive_data": true,
+      "requires_current_source_check": false
+    }
+  ]
+}

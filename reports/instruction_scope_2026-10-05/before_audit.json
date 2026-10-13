@@ -1,0 +1,151 @@
+{
+  "checked_at": "2026-10-05T12:10:49.501997+00:00",
+  "stage": "before",
+  "status": "PASS",
+  "issues": [],
+  "files_sha256": {
+    "AGENTS.md": "ff63b38898057661d7002ef4d2fbcff6d73e2b87d310e02cd22c329ad16fe765",
+    "guide/workflow.md": "c42757055163aa60153986a8a671559810ff15a44e94020325c1e845231301da",
+    "context/current.json": "bd37699b4c4da7c924931e431265025bf095db810f0fd8030ddff7c1127c6fa0",
+    "context/decisions.md": "39e7a694cf46fa37d79d958e65651ea30cd0b789197633a47e4ce33770168daf",
+    "work/register.json": "bf4c90392c74da34ddcc21d28f3d050205c2be3ddacb20fb2b9d56f4609250c9",
+    "standards/behavior_acceptance.json": "913906656aef5ed13398c542d4c5a08968d0e493f5486f02e2a19390cc7cf7ee"
+  },
+  "direct_references": [
+    {
+      "from": "AGENTS.md",
+      "target": "guide/workflow.md",
+      "exists": true
+    },
+    {
+      "from": "AGENTS.md",
+      "target": "context/current.json",
+      "exists": true
+    },
+    {
+      "from": "AGENTS.md",
+      "target": "context/decisions.md",
+      "exists": true
+    },
+    {
+      "from": "AGENTS.md",
+      "target": "work/register.json",
+      "exists": true
+    },
+    {
+      "from": "AGENTS.md",
+      "target": "guide/workflow.md",
+      "exists": true
+    },
+    {
+      "from": "AGENTS.md",
+      "target": "catalog/source_registry.json",
+      "exists": true
+    },
+    {
+      "from": "AGENTS.md",
+      "target": "catalog/reference_matrix.json",
+      "exists": true
+    },
+    {
+      "from": "AGENTS.md",
+      "target": "guide/workflow.md",
+      "exists": true
+    },
+    {
+      "from": "AGENTS.md",
+      "target": "standards/WEEKLY_PLAN_GATE.md",
+      "exists": true
+    },
+    {
+      "from": "AGENTS.md",
+      "target": "tools/check_weekly_plan_gate.py",
+      "exists": true
+    },
+    {
+      "from": "AGENTS.md",
+      "target": "guide/workflow.md",
+      "exists": true
+    },
+    {
+      "from": "AGENTS.md",
+      "target": "guide/workflow.md",
+      "exists": true
+    },
+    {
+      "from": "AGENTS.md",
+      "target": "tools/check_work_register.py",
+      "exists": true
+    },
+    {
+      "from": "guide/workflow.md",
+      "target": "context/current.json",
+      "exists": true
+    },
+    {
+      "from": "guide/workflow.md",
+      "target": "context/decisions.md",
+      "exists": true
+    },
+    {
+      "from": "guide/workflow.md",
+      "target": "work/register.json",
+      "exists": true
+    },
+    {
+      "from": "guide/workflow.md",
+      "target": "catalog/source_registry.json",
+      "exists": true
+    },
+    {
+      "from": "guide/workflow.md",
+      "target": "catalog/reference_matrix.json",
+      "exists": true
+    },
+    {
+      "from": "guide/workflow.md",
+      "target": "standards/WEEKLY_PLAN_GATE.md",
+      "exists": true
+    },
+    {
+      "from": "guide/workflow.md",
+      "target": "work/register.json",
+      "exists": true
+    },
+    {
+      "from": "guide/workflow.md",
+      "target": "tools/privacy_guard.py",
+      "exists": true
+    },
+    {
+      "from": "guide/workflow.md",
+      "target": "standards/privacy_guard.md",
+      "exists": true
+    },
+    {
+      "from": "guide/workflow.md",
+      "target": "tools/build_delivery.py",
+      "exists": true
+    },
+    {
+      "from": "guide/workflow.md",
+      "target": "standards/behavior_acceptance.json",
+      "exists": true
+    },
+    {
+      "from": "guide/workflow.md",
+      "target": "tools/check_behavior_acceptance.py",
+      "exists": true
+    }
+  ],
+  "student_count": 130,
+  "practical_executor_count": 1,
+  "limits": "UTF-8, duplicate-key JSON, marker, direct-path and current-state checks; semantic review is documented separately. No fresh Work session or behavioral acceptance is claimed.",
+  "matches_accepted_primary_files": {
+    "AGENTS.md": true,
+    "guide/workflow.md": true,
+    "context/current.json": true
+  },
+  "global_before_sha256": "394ed7cb19fba90f1c4bbdf06fd3474e7505ee9123db357f32217e3ffafb5f5b",
+  "backup_directory": "C:\\Users\\CSS\\.codex\\visualizations\\2026\\10\\04\\01a108d7-1817-7261-8432-a7e2be564ca1\\instruction_scope_2026-10-05"
+}

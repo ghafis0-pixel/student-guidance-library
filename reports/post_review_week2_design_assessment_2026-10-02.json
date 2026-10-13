@@ -1,0 +1,282 @@
+{
+  "schema_version": "2.0",
+  "gate_version": "1.1.0",
+  "phase": "DESIGN",
+  "gate_result_date": "2026-10-02",
+  "checked_by": "Codex - current approved plan post-review technical/design check",
+  "plan_sha256": "3cb29234e362218cb547865cdce856211873ae909d084859a48e2e8070f8c0d0",
+  "references_checked": [
+    {
+      "key": "GATE_SPEC",
+      "path": "standards/WEEKLY_PLAN_GATE.md",
+      "sha256": "cf15c94f41914f944984c7d6289ca3e84cf091635659b460af4166cf7a07083a"
+    },
+    {
+      "key": "NOOR_REFERENCE",
+      "path": "references/03_official_operational_guides/noor/مرجع_نظام_نور_للتوجيه_الطلابي.md",
+      "sha256": "870d1b98fb205746dc9a4bad36531a6eb25fa09fccdcb7e35f9e3b763dd0f5fc"
+    },
+    {
+      "key": "ORGANIZATIONAL_GUIDE",
+      "path": "references/02_regulatory/organizational_guides/الدليل التنظيمي - مقتطف التوجيه الطلابي 1446.pdf",
+      "sha256": "fcb09f4b8b3ab720dc68684d077ab2de340ca8cbbd2742fd132003dd112babda"
+    },
+    {
+      "key": "PROCEDURAL_GUIDE",
+      "path": "references/02_regulatory/procedural_guides/الدليل الإجرائي - مقتطف الموجه الطلابي 1446.pdf",
+      "sha256": "0d74c788c94bee61d0608567607f0612caf9b890c8ae6bc932afe2b50df9795b"
+    },
+    {
+      "key": "PROGRAM_REGISTRY",
+      "path": "catalog/source_registry.json",
+      "sha256": "958222b8be4b4054f80f012386716765012ed791d836e1cd6deaf635f59bea40"
+    },
+    {
+      "key": "QASSIM_PLAN",
+      "path": "references/04_regional_plans/خطة برامج وخدمات التوجيه الطلابي تعليم القصيم 1448.pdf",
+      "sha256": "79e2198db34bb4f46985fbb50d27f27d24d98be4e15ecea92b6b38ba5e6f0fb9"
+    },
+    {
+      "key": "SCHOOL_CONTEXT",
+      "path": "context/current.json",
+      "sha256": "bd37699b4c4da7c924931e431265025bf095db810f0fd8030ddff7c1127c6fa0"
+    },
+    {
+      "key": "TERM1_MATRIX",
+      "path": "work/planning/term1/مصفوفة_تنفيذ_الفصل_الأول.xlsx",
+      "sha256": "e7d7609d6f9e669406e24b6d7d43d993c8ede8d354903848cf2ff4467676d826"
+    },
+    {
+      "key": "TERM1_TIMING_LAYER",
+      "path": "work/planning/term1/term1_eligibility_timing_decision_layer_1448.md",
+      "sha256": "0ad17989d4e0a0e40ed792e0b132788541160e159750bd02c241ae9365772c41"
+    }
+  ],
+  "results": [
+    {
+      "rule_id": "E01",
+      "phase": "DESIGN",
+      "result": "PASS",
+      "information_status": "SUPPORTED",
+      "evidence_type": "current DOCX content and approved operational inputs",
+      "claim": "الأولوية الحالية مراجعة الاستحقاق وإغلاق توثيق المنفذ S040/S041/S051؛ لا برنامج رسمي جديد مفروض، والخدمات الحدثية عند السبب الفعلي. يستند التصميم إلى طبقة التوقيت المعتمدة ولا ينشئ استحقاق S016.",
+      "locator": {
+        "path": "outputs/weekly_plans/2026-10-04_to_2026-10-08/weekly_plan_2026-10-04_adhd.docx",
+        "page_or_section": "قرار الأسبوع والأولوية وقاعدة التوقف"
+      },
+      "reviewed_by": "Codex - current approved plan post-review technical/design check",
+      "reviewed_at": "2026-10-02T17:50:13+03:00"
+    },
+    {
+      "rule_id": "E02",
+      "phase": "DESIGN",
+      "result": "PASS",
+      "information_status": "SUPPORTED",
+      "evidence_type": "current DOCX content and approved operational inputs",
+      "claim": "التصميم لموجه واحد في سياق المدرسة الحالي من current.json والصفوف 2–6؛ لا عدد مستفيدين فعلي قبل التنفيذ ولا نشاط لفئة غير منطبقة.",
+      "locator": {
+        "path": "outputs/weekly_plans/2026-10-04_to_2026-10-08/weekly_plan_2026-10-04_adhd.docx",
+        "page_or_section": "مساران لا ينتظران أولوية الأسبوع"
+      },
+      "reviewed_by": "Codex - current approved plan post-review technical/design check",
+      "reviewed_at": "2026-10-02T17:50:13+03:00"
+    },
+    {
+      "rule_id": "E03",
+      "phase": "DESIGN",
+      "result": "PASS",
+      "information_status": "SUPPORTED",
+      "evidence_type": "current DOCX content and approved operational inputs",
+      "claim": "تقويم النسخة الحالية 4–8 أكتوبر و23–27 ربيع الآخر 1448، مع قاعدة تفسير 1447 المحدودة في طبقة التوقيت المعتمدة؛ نافذة المصفوفة توزيع مدرسي وليست استحقاقًا رسميًا جديدًا.",
+      "locator": {
+        "path": "outputs/weekly_plans/2026-10-04_to_2026-10-08/weekly_plan_2026-10-04_adhd.docx",
+        "page_or_section": "عنوان الخطة وقرار الأسبوع ومعنى طوال العام"
+      },
+      "reviewed_by": "Codex - current approved plan post-review technical/design check",
+      "reviewed_at": "2026-10-02T17:50:13+03:00"
+    },
+    {
+      "rule_id": "E04",
+      "phase": "DESIGN",
+      "result": "PASS",
+      "information_status": "VERIFIED",
+      "evidence_type": "current DOCX content and approved operational inputs",
+      "claim": "الخطة تميز العمل المستمر والخدمة الحدثية عن البرنامج الرسمي، وتفسر طوال العام إتاحة عند الحاجة لا إعادة أسبوعية.",
+      "locator": {
+        "path": "outputs/weekly_plans/2026-10-04_to_2026-10-08/weekly_plan_2026-10-04_adhd.docx",
+        "page_or_section": "مساران لا ينتظران أولوية الأسبوع ومعنى طوال العام"
+      },
+      "reviewed_by": "Codex - current approved plan post-review technical/design check",
+      "reviewed_at": "2026-10-02T17:50:13+03:00"
+    },
+    {
+      "rule_id": "N01",
+      "phase": "DESIGN",
+      "result": "PASS",
+      "information_status": "SUPPORTED",
+      "evidence_type": "current DOCX content and approved operational inputs",
+      "claim": "مسار نور يحدد للرمز المنفذ من المطابقة التشغيلية الحالية؛ الورقة الأسبوعية لا تنشئ سجلًا مستقلًا ولا تدعي وجود حقول أو حفظ قبل وقوع الخدمة.",
+      "locator": {
+        "path": "outputs/weekly_plans/2026-10-04_to_2026-10-08/weekly_plan_2026-10-04_adhd.docx",
+        "page_or_section": "خريطة التنفيذ اليومية ومعنى طوال العام"
+      },
+      "reviewed_by": "Codex - current approved plan post-review technical/design check",
+      "reviewed_at": "2026-10-02T17:50:13+03:00"
+    },
+    {
+      "rule_id": "N03",
+      "phase": "DESIGN",
+      "result": "PASS",
+      "information_status": "PENDING",
+      "evidence_type": "current DOCX content and approved operational inputs",
+      "claim": "حقول الأعداد والمؤشرات فارغة إلى وقوع التنفيذ والقياس؛ لا نسبة أو قيمة أثر فعلية أو متوقعة معبأة.",
+      "locator": {
+        "path": "outputs/weekly_plans/2026-10-04_to_2026-10-08/weekly_plan_2026-10-04_adhd.docx",
+        "page_or_section": "إغلاق الأسبوع: المؤشر والنتيجة"
+      },
+      "reviewed_by": "Codex - current approved plan post-review technical/design check",
+      "reviewed_at": "2026-10-02T17:50:13+03:00"
+    },
+    {
+      "rule_id": "V01",
+      "phase": "DESIGN",
+      "result": "PASS",
+      "information_status": "VERIFIED",
+      "evidence_type": "current DOCX content and approved operational inputs",
+      "claim": "تفصل النسخة الحالية المنفذ الفعلي عن الشاهد والإغلاق؛ عدم وجود واقعة يغلق بلا اختلاق نشاط أو شاهد.",
+      "locator": {
+        "path": "outputs/weekly_plans/2026-10-04_to_2026-10-08/weekly_plan_2026-10-04_adhd.docx",
+        "page_or_section": "قاعدة التوقف وخريطة التنفيذ اليومية"
+      },
+      "reviewed_by": "Codex - current approved plan post-review technical/design check",
+      "reviewed_at": "2026-10-02T17:50:13+03:00"
+    },
+    {
+      "rule_id": "V02",
+      "phase": "DESIGN",
+      "result": "PASS",
+      "information_status": "SUPPORTED",
+      "evidence_type": "current DOCX content and approved operational inputs",
+      "claim": "تطلب الخطة الحد الأدنى للشاهد في موطنه الصحيح، ولا تساوي الصورة أو التقرير أثرًا؛ عند غياب عمل فعلي يثبت لا يوجد أو لا ينطبق.",
+      "locator": {
+        "path": "outputs/weekly_plans/2026-10-04_to_2026-10-08/weekly_plan_2026-10-04_adhd.docx",
+        "page_or_section": "الشاهد ومسار الإغلاق وإغلاق الأسبوع"
+      },
+      "reviewed_by": "Codex - current approved plan post-review technical/design check",
+      "reviewed_at": "2026-10-02T17:50:13+03:00"
+    },
+    {
+      "rule_id": "P01",
+      "phase": "DESIGN",
+      "result": "PASS",
+      "information_status": "VERIFIED",
+      "evidence_type": "current DOCX content and approved operational inputs",
+      "claim": "النسخة العامة بلا أسماء أو تفاصيل طلاب حساسة؛ صفحة التنفيذ تنص على الحفظ بلا أسماء أو تفاصيل حساسة.",
+      "locator": {
+        "path": "outputs/weekly_plans/2026-10-04_to_2026-10-08/weekly_plan_2026-10-04_adhd.docx",
+        "page_or_section": "صفحة التنفيذ والإغلاق"
+      },
+      "reviewed_by": "Codex - current approved plan post-review technical/design check",
+      "reviewed_at": "2026-10-02T17:50:13+03:00"
+    },
+    {
+      "rule_id": "C01",
+      "phase": "DESIGN",
+      "result": "PASS",
+      "information_status": "VERIFIED",
+      "evidence_type": "current DOCX content and approved operational inputs",
+      "claim": "الخطة لا تضيف اجتماعًا ثابتًا بلا إثبات ولا تسند مهام تنفيذ إلى لجنة افتراضية.",
+      "locator": {
+        "path": "outputs/weekly_plans/2026-10-04_to_2026-10-08/weekly_plan_2026-10-04_adhd.docx",
+        "page_or_section": "الثوابت اليومية: الاجتماعات وصلاة الظهر"
+      },
+      "reviewed_by": "Codex - current approved plan post-review technical/design check",
+      "reviewed_at": "2026-10-02T17:50:13+03:00"
+    },
+    {
+      "rule_id": "D01",
+      "phase": "DESIGN",
+      "result": "PASS",
+      "information_status": "VERIFIED",
+      "evidence_type": "current DOCX content and approved operational inputs",
+      "claim": "الالتقاط المؤقت عند تعذر الإدخال فقط ويغلق بعد التحقق؛ ليس سجل نور موازيًا ولا يلغي سجل المواقف المقيد وفق DEC-009.",
+      "locator": {
+        "path": "outputs/weekly_plans/2026-10-04_to_2026-10-08/weekly_plan_2026-10-04_adhd.docx",
+        "page_or_section": "الأربعاء وإغلاق نور مرة واحدة"
+      },
+      "reviewed_by": "Codex - current approved plan post-review technical/design check",
+      "reviewed_at": "2026-10-02T17:50:13+03:00"
+    },
+    {
+      "rule_id": "D02",
+      "phase": "DESIGN",
+      "result": "PASS",
+      "information_status": "VERIFIED",
+      "evidence_type": "current DOCX content and approved operational inputs",
+      "claim": "تفصل الخطة لم يدخل وأدخل عن تحقق ظهوره ويحتاج تصحيحًا؛ الإدخال وحده لا يغلق التوثيق.",
+      "locator": {
+        "path": "outputs/weekly_plans/2026-10-04_to_2026-10-08/weekly_plan_2026-10-04_adhd.docx",
+        "page_or_section": "إغلاق نور مرة واحدة"
+      },
+      "reviewed_by": "Codex - current approved plan post-review technical/design check",
+      "reviewed_at": "2026-10-02T17:50:13+03:00"
+    },
+    {
+      "rule_id": "W01",
+      "phase": "DESIGN",
+      "result": "PASS",
+      "information_status": "VERIFIED",
+      "evidence_type": "current DOCX content and approved operational inputs",
+      "claim": "أولوية تقدم واحدة مع مسارين للأعمال المستمرة والخدمات الحدثية الضرورية، دون توليد واقع خارج مدخل المستخدم وفق DEC-013.",
+      "locator": {
+        "path": "outputs/weekly_plans/2026-10-04_to_2026-10-08/weekly_plan_2026-10-04_adhd.docx",
+        "page_or_section": "الأولوية الأسبوعية الواحدة ومساران لا ينتظران أولوية الأسبوع"
+      },
+      "reviewed_by": "Codex - current approved plan post-review technical/design check",
+      "reviewed_at": "2026-10-02T17:50:13+03:00"
+    },
+    {
+      "rule_id": "W02",
+      "phase": "DESIGN",
+      "result": "PASS",
+      "information_status": "SUPPORTED",
+      "evidence_type": "current DOCX content and approved operational inputs",
+      "claim": "حقول الخطة الحالية تخدم الخطوة الأولى والتنفيذ الفعلي والخطوة التالية والتوثيق والإغلاق؛ لا حقل جديد أضيف أو مخرج أعيد إنشاؤه لهذه المراجعة.",
+      "locator": {
+        "path": "outputs/weekly_plans/2026-10-04_to_2026-10-08/weekly_plan_2026-10-04_adhd.docx",
+        "page_or_section": "بطاقة العمل اليومية وإغلاق الأسبوع"
+      },
+      "reviewed_by": "Codex - current approved plan post-review technical/design check",
+      "reviewed_at": "2026-10-02T17:50:13+03:00"
+    },
+    {
+      "rule_id": "W03",
+      "phase": "DESIGN",
+      "result": "PASS",
+      "information_status": "VERIFIED",
+      "evidence_type": "current DOCX content and approved operational inputs",
+      "claim": "خطوة أولى 5–10 دقائق، وثوابت يومية، وعوازل 10–15 دقيقة، وحد اليوم السيئ بثلاثة بنود.",
+      "locator": {
+        "path": "outputs/weekly_plans/2026-10-04_to_2026-10-08/weekly_plan_2026-10-04_adhd.docx",
+        "page_or_section": "الثوابت اليومية وخطة طوارئ لليوم السيئ"
+      },
+      "reviewed_by": "Codex - current approved plan post-review technical/design check",
+      "reviewed_at": "2026-10-02T17:50:13+03:00"
+    },
+    {
+      "rule_id": "D04",
+      "phase": "DESIGN",
+      "result": "PASS",
+      "information_status": "VERIFIED",
+      "evidence_type": "current DOCX content and approved operational inputs",
+      "claim": "التقييم الحالي مربوط ببصمة DOCX الفعلية وبصمات المراجع والمدخلات الحالية ونسخة Gate وتاريخ الحكم؛ لا يعتمد على التقييم القديم ذي البصمة المختلفة.",
+      "locator": {
+        "path": "reports/post_review_week2_design_assessment_2026-10-02.json",
+        "page_or_section": "metadata وplan_sha256 وreferences_checked"
+      },
+      "reviewed_by": "Codex - current approved plan post-review technical/design check",
+      "reviewed_at": "2026-10-02T17:50:13+03:00"
+    }
+  ],
+  "notes": "محتوى الخطة معتمد سابقًا وفق DEC-014. هذه مراجعة النسخة الحالية ومدخلاتها؛ لا ادعاء تنفيذ أو شاهد أو حفظ في نور، ولا نقل تحقق بصري بين نسختي خطة القصيم."
+}

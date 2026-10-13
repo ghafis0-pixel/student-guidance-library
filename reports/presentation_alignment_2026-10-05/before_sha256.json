@@ -1,0 +1,14 @@
+{
+  "files": {
+    "AGENTS.md": "e3ecc14c7564396cfb6b9c06b90bbb1ebf03268928f5a0ce8954a7066b80355d",
+    "guide/workflow.md": "60105007682051de23e95e42108cca3e5a21b1491af86ea19b2be076e3416dd5",
+    "standards/behavior_acceptance.json": "afcf73c5bbc26e789988808498a52572a25104db057f38380fa2a23d2e23f54c"
+  },
+  "preserved_files": {
+    "reports/behavior_acceptance_2026-10-05/actual_runs_reviewed.json": "ad0f52889105b53de9bf5185e5d11fd9599ca9a4ac8f5be0c258c0f4e4265238",
+    "reports/behavior_acceptance_2026-10-05/behavior_result.json": "098601fedffa4fa290eb6579cecb8d9780d0eec7bd3bbffe81c6796a81024eb1",
+    "work/register.json": "bf4c90392c74da34ddcc21d28f3d050205c2be3ddacb20fb2b9d56f4609250c9",
+    "context/decisions.md": "39e7a694cf46fa37d79d958e65651ea30cd0b789197633a47e4ce33770168daf",
+    "context/current.json": "bd37699b4c4da7c924931e431265025bf095db810f0fd8030ddff7c1127c6fa0"
+  }
+}

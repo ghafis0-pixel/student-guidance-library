@@ -1,0 +1,28 @@
+{
+  "round": "candidate-v2-cold-retrieval-2026-10-05",
+  "status": "EXECUTED_AND_REVIEWED_FAIL",
+  "planned_scenarios": 17,
+  "critical_scenarios": 12,
+  "required_fresh_scenarios": 7,
+  "all_scenarios_planned_fresh": true,
+  "project_snapshot_sha256": "fee2c5ba2f2cc7c99848f458fa69039f553fcdb2aa85d46ee2156a1e53bec54e",
+  "contract_sha256": "afcf73c5bbc26e789988808498a52572a25104db057f38380fa2a23d2e23f54c",
+  "input_policy": "Only the exact scenario prompt is dispatched; no expected answer, rubric, historical answer, review text, or governing source excerpt is supplied to the respondent.",
+  "capture_policy": "Capture all visible assistant messages, tool calls, exact final text, input dispatch, context identifier, model metadata, actual reads, and source hashes before semantic review.",
+  "review_policy": "A separate reviewer sees the fixed rubric only after response capture; reasons cover every visible assistant message and original source where relevant.",
+  "completion_policy": "Missing actual response, full visible capture, independent context, or independent semantic review remains NOT_RUN. A failed criterion stays FAIL; previous 9/8 and 15/2 remain historical.",
+  "operational_boundary": "No work-register, plan approval, execution, evidence, or Noor updates are authorized by test success.",
+  "candidate_status": "CANDIDATE",
+  "actual_completed_responses": 18,
+  "selected_responses": 17,
+  "protocol_correction": {
+    "scenario_id": "B10_APPROVAL_NOOR",
+    "excluded_original_context": "01a108fc-1a6c-7910-bc19-6a8bd8103048",
+    "reason": "Respondent accessed its own rubric; preserved, not valid cold retrieval.",
+    "original_cold_status": "NOT_RUN",
+    "replacement_context": "01a1092d-0a2e-7af2-996d-8229a5b805f1",
+    "replacement_rubric_exposure": "No observed read of rubric/review files or B10 criterion text; the contract filename appears in retrieved workflow prose.",
+    "answer_selection_policy": "Only the documented protocol-invalid response is replaced; no other failed answer is rerun or selected by result."
+  },
+  "result_ref": "CANDIDATE_STATE.json"
+}

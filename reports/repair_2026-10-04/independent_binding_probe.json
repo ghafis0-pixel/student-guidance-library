@@ -1,0 +1,41 @@
+{
+  "original_gate_errors": [],
+  "original_register_errors": [],
+  "probe_paths_in_binding": {
+    "context/decisions.md": true,
+    "catalog/records_noor_decision_matrix.json": true,
+    "work/planning/term1/noor_action_mapping_review_2026-09-30.md": true
+  },
+  "probes": [
+    {
+      "path": "context/decisions.md",
+      "source_sha256": "39e7a694cf46fa37d79d958e65651ea30cd0b789197633a47e4ce33770168daf",
+      "changed_sha256": "a6687a2527da56ea7556c66b07b376291602e1c31b9a43e07cec8634c55174d7",
+      "current_result_errors": [
+        "Saved Gate result differs from current assessment, rules, runner, phase, or inputs",
+        "Current Gate evaluation is not ready: BLOCKED"
+      ],
+      "fresh_status": "BLOCKED"
+    },
+    {
+      "path": "catalog/records_noor_decision_matrix.json",
+      "source_sha256": "71e78dd8c589e7398e981ba15388129d86b0e5248483946dd1f4b756e35d5c3e",
+      "changed_sha256": "ff74fbd73799d9092b3f26bb3b83d4d592a17a87a2ab6ceff757de67c80d010d",
+      "current_result_errors": [
+        "Saved Gate result differs from current assessment, rules, runner, phase, or inputs",
+        "Current Gate evaluation is not ready: BLOCKED"
+      ],
+      "fresh_status": "BLOCKED"
+    },
+    {
+      "path": "work/planning/term1/noor_action_mapping_review_2026-09-30.md",
+      "source_sha256": "9b1cc02d55e40c6aa6f70966acf0ec6a945539799ecbdd85d4a30e87bc403600",
+      "changed_sha256": "7b644756a1f24d554db3b9270582c43f478ef8a1eaa815242b1a2f58ffc813b0",
+      "current_result_errors": [
+        "Saved Gate result differs from current assessment, rules, runner, phase, or inputs",
+        "Current Gate evaluation is not ready: BLOCKED"
+      ],
+      "fresh_status": "BLOCKED"
+    }
+  ]
+}

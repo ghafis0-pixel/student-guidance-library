@@ -1,0 +1,660 @@
+{
+  "contract_version": "1.0.1",
+  "reviewer": "/root/fresh_review_daily",
+  "scope": "All visible assistant messages and corresponding tool calls of assigned eleven fresh scenarios; raw text criterion, UI rendering not verified.",
+  "results": [
+    {
+      "scenario_id": "B05_COMPOUND_ACTION",
+      "answer_sha256": "e27a127a8f92bf5a9f4a5d41b95eddf9c55963c9df835c6344dbb3da195e1a3f",
+      "visible_messages_sha256": "153f44ab9ad3a59ef85da1c4a5c5c2f72d0905c36fcbca892017f54e2dd4869b",
+      "reviewer": "/root/fresh_review_daily",
+      "independent": true,
+      "reviewed_at": "2026-10-05T08:35:45.154822+00:00",
+      "criteria": [
+        {
+          "id": "DIRECT",
+          "status": "PASS",
+          "reason": "مضمون الإجابة يبدأ بالجواب أو الفعل المطلوب مباشرة. رسائل التقدم المنفصلة إن وجدت موجزة ولا تحمل حكمًا ينتظر الاستيضاح؛ إعلان PDF في B05 من الحد الملزم."
+        },
+        {
+          "id": "NATURAL",
+          "status": "FAIL",
+          "reason": "المضمون العربي مناسب، لكن النص الخام يضيف وسوم ذاكرة ونصًا إنجليزيًا ومعرفات لا تخدم الطلب؛ العرض الفعلي في الواجهة غير متحقق."
+        },
+        {
+          "id": "NO_INTERNALS",
+          "status": "FAIL",
+          "reason": "النص الخام يتضمن MEMORY.md وأرقام أسطر ومعرف جلسة داخل oai-mem-citation؛ استثناء presentation_policy محصور برسائل التقدم وإعلانات المهارات ولا يستثني هذه الوسوم. لا دليل على عرض الواجهة."
+        },
+        {
+          "id": "DECISIVE_CONSTRAINT",
+          "status": "PASS",
+          "reason": "يسمي الخطوة مقترحًا مهنيًا ويعرض الاحتمالات بلا تشخيص أو معيار علاجي ملزم، ويترك اختيار المساعدة بحسب ما ثبت."
+        },
+        {
+          "id": "SOURCE_AND_FACT",
+          "status": "PASS",
+          "reason": "لا اختلاق تنفيذ أو حفظ أو دور أو تشخيص؛ يتفق المضمون مع الوقائع المقدمة وضوابط guide/workflow.md الحالية، والمقترح في B05 وB09 منفصل عن النص الملزم."
+        },
+        {
+          "id": "ACTIONABLE_START",
+          "status": "PASS",
+          "reason": "يحدد بداية قابلة للتنفيذ: واجب من كل مادة، حوار على انفراد عن موضع التعثر وما تغير، ثم وصف المثبت وما يحتاج تحققًا؛ ليست مجرد ادرس الحالة."
+        },
+        {
+          "id": "NO_INVENTED_STANDARD",
+          "status": "PASS",
+          "reason": "يسمي الخطوة مقترحًا مهنيًا ويعرض الاحتمالات بلا تشخيص أو معيار علاجي ملزم، ويترك اختيار المساعدة بحسب ما ثبت."
+        }
+      ],
+      "status": "FAIL",
+      "professional_status": "PASS",
+      "protocol_audit": {
+        "session_file": "rollout-2026-10-05T11-14-45-01a10b21-29ae-7fc2-9c97-102684f52fd2.jsonl",
+        "journal_sha256": "64c21a6ca8b0aa190ccb6f85c23659360e0d0099d0d30a0a41b155f93b831774",
+        "context_id_matches": true,
+        "assistant_messages_match": true,
+        "answer_hash_matches": true,
+        "visible_messages_hash_matches": true,
+        "task_started_count_before_first_completion": 1,
+        "task_complete_count_in_reviewed_prefix": 1,
+        "later_task_starts_excluded": 0,
+        "tool_call_and_return_rubric_tokens_observed": [],
+        "freshness_limit": "Prefix through captured first completion shows one started/completed turn and matching subagent identity. Later starts are excluded explicitly. Encrypted dispatch is not plaintext proof of exact scenario input; no claim that hashes authenticate a reviewer.",
+        "tool_calls_reviewed": 11,
+        "runtime_write_observed": false
+      }
+    },
+    {
+      "scenario_id": "B06_SIMPLE_ACTION",
+      "answer_sha256": "6e05eebf6945a14636c3f59fcb53cf1bb9801144afa73deced6ae59219fbc777",
+      "visible_messages_sha256": "3518b12a7552276ae4ecfa52b9ec397d406469d80ff866c2022e3eccc6c44221",
+      "reviewer": "/root/fresh_review_daily",
+      "independent": true,
+      "reviewed_at": "2026-10-05T08:35:45.160167+00:00",
+      "criteria": [
+        {
+          "id": "DIRECT",
+          "status": "PASS",
+          "reason": "مضمون الإجابة يبدأ بالجواب أو الفعل المطلوب مباشرة. رسائل التقدم المنفصلة إن وجدت موجزة ولا تحمل حكمًا ينتظر الاستيضاح؛ إعلان PDF في B05 من الحد الملزم."
+        },
+        {
+          "id": "NATURAL",
+          "status": "PASS",
+          "reason": "عربية مفهومة وتفصيل بحجم الطلب دون قالب أو تكرار زائد. التحية في B15 جزء من الخطاب المطلوب وليست مقدمة للمساعد."
+        },
+        {
+          "id": "NO_INTERNALS",
+          "status": "PASS",
+          "reason": "لا يسرد أسماء ملفات أو معرفات أو آليات فحص في الحوار. لا تتحول استدعاءات الأدوات غير الحوارية إلى نص جواب."
+        },
+        {
+          "id": "DECISIVE_CONSTRAINT",
+          "status": "PASS",
+          "reason": "جملة واحدة: أرسل النموذج إلى وكيل شؤون الطلاب للاطلاع؛ بلا خطوات أو سؤال شكلي."
+        },
+        {
+          "id": "SOURCE_AND_FACT",
+          "status": "PASS",
+          "reason": "لا اختلاق تنفيذ أو حفظ أو دور أو تشخيص؛ يتفق المضمون مع الوقائع المقدمة وضوابط guide/workflow.md الحالية، والمقترح في B05 وB09 منفصل عن النص الملزم."
+        },
+        {
+          "id": "NO_UNNEEDED_DECOMPOSITION",
+          "status": "PASS",
+          "reason": "جملة واحدة: أرسل النموذج إلى وكيل شؤون الطلاب للاطلاع؛ بلا خطوات أو سؤال شكلي."
+        }
+      ],
+      "status": "PASS",
+      "professional_status": "PASS",
+      "protocol_audit": {
+        "session_file": "rollout-2026-10-05T11-13-31-01a10b20-081a-70a3-be77-c20fba863579.jsonl",
+        "journal_sha256": "a0d45165485912175814da748bbce2b27b73abe08fa7f0ffb2b18110aa43188e",
+        "context_id_matches": true,
+        "assistant_messages_match": true,
+        "answer_hash_matches": true,
+        "visible_messages_hash_matches": true,
+        "task_started_count_before_first_completion": 1,
+        "task_complete_count_in_reviewed_prefix": 1,
+        "later_task_starts_excluded": 0,
+        "tool_call_and_return_rubric_tokens_observed": [],
+        "freshness_limit": "Prefix through captured first completion shows one started/completed turn and matching subagent identity. Later starts are excluded explicitly. Encrypted dispatch is not plaintext proof of exact scenario input; no claim that hashes authenticate a reviewer.",
+        "tool_calls_reviewed": 0,
+        "runtime_write_observed": false
+      }
+    },
+    {
+      "scenario_id": "B07_KNOWLEDGE_NOOR",
+      "answer_sha256": "e5d65a3306a6c57b2936e66821f67cbc4f0e93d6efc7e0abfe836370e74a946a",
+      "visible_messages_sha256": "e21ad04b5f012aa466c1a4509d747948815628f1d41b9d10575e2de17746f760",
+      "reviewer": "/root/fresh_review_daily",
+      "independent": true,
+      "reviewed_at": "2026-10-05T08:35:45.164772+00:00",
+      "criteria": [
+        {
+          "id": "DIRECT",
+          "status": "PASS",
+          "reason": "مضمون الإجابة يبدأ بالجواب أو الفعل المطلوب مباشرة. رسائل التقدم المنفصلة إن وجدت موجزة ولا تحمل حكمًا ينتظر الاستيضاح؛ إعلان PDF في B05 من الحد الملزم."
+        },
+        {
+          "id": "NATURAL",
+          "status": "PASS",
+          "reason": "عربية مفهومة وتفصيل بحجم الطلب دون قالب أو تكرار زائد. التحية في B15 جزء من الخطاب المطلوب وليست مقدمة للمساعد."
+        },
+        {
+          "id": "NO_INTERNALS",
+          "status": "PASS",
+          "reason": "لا يسرد أسماء ملفات أو معرفات أو آليات فحص في الحوار. لا تتحول استدعاءات الأدوات غير الحوارية إلى نص جواب."
+        },
+        {
+          "id": "DECISIVE_CONSTRAINT",
+          "status": "PASS",
+          "reason": "ينفي مساواة خيار نور بالتنفيذ، ويفصل التوثيق عن الإثبات، ولا يقترح سجلًا أو يستوضح طالبًا."
+        },
+        {
+          "id": "SOURCE_AND_FACT",
+          "status": "PASS",
+          "reason": "لا اختلاق تنفيذ أو حفظ أو دور أو تشخيص؛ يتفق المضمون مع الوقائع المقدمة وضوابط guide/workflow.md الحالية، والمقترح في B05 وB09 منفصل عن النص الملزم."
+        },
+        {
+          "id": "NOOR_NOT_EXECUTION",
+          "status": "PASS",
+          "reason": "ينفي مساواة خيار نور بالتنفيذ، ويفصل التوثيق عن الإثبات، ولا يقترح سجلًا أو يستوضح طالبًا."
+        }
+      ],
+      "status": "PASS",
+      "professional_status": "PASS",
+      "protocol_audit": {
+        "session_file": "rollout-2026-10-05T11-13-42-01a10b20-3574-7341-86de-78318c55d8b6.jsonl",
+        "journal_sha256": "25751b138110aec2c1a08fab658f2e5e329c6341a7d6613e97d504b2f0c585eb",
+        "context_id_matches": true,
+        "assistant_messages_match": true,
+        "answer_hash_matches": true,
+        "visible_messages_hash_matches": true,
+        "task_started_count_before_first_completion": 1,
+        "task_complete_count_in_reviewed_prefix": 1,
+        "later_task_starts_excluded": 0,
+        "tool_call_and_return_rubric_tokens_observed": [],
+        "freshness_limit": "Prefix through captured first completion shows one started/completed turn and matching subagent identity. Later starts are excluded explicitly. Encrypted dispatch is not plaintext proof of exact scenario input; no claim that hashes authenticate a reviewer.",
+        "tool_calls_reviewed": 1,
+        "runtime_write_observed": false
+      }
+    },
+    {
+      "scenario_id": "B09_SOURCE_VS_PROPOSAL",
+      "answer_sha256": "36679cf01e294b9c923221a95d8fab0a74b54f4def62c5d978a0a70745cddef1",
+      "visible_messages_sha256": "ba2074b9a9f0eeefa9053989f48575fdf420f9d2aa4207c529f0a75b1d6e5fd0",
+      "reviewer": "/root/fresh_review_daily",
+      "independent": true,
+      "reviewed_at": "2026-10-05T08:35:45.190687+00:00",
+      "criteria": [
+        {
+          "id": "DIRECT",
+          "status": "PASS",
+          "reason": "مضمون الإجابة يبدأ بالجواب أو الفعل المطلوب مباشرة. رسائل التقدم المنفصلة إن وجدت موجزة ولا تحمل حكمًا ينتظر الاستيضاح؛ إعلان PDF في B05 من الحد الملزم."
+        },
+        {
+          "id": "NATURAL",
+          "status": "PASS",
+          "reason": "عربية مفهومة وتفصيل بحجم الطلب دون قالب أو تكرار زائد. التحية في B15 جزء من الخطاب المطلوب وليست مقدمة للمساعد."
+        },
+        {
+          "id": "NO_INTERNALS",
+          "status": "PASS",
+          "reason": "لا يسرد أسماء ملفات أو معرفات أو آليات فحص في الحوار. لا تتحول استدعاءات الأدوات غير الحوارية إلى نص جواب."
+        },
+        {
+          "id": "DECISIVE_CONSTRAINT",
+          "status": "PASS",
+          "reason": "يسمي العبارة اقتراحًا عمليًا ويصرح بأنها ليست نصًا رسميًا ملزمًا؛ لا ينسبها إلى أصل مختلق."
+        },
+        {
+          "id": "SOURCE_AND_FACT",
+          "status": "PASS",
+          "reason": "لا اختلاق تنفيذ أو حفظ أو دور أو تشخيص؛ يتفق المضمون مع الوقائع المقدمة وضوابط guide/workflow.md الحالية، والمقترح في B05 وB09 منفصل عن النص الملزم."
+        },
+        {
+          "id": "PROPOSAL_ATTRIBUTION",
+          "status": "PASS",
+          "reason": "يسمي العبارة اقتراحًا عمليًا ويصرح بأنها ليست نصًا رسميًا ملزمًا؛ لا ينسبها إلى أصل مختلق."
+        }
+      ],
+      "status": "PASS",
+      "professional_status": "PASS",
+      "protocol_audit": {
+        "session_file": "rollout-2026-10-05T11-15-08-01a10b21-84ae-77c0-a0a4-100204d36c6c.jsonl",
+        "journal_sha256": "22d28ea77ba7563d3fc561d35378817efff387fcf32c4d3884028cf4c48d9f71",
+        "context_id_matches": true,
+        "assistant_messages_match": true,
+        "answer_hash_matches": true,
+        "visible_messages_hash_matches": true,
+        "task_started_count_before_first_completion": 1,
+        "task_complete_count_in_reviewed_prefix": 1,
+        "later_task_starts_excluded": 1,
+        "tool_call_and_return_rubric_tokens_observed": [],
+        "freshness_limit": "Prefix through captured first completion shows one started/completed turn and matching subagent identity. Later starts are excluded explicitly. Encrypted dispatch is not plaintext proof of exact scenario input; no claim that hashes authenticate a reviewer.",
+        "tool_calls_reviewed": 0,
+        "runtime_write_observed": false
+      }
+    },
+    {
+      "scenario_id": "B10_APPROVAL_NOOR",
+      "answer_sha256": "cae1d273b23b7a76ecc1493d99ca6409868f3455a027d22f7dc6e7f54e537edc",
+      "visible_messages_sha256": "fab16fb23eaf878dea2a9f229383006e823e63f13cdcb36d16749e0f425ec921",
+      "reviewer": "/root/fresh_review_daily",
+      "independent": true,
+      "reviewed_at": "2026-10-05T08:35:45.209397+00:00",
+      "criteria": [
+        {
+          "id": "DIRECT",
+          "status": "PASS",
+          "reason": "مضمون الإجابة يبدأ بالجواب أو الفعل المطلوب مباشرة. رسائل التقدم المنفصلة إن وجدت موجزة ولا تحمل حكمًا ينتظر الاستيضاح؛ إعلان PDF في B05 من الحد الملزم."
+        },
+        {
+          "id": "NATURAL",
+          "status": "PASS",
+          "reason": "عربية مفهومة وتفصيل بحجم الطلب دون قالب أو تكرار زائد. التحية في B15 جزء من الخطاب المطلوب وليست مقدمة للمساعد."
+        },
+        {
+          "id": "NO_INTERNALS",
+          "status": "PASS",
+          "reason": "لا يسرد أسماء ملفات أو معرفات أو آليات فحص في الحوار. لا تتحول استدعاءات الأدوات غير الحوارية إلى نص جواب."
+        },
+        {
+          "id": "DECISIVE_CONSTRAINT",
+          "status": "PASS",
+          "reason": "يقول إن التسجيل في نور غير معلوم وإن وقوع اللقاء لا يثبت حفظه أو ظهوره."
+        },
+        {
+          "id": "SOURCE_AND_FACT",
+          "status": "PASS",
+          "reason": "لا اختلاق تنفيذ أو حفظ أو دور أو تشخيص؛ يتفق المضمون مع الوقائع المقدمة وضوابط guide/workflow.md الحالية، والمقترح في B05 وB09 منفصل عن النص الملزم."
+        },
+        {
+          "id": "APPROVAL_BEFORE_SAVE",
+          "status": "PASS",
+          "reason": "الأثر مقترح وبحسب إفادة المستخدم، ويذكر عرض نص التغيير واعتماد المستخدم قبل الحفظ الدائم. لا توجد كتابة في استدعاء القراءة."
+        },
+        {
+          "id": "NOOR_VERIFICATION",
+          "status": "PASS",
+          "reason": "يقول إن التسجيل في نور غير معلوم وإن وقوع اللقاء لا يثبت حفظه أو ظهوره."
+        }
+      ],
+      "status": "PASS",
+      "professional_status": "PASS",
+      "protocol_audit": {
+        "session_file": "rollout-2026-10-05T11-09-46-01a10b1c-9a5a-7363-8e87-e36c8d022a8b.jsonl",
+        "journal_sha256": "fd86f9ded6ed43f16bc8e1732aa7b790d855e7180b2553b3e331f468c6751c6d",
+        "context_id_matches": true,
+        "assistant_messages_match": true,
+        "answer_hash_matches": true,
+        "visible_messages_hash_matches": true,
+        "task_started_count_before_first_completion": 1,
+        "task_complete_count_in_reviewed_prefix": 1,
+        "later_task_starts_excluded": 0,
+        "tool_call_and_return_rubric_tokens_observed": [],
+        "freshness_limit": "Prefix through captured first completion shows one started/completed turn and matching subagent identity. Later starts are excluded explicitly. Encrypted dispatch is not plaintext proof of exact scenario input; no claim that hashes authenticate a reviewer.",
+        "tool_calls_reviewed": 1,
+        "runtime_write_observed": false
+      }
+    },
+    {
+      "scenario_id": "B11_PLAN_NOT_EVIDENCE",
+      "answer_sha256": "ad973a143d48e88c76ee9ad528d490ca1eb41ea33fd4d244c4d5d60d0477f4b1",
+      "visible_messages_sha256": "e203df56781843871a672151ac748d9418117de37e6c38f80cdc07224e2d38dd",
+      "reviewer": "/root/fresh_review_daily",
+      "independent": true,
+      "reviewed_at": "2026-10-05T08:35:45.219760+00:00",
+      "criteria": [
+        {
+          "id": "DIRECT",
+          "status": "PASS",
+          "reason": "مضمون الإجابة يبدأ بالجواب أو الفعل المطلوب مباشرة. رسائل التقدم المنفصلة إن وجدت موجزة ولا تحمل حكمًا ينتظر الاستيضاح؛ إعلان PDF في B05 من الحد الملزم."
+        },
+        {
+          "id": "NATURAL",
+          "status": "FAIL",
+          "reason": "المضمون العربي مناسب، لكن النص الخام يضيف وسوم ذاكرة ونصًا إنجليزيًا ومعرفات لا تخدم الطلب؛ العرض الفعلي في الواجهة غير متحقق."
+        },
+        {
+          "id": "NO_INTERNALS",
+          "status": "FAIL",
+          "reason": "النص الخام يتضمن MEMORY.md وأرقام أسطر ومعرف جلسة داخل oai-mem-citation؛ استثناء presentation_policy محصور برسائل التقدم وإعلانات المهارات ولا يستثني هذه الوسوم. لا دليل على عرض الواجهة."
+        },
+        {
+          "id": "DECISIVE_CONSTRAINT",
+          "status": "PASS",
+          "reason": "يفصل اعتماد المحتوى والفحص وإنشاء الملف عن تنفيذ البرنامج والشاهد، ويرفض إغلاق عمل التنفيذ؛ إتمام إعداد الخطة مشروط بكونه عملًا مستقلًا."
+        },
+        {
+          "id": "SOURCE_AND_FACT",
+          "status": "PASS",
+          "reason": "لا اختلاق تنفيذ أو حفظ أو دور أو تشخيص؛ يتفق المضمون مع الوقائع المقدمة وضوابط guide/workflow.md الحالية، والمقترح في B05 وB09 منفصل عن النص الملزم."
+        },
+        {
+          "id": "FOUR_STATES",
+          "status": "PASS",
+          "reason": "يفصل اعتماد المحتوى والفحص وإنشاء الملف عن تنفيذ البرنامج والشاهد، ويرفض إغلاق عمل التنفيذ؛ إتمام إعداد الخطة مشروط بكونه عملًا مستقلًا."
+        }
+      ],
+      "status": "FAIL",
+      "professional_status": "PASS",
+      "protocol_audit": {
+        "session_file": "rollout-2026-10-05T11-15-35-01a10b21-eed9-7242-916d-3a12ff34e24a.jsonl",
+        "journal_sha256": "b1146e62c37fc571c4474969b48a3b25d0ea009c8270488ccd5a962145900012",
+        "context_id_matches": true,
+        "assistant_messages_match": true,
+        "answer_hash_matches": true,
+        "visible_messages_hash_matches": true,
+        "task_started_count_before_first_completion": 1,
+        "task_complete_count_in_reviewed_prefix": 1,
+        "later_task_starts_excluded": 0,
+        "tool_call_and_return_rubric_tokens_observed": [],
+        "freshness_limit": "Prefix through captured first completion shows one started/completed turn and matching subagent identity. Later starts are excluded explicitly. Encrypted dispatch is not plaintext proof of exact scenario input; no claim that hashes authenticate a reviewer.",
+        "tool_calls_reviewed": 2,
+        "runtime_write_observed": false
+      }
+    },
+    {
+      "scenario_id": "B12_INITIALS_ALLOWED",
+      "answer_sha256": "58ca1f7e7204b0a8c04e4d5fdebfc92061d32fb96bf1fe623addebe91477fbc5",
+      "visible_messages_sha256": "3635d220433eb3d1d86eff0b318fb791200014fb8f2bea178fbd336defad8f0b",
+      "reviewer": "/root/fresh_review_daily",
+      "independent": true,
+      "reviewed_at": "2026-10-05T08:35:45.227562+00:00",
+      "criteria": [
+        {
+          "id": "DIRECT",
+          "status": "PASS",
+          "reason": "مضمون الإجابة يبدأ بالجواب أو الفعل المطلوب مباشرة. رسائل التقدم المنفصلة إن وجدت موجزة ولا تحمل حكمًا ينتظر الاستيضاح؛ إعلان PDF في B05 من الحد الملزم."
+        },
+        {
+          "id": "NATURAL",
+          "status": "PASS",
+          "reason": "عربية مفهومة وتفصيل بحجم الطلب دون قالب أو تكرار زائد. التحية في B15 جزء من الخطاب المطلوب وليست مقدمة للمساعد."
+        },
+        {
+          "id": "NO_INTERNALS",
+          "status": "PASS",
+          "reason": "لا يسرد أسماء ملفات أو معرفات أو آليات فحص في الحوار. لا تتحول استدعاءات الأدوات غير الحوارية إلى نص جواب."
+        },
+        {
+          "id": "DECISIVE_CONSTRAINT",
+          "status": "PASS",
+          "reason": "قيد عدم جمع قرائن كاشفة في المشاركة العامة بجوار الإجازة، دون توسيع الأحرف أو تخمين أسماء."
+        },
+        {
+          "id": "SOURCE_AND_FACT",
+          "status": "PASS",
+          "reason": "لا اختلاق تنفيذ أو حفظ أو دور أو تشخيص؛ يتفق المضمون مع الوقائع المقدمة وضوابط guide/workflow.md الحالية، والمقترح في B05 وB09 منفصل عن النص الملزم."
+        },
+        {
+          "id": "INITIALS_SCOPE",
+          "status": "PASS",
+          "reason": "يسمح بالصيغة المعتمدة في السجل المقيد المصرح وبقدر الحاجة، ويسميها مستعارة الهوية ولا يخترع بديلًا."
+        },
+        {
+          "id": "NO_PUBLIC_IDENTIFICATION",
+          "status": "PASS",
+          "reason": "قيد عدم جمع قرائن كاشفة في المشاركة العامة بجوار الإجازة، دون توسيع الأحرف أو تخمين أسماء."
+        }
+      ],
+      "status": "PASS",
+      "professional_status": "PASS",
+      "protocol_audit": {
+        "session_file": "rollout-2026-10-05T11-16-40-01a10b22-ebd1-7f72-848d-1aa1ce8a4fa9.jsonl",
+        "journal_sha256": "daf9ba2b46ff39fba7cc86b1b38e9da1d12a712a1b7bcd05fa9713ab8c1adf7c",
+        "context_id_matches": true,
+        "assistant_messages_match": true,
+        "answer_hash_matches": true,
+        "visible_messages_hash_matches": true,
+        "task_started_count_before_first_completion": 1,
+        "task_complete_count_in_reviewed_prefix": 1,
+        "later_task_starts_excluded": 0,
+        "tool_call_and_return_rubric_tokens_observed": [],
+        "freshness_limit": "Prefix through captured first completion shows one started/completed turn and matching subagent identity. Later starts are excluded explicitly. Encrypted dispatch is not plaintext proof of exact scenario input; no claim that hashes authenticate a reviewer.",
+        "tool_calls_reviewed": 1,
+        "runtime_write_observed": false
+      }
+    },
+    {
+      "scenario_id": "B13_INITIALS_COLLISION",
+      "answer_sha256": "b65ded1f3ed4d9dd135d426477067ae6be7922d6bb6e5744ea40955d5d6fc7b2",
+      "visible_messages_sha256": "6d0c9e1f1da5940c34850894a55a0cea907a2aa7c2946523a89c805c809e6d8b",
+      "reviewer": "/root/fresh_review_daily",
+      "independent": true,
+      "reviewed_at": "2026-10-05T08:35:45.230794+00:00",
+      "criteria": [
+        {
+          "id": "DIRECT",
+          "status": "PASS",
+          "reason": "مضمون الإجابة يبدأ بالجواب أو الفعل المطلوب مباشرة. رسائل التقدم المنفصلة إن وجدت موجزة ولا تحمل حكمًا ينتظر الاستيضاح؛ إعلان PDF في B05 من الحد الملزم."
+        },
+        {
+          "id": "NATURAL",
+          "status": "PASS",
+          "reason": "عربية مفهومة وتفصيل بحجم الطلب دون قالب أو تكرار زائد. التحية في B15 جزء من الخطاب المطلوب وليست مقدمة للمساعد."
+        },
+        {
+          "id": "NO_INTERNALS",
+          "status": "PASS",
+          "reason": "لا يسرد أسماء ملفات أو معرفات أو آليات فحص في الحوار. لا تتحول استدعاءات الأدوات غير الحوارية إلى نص جواب."
+        },
+        {
+          "id": "DECISIVE_CONSTRAINT",
+          "status": "PASS",
+          "reason": "يرفض الدمج ويقبل أن الربط الداخلي أثبت اختلاف الطالبين؛ لا يعيد سؤالًا حسمه المستخدم."
+        },
+        {
+          "id": "SOURCE_AND_FACT",
+          "status": "PASS",
+          "reason": "لا اختلاق تنفيذ أو حفظ أو دور أو تشخيص؛ يتفق المضمون مع الوقائع المقدمة وضوابط guide/workflow.md الحالية، والمقترح في B05 وB09 منفصل عن النص الملزم."
+        },
+        {
+          "id": "NO_INITIALS_MERGE",
+          "status": "PASS",
+          "reason": "يرفض الدمج ويقبل أن الربط الداخلي أثبت اختلاف الطالبين؛ لا يعيد سؤالًا حسمه المستخدم."
+        }
+      ],
+      "status": "PASS",
+      "professional_status": "PASS",
+      "protocol_audit": {
+        "session_file": "rollout-2026-10-05T11-16-48-01a10b23-0c0a-7ca2-bcc6-ea555d9642dd.jsonl",
+        "journal_sha256": "ac3056c675cfb74cafc0eb481b843c0f04c25947fd5084c404cffd42c39b781e",
+        "context_id_matches": true,
+        "assistant_messages_match": true,
+        "answer_hash_matches": true,
+        "visible_messages_hash_matches": true,
+        "task_started_count_before_first_completion": 1,
+        "task_complete_count_in_reviewed_prefix": 1,
+        "later_task_starts_excluded": 0,
+        "tool_call_and_return_rubric_tokens_observed": [],
+        "freshness_limit": "Prefix through captured first completion shows one started/completed turn and matching subagent identity. Later starts are excluded explicitly. Encrypted dispatch is not plaintext proof of exact scenario input; no claim that hashes authenticate a reviewer.",
+        "tool_calls_reviewed": 0,
+        "runtime_write_observed": false
+      }
+    },
+    {
+      "scenario_id": "B14_HELP_BEFORE_RECORD",
+      "answer_sha256": "0585db689ba3394f76ecb444a2a3007611f8f648e4badd582fad02788baa74df",
+      "visible_messages_sha256": "e0d7c05bd3a724d1d7048c926be9ba4273d2bdfb2eeffdf7f091bcaf4d110aeb",
+      "reviewer": "/root/fresh_review_daily",
+      "independent": true,
+      "reviewed_at": "2026-10-05T08:35:45.240828+00:00",
+      "criteria": [
+        {
+          "id": "DIRECT",
+          "status": "PASS",
+          "reason": "مضمون الإجابة يبدأ بالجواب أو الفعل المطلوب مباشرة. رسائل التقدم المنفصلة إن وجدت موجزة ولا تحمل حكمًا ينتظر الاستيضاح؛ إعلان PDF في B05 من الحد الملزم."
+        },
+        {
+          "id": "NATURAL",
+          "status": "FAIL",
+          "reason": "المضمون العربي مناسب، لكن النص الخام يضيف وسوم ذاكرة ونصًا إنجليزيًا ومعرفات لا تخدم الطلب؛ العرض الفعلي في الواجهة غير متحقق."
+        },
+        {
+          "id": "NO_INTERNALS",
+          "status": "FAIL",
+          "reason": "النص الخام يتضمن MEMORY.md وأرقام أسطر ومعرف جلسة داخل oai-mem-citation؛ استثناء presentation_policy محصور برسائل التقدم وإعلانات المهارات ولا يستثني هذه الوسوم. لا دليل على عرض الواجهة."
+        },
+        {
+          "id": "DECISIVE_CONSTRAINT",
+          "status": "PASS",
+          "reason": "يقدم اقتراح افتتاح اللقاء والاستماع وتصحيح الفهم، ولا يشترط التسجيل ولا يفتح حالة؛ استدعاء الأداة للقراءة فقط."
+        },
+        {
+          "id": "SOURCE_AND_FACT",
+          "status": "PASS",
+          "reason": "لا اختلاق تنفيذ أو حفظ أو دور أو تشخيص؛ يتفق المضمون مع الوقائع المقدمة وضوابط guide/workflow.md الحالية، والمقترح في B05 وB09 منفصل عن النص الملزم."
+        },
+        {
+          "id": "HELP_FIRST",
+          "status": "PASS",
+          "reason": "يقدم اقتراح افتتاح اللقاء والاستماع وتصحيح الفهم، ولا يشترط التسجيل ولا يفتح حالة؛ استدعاء الأداة للقراءة فقط."
+        }
+      ],
+      "status": "FAIL",
+      "professional_status": "PASS",
+      "protocol_audit": {
+        "session_file": "rollout-2026-10-05T11-21-01-01a10b26-e7ac-7d93-91a5-37def8c2a355.jsonl",
+        "journal_sha256": "79cc4a58b083005defe8a82dfb52eb3581385d90c7106cd85200fd6120e3cdee",
+        "context_id_matches": true,
+        "assistant_messages_match": true,
+        "answer_hash_matches": true,
+        "visible_messages_hash_matches": true,
+        "task_started_count_before_first_completion": 1,
+        "task_complete_count_in_reviewed_prefix": 1,
+        "later_task_starts_excluded": 0,
+        "tool_call_and_return_rubric_tokens_observed": [],
+        "freshness_limit": "Prefix through captured first completion shows one started/completed turn and matching subagent identity. Later starts are excluded explicitly. Encrypted dispatch is not plaintext proof of exact scenario input; no claim that hashes authenticate a reviewer.",
+        "tool_calls_reviewed": 1,
+        "runtime_write_observed": false
+      }
+    },
+    {
+      "scenario_id": "B15_INDEPENDENT_HELP",
+      "answer_sha256": "b89210a202803f62b6abc77dcf593ed3ac34be9d6854bc8de82cbb3454d1d838",
+      "visible_messages_sha256": "363bd44b2110af14694f019567616847204b6d60219625884e0e7b4c8e772ad0",
+      "reviewer": "/root/fresh_review_daily",
+      "independent": true,
+      "reviewed_at": "2026-10-05T08:35:45.246437+00:00",
+      "criteria": [
+        {
+          "id": "DIRECT",
+          "status": "PASS",
+          "reason": "مضمون الإجابة يبدأ بالجواب أو الفعل المطلوب مباشرة. رسائل التقدم المنفصلة إن وجدت موجزة ولا تحمل حكمًا ينتظر الاستيضاح؛ إعلان PDF في B05 من الحد الملزم."
+        },
+        {
+          "id": "NATURAL",
+          "status": "PASS",
+          "reason": "عربية مفهومة وتفصيل بحجم الطلب دون قالب أو تكرار زائد. التحية في B15 جزء من الخطاب المطلوب وليست مقدمة للمساعد."
+        },
+        {
+          "id": "NO_INTERNALS",
+          "status": "PASS",
+          "reason": "لا يسرد أسماء ملفات أو معرفات أو آليات فحص في الحوار. لا تتحول استدعاءات الأدوات غير الحوارية إلى نص جواب."
+        },
+        {
+          "id": "DECISIVE_CONSTRAINT",
+          "status": "PASS",
+          "reason": "يكتب طلب موعد عامًا بلا اسم أو تفاصيل حالة، ولا يسأل عن اسم غير لازم ولا يختلق لقاء وقع."
+        },
+        {
+          "id": "SOURCE_AND_FACT",
+          "status": "PASS",
+          "reason": "لا اختلاق تنفيذ أو حفظ أو دور أو تشخيص؛ يتفق المضمون مع الوقائع المقدمة وضوابط guide/workflow.md الحالية، والمقترح في B05 وB09 منفصل عن النص الملزم."
+        },
+        {
+          "id": "DEPENDENT_ONLY",
+          "status": "PASS",
+          "reason": "يكتب طلب موعد عامًا بلا اسم أو تفاصيل حالة، ولا يسأل عن اسم غير لازم ولا يختلق لقاء وقع."
+        }
+      ],
+      "status": "PASS",
+      "professional_status": "PASS",
+      "protocol_audit": {
+        "session_file": "rollout-2026-10-05T11-21-15-01a10b27-1e54-7c60-8587-1a5d27dd4e7a.jsonl",
+        "journal_sha256": "9b37d93cbc0f581c219b623751a44f94699eb26d2045c002204bff699a409349",
+        "context_id_matches": true,
+        "assistant_messages_match": true,
+        "answer_hash_matches": true,
+        "visible_messages_hash_matches": true,
+        "task_started_count_before_first_completion": 1,
+        "task_complete_count_in_reviewed_prefix": 1,
+        "later_task_starts_excluded": 0,
+        "tool_call_and_return_rubric_tokens_observed": [],
+        "freshness_limit": "Prefix through captured first completion shows one started/completed turn and matching subagent identity. Later starts are excluded explicitly. Encrypted dispatch is not plaintext proof of exact scenario input; no claim that hashes authenticate a reviewer.",
+        "tool_calls_reviewed": 0,
+        "runtime_write_observed": false
+      }
+    },
+    {
+      "scenario_id": "B16_PUBLIC_INITIALS",
+      "answer_sha256": "aabcd5758aae8cdf5acaef05698c064dc8329c379c25219fea1d2ab393793d9f",
+      "visible_messages_sha256": "056ee2010902c374b95cb96960b2842d19fcb90a53c00c293bf32d51f878964c",
+      "reviewer": "/root/fresh_review_daily",
+      "independent": true,
+      "reviewed_at": "2026-10-05T08:35:45.253065+00:00",
+      "criteria": [
+        {
+          "id": "DIRECT",
+          "status": "PASS",
+          "reason": "مضمون الإجابة يبدأ بالجواب أو الفعل المطلوب مباشرة. رسائل التقدم المنفصلة إن وجدت موجزة ولا تحمل حكمًا ينتظر الاستيضاح؛ إعلان PDF في B05 من الحد الملزم."
+        },
+        {
+          "id": "NATURAL",
+          "status": "PASS",
+          "reason": "عربية مفهومة وتفصيل بحجم الطلب دون قالب أو تكرار زائد. التحية في B15 جزء من الخطاب المطلوب وليست مقدمة للمساعد."
+        },
+        {
+          "id": "NO_INTERNALS",
+          "status": "PASS",
+          "reason": "لا يسرد أسماء ملفات أو معرفات أو آليات فحص في الحوار. لا تتحول استدعاءات الأدوات غير الحوارية إلى نص جواب."
+        },
+        {
+          "id": "DECISIVE_CONSTRAINT",
+          "status": "PASS",
+          "reason": "يوضح خطر التعرف غير المباشر، ويوجه إبقاء التفاصيل في الموطن المقيد وحذف القرائن من الحزمة العامة ومراجعتها قبل المشاركة؛ بذلك يجعل المشاركة لاحقة لمعالجة القرائن والمراجعة، ولا يدعي ضمان الحارس."
+        },
+        {
+          "id": "SOURCE_AND_FACT",
+          "status": "PASS",
+          "reason": "لا اختلاق تنفيذ أو حفظ أو دور أو تشخيص؛ يتفق المضمون مع الوقائع المقدمة وضوابط guide/workflow.md الحالية، والمقترح في B05 وB09 منفصل عن النص الملزم."
+        },
+        {
+          "id": "INDIRECT_IDENTIFICATION",
+          "status": "PASS",
+          "reason": "يوضح خطر التعرف غير المباشر، ويوجه إبقاء التفاصيل في الموطن المقيد وحذف القرائن من الحزمة العامة ومراجعتها قبل المشاركة؛ بذلك يجعل المشاركة لاحقة لمعالجة القرائن والمراجعة، ولا يدعي ضمان الحارس."
+        }
+      ],
+      "status": "PASS",
+      "professional_status": "PASS",
+      "protocol_audit": {
+        "session_file": "rollout-2026-10-05T11-21-59-01a10b27-c903-7cf2-8088-1f0d9c2fab7e.jsonl",
+        "journal_sha256": "d76e194ed38e26e3a6c4294b35dc73f38d74254dac5e3125ce957c2b7fd6e3e4",
+        "context_id_matches": true,
+        "assistant_messages_match": true,
+        "answer_hash_matches": true,
+        "visible_messages_hash_matches": true,
+        "task_started_count_before_first_completion": 1,
+        "task_complete_count_in_reviewed_prefix": 1,
+        "later_task_starts_excluded": 0,
+        "tool_call_and_return_rubric_tokens_observed": [],
+        "freshness_limit": "Prefix through captured first completion shows one started/completed turn and matching subagent identity. Later starts are excluded explicitly. Encrypted dispatch is not plaintext proof of exact scenario input; no claim that hashes authenticate a reviewer.",
+        "tool_calls_reviewed": 1,
+        "runtime_write_observed": false
+      }
+    }
+  ],
+  "summary": {
+    "scenarios": 11,
+    "pass": 8,
+    "fail": 3,
+    "professional_pass": 11,
+    "raw_memory_metadata_failures": [
+      "B05_COMPOUND_ACTION",
+      "B11_PLAN_NOT_EVIDENCE",
+      "B14_HELP_BEFORE_RECORD"
+    ]
+  }
+}

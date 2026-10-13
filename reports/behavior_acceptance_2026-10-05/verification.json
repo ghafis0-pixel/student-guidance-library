@@ -1,0 +1,41 @@
+{
+  "scope": "Actual local preflight commands executed on 2026-10-05; no model conversation run",
+  "verify_library": {
+    "status": "pass",
+    "manifest_files": 93,
+    "source_records": 29,
+    "noor_matrix_records": 31,
+    "work_records": 1,
+    "ocr_required": [
+      "REF-QASSIM-1448",
+      "REF-TASKS-GUIDE",
+      "PG-04"
+    ],
+    "errors": []
+  },
+  "check_work_register": {
+    "status": "pass",
+    "errors": []
+  },
+  "sync_chunk_metadata": {
+    "status": "CURRENT",
+    "files": [],
+    "text_changed": false,
+    "privacy_receipts": {}
+  },
+  "git_diff_check": {
+    "exit_code": 0,
+    "output": ""
+  },
+  "unit_tests_143": {
+    "status": "NOT_RERUN",
+    "reason": "The independent report already reran them on the byte-matching candidate v2; no runtime files changed during this preparation."
+  },
+  "actual_conversations": {
+    "status": "EXECUTED_AND_REVIEWED_FAIL",
+    "authorization_ref": "AUTHORIZATION_REFERENCE.md",
+    "completed_responses": 18,
+    "selected_responses": 17,
+    "result_ref": "CANDIDATE_STATE.json"
+  }
+}

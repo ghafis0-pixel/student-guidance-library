@@ -1,0 +1,12 @@
+{
+  "status": "BYTES_AND_CRC_PASS",
+  "acceptance": "PASS",
+  "ui_metadata_rendering": "UNVERIFIED",
+  "archive_path": "C:\\Users\\CSS\\.codex\\visualizations\\2026\\10\\04\\01a108d7-1817-7261-8432-a7e2be564ca1\\behavior_remediation_2026-10-05_final_evidence.zip",
+  "archive_bytes": 577641,
+  "archive_sha256": "7be1ef5587ee99603816f4f501cbfe2bbcd842eface6c44ceb0b8198814834d5",
+  "members": 21,
+  "local_only": true,
+  "uploaded": false,
+  "previous_archives_overwritten": false
+}

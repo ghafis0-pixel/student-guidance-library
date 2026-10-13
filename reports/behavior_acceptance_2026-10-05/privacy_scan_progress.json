@@ -1,0 +1,168 @@
+{
+  "scope": "Pattern scan only; no public delivery clearance",
+  "files": [
+    {
+      "file": "actual_runs_unreviewed.json",
+      "codes": {
+        "CONTACT_NUMBER": 16
+      },
+      "finding_locations": [
+        "$.runs[0].project.files.field#0:line:1",
+        "$.runs[1].project.files.field#0:line:1",
+        "$.runs[2].project.files.field#0:line:1",
+        "$.runs[3].project.files.field#0:line:1",
+        "$.runs[4].project.files.field#0:line:1",
+        "$.runs[5].project.files.field#0:line:1",
+        "$.runs[6].project.files.field#0:line:1",
+        "$.runs[7].project.files.field#0:line:1",
+        "$.runs[8].project.files.field#0:line:1",
+        "$.runs[9].project.files.field#0:line:1"
+      ]
+    },
+    {
+      "file": "actual_transcripts.json",
+      "codes": {},
+      "finding_locations": []
+    },
+    {
+      "file": "audit_capture.py",
+      "codes": {},
+      "finding_locations": []
+    },
+    {
+      "file": "AUTHORIZATION_REFERENCE.md",
+      "codes": {},
+      "finding_locations": []
+    },
+    {
+      "file": "candidate_package_verification.json",
+      "codes": {
+        "CONTACT_NUMBER": 1
+      },
+      "finding_locations": [
+        "$.package_project_files_sha256.field#0:line:1"
+      ]
+    },
+    {
+      "file": "capture_audit.json",
+      "codes": {},
+      "finding_locations": []
+    },
+    {
+      "file": "capture_progress.json",
+      "codes": {},
+      "finding_locations": []
+    },
+    {
+      "file": "capture_round.py",
+      "codes": {},
+      "finding_locations": []
+    },
+    {
+      "file": "environment_preflight.json",
+      "codes": {},
+      "finding_locations": []
+    },
+    {
+      "file": "execution_report.md",
+      "codes": {},
+      "finding_locations": []
+    },
+    {
+      "file": "finalize_round.py",
+      "codes": {},
+      "finding_locations": []
+    },
+    {
+      "file": "incomplete_attempts.json",
+      "codes": {},
+      "finding_locations": []
+    },
+    {
+      "file": "independent_review_received.md",
+      "codes": {},
+      "finding_locations": []
+    },
+    {
+      "file": "make_review_input.py",
+      "codes": {},
+      "finding_locations": []
+    },
+    {
+      "file": "pre_run_NOT_RUN.json",
+      "codes": {},
+      "finding_locations": []
+    },
+    {
+      "file": "prepare_acceptance.py",
+      "codes": {},
+      "finding_locations": []
+    },
+    {
+      "file": "project_before.json",
+      "codes": {
+        "CONTACT_NUMBER": 1
+      },
+      "finding_locations": [
+        "$.files.field#0:line:1"
+      ]
+    },
+    {
+      "file": "project_unchanged_after_preparation.json",
+      "codes": {},
+      "finding_locations": []
+    },
+    {
+      "file": "raw_and_metadata_diagnostics.json",
+      "codes": {},
+      "finding_locations": []
+    },
+    {
+      "file": "review_privacy.json",
+      "codes": {},
+      "finding_locations": []
+    },
+    {
+      "file": "review_privacy_input.json",
+      "codes": {
+        "CONTACT_NUMBER": 5
+      },
+      "finding_locations": [
+        "$.runs[0].project.files.field#0:line:1",
+        "$.runs[1].project.files.field#0:line:1",
+        "$.runs[2].project.files.field#0:line:1",
+        "$.runs[3].project.files.field#0:line:1",
+        "$.runs[4].project.files.field#0:line:1"
+      ]
+    },
+    {
+      "file": "review_sources_input.json",
+      "codes": {
+        "CONTACT_NUMBER": 6
+      },
+      "finding_locations": [
+        "$.runs[0].project.files.field#0:line:1",
+        "$.runs[1].project.files.field#0:line:1",
+        "$.runs[2].project.files.field#0:line:1",
+        "$.runs[3].project.files.field#0:line:1",
+        "$.runs[4].project.files.field#0:line:1",
+        "$.runs[5].project.files.field#0:line:1"
+      ]
+    },
+    {
+      "file": "run_plan.json",
+      "codes": {},
+      "finding_locations": []
+    },
+    {
+      "file": "scenario_requests.json",
+      "codes": {},
+      "finding_locations": []
+    },
+    {
+      "file": "verification.json",
+      "codes": {},
+      "finding_locations": []
+    }
+  ]
+}

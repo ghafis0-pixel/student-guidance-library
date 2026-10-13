@@ -1,0 +1,970 @@
+{
+  "scope": "Recorded return hashes and status metadata for each captured invocation, without reproducing tool-output content.",
+  "limits": "Successful returns and source paths in invocation show retrieval activity; they do not certify full original-source reading, exact page interpretation, absence of truncation, or rendered images. Exit codes are included only when explicitly printed in a parseable JSON return.",
+  "results": {
+    "B12_INITIALS_ALLOWED": {
+      "context_id": "01a108eb-acc8-78e2-90e1-7dd37881ae0b",
+      "referenced_project_paths_in_invocation": [
+        "context/current.json",
+        "context/decisions.md",
+        "guide/workflow.md"
+      ],
+      "tool_returns": [
+        {
+          "call_id": "call_lUuvzNzH5RHUJlqR9YyuMHuv",
+          "name": "exec",
+          "returned_at": "2026-10-04T21:57:25.442Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "98b781d1d568628e201ffc4bc5e93d1a47baa5af332f441a117e8f1b227e3e1b",
+          "text_blocks": 3,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [
+            0,
+            0
+          ],
+          "nonempty_return": true
+        },
+        {
+          "call_id": "call_rg5JOUXSQwHNKmtNPy2VGNKl",
+          "name": "exec",
+          "returned_at": "2026-10-04T21:57:47.572Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "2b5eccc994f402b4e822108cbcfc2b7d49030f259fa85bcc3d32e314b2b6140a",
+          "text_blocks": 4,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [
+            0,
+            0,
+            0
+          ],
+          "nonempty_return": true
+        }
+      ]
+    },
+    "B01_PREVIOUS_UNKNOWN": {
+      "context_id": "01a108eb-bec3-7180-86e1-bdcc59f03f21",
+      "referenced_project_paths_in_invocation": [
+        "catalog/reference_matrix.json",
+        "context/current.json",
+        "context/decisions.md",
+        "guide/workflow.md"
+      ],
+      "tool_returns": [
+        {
+          "call_id": "call_kJYYdzk08iWNgeLGV15fCMQU",
+          "name": "exec",
+          "returned_at": "2026-10-04T21:57:30.288Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "b7b26f97ebb0e4273e734c125beeb7f8ff3f056ca20d6ac670e8f574caa6252f",
+          "text_blocks": 3,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [
+            0,
+            0
+          ],
+          "nonempty_return": true
+        },
+        {
+          "call_id": "call_WF0jrQfh5yVHAuVbWRTpSHaR",
+          "name": "exec",
+          "returned_at": "2026-10-04T21:57:44.550Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "727de0f2d2e1fda96f4fa1f6d00779f7049870e57313c841975c418865d178e8",
+          "text_blocks": 2,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [],
+          "nonempty_return": true
+        }
+      ]
+    },
+    "B17_KNOWN_PRIOR_EXECUTION": {
+      "context_id": "01a108ed-0634-73d1-af2e-47abbebb02d4",
+      "referenced_project_paths_in_invocation": [
+        "catalog/reference_matrix.json",
+        "catalog/source_registry.json",
+        "context/current.json",
+        "context/decisions.md",
+        "extracted_text/pdf/REF-BEHAVIOR-1447-V5.txt",
+        "guide/workflow.md",
+        "references/02_regulatory/behavior_and_attendance_regulations/قواعد السلوك والمواظبة الإصدار الخامس 1447.pdf",
+        "references/02_regulatory/procedural_guides/الدليل الإجرائي الكامل - رجب 1446.pdf"
+      ],
+      "tool_returns": [
+        {
+          "call_id": "call_ywf7hzumggx1hGNETD3PtZn7",
+          "name": "exec",
+          "returned_at": "2026-10-04T21:58:57.389Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "133e2cc1e4c13aabc6bb987970fa4bf76e384b791345035e638ae9d59441a232",
+          "text_blocks": 5,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "nonempty_return": true
+        },
+        {
+          "call_id": "call_pQ8ZZRlPQRaa8wmtaICuKL0R",
+          "name": "exec",
+          "returned_at": "2026-10-04T21:59:16.518Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "abe2bdddc8ea8697abf9b2e8dd86221c09b4d3874a6de0b24bab693eb6628554",
+          "text_blocks": 2,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [],
+          "nonempty_return": true
+        },
+        {
+          "call_id": "call_W8NIqJtDxPfgLLtxOeuKgWCR",
+          "name": "exec",
+          "returned_at": "2026-10-04T21:59:38.161Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "eaabf2c0e6b70e81b8edd6da5de8403080272fcad50029e3e885911cf3483162",
+          "text_blocks": 5,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "nonempty_return": true
+        },
+        {
+          "call_id": "call_rWipXEm6HpEDpEmAJ88xOxmp",
+          "name": "exec",
+          "returned_at": "2026-10-04T22:00:07.185Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "7cd89c2abbbbe8fc8949d01c170e22911ae483790e8bba3eff33c6254ba63d1a",
+          "text_blocks": 4,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [
+            0,
+            0
+          ],
+          "nonempty_return": true
+        },
+        {
+          "call_id": "call_qIoK4ogySNmlEmL7xv3Qtzib",
+          "name": "exec",
+          "returned_at": "2026-10-04T22:00:16.257Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "61a3d666d032ab1273be1246c9fbbeac21668b72403d949365a0ed0536af1992",
+          "text_blocks": 2,
+          "image_blocks": 2,
+          "nested_shell_exit_codes_observed": [
+            0
+          ],
+          "nonempty_return": true
+        },
+        {
+          "call_id": "call_pEwr6AlOjhaf5bWAkoTqH6Rk",
+          "name": "exec",
+          "returned_at": "2026-10-04T22:00:40.549Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "d013a897486bec1c3f7e761afed7ea681c3023c4b8dacd7bd031547199a533c5",
+          "text_blocks": 2,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [],
+          "nonempty_return": true
+        },
+        {
+          "call_id": "call_0GlK3NcbEhs6I52Qqrn32BZK",
+          "name": "exec",
+          "returned_at": "2026-10-04T22:00:46.014Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "9947de37393e28246b59b348eb9c2bbb9c1f0f30c71d4b3de3cfe127d7eb499c",
+          "text_blocks": 1,
+          "image_blocks": 3,
+          "nested_shell_exit_codes_observed": [],
+          "nonempty_return": true
+        },
+        {
+          "call_id": "call_Qp1QU28RGjXwewxqMfwK7RlR",
+          "name": "sleep",
+          "returned_at": "2026-10-04T22:06:09.151Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "07fa51021c29857b87634519d9f56ed6a3ee302ac38cbad23961eab8ea074a5a",
+          "text_blocks": 1,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [],
+          "nonempty_return": true
+        }
+      ]
+    },
+    "B02_URGENT_SAFETY": {
+      "context_id": "01a108f4-dcf9-70d1-abfc-addcdb012572",
+      "referenced_project_paths_in_invocation": [],
+      "tool_returns": [
+        {
+          "call_id": "call_ZhbC8l07PUZByPW2bItozPCV",
+          "name": "exec",
+          "returned_at": "2026-10-04T22:07:44.971Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "0fa28527ec41b76d70c9803bdec0cbcfa3bdd8322999ba774ab69a3357848893",
+          "text_blocks": 2,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [],
+          "nonempty_return": true
+        }
+      ]
+    },
+    "B13_INITIALS_COLLISION": {
+      "context_id": "01a108f6-223c-7721-809f-05f6cd32dee4",
+      "referenced_project_paths_in_invocation": [],
+      "tool_returns": []
+    },
+    "B08_PROFESSIONAL_UNKNOWN": {
+      "context_id": "01a108f6-a2cc-7122-b946-2ce2354fa1a5",
+      "referenced_project_paths_in_invocation": [
+        "catalog/reference_matrix.json",
+        "catalog/source_registry.json",
+        "catalog/خريطة_صفحات_الموجه_الطلابي_نسخة_متحققة.md",
+        "context/current.json",
+        "context/decisions.md",
+        "guide/workflow.md",
+        "references/02_regulatory/procedural_guides/الدليل الإجرائي الكامل - رجب 1446.pdf"
+      ],
+      "tool_returns": [
+        {
+          "call_id": "call_9sbh6D8foqX56loSB9887GUy",
+          "name": "exec",
+          "returned_at": "2026-10-04T22:09:31.163Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "d1c3241e65015b2627385325a66754913c8ebbd0fb0f7777081292e1e37444f2",
+          "text_blocks": 2,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [],
+          "nonempty_return": true
+        },
+        {
+          "call_id": "call_Gz0lbiOgKPVY0d42vECFRDs5",
+          "name": "list_agents",
+          "returned_at": "2026-10-04T22:09:56.139Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "614c648c9b2c64e45b0cf6cf4787f39a7f52d679ece3d6a2ecc9d8def5a459b2",
+          "text_blocks": 1,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [],
+          "nonempty_return": true
+        },
+        {
+          "call_id": "call_XiEyL5G1QuvVxNN4U10BCbM8",
+          "name": "exec",
+          "returned_at": "2026-10-04T22:10:26.970Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "b209a2bda713bc60792518972c60fd4c5917c13bc6d65946cc26facbf41400e0",
+          "text_blocks": 2,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [],
+          "nonempty_return": true
+        },
+        {
+          "call_id": "call_mrvqiybr8ZPM97QjLYQiQFIk",
+          "name": "exec",
+          "returned_at": "2026-10-04T22:10:40.387Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "4ba920e67fdee64d67a942e78512695350493dd7cbabcad814a2261bd50bbd0a",
+          "text_blocks": 2,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [
+            0
+          ],
+          "nonempty_return": true
+        },
+        {
+          "call_id": "call_m5OONVkVLF4U68XKWSpsOtl0",
+          "name": "send_message",
+          "returned_at": "2026-10-04T22:10:46.488Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+          "text_blocks": 1,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [],
+          "nonempty_return": false
+        },
+        {
+          "call_id": "call_H1BygBu6Ly9KUa80I1vKhv5N",
+          "name": "exec",
+          "returned_at": "2026-10-04T22:11:03.594Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "c595ba9ce2e5f25644f4de21efdd3cc63e6d63887a00bdf5def461fb7269d033",
+          "text_blocks": 4,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [
+            0,
+            0
+          ],
+          "nonempty_return": true
+        },
+        {
+          "call_id": "call_d3hGQ9bvtRMDxqPKOQUSHRB2",
+          "name": "exec",
+          "returned_at": "2026-10-04T22:11:53.366Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "42ff7a338047968b0ceea648309111b70b5d1c9660c6bf8f2664208cc12d10e1",
+          "text_blocks": 2,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [
+            1
+          ],
+          "nonempty_return": true
+        },
+        {
+          "call_id": "call_FqK5IazeqrqRwMAJ4VFhTJEp",
+          "name": "exec",
+          "returned_at": "2026-10-04T22:12:08.818Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "d7d87f05398d3821ce65fefd4b30db4717177094bfc761d1d6120ab2337c2502",
+          "text_blocks": 2,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [
+            0
+          ],
+          "nonempty_return": true
+        },
+        {
+          "call_id": "call_uZjEVQYrqzRmm2KQpFeYL8Pk",
+          "name": "exec",
+          "returned_at": "2026-10-04T22:12:22.521Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "2edaa974ce942818d307712ced226378b91976463b93511f58e56b97b183e8cd",
+          "text_blocks": 2,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [
+            0
+          ],
+          "nonempty_return": true
+        },
+        {
+          "call_id": "call_9twaGElSi41QxHs7AfoKH6yW",
+          "name": "exec",
+          "returned_at": "2026-10-04T22:12:28.311Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "768d7a5b6c872c345d593797e2274141514853f4cde9fff93192fdc61f9abcf6",
+          "text_blocks": 1,
+          "image_blocks": 3,
+          "nested_shell_exit_codes_observed": [],
+          "nonempty_return": true
+        },
+        {
+          "call_id": "call_5UNaAuckHIrBMW3XUZFPNo6p",
+          "name": "send_message",
+          "returned_at": "2026-10-04T22:12:45.057Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+          "text_blocks": 1,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [],
+          "nonempty_return": false
+        },
+        {
+          "call_id": "call_JfnYsJMniumYkuxIVC8jnDCz",
+          "name": "send_message",
+          "returned_at": "2026-10-04T22:13:06.956Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+          "text_blocks": 1,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [],
+          "nonempty_return": false
+        }
+      ]
+    },
+    "B06_SIMPLE_ACTION": {
+      "context_id": "01a108fa-55ff-7d83-8f03-d60580d593bb",
+      "referenced_project_paths_in_invocation": [],
+      "tool_returns": []
+    },
+    "B07_KNOWLEDGE_NOOR": {
+      "context_id": "01a108fa-b498-7310-a85a-be8b071bb8b8",
+      "referenced_project_paths_in_invocation": [
+        "context/current.json",
+        "context/decisions.md",
+        "guide/workflow.md"
+      ],
+      "tool_returns": [
+        {
+          "call_id": "call_34m07NmjPJTt6oPYgV1ShQMY",
+          "name": "exec",
+          "returned_at": "2026-10-04T22:14:12.081Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "99aa529df2c91eb05a3fb7dd220182b9f356eae04244372a8a662d3bb7ec3de1",
+          "text_blocks": 3,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [
+            0,
+            0
+          ],
+          "nonempty_return": true
+        },
+        {
+          "call_id": "call_HpS6zIC4cRjxLXikmtwwJwzJ",
+          "name": "exec",
+          "returned_at": "2026-10-04T22:14:30.286Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "a2e3866487b094adb5fb658524d2f7a450abe674ee324a8d6df0f4ed86d376a4",
+          "text_blocks": 3,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [
+            0,
+            0
+          ],
+          "nonempty_return": true
+        }
+      ]
+    },
+    "B10_APPROVAL_NOOR": {
+      "context_id": "01a108fc-1a6c-7910-bc19-6a8bd8103048",
+      "referenced_project_paths_in_invocation": [
+        "context/current.json",
+        "context/decisions.md",
+        "guide/workflow.md",
+        "standards/behavior_acceptance.json",
+        "work/register.json"
+      ],
+      "tool_returns": [
+        {
+          "call_id": "call_m8JXnkAb8Z2V637Futogki9P",
+          "name": "exec",
+          "returned_at": "2026-10-04T22:15:28.312Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "304c8d13b98734302df0b0c21f997251b4c6eef0ea296fee1b78f210feb868bf",
+          "text_blocks": 2,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [],
+          "nonempty_return": true
+        },
+        {
+          "call_id": "call_oixRq1zfVv3PS2QA9ADBK6Hp",
+          "name": "exec",
+          "returned_at": "2026-10-04T22:15:50.553Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "2a303ce5c35d189e1554c55c01aa37c49225e50b3980dc417d063f09618e8110",
+          "text_blocks": 4,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [
+            0,
+            0,
+            0
+          ],
+          "nonempty_return": true
+        },
+        {
+          "call_id": "call_bWzUiM3rOPGXMToCKzQFppB4",
+          "name": "exec",
+          "returned_at": "2026-10-04T22:16:05.525Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "7c967f25ed1b20b39c5ed29faeee99dfee2be8648c5d113f5e1eeccc4774ab64",
+          "text_blocks": 2,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [
+            0
+          ],
+          "nonempty_return": true
+        },
+        {
+          "call_id": "call_whw7aI7m02tvxAO68lOfNWfv",
+          "name": "exec",
+          "returned_at": "2026-10-04T22:16:31.148Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "9c9303ba16090675e5c639aed4c3a5d24a62f7284ecc3629da8f381f639195a0",
+          "text_blocks": 2,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [
+            0
+          ],
+          "nonempty_return": true
+        }
+      ]
+    },
+    "B03_ARTICLES_33_34": {
+      "context_id": "01a108fc-acdb-7d43-ab0b-dc8f47c3fbde",
+      "referenced_project_paths_in_invocation": [
+        "catalog/reference_matrix.json",
+        "catalog/source_registry.json",
+        "context/current.json",
+        "context/decisions.md",
+        "extracted_text/pdf/REF-BEHAVIOR-1447-V5.txt",
+        "guide/workflow.md",
+        "references/02_regulatory/behavior_and_attendance_regulations/قواعد السلوك والمواظبة الإصدار الخامس 1447.pdf"
+      ],
+      "tool_returns": [
+        {
+          "call_id": "call_ZutCV7KG7gvNyDRJzkXKq20T",
+          "name": "wait_agent",
+          "returned_at": "2026-10-04T22:16:18.301Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "73b2ed9dfc1ae19b38bac5fcee24d1e47fcf4bf104268d483e38d5db98d370b8",
+          "text_blocks": 1,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [],
+          "nonempty_return": true
+        },
+        {
+          "call_id": "call_ShuVHJWKBwflh6JvZHsqU2r8",
+          "name": "exec",
+          "returned_at": "2026-10-04T22:16:36.695Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "efbe015cf3352f1a5a61b8c7d8268133f2c73b248059c705c55094daef53279d",
+          "text_blocks": 3,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [
+            0,
+            0
+          ],
+          "nonempty_return": true
+        },
+        {
+          "call_id": "call_VpbLcY5KrVvLqVDIl0NuEca2",
+          "name": "exec",
+          "returned_at": "2026-10-04T22:17:01.362Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "02fe6982e488f317f089a8d0d93cec2b49822427d3ff43935f007eaaf2457010",
+          "text_blocks": 5,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [
+            1,
+            1,
+            0
+          ],
+          "nonempty_return": true
+        },
+        {
+          "call_id": "call_TnaSPQAj91bBhVvv1j040eMw",
+          "name": "exec",
+          "returned_at": "2026-10-04T22:17:22.719Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "485d80a3584bad7d54c40e1cc985a1b4de4c5a11bea80effc651cc752991d9a5",
+          "text_blocks": 4,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [
+            0,
+            0,
+            1
+          ],
+          "nonempty_return": true
+        },
+        {
+          "call_id": "call_83rtf7I5XH588SnGyfrEYVlX",
+          "name": "exec",
+          "returned_at": "2026-10-04T22:17:44.412Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "b334a1a0660f4a96b236b06fa37697816b5626409321a3382984f2f49a625312",
+          "text_blocks": 3,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [
+            0,
+            0
+          ],
+          "nonempty_return": true
+        },
+        {
+          "call_id": "call_nmyMEyyk3cmytIjVxmGMmiGa",
+          "name": "exec",
+          "returned_at": "2026-10-04T22:18:03.837Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "8e5b865a3a98c776f7e3d27f64e89b1aeca71138717980ff60c17fa68c9e1bc1",
+          "text_blocks": 2,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [
+            0
+          ],
+          "nonempty_return": true
+        },
+        {
+          "call_id": "call_MRGpdYkdmHo9NOuMwFGTzeIb",
+          "name": "exec",
+          "returned_at": "2026-10-04T22:18:11.801Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "c275af419dcdedd0981f0d736348a47ed39219244c8fe7d0262cb0f2c6b2f13e",
+          "text_blocks": 1,
+          "image_blocks": 3,
+          "nested_shell_exit_codes_observed": [],
+          "nonempty_return": true
+        }
+      ]
+    },
+    "B11_PLAN_NOT_EVIDENCE": {
+      "context_id": "01a108fd-e680-7293-ac5b-60da6c69d9b4",
+      "referenced_project_paths_in_invocation": [
+        "context/current.json",
+        "context/decisions.md",
+        "guide/workflow.md",
+        "standards/WEEKLY_PLAN_GATE.md",
+        "work/register.json"
+      ],
+      "tool_returns": [
+        {
+          "call_id": "call_LDjZ2vkQ5nX0qm43fYCzIqJd",
+          "name": "exec",
+          "returned_at": "2026-10-04T22:17:26.646Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "a0478be771d089ce13ae4ef828309415f250041e921532bffd6e442f36317e70",
+          "text_blocks": 4,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [
+            0,
+            0,
+            0
+          ],
+          "nonempty_return": true
+        },
+        {
+          "call_id": "call_8narwdrxMR34798qkscN4k48",
+          "name": "exec",
+          "returned_at": "2026-10-04T22:17:56.106Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "136c95e576b99cc57d3fa46551e9cdc3a521d194dd59ec65ae58f11f1f9a17a0",
+          "text_blocks": 3,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [
+            0,
+            0
+          ],
+          "nonempty_return": true
+        }
+      ]
+    },
+    "B14_HELP_BEFORE_RECORD": {
+      "context_id": "01a108ff-6091-71b2-bd84-85f705272d2a",
+      "referenced_project_paths_in_invocation": [
+        "context/current.json",
+        "context/decisions.md",
+        "guide/workflow.md"
+      ],
+      "tool_returns": [
+        {
+          "call_id": "call_HKk9Ux9OmYr1N450ck2Jw1C9",
+          "name": "exec",
+          "returned_at": "2026-10-04T22:19:09.693Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "39f4b0a1b0ad359e06b3ee9def5d9026e4c230ce218d8c6ab5dbf4dedf528a3f",
+          "text_blocks": 2,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [],
+          "nonempty_return": true
+        }
+      ]
+    },
+    "B04_OFFICIAL_ROLES": {
+      "context_id": "01a108ff-f3b3-7f41-a421-a6beb4e1bbb8",
+      "referenced_project_paths_in_invocation": [],
+      "tool_returns": []
+    },
+    "B15_INDEPENDENT_HELP": {
+      "context_id": "01a10900-7381-7cc3-928b-f99b7300dc71",
+      "referenced_project_paths_in_invocation": [],
+      "tool_returns": []
+    },
+    "B16_PUBLIC_INITIALS": {
+      "context_id": "01a10901-0000-7652-8fc5-0b68044dc5f3",
+      "referenced_project_paths_in_invocation": [
+        "context/current.json",
+        "context/decisions.md",
+        "guide/workflow.md"
+      ],
+      "tool_returns": [
+        {
+          "call_id": "call_ZsfQQzuj8C0moKLsZ5LBYlY8",
+          "name": "exec",
+          "returned_at": "2026-10-04T22:20:47.437Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "ad2d9dc048da1417d7d878bdd19863f6246e696c0488eb52de1682b4b902db76",
+          "text_blocks": 3,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [
+            0,
+            0
+          ],
+          "nonempty_return": true
+        },
+        {
+          "call_id": "call_fXQ5SJ9XE2rVBbzOHpvvxDeO",
+          "name": "exec",
+          "returned_at": "2026-10-04T22:21:06.238Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "2df394ec25478572fb32e0b4a9905726ed3b817acd2a7bcf7b4c249964eb0289",
+          "text_blocks": 2,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [
+            0
+          ],
+          "nonempty_return": true
+        }
+      ]
+    },
+    "B09_SOURCE_VS_PROPOSAL": {
+      "context_id": "01a10901-f0b8-7142-8e02-ed3b844677e4",
+      "referenced_project_paths_in_invocation": [
+        "context/current.json",
+        "context/decisions.md",
+        "guide/workflow.md"
+      ],
+      "tool_returns": [
+        {
+          "call_id": "call_jttFwyorB7KQhGhV0mgXOiJw",
+          "name": "exec",
+          "returned_at": "2026-10-04T22:21:53.415Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "a270336b36ee9789258e0fb24f9f10851c6c24b419bf2f33457cf327f2a81896",
+          "text_blocks": 2,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [],
+          "nonempty_return": true
+        }
+      ]
+    },
+    "B05_COMPOUND_ACTION": {
+      "context_id": "01a10911-e61c-7ab3-8f1e-02de7d2bbcf0",
+      "referenced_project_paths_in_invocation": [
+        "catalog/reference_matrix.json",
+        "catalog/source_registry.json",
+        "catalog/خريطة_صفحات_الموجه_الطلابي_نسخة_متحققة.md",
+        "context/current.json",
+        "context/decisions.md",
+        "guide/workflow.md",
+        "references/02_regulatory/procedural_guides/derived/كل_ما_يخص_الموجه_الطلابي_في_الدليل_الإجرائي_نسخة_متحققة.md",
+        "references/02_regulatory/procedural_guides/الدليل الإجرائي الكامل - رجب 1446.pdf"
+      ],
+      "tool_returns": [
+        {
+          "call_id": "call_6clkJ8O8jp3KFlt54AkxdhCV",
+          "name": "exec",
+          "returned_at": "2026-10-04T22:39:22.871Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "bc90d2212794efb06fae05a832a18610c587794094e9b69e1849ea913fd15c55",
+          "text_blocks": 2,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [],
+          "nonempty_return": true
+        },
+        {
+          "call_id": "call_CGLx4wMtr3EX70v6CxrO8jqu",
+          "name": "exec",
+          "returned_at": "2026-10-04T22:39:35.421Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "890674bf3e84ec0b1912f0a57b0ed01ab4a95a1f52841978d122d826dcac8d85",
+          "text_blocks": 2,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [],
+          "nonempty_return": true
+        },
+        {
+          "call_id": "call_LUCgqvBYWJklQA01wIobhm8G",
+          "name": "list_agents",
+          "returned_at": "2026-10-04T22:39:40.623Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "48455f7d8b71533e8e144f0e6b06c73ef981cdb4890732d935f3ea3caa812f2f",
+          "text_blocks": 1,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [],
+          "nonempty_return": true
+        },
+        {
+          "call_id": "call_IFXGsLq00lDK9sBTd3exE47p",
+          "name": "sleep",
+          "returned_at": "2026-10-04T22:44:56.163Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "b2924ac0cae849e432ea860b7879695d95be0fcdd7d1520bcf2cebd813c13607",
+          "text_blocks": 1,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [],
+          "nonempty_return": true
+        },
+        {
+          "call_id": "call_12owxYNQGF60aHL3OuYY19fS",
+          "name": "interrupt_agent",
+          "returned_at": "2026-10-04T22:45:28.905Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "ab0af077dbb6eaf1827cc98ed201d9f5dcdf0e5b9b70710c93fa9b1e413bbbe3",
+          "text_blocks": 1,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [],
+          "nonempty_return": true
+        },
+        {
+          "call_id": "call_GekG0nbmBt2wgggT9gTx5mCH",
+          "name": "exec",
+          "returned_at": "2026-10-04T22:45:45.233Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "5e5ad0a5980db31aa814e90a56fbba8316ffaf392804a13b5e8269ebb814b492",
+          "text_blocks": 2,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [],
+          "nonempty_return": true
+        },
+        {
+          "call_id": "call_sKQwh9ox7oQBU268Gj9DQlQR",
+          "name": "request_user_input",
+          "returned_at": "2026-10-04T22:46:06.942Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "f134376ddba57e1034e4645a406e7e474ffb4b90d66c1024ce472b05aba038f8",
+          "text_blocks": 1,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [],
+          "nonempty_return": true
+        },
+        {
+          "call_id": "call_wzhR40NGDN7nxg249juqdhM9",
+          "name": "send_message",
+          "returned_at": "2026-10-04T22:46:14.525Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+          "text_blocks": 1,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [],
+          "nonempty_return": false
+        },
+        {
+          "call_id": "call_T7vvyJLHVPWoJTbaxaDfFX9h",
+          "name": "exec",
+          "returned_at": "2026-10-04T22:46:35.554Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "1518a5f3c3e758880d227d23b3334aff3d88cbb3834c59f82b2e4de5c5f45a69",
+          "text_blocks": 2,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [],
+          "nonempty_return": true
+        },
+        {
+          "call_id": "call_iFVfHMZMjh8OB6vBt2YEBU2o",
+          "name": "send_message",
+          "returned_at": "2026-10-04T22:46:43.323Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "17baeaa3f557f3b0c86f17cf83e2fee6088950eb3a7fa4a40b26284c823f267a",
+          "text_blocks": 1,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [],
+          "nonempty_return": true
+        },
+        {
+          "call_id": "call_uupqe8Q89bautOzIQ0pOKpMw",
+          "name": "send_message",
+          "returned_at": "2026-10-04T22:46:50.471Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "69a6d8158e1b99e34f1e84f0b7b640b3b2ea5e5721de91c0daa6a978b6a93686",
+          "text_blocks": 1,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [],
+          "nonempty_return": true
+        },
+        {
+          "call_id": "call_V1H7MnYqAmOoP9oGkJ1Creh4",
+          "name": "list_agents",
+          "returned_at": "2026-10-04T22:46:54.781Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "2c419d53b7cd9b005f909294b4a7f901f80827438b6dc463a5f824f6bbf86bb7",
+          "text_blocks": 1,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [],
+          "nonempty_return": true
+        },
+        {
+          "call_id": "call_cxwyxCh0qxwNuBUJeP7DbauX",
+          "name": "exec",
+          "returned_at": "2026-10-04T22:47:12.700Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "02499302aeb14087664bd5cf44f9b6c970d2bd8ad8a65a230bc18e84efd45c99",
+          "text_blocks": 3,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [
+            0
+          ],
+          "nonempty_return": true
+        },
+        {
+          "call_id": "call_cswP0DErQJ0vnesjyc5UIlDn",
+          "name": "exec",
+          "returned_at": "2026-10-04T22:47:36.330Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "0c81816547ac1d0f326a8565cc7da0b1862fc1ef7c02a5a3cc6866a35d7cb5c2",
+          "text_blocks": 2,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [],
+          "nonempty_return": true
+        },
+        {
+          "call_id": "call_6TAGGnSDqJbevqAf6S4Cqmtz",
+          "name": "exec",
+          "returned_at": "2026-10-04T22:47:42.242Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "0103ebeaad7809fc87f827d0521635a98a1a877e25c9907a1f21ed907b46a5e8",
+          "text_blocks": 2,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [],
+          "nonempty_return": true
+        },
+        {
+          "call_id": "call_WJeyw3uAIbcrb71Qp80CTwxS",
+          "name": "exec",
+          "returned_at": "2026-10-04T22:48:01.901Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "3738a5b5617f8cdefba5634f8613d70a9cceb8b9425a698ced5060125ab09abb",
+          "text_blocks": 2,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [],
+          "nonempty_return": true
+        },
+        {
+          "call_id": "call_EtcijVrV9dJZKsrGPpGABOS4",
+          "name": "exec",
+          "returned_at": "2026-10-04T22:48:22.732Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "15aa6555fbeb6a45edae018e5fed38d13e6e12d554a3ebe76e245ecf866c5eb5",
+          "text_blocks": 2,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [],
+          "nonempty_return": true
+        },
+        {
+          "call_id": "call_WfTpsXBM7T8BMFxOSm2QCGKK",
+          "name": "exec",
+          "returned_at": "2026-10-04T22:48:29.168Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "833cd10412a902934c78728b833252fd3dd0ffe2948d0fe0ca8f397a425cfccd",
+          "text_blocks": 1,
+          "image_blocks": 2,
+          "nested_shell_exit_codes_observed": [],
+          "nonempty_return": true
+        },
+        {
+          "call_id": "call_VrvbY6La0WmqAfgiMUphVn2M",
+          "name": "send_message",
+          "returned_at": "2026-10-04T22:48:57.438Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+          "text_blocks": 1,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [],
+          "nonempty_return": false
+        },
+        {
+          "call_id": "call_hMVjhDun9yMTBYkxIl0Q7gca",
+          "name": "exec",
+          "returned_at": "2026-10-04T22:49:20.004Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "ada8ceb54a80da973623748bb1f14a1bf117afab926cd93ac7115f20d1e6f049",
+          "text_blocks": 2,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [],
+          "nonempty_return": true
+        },
+        {
+          "call_id": "call_yQirwvZ3zXxcV6yhnFXTQldL",
+          "name": "list_agents",
+          "returned_at": "2026-10-04T22:49:46.757Z",
+          "status": "RETURN_RECORDED",
+          "output_sha256": "ce3b02efb825002d0e35921e4eeef708cc37f8bfee73949a36c9d4e769fab3fa",
+          "text_blocks": 1,
+          "image_blocks": 0,
+          "nested_shell_exit_codes_observed": [],
+          "nonempty_return": true
+        }
+      ]
+    }
+  }
+}

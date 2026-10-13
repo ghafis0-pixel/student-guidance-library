@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "audited_at": "2026-10-04T23:11:06.757717+00:00",
+  "captured_responses": 1,
+  "distinct_response_contexts": 1,
+  "runs_sha256": "235231f151e77ba66376a233aa6f76306fde97cba519ed5e8e2b98bd5f2528c3",
+  "transcripts_sha256": "639b9126c37aeb7b6c6f4b1de6e3dc24394855885008e9c0124d9ff925771e7c",
+  "checks": [
+    {
+      "scenario_id": "B10_APPROVAL_NOOR",
+      "context_id": "01a1092d-0a2e-7af2-996d-8229a5b805f1",
+      "answer_sha256": "fda592828bda8b9a295b2eb52e66315cc6554b0ca3fd2e9cba5f6b5857fa7c83",
+      "visible_messages_count": 2,
+      "first_and_only_response_turn": true,
+      "raw_answers_and_all_messages_match_journal": true,
+      "dispatch_target_and_recorded_payload_match": true,
+      "prompt_plaintext_in_journal_verified": false,
+      "tool_call_bytes_match_journal": true,
+      "top_level_tool_names": [
+        "exec"
+      ],
+      "nested_tool_names_referenced": [
+        "exec_command"
+      ],
+      "referenced_project_files": [
+        "context/current.json",
+        "context/decisions.md",
+        "guide/workflow.md",
+        "work/register.json"
+      ]
+    }
+  ],
+  "project_files_referenced_union": [
+    "context/current.json",
+    "context/decisions.md",
+    "guide/workflow.md",
+    "work/register.json"
+  ],
+  "execution_errors": [
+    {
+      "agent": "/root/response_b05",
+      "context_id": "01a108fa-dbad-7860-a14c-ebef428a5538",
+      "turn_id": "01a108fa-de10-7da3-ba5c-8450eb934679",
+      "at": "2026-10-04T22:32:19.846Z",
+      "error_message": "Fatal error: application network permission was revoked",
+      "classification": "EXECUTION_ENVIRONMENT_ERROR; never acceptance"
+    },
+    {
+      "agent": "/root/review_privacy",
+      "context_id": "01a10903-e2db-7731-b72a-fd2d62c7437b",
+      "turn_id": "01a10903-e5a2-7e33-850e-91816d1efdff",
+      "at": "2026-10-04T22:32:19.904Z",
+      "error_message": "Fatal error: application network permission was revoked",
+      "classification": "EXECUTION_ENVIRONMENT_ERROR; never acceptance"
+    },
+    {
+      "agent": "/root/review_sources",
+      "context_id": "01a1090b-97b2-7961-ba01-3293ee0f8ea7",
+      "turn_id": "01a1090b-9baf-78e3-ab68-57cbf16f2a7e",
+      "at": "2026-10-04T22:32:47.676Z",
+      "error_message": "unexpected status 401 Unauthorized: Missing bearer or basic authentication in header, url: https://api.openai.com/v1/responses, cf-ray: a457a4fdb9947bd7-SOF, request id: req_bcb7de9f19814b60aadb061c24eb0abb",
+      "classification": "EXECUTION_ENVIRONMENT_ERROR; never acceptance"
+    }
+  ],
+  "limits": "Journal dispatch plaintext is encrypted in this environment. Prompt text is separately operator-captured; ciphertext binding does not authenticate its plaintext. Nested tool names are inferred from recorded invocation code. File references prove tool invocation content, not full file reading. No semantic or independent acceptance judgment is made by this audit."
+}

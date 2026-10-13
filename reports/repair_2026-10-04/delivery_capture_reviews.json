@@ -1,0 +1,26 @@
+{
+  "reports/repair_2026-10-04/current_behavior_runs.json": {
+    "guard_version": "1.0.0",
+    "decision": "cleared",
+    "content_sha256": "ade4eab4a11b058c40ff1f51ce4e6d63fa85733d6851eff3bdbededa1378f02b",
+    "findings_sha256": "4d916632a97ce0177a41ee3e596eecba7558618719ad8c9eafab84616321b07c",
+    "reference": "reports/repair_2026-10-04/delivery_privacy_review.md",
+    "reason": "Reviewed AI conversation/session UUID metadata and synthetic acceptance scenarios; public technical evidence contains no actual student identity or case. Number-shaped UUID fragments are not phone numbers."
+  },
+  "reports/repair_2026-10-04/current_behavior_reviews.json": {
+    "guard_version": "1.0.0",
+    "decision": "cleared",
+    "content_sha256": "844236dbfd9a629ca0ee5afa4c80c6942fa667f581080d2e3c0dfdfa29d822cd",
+    "findings_sha256": "d93d0cb6e30cd232dd36dd50eeff08edd22e56e587d4894f43098d4ebfea43d7",
+    "reference": "reports/repair_2026-10-04/delivery_privacy_review.md",
+    "reason": "Reviewed AI conversation/session UUID metadata and synthetic acceptance scenarios; public technical evidence contains no actual student identity or case. Number-shaped UUID fragments are not phone numbers."
+  },
+  "reports/repair_2026-10-04/current_behavior_transcripts.json": {
+    "guard_version": "1.0.0",
+    "decision": "cleared",
+    "content_sha256": "6fd8fe215ea3be81285a34bde3a692b4345cd921521af3336d26565beb386005",
+    "findings_sha256": "a7eb87b94da944b7916de73d90f6e5648f6d824adf8ce3e1c12a9fa6c5e7ed49",
+    "reference": "reports/repair_2026-10-04/delivery_privacy_review.md",
+    "reason": "Reviewed AI conversation/session UUID metadata and synthetic acceptance scenarios; public technical evidence contains no actual student identity or case. Number-shaped UUID fragments are not phone numbers."
+  }
+}

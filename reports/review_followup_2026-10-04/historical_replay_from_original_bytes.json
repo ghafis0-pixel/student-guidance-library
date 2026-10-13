@@ -1,0 +1,244 @@
+{
+  "historical": {
+    "kind": "historical_capture_replay_only",
+    "counts": {
+      "PASS": 9,
+      "FAIL": 8,
+      "NOT_RUN": 0
+    },
+    "result": {
+      "checker_version": "1.0.0",
+      "contract_version": "1.0.0",
+      "status": "FAIL",
+      "critical_complete": false,
+      "conversation_acceptance_complete": false,
+      "results": [
+        {
+          "scenario_id": "B01_PREVIOUS_UNKNOWN",
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "scenario_id": "B02_URGENT_SAFETY",
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "scenario_id": "B03_ARTICLES_33_34",
+          "status": "FAIL",
+          "issues": [
+            "INTERNAL_MECHANISMS",
+            "RUBRIC_FAIL:DIRECT",
+            "RUBRIC_FAIL:NATURAL",
+            "RUBRIC_FAIL:NO_INTERNALS"
+          ]
+        },
+        {
+          "scenario_id": "B04_OFFICIAL_ROLES",
+          "status": "FAIL",
+          "issues": [
+            "RUBRIC_FAIL:DIRECT",
+            "RUBRIC_FAIL:SOURCE_AND_FACT"
+          ]
+        },
+        {
+          "scenario_id": "B05_COMPOUND_ACTION",
+          "status": "FAIL",
+          "issues": [
+            "RUBRIC_FAIL:DIRECT",
+            "RUBRIC_FAIL:NATURAL",
+            "RUBRIC_FAIL:NO_INTERNALS"
+          ]
+        },
+        {
+          "scenario_id": "B06_SIMPLE_ACTION",
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "scenario_id": "B07_KNOWLEDGE_NOOR",
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "scenario_id": "B08_PROFESSIONAL_UNKNOWN",
+          "status": "FAIL",
+          "issues": [
+            "RUBRIC_FAIL:ASK_DECISION_FACT"
+          ]
+        },
+        {
+          "scenario_id": "B09_SOURCE_VS_PROPOSAL",
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "scenario_id": "B10_APPROVAL_NOOR",
+          "status": "FAIL",
+          "issues": [
+            "RUBRIC_FAIL:DECISIVE_CONSTRAINT",
+            "RUBRIC_FAIL:APPROVAL_BEFORE_SAVE"
+          ]
+        },
+        {
+          "scenario_id": "B11_PLAN_NOT_EVIDENCE",
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "scenario_id": "B12_INITIALS_ALLOWED",
+          "status": "FAIL",
+          "issues": [
+            "RUBRIC_FAIL:DIRECT"
+          ]
+        },
+        {
+          "scenario_id": "B13_INITIALS_COLLISION",
+          "status": "FAIL",
+          "issues": [
+            "RUBRIC_FAIL:DIRECT"
+          ]
+        },
+        {
+          "scenario_id": "B14_HELP_BEFORE_RECORD",
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "scenario_id": "B15_INDEPENDENT_HELP",
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "scenario_id": "B16_PUBLIC_INITIALS",
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "scenario_id": "B17_KNOWN_PRIOR_EXECUTION",
+          "status": "FAIL",
+          "issues": [
+            "INTERNAL_MECHANISMS",
+            "RUBRIC_FAIL:DIRECT",
+            "RUBRIC_FAIL:NATURAL",
+            "RUBRIC_FAIL:NO_INTERNALS",
+            "RUBRIC_FAIL:DECISIVE_CONSTRAINT",
+            "RUBRIC_FAIL:NO_REPEAT_KNOWN_QUESTION"
+          ]
+        }
+      ],
+      "limits": "Text checks only detect specified patterns. PASS also needs independent recorded semantic judgment; hashes bind versions but do not authenticate a reviewer or prove a conversation occurred."
+    },
+    "run_file_sha256": "cd7c7f0467849d95eb9d8697aae8950676d62c4a719b88c1dca861d681687b8e"
+  },
+  "current": {
+    "kind": "historical_capture_replay_only",
+    "counts": {
+      "PASS": 15,
+      "FAIL": 2,
+      "NOT_RUN": 0
+    },
+    "result": {
+      "checker_version": "1.0.0",
+      "contract_version": "1.0.0",
+      "status": "FAIL",
+      "critical_complete": false,
+      "conversation_acceptance_complete": false,
+      "results": [
+        {
+          "scenario_id": "B01_PREVIOUS_UNKNOWN",
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "scenario_id": "B02_URGENT_SAFETY",
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "scenario_id": "B03_ARTICLES_33_34",
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "scenario_id": "B04_OFFICIAL_ROLES",
+          "status": "FAIL",
+          "issues": [
+            "RUBRIC_FAIL:VICE_PRINCIPAL_ROLE"
+          ]
+        },
+        {
+          "scenario_id": "B05_COMPOUND_ACTION",
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "scenario_id": "B06_SIMPLE_ACTION",
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "scenario_id": "B07_KNOWLEDGE_NOOR",
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "scenario_id": "B08_PROFESSIONAL_UNKNOWN",
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "scenario_id": "B09_SOURCE_VS_PROPOSAL",
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "scenario_id": "B10_APPROVAL_NOOR",
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "scenario_id": "B11_PLAN_NOT_EVIDENCE",
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "scenario_id": "B12_INITIALS_ALLOWED",
+          "status": "FAIL",
+          "issues": [
+            "RUBRIC_FAIL:DECISIVE_CONSTRAINT",
+            "RUBRIC_FAIL:INITIALS_SCOPE",
+            "RUBRIC_FAIL:NO_PUBLIC_IDENTIFICATION"
+          ]
+        },
+        {
+          "scenario_id": "B13_INITIALS_COLLISION",
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "scenario_id": "B14_HELP_BEFORE_RECORD",
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "scenario_id": "B15_INDEPENDENT_HELP",
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "scenario_id": "B16_PUBLIC_INITIALS",
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "scenario_id": "B17_KNOWN_PRIOR_EXECUTION",
+          "status": "PASS",
+          "issues": []
+        }
+      ],
+      "limits": "Text checks only detect specified patterns. PASS also needs independent recorded semantic judgment; hashes bind versions but do not authenticate a reviewer or prove a conversation occurred."
+    },
+    "run_file_sha256": "ade4eab4a11b058c40ff1f51ce4e6d63fa85733d6851eff3bdbededa1378f02b"
+  }
+}

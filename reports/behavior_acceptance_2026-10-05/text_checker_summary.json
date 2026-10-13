@@ -1,0 +1,93 @@
+{
+  "scope": "Raw final text only; absence of detected issues is not semantic acceptance.",
+  "counts": {
+    "PASS": 10,
+    "FAIL": 7,
+    "NOT_RUN": 0
+  },
+  "results": [
+    {
+      "scenario_id": "B01_PREVIOUS_UNKNOWN",
+      "issues": [
+        "QUESTION_ONLY_REQUIRED"
+      ]
+    },
+    {
+      "scenario_id": "B02_URGENT_SAFETY",
+      "issues": [
+        "EXCESS_DETAIL"
+      ]
+    },
+    {
+      "scenario_id": "B03_ARTICLES_33_34",
+      "issues": [
+        "INTERNAL_MECHANISMS",
+        "EXCESS_DETAIL"
+      ]
+    },
+    {
+      "scenario_id": "B04_OFFICIAL_ROLES",
+      "issues": []
+    },
+    {
+      "scenario_id": "B05_COMPOUND_ACTION",
+      "issues": []
+    },
+    {
+      "scenario_id": "B06_SIMPLE_ACTION",
+      "issues": []
+    },
+    {
+      "scenario_id": "B07_KNOWLEDGE_NOOR",
+      "issues": [
+        "INTERNAL_MECHANISMS"
+      ]
+    },
+    {
+      "scenario_id": "B08_PROFESSIONAL_UNKNOWN",
+      "issues": [
+        "EXCESS_DETAIL"
+      ]
+    },
+    {
+      "scenario_id": "B09_SOURCE_VS_PROPOSAL",
+      "issues": []
+    },
+    {
+      "scenario_id": "B10_APPROVAL_NOOR",
+      "issues": []
+    },
+    {
+      "scenario_id": "B11_PLAN_NOT_EVIDENCE",
+      "issues": [
+        "EXCESS_DETAIL"
+      ]
+    },
+    {
+      "scenario_id": "B12_INITIALS_ALLOWED",
+      "issues": []
+    },
+    {
+      "scenario_id": "B13_INITIALS_COLLISION",
+      "issues": []
+    },
+    {
+      "scenario_id": "B14_HELP_BEFORE_RECORD",
+      "issues": []
+    },
+    {
+      "scenario_id": "B15_INDEPENDENT_HELP",
+      "issues": []
+    },
+    {
+      "scenario_id": "B16_PUBLIC_INITIALS",
+      "issues": []
+    },
+    {
+      "scenario_id": "B17_KNOWN_PRIOR_EXECUTION",
+      "issues": [
+        "INTERNAL_MECHANISMS"
+      ]
+    }
+  ]
+}

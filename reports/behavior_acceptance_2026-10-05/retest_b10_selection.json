@@ -1,0 +1,24 @@
+{
+  "reason": {
+    "status": "RUBRIC_EXPOSURE_CONFIRMED",
+    "scenario_id": "B10_APPROVAL_NOOR",
+    "context_id": "01a108fc-1a6c-7910-bc19-6a8bd8103048",
+    "call_id": "call_bWzUiM3rOPGXMToCKzQFppB4",
+    "returned_at": "2026-10-04T22:16:05.525Z",
+    "returned_output_sha256": "7c967f25ed1b20b39c5ed29faeee99dfee2be8648c5d113f5e1eeccc4774ab64",
+    "criterion_ids_visible": [
+      "APPROVAL_BEFORE_SAVE",
+      "NOOR_VERIFICATION"
+    ],
+    "invocation": "text(await tools.exec_command({cmd:\"Get-Content guide/workflow.md | Select-Object -Skip 68; Get-Content standards/behavior_acceptance.json | Select-Object -Skip 70 -First 13; Get-Content 'C:\\\\Users\\\\CSS\\\\.codex\\\\memories\\\\rollout_summaries\\\\2026-10-02T12-24-06-lKyr-student_guidance_library_post_migration_and_post_review_fixe.md' | Select-Object -First 115\",max_output_tokens:8000}));\n",
+    "scope": "The respondent independently read the B10 contract criteria during its response. They were not included in the dispatched prompt, but this response is not unexposed retrieval evidence. Retain the observed response and its judgments; no replacement answer is fabricated.",
+    "cold_unexposed_acceptance_status": "NOT_RUN",
+    "operator_supplied_rubric": false
+  },
+  "selected_context_id": "01a1092d-0a2e-7af2-996d-8229a5b805f1",
+  "selected_answer_sha256": "fda592828bda8b9a295b2eb52e66315cc6554b0ca3fd2e9cba5f6b5857fa7c83",
+  "selected_visible_messages_sha256": "49fa113e0c5c6a2c667cd3f5bc5102f7cbd24d9b465b0cd40d59338d23b0fa56",
+  "capture_audit_sha256": "8e8f76ece151c98a574bff870715a0d9dcab1cd3b36b5145930dd6ea069e02af",
+  "review_sha256": "565f180e10f1d582a5e3235e1d0eb247f222e0b184e24763d04bcb6444f152dd",
+  "original_preserved": true
+}

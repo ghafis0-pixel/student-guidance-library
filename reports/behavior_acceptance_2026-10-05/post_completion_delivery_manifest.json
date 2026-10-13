@@ -1,0 +1,65 @@
+{
+  "date_riyadh": "2026-10-05",
+  "behavioral_acceptance_modified_version": "NOT_RUN",
+  "local_only": true,
+  "own_hash_excluded": true,
+  "historical_results_preserved": true,
+  "members": {
+    "historical_evidence/behavior_acceptance_candidate_v2_2026-10-05_evidence.zip": {
+      "sha256": "4c4d7cc538621b1982500fa344da61150ed448972c526401ab7ff70ba6caceba",
+      "bytes": 1378022
+    },
+    "execution_report.md": {
+      "sha256": "78e27fea7d7d9fb9553c75f3675e8c15e698bb0d9e6c289020136d822c440eaf",
+      "bytes": 22860
+    },
+    "execution_report_before_post_completion_update.md": {
+      "sha256": "b021e5d114fff4e56f0b0cb691b17feb8eb238406fd61a0c5e3b25653d07a71d",
+      "bytes": 15303
+    },
+    "post_completion_use_proposal.md": {
+      "sha256": "37dd6433e67651012363f5fa4e32782cabfc8551a7a89635edacf92e9104e073",
+      "bytes": 11981
+    },
+    "post_completion_update_receipt.json": {
+      "sha256": "fc604d2dd94fb183f2ddf4218dad733abfed9f9f67e85eb05c980e8b80059825",
+      "bytes": 1111
+    },
+    "update_delivery.ps1": {
+      "sha256": "d8d1586a2f43ab0e873d586596ad7634b335419a3330ed19ec621530c15824f5",
+      "bytes": 16341
+    },
+    "presentation_alignment/change_receipt.json": {
+      "sha256": "f02984f00018bfa27d050b68e0a1bfe6f8cd78900b6a693704ac45712a76c1bb",
+      "bytes": 1025
+    },
+    "presentation_alignment/before_sha256.json": {
+      "sha256": "1ca96df5f27b0ee91db97fb72c1dacdfa9349fc713945a36e168e5ff3d6fd127",
+      "bytes": 910
+    },
+    "presentation_alignment/current/AGENTS.md": {
+      "sha256": "ff63b38898057661d7002ef4d2fbcff6d73e2b87d310e02cd22c329ad16fe765",
+      "bytes": 8319
+    },
+    "presentation_alignment/before/AGENTS.md": {
+      "sha256": "e3ecc14c7564396cfb6b9c06b90bbb1ebf03268928f5a0ce8954a7066b80355d",
+      "bytes": 8048
+    },
+    "presentation_alignment/current/guide/workflow.md": {
+      "sha256": "8d751c743dc1afd188d12389fe21382264d48e3e61d214978e40f66fd50e8304",
+      "bytes": 26888
+    },
+    "presentation_alignment/before/guide/workflow.md": {
+      "sha256": "60105007682051de23e95e42108cca3e5a21b1491af86ea19b2be076e3416dd5",
+      "bytes": 26281
+    },
+    "presentation_alignment/current/standards/behavior_acceptance.json": {
+      "sha256": "7ac4e3fd81787f9820772d72ab829dfd14065a841bf3a22bdaaf5d49d8827fb2",
+      "bytes": 16341
+    },
+    "presentation_alignment/before/standards/behavior_acceptance.json": {
+      "sha256": "afcf73c5bbc26e789988808498a52572a25104db057f38380fa2a23d2e23f54c",
+      "bytes": 15210
+    }
+  }
+}

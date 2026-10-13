@@ -1,0 +1,25 @@
+{
+  "library": "C:\\Users\\CSS\\Documents\\Codex\\2026-09-27\\new-chat\\student-guidance-library",
+  "sources": 26,
+  "records": {
+    "expected_records": 31,
+    "copied_records": 31,
+    "extraction_errors": [],
+    "privacy_pattern_hits": []
+  },
+  "outputs": 8,
+  "visual_assets": [
+    "visual_assets/page_previews/qassim_plan_page_01.png",
+    "visual_assets/forms/followup_form_page_01.png",
+    "visual_assets/forms/noor_guide_page_01.png"
+  ],
+  "chunk_counts": {
+    "regulatory.jsonl": 75,
+    "operational_guides.jsonl": 208,
+    "regional_plans.jsonl": 0,
+    "program_guides.jsonl": 496,
+    "templates.jsonl": 71
+  },
+  "manifest_files": 201,
+  "removed_superseded_archive_copies": []
+}

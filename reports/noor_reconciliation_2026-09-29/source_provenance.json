@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-29",
+  "sources": [
+    {
+      "path": "C:\\Users\\CSS\\مرجع_نظام_نور_للتوجيه_الطلابي.md",
+      "sha256": "5ddbb789e467c48d59e966f9d44b360307f815f5ca987a57c925f1ebb253a637"
+    },
+    {
+      "path": "C:\\Users\\CSS\\HANDOFF_NOUR.md",
+      "sha256": "38d39f86842d56a07fdc7b0dad09532ac831e098027866b1410b883c2bf2e946"
+    },
+    {
+      "path": "catalog/reference_matrix.json",
+      "sha256": "061b51771ddf9581a41ebf0144f2f58442b1248b8a168d4723c8f7dadeeda48d"
+    },
+    {
+      "path": "references/03_official_operational_guides/noor/مرجع_نظام_نور_للتوجيه_الطلابي.md",
+      "sha256": "5ddbb789e467c48d59e966f9d44b360307f815f5ca987a57c925f1ebb253a637"
+    },
+    {
+      "path": "references/04_regional_plans/خطة برامج وخدمات التوجيه الطلابي تعليم القصيم 1448.pdf",
+      "sha256": "79e2198db34bb4f46985fbb50d27f27d24d98be4e15ecea92b6b38ba5e6f0fb9"
+    },
+    {
+      "path": "references/02_regulatory/organizational_guides/الدليل التنظيمي - مقتطف التوجيه الطلابي 1446.pdf",
+      "sha256": "fcb09f4b8b3ab720dc68684d077ab2de340ca8cbbd2742fd132003dd112babda"
+    },
+    {
+      "path": "references/02_regulatory/procedural_guides/الدليل الإجرائي - مقتطف الموجه الطلابي 1446.pdf",
+      "sha256": "0d74c788c94bee61d0608567607f0612caf9b890c8ae6bc932afe2b50df9795b"
+    }
+  ],
+  "unchanged_plans": {
+    "week1": "2b00f7c7f104da33fd0ab624e9269810fb2f24a263e1539ce776f242dbd8f9b9",
+    "week2": "d08455bd4ac7ca3477e08da4be6d381cb1ca2e5d42c1ab203b332a8de5113cbd"
+  },
+  "noor_modified": false,
+  "new_week_created": false,
+  "comprehensive_ocr_started": false
+}
